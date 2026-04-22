@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>schnäppchenjäger1 - Gutscheine und Deals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState } = React;
+
+        // Mock Deals Data
+        const dealsData = [
+            {
+                id: 1,
+                brandName: 'Otto',
+                category: 'Mode',
+                discountValue: '30%',
+                description: 'Winterkollektion: Alle Artikel im Sale - Extra 30% auf reduzierte Ware',
+                code: 'WINTER30',
+                expiryDate: '2026-05-31',
+                image: '🛍️',
+                dealUrl: 'https://www.otto.de'
+            },
+            {
+                id: 2,
+                brandName: 'MediaMarkt',
+                category: 'Elektronik',
+                discountValue: '€50',
+                description: 'Kostenloser Versand bei Bestellungen über €100 + €50 Gutschein',
+                code: 'MEDIAVERSAND',
+                expiryDate: '2026-04-30',
+                image: '📱',
+                dealUrl: 'https://www.mediamarkt.de'
+            },
+            {
+                id: 3,
+                brandName: 'Zalando',
+                category: 'Mode',
+                discountValue: '20%',
+                description: 'Premium Members: 20% auf alle Neuzugänge dieser Woche',
+                code: 'ZALANDO20',
+                expiryDate: '2026-05-15',
+                image: '👠',
+                dealUrl: 'https://www.zalando.de'
+            },
+            {
+                id: 4,
+                brandName: 'IKEA',
+                category: 'Möbel',
+                discountValue: '25%',
+                description: 'Frühlingssale: 25% auf Gartenmöbel und Außendekorationen',
+                code: 'FRUEHJAHR25',
+                expiryDate: '2026-05-20',
+                image: '🪑',
+                dealUrl: 'https://www.ikea.com/de'
+            },
+            {
+                id: 5,
+                brandName: 'Amazon',
+                category: 'Elektronik',
+                discountValue: 'bis €100',
+                description: 'Elektronik-Woche: Rabatte auf Laptops, Tablets und Zubehör',
+                code: 'AMAZONTECHS',
+                expiryDate: '2026-04-28',
+                image: '💻',
+                dealUrl: 'https://www.amazon.de'
+            },
+            {
+                id: 6,
+                brandName: 'Flixbus',
+                category: 'Reisen',
+                discountValue: '15%',
+                description: 'Frühjahrsreisen: 15% Rabatt auf alle Buchungen im Mai und Juni',
+                code: 'FLIXFRUEH15',
+                expiryDate: '2026-06-30',
+                image: '🚌',
+                dealUrl: 'https://www.flixbus.de'
+            },
+            {
+                id: 7,
+                brandName: 'Fitbit',
+                category: 'Sport',
+                discountValue: '€40',
+                description: 'Fitness Tracker: €40 Rabatt auf ausgewählte Smartwatch-Modelle',
+                code: 'FITNESS40',
+                expiryDate: '2026-05-10',
+                image: '⌚',
+                dealUrl: 'https://www.fitbit.com/de'
+            },
+            {
+                id: 8,
+                brandName: 'Douglas',
+                category: 'Beauty',
+                discountValue: '35%',
+                description: 'Beauty Days: 35% auf Beauty-Artikel - Kostenloser Versand ab €29',
+                code: 'BEAUTY35',
+                expiryDate: '2026-04-25',
+                image: '💄',
+                dealUrl: 'https://www.douglas.de'
+            },
+            {
+                id: 9,
+                brandName: 'Booking.com',
+                category: 'Reisen',
+                discountValue: 'bis 40%',
+                description: 'Sommerurlaub: Reserviere Hotels und Unterkünfte mit bis zu 40% Rabatt',
+                code: 'BOOKING40',
+                expiryDate: '2026-06-15',
+                image: '🏨',
+                dealUrl: 'https://www.booking.com'
+            },
+            {
+                id: 10,
+                brandName: 'Sportarena',
+                category: 'Sport',
+                discountValue: '€25',
+                description: 'Sportkollektion: €25 Gutschein bei Kauf von Lauf- und Trainingsschuhen',
+                code: 'SPORTARENA25',
+                expiryDate: '2026-05-05',
+                image: '👟',
+                dealUrl: 'https://www.sportarena.de'
+            }
+        ];
+
+        // DealCard Component
+        function DealCard({ deal, onFavorite, isFavorite }) {
+            const [copied, setCopied] = useState(false);
+
+            const handleCopy = () => {
+                navigator.clipboard.writeText(deal.code);
+                setCopied(true);
+                setTimeout(() => setCopied(false), 2000);
+            };
+
+            return (
+                <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
+                    <div className="bg-gradient-to-br from-indigo-50 to-blue-50 p-8 flex items-center justify-center h-40">
+                        <span className="text-6xl">{deal.image}</span>
+                    </div>
+                    
+                    <div className="p-5 flex-1 flex flex-col">
+                        <div className="flex items-start justify-between mb-3">
+                            <div>
+                                <h3 className="font-bold text-gray-900 text-lg">{deal.brandName}</h3>
+                                <span className="text-xs font-semibold text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-full inline-block mt-1">
+                                    {deal.category}
+                                </span>
+                            </div>
+                            <button
+                                onClick={() => onFavorite(deal.id)}
+                                className={`${isFavorite ? 'text-red-500' : 'text-gray-300 hover:text-red-500'} transition-colors cursor-pointer`}
+                            >
+                                ❤️
+                            </button>
+                        </div>
+
+                        <p className="text-sm text-gray-600 mb-4 flex-1">{deal.description}</p>
+
+                        <div className="border-t pt-4">
+                            <div className="flex items-baseline gap-2 mb-3">
+                                <span className="text-2xl font-bold text-indigo-700">{deal.discountValue}</span>
+                                <span className="text-xs text-gray-500">Rabatt</span>
+                            </div>
+
+                            <p className="text-xs text-gray-500 mb-3">
+                                Gültig bis: <span className="font-semibold text-gray-700">{new Date(deal.expiryDate).toLocaleDateString('de-DE')}</span>
+                            </p>
+
+                            {deal.code && (
+                                <div className="bg-gray-50 p-3 rounded-lg mb-4 border border-gray-200">
+                                    <p className="text-xs text-gray-500 mb-2">Gutscheincode</p>
+                                    <button
+                                        onClick={handleCopy}
+                                        className="w-full flex items-center justify-between bg-white border border-gray-300 rounded px-3 py-2 text-sm font-mono font-bold text-gray-900 hover:bg-gray-100 transition-colors cursor-pointer"
+                                    >
+                                        <span>{deal.code}</span>
+                                        <span>{copied ? '✓' : '📋'}</span>
+                                    </button>
+                                </div>
+                            )}
+
+                            <button 
+                                onClick={() => window.open(deal.dealUrl, '_blank')}
+                                className="w-full bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-semibold py-2.5 rounded-lg transition-all duration-300 text-sm cursor-pointer"
+                            >
+                                Zum Deal
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+
+        // Impressum Component
+        function Impressum() {
+            return (
+                <div className="min-h-screen bg-white">
+                    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+                        <h1 className="text-3xl font-bold text-gray-900 mb-8">Impressum</h1>
+                        
+                        <div className="space-y-8 text-gray-700 leading-relaxed">
+                            <div>
+                                <h2 className="text-xl font-semibold text-gray-900 mb-3">Angaben gemäß § 5 TMG</h2>
+                                <p className="text-gray-700">
+                                    schnäppchenjäger1 GmbH<br />
+                                    Ekenberg Str. 11<br />
+                                    45307 Essen<br />
+                                    Deutschland
+                                </p>
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl font-semibold text-gray-900 mb-3">Kontaktinformation</h2>
+                                <p className="text-gray-700">
+                                    E-Mail: <a href="mailto:info@schnäppchenjäger1.de" className="text-indigo-600 hover:text-indigo-700 font-medium">info@schnäppchenjäger1.de</a><br />
+                                    Telefon: +49 160 9134 3048<br />
+                                    Website: <a href="https://schnäppchenjäger1.de" className="text-indigo-600 hover:text-indigo-700 font-medium">schnäppchenjäger1.de</a>
+                                </p>
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl font-semibold text-gray-900 mb-3">Vertreter</h2>
+                                <p className="text-gray-700">
+                                    Geschäftsführer: Salem Youssri
+                                </p>
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl font-semibold text-gray-900 mb-3">Handelsregister</h2>
+                                <p className="text-gray-700">
+                                    Registergericht: Amtsgericht Essen<br />
+                                    Handelsregisternummer: HRB 156482<br />
+                                    USt-IdNr.: DE 347 852 961
+                                </p>
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl font-semibold text-gray-900 mb-3">Haftung für Inhalte</h2>
+                                <p className="text-gray-700">
+                                    Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+
+        // Datenschutz Component
+        function Datenschutz() {
+            return (
+                <div className="min-h-screen bg-white">
+                    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+                        <h1 className="text-3xl font-bold text-gray-900 mb-8">Datenschutzerklärung</h1>
+                        
+                        <div className="space-y-8 text-gray-700 leading-relaxed">
+                            <div>
+                                <h2 className="text-xl font-semibold text-gray-900 mb-3">1. Verantwortlicher</h2>
+                                <p className="text-gray-700">
+                                    schnäppchenjäger1 GmbH<br />
+                                    Ekenberg Str. 11, 45307 Essen
+                                </p>
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl font-semibold text-gray-900 mb-3">2. Allgemeine Informationen</h2>
+                                <p className="text-gray-700">
+                                    Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl font-semibold text-gray-900 mb-3">3. Affiliate-Links und Cookies</h2>
+                                <p className="text-gray-700 mb-3">
+                                    <strong>Affiliate-Links:</strong> Diese Website enthält Affiliate-Links. Wenn Sie auf einen Affiliate-Link klicken und einen Kauf tätigen, erhalten wir möglicherweise eine Provision.
+                                </p>
+                                <p className="text-gray-700">
+                                    <strong>Cookies:</strong> Diese Website verwendet Cookies, einschließlich Tracking-Cookies von Affiliate-Partnern.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl font-semibold text-gray-900 mb-3">4. Newsletter</h2>
+                                <p className="text-gray-700">
+                                    Wenn Sie sich für unseren Newsletter anmelden, speichern wir Ihre E-Mail-Adresse.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl font-semibold text-gray-900 mb-3">5. Kontakt</h2>
+                                <p className="text-gray-700">
+                                    Bei Fragen zur Datenschutzerklärung kontaktieren Sie uns unter:<br />
+                                    E-Mail: <a href="mailto:datenschutz@schnäppchenjäger1.de" className="text-indigo-600 hover:text-indigo-700 font-medium">datenschutz@schnäppchenjäger1.de</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+
+        // Main App Component
+        function App() {
+            const [currentPage, setCurrentPage] = useState('home');
+            const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+            const [searchQuery, setSearchQuery] = useState('');
+            const [selectedCategory, setSelectedCategory] = useState('Alle');
+            const [favorites, setFavorites] = useState(new Set());
+            const [email, setEmail] = useState('');
+            const [subscribed, setSubscribed] = useState(false);
+            const [showTopDeals, setShowTopDeals] = useState(false);
+
+            const categories = ['Alle', 'Mode', 'Elektronik', 'Möbel', 'Reisen', 'Sport', 'Beauty'];
+
+            let filteredDeals = dealsData.filter(deal => {
+                const matchesSearch = deal.brandName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                                     deal.description.toLowerCase().includes(searchQuery.toLowerCase());
+                const matchesCategory = selectedCategory === 'Alle' || deal.category === selectedCategory;
+                return matchesSearch && matchesCategory;
+            });
+
+            if (showTopDeals) {
+                filteredDeals = filteredDeals.filter(deal => {
+                    const discountValue = deal.discountValue;
+                    return discountValue === '30%' || discountValue === '€50' || discountValue === '20%' || 
+                           discountValue === '25%' || discountValue === '€40' || discountValue === '35%' || 
+                           discountValue === 'bis 40%';
+                });
+            }
+
+            const handleFavorite = (id) => {
+                const newFavorites = new Set(favorites);
+                if (newFavorites.has(id)) {
+                    newFavorites.delete(id);
+                } else {
+                    newFavorites.add(id);
+                }
+                setFavorites(newFavorites);
+            };
+
+            const handleNewsletterSubmit = (e) => {
+                e.preventDefault();
+                if (email) {
+                    setSubscribed(true);
+                    setEmail('');
+                    setTimeout(() => setSubscribed(false), 3000);
+                }
+            };
+
+            if (currentPage === 'impressum') {
+                return (
+                    <>
+                        <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
+                            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+                                <button onClick={() => setCurrentPage('home')} className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-blue-600 hover:opacity-80 transition-opacity cursor-pointer">
+                                    schnäppchenjäger1
+                                </button>
+                            </div>
+                        </nav>
+                        <Impressum />
+                    </>
+                );
+            }
+
+            if (currentPage === 'datenschutz') {
+                return (
+                    <>
+                        <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
+                            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+                                <button onClick={() => setCurrentPage('home')} className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-blue-600 hover:opacity-80 transition-opacity cursor-pointer">
+                                    schnäppchenjäger1
+                                </button>
+                            </div>
+                        </nav>
+                        <Datenschutz />
+                    </>
+                );
+            }
+
+            return (
+                <div className="min-h-screen bg-gray-50">
+                    {/* Navigation */}
+                    <nav className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                            <div className="flex items-center justify-between h-16">
+                                <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-blue-600">
+                                    schnäppchenjäger1
+                                </h1>
+
+                                <div className="hidden md:flex items-center gap-8">
+                                    <button 
+                                        onClick={() => {
+                                            setShowTopDeals(false);
+                                            setSelectedCategory('Alle');
+                                            document.getElementById('categories-section')?.scrollIntoView({ behavior: 'smooth' });
+                                        }}
+                                        className="text-gray-700 hover:text-indigo-600 font-medium text-sm transition-colors cursor-pointer"
+                                    >
+                                        Kategorien
+                                    </button>
+                                    <button 
+                                        onClick={() => setShowTopDeals(!showTopDeals)}
+                                        className={`font-medium text-sm transition-colors cursor-pointer ${showTopDeals ? 'text-indigo-600' : 'text-gray-700 hover:text-indigo-600'}`}
+                                    >
+                                        Top-Deals
+                                    </button>
+                                </div>
+
+                                <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-gray-700 cursor-pointer">
+                                    {mobileMenuOpen ? '✕' : '☰'}
+                                </button>
+                            </div>
+
+                            {mobileMenuOpen && (
+                                <div className="md:hidden py-4 border-t border-gray-100">
+                                    <button 
+                                        onClick={() => {
+                                            setShowTopDeals(false);
+                                            setSelectedCategory('Alle');
+                                            setMobileMenuOpen(false);
+                                            document.getElementById('categories-section')?.scrollIntoView({ behavior: 'smooth' });
+                                        }}
+                                        className="block w-full text-left px-4 py-2 text-gray-700 hover:text-indigo-600 font-medium cursor-pointer"
+                                    >
+                                        Kategorien
+                                    </button>
+                                    <button 
+                                        onClick={() => {
+                                            setShowTopDeals(!showTopDeals);
+                                            setMobileMenuOpen(false);
+                                        }}
+                                        className="block w-full text-left px-4 py-2 text-gray-700 hover:text-indigo-600 font-medium cursor-pointer"
+                                    >
+                                        Top-Deals
+                                    </button>
+                                </div>
+                            )}
+                        </div>
+                    </nav>
+
+                    {/* Hero Section */}
+                    <div className="bg-gradient-to-br from-indigo-600 via-blue-600 to-indigo-700 text-white py-16 sm:py-24">
+                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                            <h2 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight">
+                                Die besten Gutscheine und Rabatte in Deutschland
+                            </h2>
+                            <p className="text-lg text-indigo-100 mb-8 max-w-2xl">
+                                Entdecke täglich neue Deals und Gutscheine von deinen liebsten Marken und sparen Sie mit uns Geld!
+                            </p>
+
+                            <div className="relative max-w-md">
+                                <input
+                                    type="text"
+                                    placeholder="Nach Marke oder Deal suchen..."
+                                    value={searchQuery}
+                                    onChange={(e) => setSearchQuery(e.target.value)}
+                                    className="w-full pl-12 pr-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white"
+                                />
+                                <span className="absolute left-4 top-3.5 text-indigo-200">🔍</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Filter Categories */}
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" id="categories-section">
+                        <div className="flex items-center justify-between mb-6">
+                            <h3 className="text-lg font-bold text-gray-900">Filter nach Kategorie</h3>
+                            {showTopDeals && (
+                                <button
+                                    onClick={() => setShowTopDeals(false)}
+                                    className="text-sm text-indigo-600 hover:text-indigo-700 font-medium underline cursor-pointer"
+                                >
+                                    ✕ Top-Deals Filter entfernen
+                                </button>
+                            )}
+                        </div>
+                        <div className="flex overflow-x-auto gap-3 pb-4">
+                            {categories.map(cat => (
+                                <button
+                                    key={cat}
+                                    onClick={() => setSelectedCategory(cat)}
+                                    className={`px-4 py-2 rounded-full font-medium whitespace-nowrap transition-all duration-200 cursor-pointer ${
+                                        selectedCategory === cat
+                                            ? 'bg-indigo-600 text-white shadow-md'
+                                            : 'bg-white text-gray-700 border border-gray-200 hover:border-indigo-300'
+                                    }`}
+                                >
+                                    {cat}
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Main Content */}
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+                        {/* Deals Grid */}
+                        <div className="mb-16">
+                            <h3 className="text-2xl font-bold text-gray-900 mb-8">
+                                {showTopDeals ? '🔥 Top-Deals' : selectedCategory === 'Alle' ? 'Alle Deals' : `${selectedCategory}-Deals`}
+                                <span className="text-gray-500 text-lg ml-2">({filteredDeals.length})</span>
+                            </h3>
+
+                            {filteredDeals.length > 0 ? (
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                                    {filteredDeals.map(deal => (
+                                        <DealCard
+                                            key={deal.id}
+                                            deal={deal}
+                                            onFavorite={handleFavorite}
+                                            isFavorite={favorites.has(deal.id)}
+                                        />
+                                    ))}
+                                </div>
+                            ) : (
+                                <div className="text-center py-12">
+                                    <p className="text-gray-500 text-lg">Keine Deals gefunden. Versuchen Sie eine andere Suche.</p>
+                                </div>
+                            )}
+                        </div>
+
+                        {/* Newsletter Section */}
+                        <div className="bg-gradient-to-r from-indigo-50 to-blue-50 rounded-xl p-8 sm:p-12 border border-indigo-100 mb-16">
+                            <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">Bleiben Sie informiert!</h3>
+                            <p className="text-gray-700 mb-6 max-w-2xl">
+                                Abonnieren Sie unseren Newsletter und erhalten Sie täglich die besten Gutscheine und Rabatte direkt in Ihren Posteingang.
+                            </p>
+
+                            <form onSubmit={handleNewsletterSubmit} className="flex gap-3 max-w-md">
+                                <input
+                                    type="email"
+                                    placeholder="Ihre E-Mail-Adresse"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    required
+                                    className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-600"
+                                />
+                                <button
+                                    type="submit"
+                                    className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-semibold rounded-lg transition-all duration-300 cursor-pointer"
+                                >
+                                    Abonnieren
+                                </button>
+                            </form>
+
+                            {subscribed && (
+                                <p className="mt-3 text-green-700 font-medium">✓ Danke für Ihre Anmeldung!</p>
+                            )}
+                        </div>
+                    </div>
+
+                    {/* Footer */}
+                    <footer className="bg-gray-900 text-gray-300 mt-16">
+                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-8">
+                                <div>
+                                    <h4 className="text-white font-bold text-lg mb-4">schnäppchenjäger1</h4>
+                                    <p className="text-sm">
+                                        Die beste Anlaufstelle für Gutscheine, Rabatte und Deals in Deutschland.<br />
+                                        <a href="https://schnäppchenjäger1.de" className="text-indigo-400 hover:text-indigo-300 font-medium">schnäppchenjäger1.de</a>
+                                    </p>
+                                </div>
+                                <div>
+                                    <h4 className="text-white font-bold text-lg mb-4">Links</h4>
+                                    <button
+                                        onClick={() => setCurrentPage('impressum')}
+                                        className="block text-sm hover:text-white transition-colors mb-2 cursor-pointer"
+                                    >
+                                        Impressum
+                                    </button>
+                                    <button
+                                        onClick={() => setCurrentPage('datenschutz')}
+                                        className="block text-sm hover:text-white transition-colors cursor-pointer"
+                                    >
+                                        Datenschutz
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div className="border-t border-gray-800 pt-8">
+                                <p className="text-sm text-center text-gray-400">
+                                    © 2026 schnäppchenjäger1. Alle Rechte vorbehalten. | <a href="https://schnäppchenjäger1.de" className="text-indigo-400 hover:text-indigo-300">schnäppchenjäger1.de</a> | Diese Website enthält Affiliate-Links.
+                                </p>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            );
+        }
+
+        ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+    </script>
+</body>
+</html>
