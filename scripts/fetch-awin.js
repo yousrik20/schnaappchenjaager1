@@ -25,7 +25,7 @@ const fs    = require("fs");
 const path  = require("path");
 
 // ── Config ────────────────────────────────────────────────────────────────────
-const TOKEN        = process.env.AWIN_TOKEN        || "";
+const TOKEN        = process.env.AWIN_TOKEN        || "b6087dfa-4788-4a8b-bd77-ed681c73a9b3";
 const PUBLISHER_ID = process.env.AWIN_PUBLISHER_ID || "2851329";
 const REGION       = process.env.AWIN_REGION       || "DE";
 const OUT_FILE     = path.join(__dirname, "..", "promotions.json");
