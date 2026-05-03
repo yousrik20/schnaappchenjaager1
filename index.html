@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- ── SEO Meta Tags ───────────────────────────────────────────────────── -->
-  <title>schnäppchenjäger1 – Beste Gutscheine & Deals in Deutschland 2026</title>
+  <title>schnäppchenjäger1 – Beste Gutscheine & Deals in Deutschland</title>
   <meta name="description" content="Täglich neue Gutscheine, Rabattcodes und Deals von Top-Marken wie ELV, Zalando, CHECK24 und mehr. Bis zu 60% sparen – schnäppchenjäger1.de">
   <meta name="keywords" content="Gutscheine, Rabattcodes, Deals, Schnäppchen, Coupons, Promo-Codes, Deutschland">
   <meta name="robots" content="index, follow">
@@ -14,7 +14,7 @@
 
   <!-- ── Open Graph ─────────────────────────────────────────────────────── -->
   <meta property="og:type"        content="website">
-  <meta property="og:title"       content="schnäppchenjäger1 – Beste Gutscheine & Deals 2026">
+  <meta property="og:title"       content="schnäppchenjäger1 – Beste Gutscheine & Deals">
   <meta property="og:description" content="Täglich neue Gutscheine von Top-Marken. Jetzt bis zu 60% sparen!">
   <meta property="og:url"         content="https://schnäppchenjäger1.de/">
   <meta property="og:site_name"   content="schnäppchenjäger1">
@@ -1009,7 +1009,7 @@ input, select { font-family: var(--font-body); }
     </div>
   </div>
   <div class="container footer-bottom">
-    <span>© 29. April 2026 schnäppchenjäger1 GmbH. Alle Rechte vorbehalten.</span>
+    <span>© <span id="footer-year"></span> schnäppchenjäger1 GmbH. Alle Rechte vorbehalten.</span>
     <span>Diese Website enthält Affiliate-Links (Awin) · <a href="https://schnäppchenjäger1.de">schnäppchenjäger1.de</a></span>
   </div>
 </footer>
@@ -1025,7 +1025,18 @@ input, select { font-family: var(--font-body); }
 
 /* ── Config ──────────────────────────────────────────────────────────────── */
 const PUB   = "2851329";
-const TODAY = new Date();
+/* TODAY is recalculated at runtime so expiry checks are always accurate */
+function getToday() {
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);  // compare at day boundary, not exact time
+  return d;
+}
+let TODAY = getToday();
+/* Refresh TODAY every hour so a tab left open overnight still hides expired coupons */
+setInterval(() => {
+  TODAY = getToday();
+  renderCoupons();          // re-render with updated expiry state
+}, 60 * 60 * 1000);
 
 const ADVERTISERS = [
   {id:"25546",  name:"Stylevana DE",             cat:"Beauty",     icon:"✨", url:"https://www.stylevana.com/de_DE/"},
@@ -1047,21 +1058,21 @@ const BLOG_POSTS = [
     id:"blog-1", cat:"Spar-Tipps", icon:"💡",
     title:"10 Tipps, wie Sie mit Gutscheincodes wirklich Geld sparen",
     excerpt:"Wir zeigen Ihnen, wie Sie das Maximum aus jedem Rabattcode herausholen – von der richtigen Suche bis zur Kombination mit Cashback.",
-    date:"2026-04-29", dateLabel:"29. April 2026", read:"5 Min.",
+    date:"2026-04-29", dateLabel: new Date("2026-04-29").toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"}), read:"5 Min.",
     tags:["Gutscheine","Spartipps","Cashback"]
   },
   {
     id:"blog-2", cat:"Affiliate", icon:"🔗",
     title:"Awin für Einsteiger: So funktioniert Affiliate-Marketing in Deutschland",
     excerpt:"Was steckt hinter Affiliate-Links? Wir erklären, wie Awin, Publisher und Shops zusammenarbeiten und wie Ihr Einkauf uns unterstützt.",
-    date:"2026-04-29", dateLabel:"29. April 2026", read:"7 Min.",
+    date:"2026-04-29", dateLabel: new Date("2026-04-29").toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"}), read:"7 Min.",
     tags:["Awin","Affiliate","Tracking"]
   },
   {
     id:"blog-3", cat:"Seasonal", icon:"☀️",
     title:"Die besten Sommerdeals 2026: Reisen, Mode & Technik",
     excerpt:"Der Sommer 2026 bringt Top-Deals in Reisen, Mode und Elektronik. Unsere Partner haben attraktive Angebote – wir haben alle Details für Sie.",
-    date:"2026-04-29", dateLabel:"29. April 2026", read:"4 Min.",
+    date:"2026-04-29", dateLabel: new Date("2026-04-29").toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"}), read:"4 Min.",
     tags:["Sommer","Reisen","Mode"]
   },
 ];
@@ -2057,7 +2068,7 @@ async function loadAwinPromos() {
     allPromos = STATIC_PROMOS.filter(p => !isExpired(p.endDate));
     const t   = allPromos.length;
     pill.className   = "api-pill pill-ok";
-    text.textContent = t + " aktive Deals · Stand 30.04.2026";
+    text.textContent = t + " aktive Deals · Stand " + new Date().toLocaleDateString("de-DE");
     document.getElementById("stat-vouchers").textContent = t;
     document.getElementById("badge-v").textContent       = t;
     renderCoupons();
@@ -2077,8 +2088,14 @@ async function loadAwinPromos() {
                : Array.isArray(raw.promotions)  ? raw.promotions
                : [];
 
-    // Remove already-expired entries
-    allPromos = list.filter(p => !isExpired(p.endDate || p.expiryDate));
+    // Merge live JSON with embedded static promos (de-dup by id+code)
+    const merged = [...list];
+    const liveKeys = new Set(list.map(p => p.id + "|" + (p.code||"")));
+    STATIC_PROMOS.forEach(p => {
+      if (!liveKeys.has(p.id + "|" + (p.code||""))) merged.push(p);
+    });
+    // Remove already-expired entries (re-checked against live TODAY)
+    allPromos = merged.filter(p => !isExpired(p.endDate || p.expiryDate));
 
     const total     = allPromos.length;
     // Only show "Stand" date if it is a real date (not the 1970 epoch placeholder)
@@ -2097,7 +2114,7 @@ async function loadAwinPromos() {
     allPromos = STATIC_PROMOS.filter(p => !isExpired(p.endDate));
     const t   = allPromos.length;
     pill.className   = "api-pill pill-ok";
-    text.textContent = t + " aktive Deals · Stand 30.04.2026";
+    text.textContent = t + " aktive Deals · Stand " + new Date().toLocaleDateString("de-DE");
     document.getElementById("stat-vouchers").textContent = t;
     document.getElementById("badge-v").textContent       = t;
   }
@@ -2106,11 +2123,21 @@ async function loadAwinPromos() {
 }
 
 /* ── INIT ────────────────────────────────────────────────────────────────── */
+/* Dynamic year in footer + page title */
+(function() {
+  const yr  = new Date().getFullYear();
+  const yrEl = document.getElementById("footer-year");
+  if (yrEl) yrEl.textContent = yr;
+  /* Update <title> year dynamically */
+  document.title = document.title.replace(/\d{4}/, yr);
+})();
 buildTicker();
 buildFooter();
 buildBlog();
 renderCoupons(); // show skeleton with fallback cards
 loadAwinPromos();
+/* Auto-refresh promotions.json every 6 hours so the tab stays current */
+setInterval(loadAwinPromos, 6 * 60 * 60 * 1000);
 </script>
 </body>
 </html>
