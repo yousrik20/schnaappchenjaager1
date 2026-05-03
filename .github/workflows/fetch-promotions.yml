@@ -1,1 +1,96 @@
+name: Fetch Awin Promotions
 
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: "Force commit even if no changes"
+        required: false
+        default: "false"
+        type: boolean
+  push:
+    branches: [main]
+    paths-ignore:
+      - "promotions.json"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-awin-promotions:
+    name: Fetch and Save Awin Promotions
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch promotions from Awin API
+        env:
+          AWIN_TOKEN:          ${{ secrets.AWIN_TOKEN }}
+          AWIN_PUBLISHER_ID:   "2851329"
+          AWIN_ADVERTISER_IDS: "11447,13537,17171,11441,75752,70984,23351,19251,15513,76707,76902"
+          AWIN_REGION:         "DE"
+        run: node scripts/fetch-awin.js
+
+      - name: Validate promotions.json
+        run: |
+          if [ ! -f promotions.json ]; then
+            echo "ERROR: promotions.json was not created!"; exit 1
+          fi
+          COUNT=$(node -e "console.log(require('./promotions.json').count)")
+          echo "Promotions fetched: $COUNT"
+          if [ "$COUNT" -lt 1 ]; then
+            echo "WARNING: 0 promotions fetched. Verify AWIN_TOKEN and advertiser IDs."
+          fi
+          node -e "
+            const d = require('./promotions.json');
+            const g = {};
+            d.promotions.forEach(p => { g[p.advertiser]=(g[p.advertiser]||0)+1; });
+            console.log('\nBy advertiser:');
+            Object.entries(g).sort((a,b)=>b[1]-a[1]).forEach(([k,v])=>console.log('  '+k.padEnd(36)+v));
+          "
+
+      - name: Commit promotions.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add promotions.json
+          if git diff --staged --quiet && [ "${{ github.event.inputs.force_update }}" != "true" ]; then
+            echo "No changes — skipping commit."
+          else
+            COUNT=$(node -e "console.log(require('./promotions.json').count)")
+            TS=$(date -u "+%Y-%m-%d %H:%M UTC")
+            git commit -m "chore: update promotions.json — ${COUNT} promos @ ${TS} [skip ci]"
+            git push
+            echo "Committed and pushed."
+          fi
+
+      - name: Write job summary
+        if: always()
+        run: |
+          node -e "
+            try {
+              const d = require('./promotions.json');
+              let md = '## Awin Promotions Update\n\n';
+              md += '| | |\n|---|---|\n';
+              md += '| Stand | ' + d.fetchedAt + ' |\n';
+              md += '| Anzahl | **' + d.count + '** |\n';
+              md += '| Publisher | ' + d.publisher + ' |\n\n';
+              md += '### Nach Advertiser\n\n| Advertiser | Promos |\n|---|---|\n';
+              const g = {};
+              d.promotions.forEach(p => { g[p.advertiser]=(g[p.advertiser]||0)+1; });
+              Object.entries(g).sort((a,b)=>b[1]-a[1]).forEach(([k,v]) => { md += '| '+k+' | '+v+' |\n'; });
+              process.stdout.write(md);
+            } catch(e) { process.stdout.write('Error: '+e.message+'\n'); }
+          " >> $GITHUB_STEP_SUMMARY
