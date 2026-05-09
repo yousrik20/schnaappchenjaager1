@@ -39,8 +39,11 @@ jobs:
         env:
           AWIN_TOKEN:          ${{ secrets.AWIN_TOKEN }}
           AWIN_PUBLISHER_ID:   "2851329"
-          # All 15 approved advertisers — IDs from Awin deeplink (awinmid=)
-          AWIN_ADVERTISER_IDS: "11447,14175,82314,13537,80817,114336,14494,11441,25546,53143,79858,28297,9364,125332,125816"
+          # ── Confirmed Awin IDs (from Deeplink-Generator screenshots) ────────────
+          # PENDING advertisers (Aosom, HRS, FlixBus, 100percentpure, NordVPN)
+          # are excluded until correct awinmid is confirmed in Awin Dashboard.
+          # To add: Awin → Programme → [Advertiser] → Deeplink-Generator → awinmid=XXXX
+          AWIN_ADVERTISER_IDS: "11447,13812,25546,28297,114336,53143,79858,9364,125332,125816"
           AWIN_REGION:         "DE"
         run: node scripts/fetch-awin.js
 
