@@ -39,27 +39,68 @@ jobs:
         env:
           AWIN_TOKEN:          ${{ secrets.AWIN_TOKEN }}
           AWIN_PUBLISHER_ID:   "2851329"
-          AWIN_ADVERTISER_IDS: "11447,13537,17171,11441,75752,70984,23351,19251,15513,76707,76902"
+          # All 15 approved advertisers — IDs from Awin deeplink (awinmid=)
+          AWIN_ADVERTISER_IDS: "11447,14175,82314,13537,80817,114336,14494,11441,25546,53143,79858,28297,9364,125332,125816"
           AWIN_REGION:         "DE"
         run: node scripts/fetch-awin.js
 
-      - name: Validate promotions.json
+      - name: Validate promotions.json and all deeplinks
         run: |
           if [ ! -f promotions.json ]; then
             echo "ERROR: promotions.json was not created!"; exit 1
           fi
-          COUNT=$(node -e "console.log(require('./promotions.json').count)")
-          echo "Promotions fetched: $COUNT"
-          if [ "$COUNT" -lt 1 ]; then
-            echo "WARNING: 0 promotions fetched. Verify AWIN_TOKEN and advertiser IDs."
-          fi
-          node -e "
-            const d = require('./promotions.json');
-            const g = {};
-            d.promotions.forEach(p => { g[p.advertiser]=(g[p.advertiser]||0)+1; });
-            console.log('\nBy advertiser:');
-            Object.entries(g).sort((a,b)=>b[1]-a[1]).forEach(([k,v])=>console.log('  '+k.padEnd(36)+v));
-          "
+          node - << 'EOF'
+          const data = require("./promotions.json");
+          const promos = data.promotions || [];
+          console.log("\n📦 Total promotions:", promos.length);
+
+          if (promos.length < 1) {
+            console.warn("⚠️  WARNING: 0 promotions fetched. Check AWIN_TOKEN and advertiser IDs.");
+          }
+
+          // ── Link audit ──────────────────────────────────────────────────
+          let emptyLinks = 0, invalidLinks = 0, validLinks = 0;
+          const issues = [];
+
+          promos.forEach(p => {
+            const dl = (p.deeplink || "").trim();
+            if (!dl) {
+              emptyLinks++;
+              issues.push({ type:"EMPTY", advertiser:p.advertiser, code:p.code });
+            } else if (!dl.startsWith("https://") || !dl.includes("awinmid")) {
+              invalidLinks++;
+              issues.push({ type:"INVALID", advertiser:p.advertiser, code:p.code, url:dl.slice(0,60) });
+            } else {
+              validLinks++;
+            }
+          });
+
+          console.log("\n🔗 Link audit:");
+          console.log("  ✅ Valid   :", validLinks);
+          console.log("  ⚠️  Empty  :", emptyLinks);
+          console.log("  ❌ Invalid :", invalidLinks);
+
+          if (issues.length > 0) {
+            console.log("\n  Issues found:");
+            issues.forEach(i => console.log(`    [${i.type}] ${i.advertiser} | ${i.code} ${i.url||""}`));
+          } else {
+            console.log("\n  All deeplinks are valid ✅");
+          }
+
+          // ── By advertiser ───────────────────────────────────────────────
+          const g = {};
+          promos.forEach(p => { g[p.advertiser] = (g[p.advertiser]||0)+1; });
+          console.log("\n📊 By advertiser:");
+          Object.entries(g).sort((a,b)=>b[1]-a[1])
+            .forEach(([k,v]) => console.log("  " + k.padEnd(38) + v));
+
+          // Fail the workflow if more than 30% of links are broken
+          const brokenPct = (emptyLinks + invalidLinks) / Math.max(1, promos.length);
+          if (brokenPct > 0.30) {
+            console.error("\n❌ FAIL: More than 30% of links are broken. Aborting commit.");
+            process.exit(1);
+          }
+          EOF
 
       - name: Commit promotions.json
         run: |
