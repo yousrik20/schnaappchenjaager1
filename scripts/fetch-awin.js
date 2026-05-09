@@ -31,30 +31,45 @@ const REGION = process.env.AWIN_REGION || "DE";
 const OUT_FILE = path.join(__dirname, "..", "promotions.json");
 
 // All your approved advertiser IDs — add/remove as needed
+/* ── Awin Advertiser IDs ─────────────────────────────────────────────────────
+   Only include IDs confirmed in the Awin Deeplink-Generator.
+   Wrong IDs generate "inactive link" errors on Awin redirect pages.
+
+   HOW TO FIND YOUR ID:
+   Awin Dashboard → Programme → [Advertiser auswählen]
+   → Deeplink-Generator → the number after awinmid= is the ID
+
+   CONFIRMED (from Awin screenshots):         PENDING (need real ID):
+   ✅ ELV DE             → 11447              ⏳ NordVPN DE
+   ✅ Netto Marken-Disc. → 13812              ⏳ 100percentpure DE/AT
+   ✅ Stylevana DE       → 25546              ⏳ Aosom DE/AT
+   ✅ Frölich & Kaufmann → 28297              ⏳ HRS DE & AT
+   ✅ House-of-Sneakers  → 114336             ⏳ FlixBus & FlixTrain DE
+   ✅ teppich.de         → 53143
+   ✅ Luftbude DE        → 79858              Once you have the ID:
+   ✅ CHECK24            → 9364               1. Add it to the array below
+   ✅ Autofull EU        → 125332             2. Update ADVERTISERS in index.html
+   ✅ Imou DE            → 125816             3. Push → Actions runs automatically
+─────────────────────────────────────────────────────────────────────────── */
 const ADVERTISER_IDS = (
   process.env.AWIN_ADVERTISER_IDS ||
   [
-    // ── Elektronik & Technik ───────────────────────────────────────────────
-    "11447", // ELV DE
-    "125816", // Imou DE
-    "14175", // NordVPN DE          ← verify ID in Awin: Programme → Profil → awinmid
-    // ── Beauty & Mode ─────────────────────────────────────────────────────
-    "25546", // Stylevana DE
-    "80817", // 100percentpure DE/AT ← verify ID in Awin
-    "28297", // Frölich und Kaufmann DE
-    "114336", // House-of-Sneakers DE
-    // ── Wohnen & Möbel ────────────────────────────────────────────────────
-    "53143", // teppich.de
-    "79858", // Luftbude DE
-    "82314", // Aosom DE/AT          ← verify ID in Awin
-    // ── Reisen ────────────────────────────────────────────────────────────
-    "11441", // HRS DE & AT
-    "14494", // FlixBus & FlixTrain DE ← verify ID in Awin
-    // ── Supermarkt & Finanzen ─────────────────────────────────────────────
-    "13537", // Netto Marken-Discount DE
-    "9364", // CHECK24
-    // ── Gaming ────────────────────────────────────────────────────────────
-    "125332", // Autofull EU
+    "11447", // ✅ ELV DE
+    "13812", // ✅ Netto Marken-Discount DE
+    "25546", // ✅ Stylevana DE
+    "28297", // ✅ Frölich und Kaufmann DE
+    "114336", // ✅ House-of-Sneakers DE
+    "53143", // ✅ teppich.de
+    "79858", // ✅ Luftbude DE
+    "9364", // ✅ CHECK24
+    "125332", // ✅ Autofull EU
+    "125816", // ✅ Imou DE
+    // ── Add confirmed PENDING IDs here when you find them in Awin ──────────
+    // "XXXXX",  // ⏳ NordVPN DE
+    // "XXXXX",  // ⏳ 100percentpure DE/AT
+    // "XXXXX",  // ⏳ Aosom DE/AT
+    // "XXXXX",  // ⏳ HRS DE & AT
+    // "XXXXX",  // ⏳ FlixBus & FlixTrain DE
   ].join(",")
 ).replace(/\s/g, "");
 
@@ -148,17 +163,17 @@ async function fetchType(type) {
 const ADVERTISER_URLS = {
   11447: "https://www.elv.de",
   125816: "https://www.imou.com/de-DE/",
-  14175: "https://nordvpn.com/de/",
+  // "XXXXX":  "https://nordvpn.com/de/",         // ⏳ NordVPN — add real ID,
   25546: "https://www.stylevana.com/de_DE/",
-  80817: "https://www.100percentpure.com/de/",
+  // "XXXXX":  "https://www.100percentpure.com/de/", // ⏳ 100percentpure — add real ID,
   28297: "https://www.froelich-und-kaufmann.de",
   114336: "https://www.house-of-sneakers.de",
   53143: "https://www.teppich.de",
   79858: "https://www.luftbude.de",
-  82314: "https://www.aosom.de",
-  11441: "https://www.hrs.com/de/",
-  14494: "https://www.flixbus.de",
-  13537: "https://www.netto-online.de",
+  // "XXXXX":  "https://www.aosom.de",               // ⏳ Aosom — add real ID,
+  // "XXXXX":  "https://www.hrs.com/de/",          // ⏳ HRS — add real ID,
+  // "XXXXX":  "https://www.flixbus.de",            // ⏳ FlixBus — add real ID,
+  13812: "https://www.netto-online.de",
   9364: "https://www.check24.de",
   125332: "https://www.autofull.com/de/",
 };
