@@ -1042,21 +1042,21 @@ const ADVERTISERS = [
   // ── Elektronik & Technik ─────────────────────────────────────────────────
   {id:"11447",  name:"ELV DE",                   cat:"Elektronik", icon:"🔌", url:"https://www.elv.de"},
   {id:"125816", name:"Imou DE",                  cat:"Elektronik", icon:"📹", url:"https://www.imou.com/de-DE/"},
-  {id:"14175",  name:"NordVPN DE",               cat:"Software",   icon:"🔐", url:"https://nordvpn.com/de/"},
+  {id:"PENDING", name:"NordVPN DE",              cat:"Software",   icon:"🔐", url:"https://nordvpn.com/de/"},
   // ── Mode & Beauty ────────────────────────────────────────────────────────
   {id:"25546",  name:"Stylevana DE",             cat:"Beauty",     icon:"✨", url:"https://www.stylevana.com/de_DE/"},
-  {id:"80817",  name:"100percentpure DE/AT",     cat:"Beauty",     icon:"🌿", url:"https://www.100percentpure.com/de/"},
+  {id:"PENDING", name:"100percentpure DE/AT",    cat:"Beauty",     icon:"🌿", url:"https://www.100percentpure.com/de/"},
   {id:"28297",  name:"Frölich und Kaufmann DE",  cat:"Mode",       icon:"👔", url:"https://www.froelich-und-kaufmann.de"},
   {id:"114336", name:"House-of-Sneakers DE",     cat:"Mode",       icon:"👟", url:"https://www.house-of-sneakers.de"},
   // ── Wohnen & Möbel ───────────────────────────────────────────────────────
   {id:"53143",  name:"teppich.de",               cat:"Wohnen",     icon:"🏠", url:"https://www.teppich.de"},
   {id:"79858",  name:"Luftbude DE",              cat:"Möbel",      icon:"🛏️", url:"https://www.luftbude.de"},
-  {id:"82314",  name:"Aosom DE/AT",              cat:"Möbel",      icon:"🛋️", url:"https://www.aosom.de"},
+  {id:"PENDING", name:"Aosom DE/AT",             cat:"Möbel",      icon:"🛋️", url:"https://www.aosom.de"},
   // ── Reisen ───────────────────────────────────────────────────────────────
-  {id:"11441",  name:"HRS DE & AT",             cat:"Reisen",     icon:"🏨", url:"https://www.hrs.com/de/"},
-  {id:"14494",  name:"FlixBus & FlixTrain DE",  cat:"Reisen",     icon:"🚌", url:"https://www.flixbus.de"},
+  {id:"PENDING", name:"HRS DE & AT",            cat:"Reisen",     icon:"🏨", url:"https://www.hrs.com/de/"},
+  {id:"PENDING", name:"FlixBus & FlixTrain DE", cat:"Reisen",     icon:"🚌", url:"https://www.flixbus.de"},
   // ── Supermarkt & Finanzen ────────────────────────────────────────────────
-  {id:"13537",  name:"Netto Marken-Discount DE", cat:"Supermarkt", icon:"🛒", url:"https://www.netto-online.de"},
+  {id:"13812",  name:"Netto Marken-Discount DE", cat:"Supermarkt", icon:"🛒", url:"https://www.netto-online.de"},
   {id:"9364",   name:"CHECK24",                  cat:"Finanzen",   icon:"💰", url:"https://www.check24.de"},
   // ── Gaming ───────────────────────────────────────────────────────────────
   {id:"125332", name:"Autofull EU",              cat:"Gaming",     icon:"🎮", url:"https://www.autofull.com/de/"},
@@ -1764,7 +1764,7 @@ const CSV_PROMOS = [
     description:"Schütze deine Online-Privatsphäre. Exklusiver Rabatt für schnäppchenjäger1-Besucher.",
     categories:"Software, VPN, Sicherheit",
     terms:"Aktion gültig für Neukunden. Preis gilt für den ersten Vertragszeitraum.",
-    deeplink:"https://www.awin1.com/cread.php?awinmid=14175&awinaffid=2851329&ued=https%3A%2F%2Fnordvpn.com%2Fde%2F",
+    deeplink:"https://nordvpn.com/de/",
     startDate:"2026-01-01T00:00:00",
     endDate:"2026-12-31T23:59:00",
   },
@@ -1777,7 +1777,7 @@ const CSV_PROMOS = [
     description:"Natürliche & vegane Kosmetik – 15% Rabatt auf alle Produkte. Keine Mindestbestellung.",
     categories:"Beauty, Kosmetik, Hautpflege",
     terms:"Einmaliger Rabatt pro Konto. Nicht kombinierbar mit anderen Aktionen.",
-    deeplink:"https://www.awin1.com/cread.php?awinmid=80817&awinaffid=2851329&ued=https%3A%2F%2Fwww.100percentpure.com%2Fde%2F",
+    deeplink:"https://www.100percentpure.com/de/",
     startDate:"2026-04-01T00:00:00",
     endDate:"2026-06-30T23:59:00",
   },
@@ -1790,7 +1790,7 @@ const CSV_PROMOS = [
     description:"Günstig reisen durch Deutschland und Europa. 10% auf deine nächste Buchung mit Code FLIXSAVE10.",
     categories:"Reisen, Bus, Bahn",
     terms:"Rabatt gilt für Einzelbuchungen. Nicht mit anderen Codes kombinierbar.",
-    deeplink:"https://www.awin1.com/cread.php?awinmid=14494&awinaffid=2851329&ued=https%3A%2F%2Fwww.flixbus.de%2F",
+    deeplink:"https://www.flixbus.de/",
     startDate:"2026-04-01T00:00:00",
     endDate:"2026-07-31T23:59:00",
   },
@@ -1814,15 +1814,21 @@ const dl = (mid, dest) => {
    3. Falls back to the advertiser's homepage if no ID is known
 ─────────────────────────────────────────────────────────────────────────── */
 function resolveLink(promo, adv) {
+  // ── PENDING: Awin ID not yet confirmed — use direct website URL ──────────
+  // This prevents "inactive link" errors from wrong awinmid values.
+  // To enable full Awin tracking: replace id:"PENDING" in ADVERTISERS with
+  // the real awinmid from: Awin Dashboard → Programme → Deeplink-Generator
+  if (!adv.id || adv.id === "PENDING") return adv.url;
+
   const raw = (promo && promo.deeplink) ? promo.deeplink.trim() : "";
 
-  // Valid: starts with https and has awinmid param
-  if (raw.startsWith("https") && raw.includes("awinmid")) return raw;
+  // Valid Awin tracking link — use directly
+  if (raw.startsWith("https") && raw.includes("awinmid") && raw.includes("awinaffid")) return raw;
 
-  // Has a URL but missing tracking — wrap it with our publisher deeplink
+  // Direct URL in promo but no tracking → wrap with our publisher tracking
   if (raw.startsWith("http")) return dl(adv.id, raw);
 
-  // No deeplink at all — build from advertiser home URL
+  // No deeplink — build from advertiser home URL with tracking
   return dl(adv.id, adv.url);
 }
 
@@ -2092,9 +2098,10 @@ function renderCoupons() {
                <span style="font-size:.78rem;color:var(--mist)">Kein Code nötig – Rabatt automatisch</span>
              </div>`}
         <div class="card-actions">
-          <a class="btn-deal" href="${esc(link)}" target="_blank" rel="sponsored noopener noreferrer"
+          <a class="btn-deal" href="${esc(link)}" target="_blank"
+             rel="${adv.id === 'PENDING' ? 'noopener noreferrer' : 'sponsored noopener noreferrer'}"
              aria-label="Zum Deal bei ${esc(adv.name)}" itemprop="url">
-            🛍️ Zum Deal
+            ${adv.id === 'PENDING' ? '🌐' : '🛍️'} Zum Deal
           </a>
           <button class="btn-deal-outline" onclick="toggleFav('${adv.id}-${code||"0"}',this)"
             aria-label="${isFav?"Aus":"Als"} Favorit ${isFav?"entfernen":"speichern"}">
