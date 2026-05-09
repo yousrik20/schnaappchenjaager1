@@ -1039,18 +1039,27 @@ setInterval(() => {
 }, 60 * 60 * 1000);
 
 const ADVERTISERS = [
+  // ── Elektronik & Technik ─────────────────────────────────────────────────
+  {id:"11447",  name:"ELV DE",                   cat:"Elektronik", icon:"🔌", url:"https://www.elv.de"},
+  {id:"125816", name:"Imou DE",                  cat:"Elektronik", icon:"📹", url:"https://www.imou.com/de-DE/"},
+  {id:"14175",  name:"NordVPN DE",               cat:"Software",   icon:"🔐", url:"https://nordvpn.com/de/"},
+  // ── Mode & Beauty ────────────────────────────────────────────────────────
   {id:"25546",  name:"Stylevana DE",             cat:"Beauty",     icon:"✨", url:"https://www.stylevana.com/de_DE/"},
-  {id:"13537",  name:"Netto Marken-Discount DE",  cat:"Supermarkt", icon:"🛒", url:"https://www.netto-online.de"},
-  {id:"11447",  name:"ELV DE",                    cat:"Elektronik", icon:"🔌", url:"https://www.elv.de"},
+  {id:"80817",  name:"100percentpure DE/AT",     cat:"Beauty",     icon:"🌿", url:"https://www.100percentpure.com/de/"},
   {id:"28297",  name:"Frölich und Kaufmann DE",  cat:"Mode",       icon:"👔", url:"https://www.froelich-und-kaufmann.de"},
-  {id:"114336", name:"House-of-Sneakers DE",      cat:"Mode",       icon:"👟", url:"https://www.house-of-sneakers.de"},
-  {id:"53143",  name:"teppich.de",                cat:"Wohnen",     icon:"🏠", url:"https://www.teppich.de"},
-  {id:"125332", name:"Autofull EU",               cat:"Gaming",     icon:"🎮", url:"https://www.autofull.com/de/"},
-  {id:"12345",  name:"Aosom DE/AT",               cat:"Möbel",      icon:"🛋️", url:"https://www.aosom.de"},
-  {id:"11441",  name:"HRS",                       cat:"Reisen",     icon:"🏨", url:"https://www.hrs.com/de/"},
-  {id:"9364",   name:"CHECK24",                   cat:"Finanzen",   icon:"💰", url:"https://www.check24.de"},
-  {id:"125816", name:"Imou",                      cat:"Sicherheit", icon:"📹", url:"https://www.imou.com/de-DE/"},
-  {id:"79858",  name:"Luftbude",                  cat:"Möbel",      icon:"🛏️", url:"https://www.luftbude.de"},
+  {id:"114336", name:"House-of-Sneakers DE",     cat:"Mode",       icon:"👟", url:"https://www.house-of-sneakers.de"},
+  // ── Wohnen & Möbel ───────────────────────────────────────────────────────
+  {id:"53143",  name:"teppich.de",               cat:"Wohnen",     icon:"🏠", url:"https://www.teppich.de"},
+  {id:"79858",  name:"Luftbude DE",              cat:"Möbel",      icon:"🛏️", url:"https://www.luftbude.de"},
+  {id:"82314",  name:"Aosom DE/AT",              cat:"Möbel",      icon:"🛋️", url:"https://www.aosom.de"},
+  // ── Reisen ───────────────────────────────────────────────────────────────
+  {id:"11441",  name:"HRS DE & AT",             cat:"Reisen",     icon:"🏨", url:"https://www.hrs.com/de/"},
+  {id:"14494",  name:"FlixBus & FlixTrain DE",  cat:"Reisen",     icon:"🚌", url:"https://www.flixbus.de"},
+  // ── Supermarkt & Finanzen ────────────────────────────────────────────────
+  {id:"13537",  name:"Netto Marken-Discount DE", cat:"Supermarkt", icon:"🛒", url:"https://www.netto-online.de"},
+  {id:"9364",   name:"CHECK24",                  cat:"Finanzen",   icon:"💰", url:"https://www.check24.de"},
+  // ── Gaming ───────────────────────────────────────────────────────────────
+  {id:"125332", name:"Autofull EU",              cat:"Gaming",     icon:"🎮", url:"https://www.autofull.com/de/"},
 ];
 
 const BLOG_POSTS = [
@@ -1746,6 +1755,45 @@ const CSV_PROMOS = [
     startDate:"2026-04-30T00:00:00",
     endDate:"2026-05-03T23:59:00",
   },
+  // ── NordVPN DE ────────────────────────────────────────────────────────────
+  {
+    id:"nord-2y-2026", advertiserId:14175,
+    advertiser:"NordVPN DE",
+    code:"NORD2YEAR",
+    title:"NordVPN: 2 Jahre Plan – Bis zu 69% Rabatt + 3 Monate gratis",
+    description:"Schütze deine Online-Privatsphäre. Exklusiver Rabatt für schnäppchenjäger1-Besucher.",
+    categories:"Software, VPN, Sicherheit",
+    terms:"Aktion gültig für Neukunden. Preis gilt für den ersten Vertragszeitraum.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=14175&awinaffid=2851329&ued=https%3A%2F%2Fnordvpn.com%2Fde%2F",
+    startDate:"2026-01-01T00:00:00",
+    endDate:"2026-12-31T23:59:00",
+  },
+  // ── 100percentpure DE/AT ──────────────────────────────────────────────────
+  {
+    id:"pure-15-2026", advertiserId:80817,
+    advertiser:"100percentpure DE/AT",
+    code:"PURE15",
+    title:"100% Pure: 15% auf die gesamte Bestellung",
+    description:"Natürliche & vegane Kosmetik – 15% Rabatt auf alle Produkte. Keine Mindestbestellung.",
+    categories:"Beauty, Kosmetik, Hautpflege",
+    terms:"Einmaliger Rabatt pro Konto. Nicht kombinierbar mit anderen Aktionen.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=80817&awinaffid=2851329&ued=https%3A%2F%2Fwww.100percentpure.com%2Fde%2F",
+    startDate:"2026-04-01T00:00:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  // ── FlixBus & FlixTrain DE ────────────────────────────────────────────────
+  {
+    id:"flix-10-2026", advertiserId:14494,
+    advertiser:"FlixBus & FlixTrain DE",
+    code:"FLIXSAVE10",
+    title:"FlixBus & FlixTrain: 10% Rabatt auf alle Fahrten",
+    description:"Günstig reisen durch Deutschland und Europa. 10% auf deine nächste Buchung mit Code FLIXSAVE10.",
+    categories:"Reisen, Bus, Bahn",
+    terms:"Rabatt gilt für Einzelbuchungen. Nicht mit anderen Codes kombinierbar.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=14494&awinaffid=2851329&ued=https%3A%2F%2Fwww.flixbus.de%2F",
+    startDate:"2026-04-01T00:00:00",
+    endDate:"2026-07-31T23:59:00",
+  },
 ];
 const STATIC_PROMOS = CSV_PROMOS; // alias
 let activeCat    = "Alle";
@@ -1758,6 +1806,45 @@ const dl = (mid, dest) => {
   if (dest) u += `&p=${encodeURIComponent(dest)}`;
   return u;
 };
+
+/* ── Link validator ─────────────────────────────────────────────────────────
+   Resolves the best affiliate link for a promo card:
+   1. Uses promo.deeplink if it's a real Awin tracking URL
+   2. Falls back to a generated dl() link using the advertiser's known ID + URL
+   3. Falls back to the advertiser's homepage if no ID is known
+─────────────────────────────────────────────────────────────────────────── */
+function resolveLink(promo, adv) {
+  const raw = (promo && promo.deeplink) ? promo.deeplink.trim() : "";
+
+  // Valid: starts with https and has awinmid param
+  if (raw.startsWith("https") && raw.includes("awinmid")) return raw;
+
+  // Has a URL but missing tracking — wrap it with our publisher deeplink
+  if (raw.startsWith("http")) return dl(adv.id, raw);
+
+  // No deeplink at all — build from advertiser home URL
+  return dl(adv.id, adv.url);
+}
+
+/* ── Verify all static promos have links on startup ─────────────────────── */
+function auditLinks() {
+  let fixed = 0;
+  CSV_PROMOS.forEach(p => {
+    const dl_raw = (p.deeplink || "").trim();
+    if (!dl_raw || !dl_raw.startsWith("http")) {
+      // Find matching advertiser
+      const adv = ADVERTISERS.find(a =>
+        a.name === p.advertiser ||
+        String(a.id) === String(p.advertiserId)
+      );
+      if (adv) {
+        p.deeplink = dl(adv.id, adv.url);
+        fixed++;
+      }
+    }
+  });
+  if (fixed > 0) console.info(`[Links] Auto-fixed ${fixed} missing deeplinks`);
+}
 const esc = s => String(s)
   .replace(/&/g,"&amp;").replace(/</g,"&lt;")
   .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
@@ -1955,10 +2042,8 @@ function renderCoupons() {
   }
 
   document.getElementById("coupons-grid").innerHTML = filtered.map(({adv, promo}) => {
-    // Use Awin tracking deeplink from CSV if available, else build one
-    const link = (promo && promo.deeplink && promo.deeplink.startsWith("http"))
-                   ? promo.deeplink
-                   : dl(adv.id, adv.url);
+    // Resolve best affiliate link (validated, never empty)
+    const link = resolveLink(promo, adv);
     const code    = promo?.code || promo?.voucherCode || "";
     const title   = promo?.title || promo?.description || adv.name + " – Aktuelle Angebote";
     const expRaw  = promo?.endDate || promo?.expiryDate || "";
@@ -2096,6 +2181,17 @@ async function loadAwinPromos() {
     });
     // Remove already-expired entries (re-checked against live TODAY)
     allPromos = merged.filter(p => !isExpired(p.endDate || p.expiryDate));
+    // Validate & repair deeplinks on freshly loaded data
+    allPromos.forEach(p => {
+      const dl_raw = (p.deeplink || "").trim();
+      if (!dl_raw || !dl_raw.startsWith("http")) {
+        const adv = ADVERTISERS.find(a =>
+          a.name === p.advertiser ||
+          String(a.id) === String(p.advertiserId)
+        );
+        if (adv) p.deeplink = dl(adv.id, adv.url);
+      }
+    });
 
     const total     = allPromos.length;
     // Only show "Stand" date if it is a real date (not the 1970 epoch placeholder)
@@ -2131,6 +2227,7 @@ async function loadAwinPromos() {
   /* Update <title> year dynamically */
   document.title = document.title.replace(/\d{4}/, yr);
 })();
+auditLinks();  // fix any missing deeplinks before first render
 buildTicker();
 buildFooter();
 buildBlog();
