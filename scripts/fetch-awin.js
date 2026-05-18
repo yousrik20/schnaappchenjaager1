@@ -1,264 +1,305 @@
 #!/usr/bin/env node
 /**
- * fetchAwinVouchers.js
+ * fetch-awin.js
  * ─────────────────────────────────────────────────────────────────────────────
- * Fetches live promotions/vouchers from the AWIN Publisher API for every
- * advertiser in ADVERTISER_IDS, then writes the result to deals.json.
- *
- * Required environment variables (set in GitHub Actions secrets):
- *   AWIN_API_TOKEN   – your AWIN Publisher API OAuth token
- *   AWIN_PUBLISHER_ID – your AWIN Publisher ID (numeric)
+ * Fetches ALL active promotions from "Meine Aktionen" in the Awin publisher
+ * dashboard and saves them to ../promotions.json
  *
  * Usage:
- *   node fetchAwinVouchers.js
+ *   node scripts/fetch-awin.js
  *
- * Output:
- *   deals.json  (read by index.html at page load)
+ * Required environment variables:
+ *   AWIN_TOKEN        — your Awin API token (from ui.awin.com → API)
+ *   AWIN_PUBLISHER_ID — your publisher ID (e.g. 2851329)
+ *
+ * Optional:
+ *   AWIN_ADVERTISER_IDS — comma-separated list (leave empty = fetch ALL)
+ *   AWIN_REGION         — region code (default: DE)
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
-import fs from 'fs/promises';
-import path from 'path';
-import { fileURLToPath } from 'url';
+"use strict";
+
+const https = require("https");
+const fs    = require("fs");
+const path  = require("path");
 
 // ── Config ────────────────────────────────────────────────────────────────────
+const TOKEN        = process.env.AWIN_TOKEN        || "b6087dfa-4788-4a8b-bd77-ed681c73a9b3";
+const PUBLISHER_ID = process.env.AWIN_PUBLISHER_ID || "2851329";
+const REGION       = process.env.AWIN_REGION       || "DE";
+const OUT_FILE     = path.join(__dirname, "..", "promotions.json");
 
-const AWIN_API_TOKEN    = process.env.AWIN_API_TOKEN;
-const AWIN_PUBLISHER_ID = process.env.AWIN_PUBLISHER_ID;
-const OUTPUT_FILE       = path.join(path.dirname(fileURLToPath(import.meta.url)), 'deals.json');
+// All your approved advertiser IDs — add/remove as needed
+/* ── Awin Advertiser IDs ─────────────────────────────────────────────────────
+   Only include IDs confirmed in the Awin Deeplink-Generator.
+   Wrong IDs generate "inactive link" errors on Awin redirect pages.
 
-// All 18 AWIN advertiser IDs from your approved directory
-const ADVERTISER_IDS = [
-  9399,    // NordVPN DE
-  11447,   // ELV DE
-  11684,   // Aosom DE/AT
-  13812,   // Netto Marken-Discount DE
-  25546,   // Stylevana DE
-  15152,   // HRS DE & AT
-  13945,   // FlixBus & FlixTrain DE
-  13991,   // 100percentpure DE/AT
-  114336,  // House-of-Sneakers DE
-  53143,   // teppich.de
-  14537,   // Baur Versand DE
-  79858,   // Luftbude DE
-  125144,  // ANTHBOT DE
-  44635,   // Voghion Global
-  28297,   // Frölich und Kaufmann DE
-  9364,    // CHECK24 Partnerprogramm
-  125816,  // Imou DE
-  125332,  // Autofull EU
-];
+   HOW TO FIND YOUR ID:
+   Awin Dashboard → Programme → [Advertiser auswählen]
+   → Deeplink-Generator → the number after awinmid= is the ID
 
-// Category mapping: AWIN primarySector → site category
-const SECTOR_TO_CATEGORY = {
-  'Electronic Superstore':       'Elektronik',
-  'Electronic Accessories':      'Elektronik',
-  'B2B Utility Services':        'Elektronik',
-  'Clothing':                    'Mode',
-  'Shoes':                       'Mode',
-  'Womenswear':                  'Mode',
-  'Menswear':                    'Mode',
-  'Department Stores':           'Mode',
-  'Furniture & Soft Furnishings':'Möbel',
-  'Home & Garden':               'Möbel',
-  'Hotels & Accommodation':      'Reisen',
-  'Coaches':                     'Reisen',
-  'Tourism & Attractions':       'Reisen',
-  'Utilities':                   'Reisen',   // CHECK24
-  'Health & Beauty':             'Beauty',
-  'FMCG':                        'Lebensmittel',
-  'Books & Subscriptions':       'Bücher',
-  'Sports Equipment':            'Sport',
-  'Sportswear':                  'Sport',
-};
+   CONFIRMED (from Awin screenshots):         PENDING (need real ID):
+   ✅ ELV DE             → 11447              ⏳ NordVPN DE
+   ✅ Netto Marken-Disc. → 13812              ⏳ 100percentpure DE/AT
+   ✅ Stylevana DE       → 25546              ⏳ Aosom DE/AT
+   ✅ Frölich & Kaufmann → 28297              ⏳ HRS DE & AT
+   ✅ House-of-Sneakers  → 114336             ⏳ FlixBus & FlixTrain DE
+   ✅ teppich.de         → 53143
+   ✅ Luftbude DE        → 79858              Once you have the ID:
+   ✅ CHECK24            → 9364               1. Add it to the array below
+   ✅ Autofull EU        → 125332             2. Update ADVERTISERS in index.html
+   ✅ Imou DE            → 125816             3. Push → Actions runs automatically
+─────────────────────────────────────────────────────────────────────────── */
+const ADVERTISER_IDS = (process.env.AWIN_ADVERTISER_IDS || [
+  "11447",   // ✅ ELV DE
+  "13812",   // ✅ Netto Marken-Discount DE
+  "25546",   // ✅ Stylevana DE
+  "28297",   // ✅ Frölich und Kaufmann DE
+  "114336",  // ✅ House-of-Sneakers DE
+  "53143",   // ✅ teppich.de
+  "79858",   // ✅ Luftbude DE
+  "9364",    // ✅ CHECK24
+  "125332",  // ✅ Autofull EU
+  "125816",  // ✅ Imou DE
+  // ── Add confirmed PENDING IDs here when you find them in Awin ──────────
+  // "XXXXX",  // ⏳ NordVPN DE
+  // "XXXXX",  // ⏳ 100percentpure DE/AT
+  // "XXXXX",  // ⏳ Aosom DE/AT
+  // "XXXXX",  // ⏳ HRS DE & AT
+  // "XXXXX",  // ⏳ FlixBus & FlixTrain DE
+].join(",")).replace(/\s/g, "");
 
-// Fallback deal data per advertiser ID (shown when AWIN API returns no active promos)
-const FALLBACK_DEALS = {
-  9399:   { brandName: 'NordVPN',            category: 'Elektronik',    discountValue: '40%',          description: 'Sicher surfen mit NordVPN: 40% Rabatt auf Jahresabonnements – Der modernste VPN-Dienst der Welt.',          code: 'NORDVPN40',    dealUrl: 'http://nordvpn.com/de',                 image: '🔒' },
-  11447:  { brandName: 'ELV',               category: 'Elektronik',    discountValue: 'bis 5%',        description: 'Smart Home & Elektronik: Riesige Auswahl an Homematic, Homematic IP und elektronischen Innovationen.',      code: 'ELVSHOP',      dealUrl: 'https://de.elv.com',                    image: '🏠' },
-  11684:  { brandName: 'Aosom',             category: 'Möbel',         discountValue: '8%',            description: 'Gartenmöbel, Heimtierbedarf & Haushalt: 8% Rabatt auf das gesamte Aosom-Sortiment.',                       code: 'AOSOM8',       dealUrl: 'https://www.aosom.de/',                  image: '🛋️' },
-  13812:  { brandName: 'Netto',             category: 'Lebensmittel',  discountValue: 'bis 4%',        description: 'Netto Marken-Discount: Wöchentliche Angebote auf Lebensmittel, Haushalt & mehr im Online-Shop.',            code: 'NETTOONLINE',  dealUrl: 'https://www.netto-online.de',            image: '🛒' },
-  25546:  { brandName: 'Stylevana',         category: 'Beauty',        discountValue: 'Top-Deals',     description: 'Asiatische K-Beauty & Fashion: Trendige Produkte zum besten Preis direkt aus Südkorea.',                   code: 'STYLEBEAUTY',  dealUrl: 'https://www.stylevana.com/de_DE/',       image: '✨' },
-  15152:  { brandName: 'HRS',              category: 'Reisen',        discountValue: 'bis 6%',        description: 'Hotelbuchungen weltweit: Spare mit HRS – Top 3 Hotelportal in Europa für Privat- und Geschäftsreisende.',  code: 'HRSHOTEL',     dealUrl: 'https://www.hrs.de',                    image: '🏨' },
-  13945:  { brandName: 'FlixBus',          category: 'Reisen',        discountValue: 'Günstig',       description: 'Europaweit günstig reisen mit FlixBus & FlixTrain – Beste Preise für Fernbus- und Zugtickets.',            code: 'FLIXSOMMER',   dealUrl: 'https://flixbus.de',                    image: '🚌' },
-  13991:  { brandName: '100% Pure',        category: 'Beauty',        discountValue: '15%',           description: '100% Naturkosmetik aus Kalifornien: 15% auf alle Produkte – Vegan, nachhaltig & tierversuchsfrei.',        code: 'PURE15',       dealUrl: 'https://www.100percentpure.de/',         image: '🌿' },
-  114336: { brandName: 'House of Sneakers',category: 'Mode',          discountValue: 'Exklusiv',      description: 'Limitierte & seltene Sneaker von Top-Marken – Der ultimative Shop für Sneaker-Enthusiasten.',              code: 'SNEAKERDEAL',  dealUrl: 'https://house-of-sneakers.de/',          image: '👟' },
-  53143:  { brandName: 'teppich.de',       category: 'Möbel',         discountValue: 'Gratis Versand',description: 'Qualitätsteppiche & Wohnaccessoires: Kostenloser Versand auf alle Bestellungen in Deutschland.',          code: 'TEPPICHFREI',  dealUrl: 'https://www.teppich.de',                image: '🏡' },
-  14537:  { brandName: 'Baur',             category: 'Mode',          discountValue: 'bis 8%',        description: 'EINFACH.SCHÖN.SHOPPEN – Fashion, Living & mehr: Riesige Auswahl bei Baur Versand.',                       code: 'BAURMODE',     dealUrl: 'https://www.baur.de/',                   image: '👗' },
-  79858:  { brandName: 'Luftbude',         category: 'Möbel',         discountValue: 'Gratis Beratung',description: 'Kostenlose Lüftungsplanung & Beratung: Luftbude liefert die perfekte Lüftung für Ihr Zuhause.',          code: 'LUFT2026',     dealUrl: 'https://www.luftbude.de',               image: '🌬️' },
-  125144: { brandName: 'ANTHBOT',          category: 'Elektronik',    discountValue: 'Neu',           description: 'Innovative Roboter-Rasenmäher & Smart Home Geräte – Revolutionäre Gartenpflege neu gedacht.',             code: 'ANTHBOT26',    dealUrl: 'https://de.anthbot.com/',               image: '🤖' },
-  44635:  { brandName: 'Voghion',          category: 'Mode',          discountValue: 'Fabrikpreis',   description: 'Globaler Shopping-Marktplatz: Fashion, Elektronik & mehr direkt vom Hersteller – Top-Preise garantiert.', code: 'VOGHION10',    dealUrl: 'https://www.voghion.com/',              image: '🛍️' },
-  28297:  { brandName: 'Frölich & Kaufmann',category: 'Bücher',       discountValue: 'Große Auswahl', description: 'Über 60.000 Bücher: Bildbände, Kochbücher, Ratgeber & Kunstbände zu starken Preisen.',                   code: 'BUCH2026',     dealUrl: 'https://www.froelichundkaufmann.de/',    image: '📚' },
-  9364:   { brandName: 'CHECK24',          category: 'Reisen',        discountValue: 'bis €55',       description: 'Strom, Gas, DSL & Reisen vergleichen: Beste Konditionen und bis zu €55 Provision bei CHECK24.',           code: 'CHECK24DE',    dealUrl: 'https://www.check24.net',               image: '💡' },
-  125816: { brandName: 'Imou',             category: 'Elektronik',    discountValue: 'Neu',           description: 'Smart Home Sicherheit: Kameras, Türklingeln, Smart Locks & IoT-Geräte von IMOU für Millionen Haushalte.', code: 'IMOU2026',     dealUrl: 'https://store.imou.com/de-de/',          image: '📷' },
-  125332: { brandName: 'AutoFull',         category: 'Möbel',         discountValue: 'Premium',       description: 'Professionelle Gaming-Stühle: Komfort, Stil und Performance – Designed für maximale Spielfreude.',        code: 'AUTOFULL',     dealUrl: 'https://www.autofull.eu/',              image: '🎮' },
-};
+// Fetch ALL types from "Meine Aktionen":
+const PROMOTION_TYPES = ["voucher", "deal"];
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
-function log(msg)  { console.log(`[fetchAwinVouchers] ${msg}`); }
-function warn(msg) { console.warn(`[fetchAwinVouchers] ⚠️  ${msg}`); }
+/**
+ * Make a GET request to the Awin API and return parsed JSON.
+ * @param {string} urlPath  — path + query string
+ * @returns {Promise<any>}
+ */
+function apiGet(urlPath) {
+  return new Promise((resolve, reject) => {
+    const options = {
+      hostname: "api.awin.com",
+      port:     443,
+      path:     urlPath,
+      method:   "GET",
+      headers:  {
+        "Authorization": `Bearer ${TOKEN}`,
+        "Accept":        "application/json",
+        "User-Agent":    "schnäppchenjäger1-fetcher/2.0",
+      },
+    };
 
-/** Build the AWIN logo URL for a given advertiser ID */
-function awinLogoUrl(advertiserId) {
-  return `https://ui.awin.com/images/upload/merchant/profile/${advertiserId}.png`;
+    const req = https.request(options, (res) => {
+      let body = "";
+      res.on("data", chunk => { body += chunk; });
+      res.on("end", () => {
+        if (res.statusCode === 200) {
+          try { resolve(JSON.parse(body)); }
+          catch (e) { reject(new Error(`JSON parse error: ${e.message}\nBody: ${body.slice(0,200)}`)); }
+        } else {
+          reject(new Error(`HTTP ${res.statusCode} for ${urlPath}\nBody: ${body.slice(0,300)}`));
+        }
+      });
+    });
+
+    req.on("error", reject);
+    req.setTimeout(15000, () => { req.destroy(); reject(new Error("Request timed out")); });
+    req.end();
+  });
 }
 
 /**
- * Fetch all promotions for one advertiser from the AWIN API.
- * Returns an array of raw promotion objects (may be empty).
+ * Fetch one promotion type for the given advertiser IDs.
  */
-async function fetchPromotionsForAdvertiser(advertiserId) {
-  const url = new URL(
-    `https://api.awin.com/publishers/${AWIN_PUBLISHER_ID}/promotions`
-  );
-  url.searchParams.set('advertiserId', advertiserId);
-  url.searchParams.set('regionCode',   'DE');
-  url.searchParams.set('promotionType','voucher');  // voucher | deal
-  url.searchParams.set('status',       'active');
-
-  const res = await fetch(url.toString(), {
-    headers: {
-      Authorization: `Bearer ${AWIN_API_TOKEN}`,
-      Accept:        'application/json',
-    },
+async function fetchType(type) {
+  const qs = new URLSearchParams({
+    advertiserId:  ADVERTISER_IDS,
+    regionCode:    REGION,
+    status:        "active",
+    promotionType: type,
   });
 
-  if (!res.ok) {
-    warn(`AWIN API returned ${res.status} for advertiser ${advertiserId}`);
-    return [];
-  }
+  const urlPath = `/publishers/${PUBLISHER_ID}/promotions?${qs}`;
+  console.log(`  → GET https://api.awin.com${urlPath}`);
 
-  const json = await res.json();
-  // AWIN wraps results in { promotions: [...] }
-  return Array.isArray(json?.promotions) ? json.promotions : [];
+  const raw  = await apiGet(urlPath);
+  // Awin returns bare array OR { promotions:[…] } depending on API version
+  const list = Array.isArray(raw)           ? raw
+             : Array.isArray(raw.promotions) ? raw.promotions
+             : Array.isArray(raw.data)       ? raw.data
+             : [];
+  console.log(`     ${type}: ${list.length} promotions`);
+  return list;
+}
+
+// ── Advertiser home URLs (for deeplink fallback) ─────────────────────────
+const ADVERTISER_URLS = {
+  "11447":  "https://www.elv.de",
+  "125816": "https://www.imou.com/de-DE/",
+  // "XXXXX":  "https://nordvpn.com/de/",         // ⏳ NordVPN — add real ID,
+  "25546":  "https://www.stylevana.com/de_DE/",
+  // "XXXXX":  "https://www.100percentpure.com/de/", // ⏳ 100percentpure — add real ID,
+  "28297":  "https://www.froelich-und-kaufmann.de",
+  "114336": "https://www.house-of-sneakers.de",
+  "53143":  "https://www.teppich.de",
+  "79858":  "https://www.luftbude.de",
+  // "XXXXX":  "https://www.aosom.de",               // ⏳ Aosom — add real ID,
+  // "XXXXX":  "https://www.hrs.com/de/",          // ⏳ HRS — add real ID,
+  // "XXXXX":  "https://www.flixbus.de",            // ⏳ FlixBus — add real ID,
+  "13812":  "https://www.netto-online.de",
+  "9364":   "https://www.check24.de",
+  "125332": "https://www.autofull.com/de/",
+};
+
+/**
+ * Build a valid Awin deeplink from advertiser ID + destination URL.
+ */
+function buildDeeplink(advertiserId, destUrl) {
+  const base = `https://www.awin1.com/cread.php?awinmid=${advertiserId}&awinaffid=${PUBLISHER_ID}`;
+  return destUrl ? `${base}&p=${encodeURIComponent(destUrl)}` : base;
 }
 
 /**
- * Convert a raw AWIN promotion object into our deal schema.
- * Falls back to FALLBACK_DEALS values for missing fields.
+ * Check whether a deeplink string is a real, usable Awin tracking URL.
  */
-function mapPromoToDeal(promo, advertiserId, dealIndex) {
-  const fb = FALLBACK_DEALS[advertiserId] ?? {};
+function isValidDeeplink(url) {
+  if (!url || typeof url !== "string") return false;
+  const u = url.trim();
+  return u.startsWith("https://") &&
+         (u.includes("awin1.com") || u.includes("awinmid")) &&
+         u.includes("awinaffid");
+}
 
-  // Discount label: prefer voucher code discount, then description
-  let discountValue = fb.discountValue ?? 'Deal';
-  if (promo.discountType === 'percentage' && promo.discountAmount) {
-    discountValue = `${promo.discountAmount}%`;
-  } else if (promo.discountType === 'fixed' && promo.discountAmount) {
-    discountValue = `€${promo.discountAmount}`;
+/**
+ * Normalise a single promotion object to a consistent shape.
+ * Repairs missing or malformed deeplinks automatically.
+ */
+function normalise(promo, type) {
+  const advertiserId = String(promo.advertiserId ?? promo.advertiser?.id ?? "");
+  const advertiser   = promo.advertiser?.name
+                    ?? promo.advertiserName
+                    ?? (typeof promo.advertiser === "string" ? promo.advertiser : "")
+                    ?? "";
+
+  // Resolve deeplink — use API value if valid, else build from known URL
+  let deeplink = (promo.deeplink ?? promo.trackingLink ?? promo.affiliateLink ?? "").trim();
+  if (!isValidDeeplink(deeplink)) {
+    const fallbackUrl = ADVERTISER_URLS[advertiserId] || "";
+    deeplink = buildDeeplink(advertiserId, fallbackUrl);
+    if (!advertiserId) deeplink = "";  // truly unknown advertiser — leave empty
   }
 
-  const category =
-    SECTOR_TO_CATEGORY[promo.primarySector] ??
-    fb.category ??
-    'Sonstiges';
-
   return {
-    id:           parseInt(`${advertiserId}${dealIndex}`, 10),
-    advertiserId: advertiserId,
-    brandName:    promo.advertiserName ?? fb.brandName ?? 'Unbekannt',
-    category,
-    discountValue,
-    description:  promo.description   ?? fb.description ?? '',
-    code:         promo.code           ?? fb.code        ?? '',
-    expiryDate:   promo.endDate?.split('T')[0] ?? '2026-12-31',
-    startDate:    promo.startDate?.split('T')[0] ?? null,
-    image:        fb.image   ?? '🏷️',
-    dealUrl:      promo.clickUrl ?? promo.advertiserUrl ?? fb.dealUrl ?? '#',
-    logoUrl:      awinLogoUrl(advertiserId),
-    source:       'awin-api',    // marks this as live data
+    id:           String(promo.id ?? promo.promotionId ?? ""),
+    advertiserId,
+    advertiser,
+    type,
+    code:         promo.code       ?? promo.voucherCode  ?? "",
+    title:        promo.title      ?? promo.name         ?? "",
+    description:  promo.description ?? "",
+    terms:        promo.terms      ?? promo.termsConds   ?? "",
+    categories:   Array.isArray(promo.categories)
+                    ? promo.categories.join(", ")
+                    : (promo.category ?? promo.categories ?? ""),
+    deeplink,
+    startDate:    promo.startDate  ?? promo.starts ?? "",
+    endDate:      promo.endDate    ?? promo.ends   ?? "",
+    regionCode:   promo.regionCode ?? REGION,
+    linkFixed:    !isValidDeeplink((promo.deeplink ?? "").trim()),  // flag for logging
   };
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
-
 async function main() {
-  // ── Validate env vars ──
-  if (!AWIN_API_TOKEN || !AWIN_PUBLISHER_ID) {
-    console.error(
-      '[fetchAwinVouchers] ❌  Missing AWIN_API_TOKEN or AWIN_PUBLISHER_ID.\n' +
-      '   Set them as environment variables or GitHub Actions secrets.'
-    );
+  console.log("═══════════════════════════════════════════════════");
+  console.log(" schnäppchenjäger1 – Awin Promotions Fetcher v2.0");
+  console.log("═══════════════════════════════════════════════════");
+  console.log(`Publisher ID : ${PUBLISHER_ID}`);
+  console.log(`Region       : ${REGION}`);
+  console.log(`Advertisers  : ${ADVERTISER_IDS}`);
+  console.log(`Output       : ${OUT_FILE}`);
+  console.log("");
+
+  if (!TOKEN) {
+    console.error("ERROR: AWIN_TOKEN is not set.");
+    console.error("Set it with:  export AWIN_TOKEN=your_token_here");
     process.exit(1);
   }
 
-  log(`Starting fetch for ${ADVERTISER_IDS.length} advertisers…`);
+  // ── Fetch all promotion types ──────────────────────────────────────────────
+  const allPromos = [];
+  const seenIds   = new Set();
 
-  const deals = [];
-  let liveCount    = 0;
-  let fallbackCount = 0;
-
-  for (const advertiserId of ADVERTISER_IDS) {
-    log(`Fetching promotions for advertiser ${advertiserId}…`);
-
+  for (const type of PROMOTION_TYPES) {
+    console.log(`Fetching type: ${type} …`);
     try {
-      const promos = await fetchPromotionsForAdvertiser(advertiserId);
-
-      if (promos.length > 0) {
-        // Use the first active promotion (best/most recent)
-        const best = promos[0];
-        deals.push(mapPromoToDeal(best, advertiserId, deals.length + 1));
-        liveCount++;
-        log(`  ✅ ${promos.length} promotion(s) found – using best`);
-      } else {
-        // No active promos → fall back to static data
-        const fb = FALLBACK_DEALS[advertiserId];
-        if (fb) {
-          deals.push({
-            id:           deals.length + 1,
-            advertiserId: advertiserId,
-            source:       'fallback',
-            logoUrl:      awinLogoUrl(advertiserId),
-            expiryDate:   '2026-12-31',
-            startDate:    null,
-            ...fb,
-          });
-          fallbackCount++;
-          log(`  ⚙️  No live promotions – using fallback data`);
-        } else {
-          warn(`  No fallback data for advertiser ${advertiserId} – skipping`);
+      const list = await fetchType(type);
+      for (const p of list) {
+        const norm = normalise(p, type);
+        // Deduplicate by ID (same promo can appear in multiple types)
+        const key = `${norm.id}-${norm.code}`;
+        if (!seenIds.has(key)) {
+          seenIds.add(key);
+          allPromos.push(norm);
         }
       }
     } catch (err) {
-      warn(`  Error fetching advertiser ${advertiserId}: ${err.message}`);
-      // Still include fallback so the site never goes empty
-      const fb = FALLBACK_DEALS[advertiserId];
-      if (fb) {
-        deals.push({
-          id:           deals.length + 1,
-          advertiserId: advertiserId,
-          source:       'fallback-error',
-          logoUrl:      awinLogoUrl(advertiserId),
-          expiryDate:   '2026-12-31',
-          startDate:    null,
-          ...fb,
-        });
-        fallbackCount++;
-      }
+      console.warn(`  WARNING: Failed to fetch type "${type}": ${err.message}`);
     }
-
-    // Be polite to the API – 200 ms between requests
-    await new Promise(r => setTimeout(r, 200));
   }
 
-  // ── Write output ──
+  // ── Link audit: log any that needed repair ──────────────────────────────
+  const fixed = allPromos.filter(p => p.linkFixed);
+  if (fixed.length > 0) {
+    console.warn(`  ⚠️  ${fixed.length} promo(s) had missing/invalid deeplinks → auto-repaired:`);
+    fixed.forEach(p => console.warn(`     [${p.advertiser}] "${p.code}" → ${p.deeplink}`));
+  } else {
+    console.log("  ✅ All deeplinks valid");
+  }
+
+  // ── Sort: soonest expiry first ────────────────────────────────────────────
+  allPromos.sort((a, b) => {
+    const da = a.endDate ? new Date(a.endDate) : new Date("2099-01-01");
+    const db = b.endDate ? new Date(b.endDate) : new Date("2099-01-01");
+    return da - db;
+  });
+
+  // ── Write output ──────────────────────────────────────────────────────────
   const output = {
-    lastUpdated: new Date().toISOString(),
-    totalDeals:  deals.length,
-    liveDeals:   liveCount,
-    fallbackDeals: fallbackCount,
-    deals,
+    fetchedAt:  new Date().toISOString(),
+    publisher:  PUBLISHER_ID,
+    region:     REGION,
+    count:      allPromos.length,
+    promotions: allPromos,
   };
 
-  await fs.writeFile(OUTPUT_FILE, JSON.stringify(output, null, 2), 'utf8');
+  fs.writeFileSync(OUT_FILE, JSON.stringify(output, null, 2), "utf8");
 
-  log(`\n✅ Done! Wrote ${deals.length} deals to deals.json`);
-  log(`   Live from AWIN API : ${liveCount}`);
-  log(`   From fallback data : ${fallbackCount}`);
+  // ── Summary ───────────────────────────────────────────────────────────────
+  console.log("");
+  console.log("─── Summary ──────────────────────────────────────");
+  console.log(`Total promotions saved : ${allPromos.length}`);
+
+  // Count by advertiser
+  const byAdv = {};
+  for (const p of allPromos) {
+    byAdv[p.advertiser] = (byAdv[p.advertiser] || 0) + 1;
+  }
+  for (const [adv, count] of Object.entries(byAdv).sort((a,b) => b[1]-a[1])) {
+    console.log(`  ${adv.padEnd(35)} ${count} promos`);
+  }
+
+  console.log("");
+  console.log(`✅ Saved to ${OUT_FILE}`);
+  console.log(`   fetchedAt: ${output.fetchedAt}`);
 }
 
 main().catch(err => {
-  console.error('[fetchAwinVouchers] Fatal error:', err);
+  console.error("\n❌ Fatal error:", err.message);
   process.exit(1);
 });
