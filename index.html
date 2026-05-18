@@ -1,496 +1,2247 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>schnäppchenjäger1 - Gutscheine und Deals</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <style>
-        html { scroll-behavior: smooth; }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ── SEO Meta Tags ───────────────────────────────────────────────────── -->
+  <title>schnäppchenjäger1 – Beste Gutscheine & Deals in Deutschland</title>
+  <meta name="description" content="Täglich neue Gutscheine, Rabattcodes und Deals von Top-Marken wie ELV, Zalando, CHECK24 und mehr. Bis zu 60% sparen – schnäppchenjäger1.de">
+  <meta name="keywords" content="Gutscheine, Rabattcodes, Deals, Schnäppchen, Coupons, Promo-Codes, Deutschland">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="schnäppchenjäger1 GmbH">
+  <link rel="canonical" href="https://schnäppchenjäger1.de/">
+
+  <!-- ── Open Graph ─────────────────────────────────────────────────────── -->
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="schnäppchenjäger1 – Beste Gutscheine & Deals">
+  <meta property="og:description" content="Täglich neue Gutscheine von Top-Marken. Jetzt bis zu 60% sparen!">
+  <meta property="og:url"         content="https://schnäppchenjäger1.de/">
+  <meta property="og:site_name"   content="schnäppchenjäger1">
+
+  <!-- ── Favicon (Inline SVG – kein externer Request) ──────────────────── -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏷️</text></svg>">
+
+  <!-- ── Google Fonts (einzige externe Abhängigkeit – SEO-freundlich) ───── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+
+  <!-- ── Structured Data (Schema.org) ─────────────────────────────────── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "schnäppchenjäger1",
+    "url": "https://schnäppchenjäger1.de",
+    "description": "Beste Gutscheine und Deals in Deutschland",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://schnäppchenjäger1.de/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+<style>
+/* ════════════════════════════════════════════════════════════════════════════
+   DESIGN TOKENS & RESET
+════════════════════════════════════════════════════════════════════════════ */
+:root {
+  /* Palette */
+  --fire:      #E8501A;
+  --fire-d:    #C43E12;
+  --fire-l:    #FEF0EB;
+  --fire-m:    #FAC8B4;
+  --navy:      #0F172A;
+  --navy-m:    #1E293B;
+  --slate:     #334155;
+  --mist:      #64748B;
+  --silver:    #94A3B8;
+  --cloud:     #CBD5E1;
+  --fog:       #E2E8F0;
+  --snow:      #F8FAFC;
+  --white:     #FFFFFF;
+  --green:     #059669;
+  --green-l:   #D1FAE5;
+  --amber:     #D97706;
+  --amber-l:   #FEF3C7;
+  --red:       #DC2626;
+  --red-l:     #FEE2E2;
+
+  /* Typography */
+  --font-head: 'Sora', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  /* Spacing */
+  --max-w:     1320px;
+  --pad-x:     clamp(1rem, 4vw, 2rem);
+
+  /* Radii */
+  --r-sm:  6px;
+  --r-md:  12px;
+  --r-lg:  18px;
+  --r-xl:  24px;
+
+  /* Shadows */
+  --s0: 0 1px 2px rgba(0,0,0,.06);
+  --s1: 0 2px 8px rgba(0,0,0,.07), 0 1px 2px rgba(0,0,0,.04);
+  --s2: 0 8px 24px rgba(0,0,0,.09), 0 2px 6px rgba(0,0,0,.05);
+  --s3: 0 20px 48px rgba(0,0,0,.12), 0 4px 12px rgba(0,0,0,.06);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  font-family: var(--font-body);
+  background: var(--snow);
+  color: var(--navy);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+a  { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+button { font-family: var(--font-body); cursor: pointer; border: none; background: none; }
+input, select { font-family: var(--font-body); }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   LAYOUT UTILITIES
+════════════════════════════════════════════════════════════════════════════ */
+.container { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--pad-x); }
+.section    { padding: 5rem 0; }
+.section-sm { padding: 3rem 0; }
+.visually-hidden { position: absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   NAVBAR
+════════════════════════════════════════════════════════════════════════════ */
+.navbar {
+  position: sticky; top: 0; z-index: 200;
+  background: rgba(255,255,255,.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--fog);
+  box-shadow: var(--s0);
+}
+.navbar-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  height: 68px; gap: 1rem;
+}
+.logo {
+  font-family: var(--font-head);
+  font-size: 1.25rem; font-weight: 800;
+  letter-spacing: -.5px;
+  background: linear-gradient(135deg, var(--fire) 0%, #f97316 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+  flex-shrink: 0;
+}
+.nav-menu { display: flex; align-items: center; gap: .25rem; }
+.nav-link {
+  font-size: .875rem; font-weight: 600;
+  color: var(--slate); padding: .45rem .8rem; border-radius: var(--r-sm);
+  transition: all .18s; white-space: nowrap;
+}
+.nav-link:hover { color: var(--fire); background: var(--fire-l); }
+.nav-link.active { color: var(--fire); }
+.nav-cta {
+  font-size: .85rem; font-weight: 700;
+  background: var(--fire); color: var(--white);
+  padding: .45rem 1.1rem; border-radius: var(--r-sm);
+  transition: background .18s, transform .15s;
+}
+.nav-cta:hover { background: var(--fire-d); transform: translateY(-1px); }
+.api-pill {
+  display: flex; align-items: center; gap: 5px;
+  font-size: .7rem; font-weight: 700; letter-spacing: .3px;
+  padding: 4px 10px; border-radius: 20px;
+}
+.api-pill .dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+.pill-loading { background: var(--fog); color: var(--mist); }
+.pill-loading .dot { background: var(--silver); }
+.pill-ok  { background: var(--green-l); color: #065f46; }
+.pill-ok .dot  { background: var(--green); animation: pulse-dot 2s infinite; }
+.pill-err { background: var(--amber-l); color: #92400e; }
+.pill-err .dot { background: var(--amber); }
+@keyframes pulse-dot {
+  0%,100% { opacity:1; transform:scale(1); }
+  50%      { opacity:.6; transform:scale(.8); }
+}
+
+/* Burger */
+.burger { display:none; flex-direction:column; gap:5px; padding:8px; }
+.burger span { display:block; width:22px; height:2px; background:var(--navy); border-radius:2px; transition:all .25s; }
+.burger.open span:nth-child(1) { transform:translateY(7px) rotate(45deg); }
+.burger.open span:nth-child(2) { opacity:0; }
+.burger.open span:nth-child(3) { transform:translateY(-7px) rotate(-45deg); }
+.mobile-nav { display:none; background:#fff; border-top:1px solid var(--fog); padding:1rem var(--pad-x); }
+.mobile-nav.open { display:block; }
+.mobile-nav a, .mobile-nav button {
+  display:block; width:100%; text-align:left;
+  padding:.7rem .5rem; font-size:.95rem; font-weight:600;
+  color:var(--slate); border-bottom:1px solid var(--fog);
+}
+.mobile-nav a:hover, .mobile-nav button:hover { color:var(--fire); }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   PARTNER TICKER
+════════════════════════════════════════════════════════════════════════════ */
+.ticker-wrap {
+  background: linear-gradient(90deg, var(--navy) 0%, var(--navy-m) 100%);
+  overflow: hidden; padding: .55rem 0;
+}
+.ticker-track {
+  display: flex; align-items: center; gap: 0;
+  animation: ticker-scroll 40s linear infinite;
+  width: max-content;
+}
+.ticker-track:hover { animation-play-state: paused; }
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-item {
+  display: flex; align-items: center; gap: 6px;
+  padding: 0 1.5rem; font-size: .78rem; font-weight: 600;
+  color: rgba(255,255,255,.75); white-space: nowrap;
+  border-right: 1px solid rgba(255,255,255,.1);
+  transition: color .18s;
+}
+.ticker-item:hover { color: var(--fire-m); }
+/* .ticker-item .comm removed */
+.ticker-sep { color: rgba(255,255,255,.2); padding: 0 .5rem; font-size:.7rem; }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   HERO
+════════════════════════════════════════════════════════════════════════════ */
+.hero {
+  position: relative; overflow: hidden;
+  background: linear-gradient(145deg, var(--navy) 0%, #1a2744 55%, #0d1f3c 100%);
+  padding: 5rem var(--pad-x) 4rem;
+  color: var(--white);
+}
+.hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 80% 50%, rgba(232,80,26,.18) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 60% at 10% 80%, rgba(99,102,241,.12) 0%, transparent 60%);
+  pointer-events: none;
+}
+.hero-grid { display: grid; grid-template-columns: 1fr auto; gap: 3rem; align-items: center; max-width: var(--max-w); margin: 0 auto; position: relative; }
+.hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: .78rem; font-weight: 700; letter-spacing: .8px; text-transform: uppercase;
+  color: var(--fire-m); margin-bottom: 1rem;
+}
+.hero-eyebrow::before { content: ''; width: 24px; height: 2px; background: var(--fire); border-radius: 1px; }
+.hero h1 {
+  font-family: var(--font-head);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 800; line-height: 1.15; letter-spacing: -.5px;
+  margin-bottom: 1.25rem;
+}
+.hero h1 em { font-style: normal; color: var(--fire); }
+.hero-sub { font-size: 1.05rem; color: rgba(255,255,255,.7); max-width: 520px; margin-bottom: 2rem; line-height: 1.65; }
+.hero-actions { display: flex; gap: .75rem; flex-wrap: wrap; align-items: center; margin-bottom: 2.5rem; }
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--fire); color: var(--white);
+  font-family: var(--font-head); font-size: .92rem; font-weight: 700;
+  padding: .8rem 1.6rem; border-radius: var(--r-md);
+  transition: all .2s; box-shadow: 0 4px 16px rgba(232,80,26,.4);
+}
+.btn-primary:hover { background: var(--fire-d); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(232,80,26,.45); }
+.btn-ghost {
+  display: inline-flex; align-items: center; gap: 6px;
+  color: rgba(255,255,255,.8); border: 1px solid rgba(255,255,255,.2);
+  font-size: .9rem; font-weight: 600;
+  padding: .75rem 1.4rem; border-radius: var(--r-md);
+  transition: all .2s;
+}
+.btn-ghost:hover { color: var(--white); border-color: rgba(255,255,255,.5); background: rgba(255,255,255,.08); }
+.hero-stats { display: flex; gap: 2rem; }
+.h-stat strong { display:block; font-family:var(--font-head); font-size:2rem; font-weight:800; color:var(--white); }
+.h-stat span { font-size:.78rem; color:rgba(255,255,255,.5); font-weight:500; }
+.hero-right { display:flex; flex-direction:column; gap:.75rem; flex-shrink:0; }
+.h-badge {
+  background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.12);
+  backdrop-filter: blur(8px);
+  border-radius: var(--r-lg); padding: 1.25rem 1.5rem;
+  text-align: center; min-width: 130px;
+}
+.h-badge strong { display:block; font-family:var(--font-head); font-size:2rem; font-weight:800; color:var(--white); }
+.h-badge span { font-size:.72rem; color:rgba(255,255,255,.5); }
+.h-badge.accent { border-color: rgba(232,80,26,.4); background: rgba(232,80,26,.12); }
+.h-badge.accent strong { color: var(--fire-m); }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   SECTION HEADERS
+════════════════════════════════════════════════════════════════════════════ */
+.sec-header { margin-bottom: 2.5rem; }
+.sec-eyebrow {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: .75rem; font-weight: 700; letter-spacing: .8px; text-transform: uppercase;
+  color: var(--fire); margin-bottom: .6rem;
+}
+.sec-eyebrow::before { content: ''; width: 20px; height: 2px; background: var(--fire); border-radius:1px; }
+.sec-header h2 {
+  font-family: var(--font-head);
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  font-weight: 800; letter-spacing: -.4px;
+  color: var(--navy); line-height: 1.2;
+}
+.sec-header p { font-size: .95rem; color: var(--mist); margin-top: .5rem; max-width: 540px; }
+.sec-header-row { display:flex; align-items:flex-end; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   SEARCH & FILTER BAR
+════════════════════════════════════════════════════════════════════════════ */
+.filter-bar {
+  background: var(--white); border-radius: var(--r-lg);
+  box-shadow: var(--s1); border: 1px solid var(--fog);
+  padding: 1rem 1.25rem;
+  display: flex; gap: .75rem; align-items: center; flex-wrap: wrap;
+  margin-bottom: 1.75rem;
+}
+.search-field {
+  flex: 1; min-width: 200px;
+  display: flex; align-items: center; gap: .5rem;
+  background: var(--snow); border: 1.5px solid var(--fog);
+  border-radius: var(--r-sm); padding: .6rem .9rem;
+  transition: border-color .18s;
+}
+.search-field:focus-within { border-color: var(--fire); }
+.search-field input { border:none; outline:none; background:transparent; font-size:.88rem; color:var(--navy); flex:1; }
+.search-field .si { font-size:.9rem; flex-shrink:0; color:var(--silver); }
+.filter-divider { width:1px; height:28px; background:var(--fog); flex-shrink:0; }
+.filter-pills { display:flex; gap:.4rem; flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none; }
+.filter-pills::-webkit-scrollbar { display:none; }
+.f-pill {
+  font-size:.78rem; font-weight:600; white-space:nowrap;
+  padding:.3rem .85rem; border-radius:20px;
+  border: 1.5px solid var(--fog); background:var(--white);
+  color: var(--slate); transition: all .18s;
+}
+.f-pill:hover { border-color:var(--fire); color:var(--fire); }
+.f-pill.active { background:var(--fire); border-color:var(--fire); color:var(--white); }
+.filter-count { font-size:.8rem; color:var(--mist); white-space:nowrap; flex-shrink:0; }
+.filter-count strong { color:var(--navy); }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   COUPON CARDS
+════════════════════════════════════════════════════════════════════════════ */
+.coupons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1.25rem;
+}
+.coupon-card {
+  background: var(--white);
+  border-radius: var(--r-lg);
+  border: 1px solid var(--fog);
+  box-shadow: var(--s1);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  transition: box-shadow .22s, transform .22s;
+  position: relative;
+}
+.coupon-card:hover { box-shadow: var(--s3); transform: translateY(-3px); }
+
+/* Ribbon (% badge) */
+.card-ribbon {
+  position: absolute; top: 1rem; right: 1rem;
+  background: var(--fire); color: var(--white);
+  font-family: var(--font-head); font-size: .8rem; font-weight: 800;
+  padding: .3rem .7rem; border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(232,80,26,.4);
+}
+
+.card-top {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-m) 100%);
+  padding: 1.75rem 1.5rem 1.5rem;
+  display: flex; align-items: center; gap: .85rem;
+  position: relative;
+}
+.card-icon {
+  width: 52px; height: 52px; border-radius: var(--r-sm);
+  background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.15);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.75rem; flex-shrink: 0;
+}
+.card-brand-info { flex: 1; min-width: 0; }
+.card-brand-name {
+  font-family: var(--font-head); font-size: 1rem; font-weight: 700;
+  color: var(--white); line-height: 1.3;
+}
+.card-cat {
+  display: inline-block; margin-top:.25rem;
+  font-size: .65rem; font-weight: 700; letter-spacing:.4px; text-transform:uppercase;
+  color: rgba(255,255,255,.55); background: rgba(255,255,255,.08);
+  padding: 2px 8px; border-radius: 4px;
+}
+
+.card-body { padding: 1.25rem; flex: 1; display: flex; flex-direction: column; gap: .85rem; }
+
+.card-discount-row { display:flex; align-items:baseline; gap:.5rem; }
+.card-discount-val {
+  font-family: var(--font-head); font-size: 1.9rem; font-weight: 800;
+  color: var(--fire); line-height: 1;
+}
+.card-discount-lbl { font-size: .8rem; color: var(--mist); font-weight: 500; }
+
+.card-desc { font-size: .82rem; color: var(--slate); line-height: 1.5; flex: 1; }
+
+.card-meta {
+  display: flex; align-items: center; justify-content: space-between;
+  font-size: .73rem;
+}
+.card-expiry {
+  display: flex; align-items: center; gap: 4px;
+  color: var(--mist); font-weight: 500;
+}
+.card-expiry.urgent { color: var(--red); }
+/* commission badge removed */
+
+.card-code-box {
+  background: var(--snow); border: 1.5px dashed var(--cloud);
+  border-radius: var(--r-sm); padding: .6rem .85rem;
+}
+.code-lbl { font-size: .62rem; font-weight: 700; letter-spacing:.4px; text-transform:uppercase; color:var(--silver); margin-bottom:.3rem; }
+.code-row { display:flex; align-items:center; gap:.5rem; }
+.code-value {
+  font-family: 'Courier New', monospace; font-size: .82rem; font-weight: 700;
+  color: var(--navy); flex: 1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.copy-btn {
+  font-size: .7rem; font-weight: 700; white-space:nowrap;
+  padding: 4px 10px; border-radius: var(--r-sm);
+  border: 1.5px solid var(--cloud); background: var(--white);
+  color: var(--slate); transition: all .18s;
+}
+.copy-btn:hover { border-color: var(--fire); color: var(--fire); }
+.copy-btn.copied { background: var(--green-l); border-color: var(--green); color: var(--green); }
+
+.card-actions { display:flex; gap:.6rem; }
+.btn-deal {
+  flex: 1; display:flex; align-items:center; justify-content:center; gap:5px;
+  background: linear-gradient(135deg, var(--fire), #f97316);
+  color: var(--white); font-size: .85rem; font-weight: 700;
+  padding: .7rem; border-radius: var(--r-sm);
+  transition: all .2s; box-shadow: 0 3px 10px rgba(232,80,26,.3);
+}
+.btn-deal:hover { opacity: .9; transform: translateY(-1px); box-shadow: 0 6px 16px rgba(232,80,26,.4); }
+.btn-deal-outline {
+  display:flex; align-items:center; justify-content:center;
+  border: 1.5px solid var(--fire); color:var(--fire);
+  padding: .7rem .85rem; border-radius: var(--r-sm);
+  font-size:.82rem; font-weight:600; transition:all .18s;
+}
+.btn-deal-outline:hover { background:var(--fire-l); }
+
+/* Loading / Empty */
+.cards-loading { grid-column:1/-1; text-align:center; padding:4rem 1rem; }
+.spinner { width:36px; height:36px; border:3px solid var(--fog); border-top-color:var(--fire); border-radius:50%; margin:0 auto 1rem; animation:spin .8s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
+.empty-msg { grid-column:1/-1; text-align:center; padding:4rem 1rem; color:var(--silver); }
+.empty-msg h3 { font-family:var(--font-head); font-size:1.2rem; margin-bottom:.5rem; color:var(--navy); }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   BLOG SECTION
+════════════════════════════════════════════════════════════════════════════ */
+.blog-section { background: var(--white); }
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+.blog-card {
+  background: var(--snow); border-radius: var(--r-lg);
+  border: 1px solid var(--fog); overflow: hidden;
+  display: flex; flex-direction: column;
+  transition: box-shadow .22s, transform .22s;
+}
+.blog-card:hover { box-shadow: var(--s2); transform: translateY(-2px); }
+.blog-img-wrap {
+  aspect-ratio: 16/9; overflow: hidden;
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-m) 100%);
+  position: relative;
+}
+.blog-img-wrap .blog-cat-badge {
+  position: absolute; top:.75rem; left:.75rem;
+  background: var(--fire); color: var(--white);
+  font-size: .65rem; font-weight: 700; letter-spacing:.4px; text-transform:uppercase;
+  padding: 3px 9px; border-radius: 4px;
+}
+.blog-img-emoji {
+  width:100%; height:100%; display:flex; align-items:center; justify-content:center;
+  font-size: 3.5rem;
+}
+.blog-body { padding: 1.4rem; flex:1; display:flex; flex-direction:column; gap:.75rem; }
+.blog-meta {
+  display: flex; align-items:center; gap:.75rem;
+  font-size: .72rem; color: var(--silver);
+}
+.blog-meta time { display:flex; align-items:center; gap:3px; }
+.blog-read-time { display:flex; align-items:center; gap:3px; }
+.blog-body h3 {
+  font-family: var(--font-head); font-size: 1.05rem; font-weight: 700;
+  color: var(--navy); line-height: 1.35;
+}
+.blog-body h3 a:hover { color: var(--fire); }
+.blog-excerpt { font-size: .82rem; color: var(--mist); line-height: 1.6; flex:1; }
+.blog-footer {
+  display: flex; align-items:center; justify-content:space-between;
+  padding-top: .75rem; border-top: 1px solid var(--fog);
+}
+.blog-tags { display:flex; gap:.35rem; flex-wrap:wrap; }
+.blog-tag {
+  font-size: .65rem; font-weight: 600;
+  padding: 2px 8px; border-radius: 4px;
+  background: var(--fire-l); color: var(--fire);
+}
+.read-more {
+  display:inline-flex; align-items:center; gap:4px;
+  font-size: .8rem; font-weight: 700; color: var(--fire);
+  transition: gap .18s;
+}
+.read-more:hover { gap: 7px; }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   NEWSLETTER SECTION
+════════════════════════════════════════════════════════════════════════════ */
+.nl-section {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-m) 100%);
+  position: relative; overflow: hidden;
+}
+.nl-section::before {
+  content:'';
+  position:absolute; inset:0;
+  background: radial-gradient(ellipse 50% 80% at 90% 50%, rgba(232,80,26,.18) 0%, transparent 60%);
+  pointer-events:none;
+}
+.nl-inner { position:relative; max-width:720px; margin:0 auto; text-align:center; }
+.nl-icon { font-size:2.5rem; margin-bottom:1rem; }
+.nl-inner h2 { font-family:var(--font-head); font-size:clamp(1.6rem,3vw,2.2rem); font-weight:800; color:var(--white); margin-bottom:.75rem; }
+.nl-inner p { font-size:1rem; color:rgba(255,255,255,.65); margin-bottom:2rem; }
+.nl-form { display:flex; gap:.6rem; max-width:460px; margin:0 auto; flex-wrap:wrap; }
+.nl-form input {
+  flex:1; min-width:200px;
+  padding:.82rem 1rem; border-radius:var(--r-md); border:none;
+  font-size:.92rem; outline:none; color:var(--navy);
+  box-shadow: var(--s1);
+}
+.nl-form button {
+  padding:.82rem 1.5rem; border-radius:var(--r-md);
+  background:var(--fire); color:var(--white);
+  font-family:var(--font-head); font-size:.92rem; font-weight:700;
+  transition:background .18s, transform .15s;
+  box-shadow: 0 4px 14px rgba(232,80,26,.4);
+}
+.nl-form button:hover { background:var(--fire-d); transform:translateY(-1px); }
+.nl-success { display:flex; align-items:center; gap:.5rem; justify-content:center; color:var(--white); font-weight:600; }
+.nl-privacy { margin-top:1rem; font-size:.75rem; color:rgba(255,255,255,.4); }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   FOOTER
+════════════════════════════════════════════════════════════════════════════ */
+.footer { background: var(--navy); color: rgba(255,255,255,.6); }
+.footer-top { padding: 3.5rem 0 2.5rem; }
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.footer-brand .logo { display:inline-block; margin-bottom:1rem; font-size:1.1rem; }
+.footer-brand p { font-size:.84rem; line-height:1.7; max-width:260px; }
+.footer-brand .pub-id { margin-top:.75rem; font-size:.72rem; color:rgba(255,255,255,.25); }
+.footer-col h4 { font-family:var(--font-head); font-size:.88rem; font-weight:700; color:var(--white); margin-bottom:1rem; }
+.footer-col ul { list-style:none; display:flex; flex-direction:column; gap:.5rem; }
+.footer-col ul li a, .footer-col ul li button {
+  font-size:.82rem; color:rgba(255,255,255,.55);
+  transition:color .18s; display:inline-block;
+}
+.footer-col ul li a:hover, .footer-col ul li button:hover { color:var(--white); }
+.footer-col ul li button { background:none; border:none; cursor:pointer; font-family:var(--font-body); }
+.footer-partner-list { display:flex; flex-direction:column; gap:.4rem; }
+.footer-partner-list a { font-size:.78rem; color:rgba(255,255,255,.45); transition:color .18s; display:flex; align-items:center; gap:5px; }
+.footer-partner-list a:hover { color:rgba(255,255,255,.85); }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,.08);
+  padding: 1.25rem 0;
+  display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:.75rem;
+  font-size:.75rem; color:rgba(255,255,255,.35);
+}
+.footer-bottom a { color:rgba(255,255,255,.5); transition:color.18s; }
+.footer-bottom a:hover { color:var(--white); }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   SUBPAGES (Impressum / Datenschutz / Blog Post)
+════════════════════════════════════════════════════════════════════════════ */
+.subpage-hero {
+  background: linear-gradient(135deg, var(--navy), var(--navy-m));
+  padding: 3rem var(--pad-x) 2.5rem;
+  color:var(--white);
+}
+.subpage-hero h1 { font-family:var(--font-head); font-size:clamp(1.6rem,4vw,2.5rem); font-weight:800; }
+.subpage-hero .breadcrumb { font-size:.8rem; color:rgba(255,255,255,.5); margin-bottom:.75rem; display:flex; gap:.5rem; align-items:center; }
+.subpage-hero .breadcrumb a { color:rgba(255,255,255,.5); }
+.subpage-hero .breadcrumb a:hover { color:var(--white); }
+.subpage-content { max-width:800px; margin:0 auto; padding:3rem var(--pad-x); }
+.subpage-content h2 { font-family:var(--font-head); font-size:1.15rem; font-weight:700; color:var(--navy); margin:1.75rem 0 .6rem; }
+.subpage-content p { font-size:.9rem; color:var(--slate); line-height:1.75; margin-bottom:.75rem; }
+.subpage-content a { color:var(--fire); }
+.subpage-content a:hover { text-decoration:underline; }
+.back-link { display:inline-flex; align-items:center; gap:5px; font-size:.85rem; font-weight:700; color:var(--fire); margin-top:2rem; transition:gap .18s; }
+.back-link:hover { gap:8px; }
+
+/* Blog Post subpage */
+.blog-post-hero { padding:3.5rem var(--pad-x); background:linear-gradient(135deg,var(--navy),var(--navy-m)); color:var(--white); }
+.blog-post-hero .post-cat { display:inline-block; background:var(--fire); color:var(--white); font-size:.7rem; font-weight:700; letter-spacing:.4px; text-transform:uppercase; padding:3px 10px; border-radius:4px; margin-bottom:1rem; }
+.blog-post-hero h1 { font-family:var(--font-head); font-size:clamp(1.5rem,4vw,2.4rem); font-weight:800; line-height:1.2; margin-bottom:1rem; }
+.blog-post-hero .post-meta { display:flex; gap:1rem; font-size:.8rem; color:rgba(255,255,255,.5); flex-wrap:wrap; }
+.blog-post-content { max-width:740px; margin:0 auto; padding:3rem var(--pad-x); }
+.blog-post-content h2 { font-family:var(--font-head); font-size:1.3rem; font-weight:700; color:var(--navy); margin:2rem 0 .75rem; }
+.blog-post-content p { font-size:.92rem; color:var(--slate); line-height:1.8; margin-bottom:1rem; }
+.blog-post-content ul { padding-left:1.5rem; margin-bottom:1rem; }
+.blog-post-content ul li { font-size:.92rem; color:var(--slate); line-height:1.8; margin-bottom:.4rem; }
+.blog-post-content .tip-box { background:var(--fire-l); border-left:3px solid var(--fire); border-radius:0 var(--r-sm) var(--r-sm) 0; padding:1rem 1.25rem; margin:1.25rem 0; }
+.blog-post-content .tip-box strong { color:var(--fire); font-size:.8rem; letter-spacing:.4px; text-transform:uppercase; display:block; margin-bottom:.25rem; }
+.blog-post-content .tip-box p { margin:0; }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   RESPONSIVE
+════════════════════════════════════════════════════════════════════════════ */
+@media (max-width:1024px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width:768px) {
+  .nav-menu { display:none; }
+  .burger { display:flex; }
+  .hero-grid { grid-template-columns:1fr; }
+  .hero-right { flex-direction:row; }
+  .h-badge { flex:1; min-width:0; }
+  .hero-stats { gap:1.5rem; }
+  .footer-grid { grid-template-columns:1fr 1fr; }
+  .section { padding:3.5rem 0; }
+}
+@media (max-width:540px) {
+  .hero-right { display:none; }
+  .footer-grid { grid-template-columns:1fr; }
+  .filter-bar { flex-direction:column; align-items:stretch; }
+  .filter-divider { display:none; }
+  .blog-grid { grid-template-columns:1fr; }
+}
+
+/* ════════════════════════════════════════════════════════════════════════════
+   ANIMATIONS
+════════════════════════════════════════════════════════════════════════════ */
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(16px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+.fade-in { animation: fadeUp .5s ease both; }
+.delay-1 { animation-delay:.1s; }
+.delay-2 { animation-delay:.2s; }
+.delay-3 { animation-delay:.3s; }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   SCROLL TO TOP
+════════════════════════════════════════════════════════════════════════════ */
+.scroll-top {
+  position:fixed; bottom:1.5rem; right:1.5rem; z-index:100;
+  width:42px; height:42px; border-radius:50%;
+  background:var(--fire); color:var(--white);
+  font-size:1.1rem; box-shadow:0 4px 14px rgba(232,80,26,.4);
+  display:flex; align-items:center; justify-content:center;
+  opacity:0; pointer-events:none; transition:opacity .25s, transform .25s;
+}
+.scroll-top.visible { opacity:1; pointer-events:all; }
+.scroll-top:hover { transform:translateY(-3px); }
+</style>
 </head>
 <body>
-    <div id="root"></div>
 
-    <script type="text/babel">
-        const { useState, useEffect } = React;
+<!-- ── NAVBAR ──────────────────────────────────────────────────────────── -->
+<header>
+  <nav class="navbar" aria-label="Hauptnavigation">
+    <div class="container navbar-inner">
+      <button class="logo" onclick="showPage('home')" aria-label="Zur Startseite">
+        schnäppchenjäger1
+      </button>
+      <div class="nav-menu" role="navigation">
+        <div id="api-pill" class="api-pill pill-loading" aria-live="polite">
+          <span class="dot"></span><span id="api-text">Lade API…</span>
+        </div>
+        <a href="#coupons" class="nav-link" onclick="closeMobile()">Gutscheine</a>
+        <a href="#blog"    class="nav-link" onclick="closeMobile()">Blog</a>
+        <a href="#newsletter" class="nav-cta" onclick="closeMobile()">Newsletter</a>
+      </div>
+      <button class="burger" id="burger" onclick="toggleMenu()" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <a href="#coupons"    onclick="closeMobile()">🏷️ Gutscheine</a>
+      <a href="#blog"       onclick="closeMobile()">📝 Blog</a>
+      <a href="#newsletter" onclick="closeMobile()">📧 Newsletter</a>
+      <button onclick="showPage('impressum')">Impressum</button>
+      <button onclick="showPage('datenschutz')">Datenschutz</button>
+    </div>
+  </nav>
+</header>
 
-        // ── Dynamic deals loader ──────────────────────────────────────────
-        // Loads deals.json (written by fetchAwinVouchers.js via GitHub Actions).
-        // Falls back gracefully if the file is missing or fetch fails.
-        function useDeals() {
-            const [deals, setDeals]           = useState([]);
-            const [meta, setMeta]             = useState(null);   // lastUpdated, totals
-            const [loading, setLoading]       = useState(true);
-            const [error, setError]           = useState(null);
+<!-- ══════════════════════════════════════════════════════
+     HOME VIEW
+══════════════════════════════════════════════════════ -->
+<div id="view-home">
 
-            useEffect(() => {
-                fetch('./deals.json?t=' + Date.now())   // cache-bust
-                    .then(r => {
-                        if (!r.ok) throw new Error(`deals.json not found (${r.status})`);
-                        return r.json();
-                    })
-                    .then(data => {
-                        setDeals(Array.isArray(data.deals) ? data.deals : []);
-                        setMeta({
-                            lastUpdated:   data.lastUpdated   ?? null,
-                            totalDeals:    data.totalDeals    ?? 0,
-                            liveDeals:     data.liveDeals     ?? 0,
-                            fallbackDeals: data.fallbackDeals ?? 0,
-                        });
-                        setLoading(false);
-                    })
-                    .catch(err => {
-                        console.warn('[schnäppchenjäger1] deals.json load failed:', err.message);
-                        setError(err.message);
-                        setLoading(false);
-                    });
-            }, []);
+  <!-- Partner Ticker -->
+  <div class="ticker-wrap" aria-label="Partner-Übersicht" role="marquee">
+    <div class="ticker-track" id="ticker-track"><!-- JS fills --></div>
+  </div>
 
-            return { deals, meta, loading, error };
-        }
+  <!-- ── HERO ──────────────────────────────────────────────────────────── -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="hero-grid container">
+      <div class="fade-in">
+        <div class="hero-eyebrow">Täglich neue Deals</div>
+        <h1 id="hero-heading">
+          Spare Geld mit den besten<br>
+          <em>Gutscheinen in Deutschland</em>
+        </h1>
+        <p class="hero-sub">
+          Exklusive Rabattcodes und Deals von über 10 Top-Partnern.
+          Verifiziert, aktuell und kostenlos – jeden Tag neu.
+        </p>
+        <div class="hero-actions">
+          <a href="#coupons" class="btn-primary">🏷️ Alle Gutscheine</a>
+          <a href="#blog"    class="btn-ghost">📝 Ratgeber lesen</a>
+        </div>
+        <div class="hero-stats">
+          <div class="h-stat">
+            <strong id="stat-partners">10</strong>
+            <span>Top-Partner</span>
+          </div>
+          <div class="h-stat">
+            <strong id="stat-vouchers">…</strong>
+            <span>Live-Voucher</span>
+          </div>
+          <div class="h-stat">
+            <strong>100%</strong>
+            <span>Kostenlos</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right fade-in delay-2" aria-hidden="true">
+        <div class="h-badge accent">
+          <strong id="badge-v">0</strong>
+          <span>Aktive Voucher</span>
+        </div>
+        <div class="h-badge">
+          <strong>DE</strong>
+          <span>Region</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        // ── DealCard Component ────────────────────────────────────────────
-        function DealCard({ deal, onFavorite, isFavorite }) {
-            const [copied, setCopied] = useState(false);
-            const [logoError, setLogoError] = useState(false);
+  <!-- ── COUPONS SECTION ────────────────────────────────────────────────── -->
+  <section class="section" id="coupons" aria-labelledby="coupons-heading">
+    <div class="container">
+      <div class="sec-header-row sec-header">
+        <div>
+          <div class="sec-eyebrow">Exklusive Deals</div>
+          <h2 id="coupons-heading">Aktuelle Gutscheine & Rabattcodes</h2>
+          <p>Alle Codes wurden geprüft und sind sofort einsetzbar. Abgelaufene Codes werden automatisch ausgeblendet.</p>
+        </div>
+      </div>
 
-            const handleCopy = () => {
-                navigator.clipboard.writeText(deal.code);
-                setCopied(true);
-                setTimeout(() => setCopied(false), 2000);
-            };
+      <!-- Filter Bar -->
+      <div class="filter-bar" role="search">
+        <div class="search-field">
+          <span class="si" aria-hidden="true">🔍</span>
+          <input type="search" id="coupon-search" placeholder="Partner oder Angebot suchen…" oninput="renderCoupons()" aria-label="Gutscheine durchsuchen">
+        </div>
+        <div class="filter-divider" aria-hidden="true"></div>
+        <div class="filter-pills" id="cat-pills" role="group" aria-label="Kategoriefilter"><!-- JS fills --></div>
+        <div class="filter-count" aria-live="polite"><strong id="count-num">0</strong> Deals</div>
+      </div>
 
-            return (
-                <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
-                    {/* Brand Logo Area */}
-                    <div className="bg-gradient-to-br from-indigo-50 to-blue-50 p-6 flex items-center justify-center h-36 relative">
-                        {deal.logoUrl && !logoError ? (
-                            <img
-                                src={deal.logoUrl}
-                                alt={`${deal.brandName} Logo`}
-                                className="max-h-16 max-w-[160px] object-contain"
-                                onError={() => setLogoError(true)}
-                            />
-                        ) : (
-                            <span className="text-5xl">{deal.image}</span>
-                        )}
-                        {/* AWIN badge */}
-                        <span className="absolute top-2 right-2 text-[9px] font-bold text-indigo-400 bg-indigo-50 border border-indigo-100 px-1.5 py-0.5 rounded-full tracking-wider">
-                            AWIN
-                        </span>
-                    </div>
+      <!-- Cards Grid -->
+      <div class="coupons-grid" id="coupons-grid" aria-live="polite" aria-label="Gutschein-Karten">
+        <div class="cards-loading">
+          <div class="spinner" aria-hidden="true"></div>
+          <p>Lade Live-Gutscheine von Awin…</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                    <div className="p-5 flex-1 flex flex-col">
-                        <div className="flex items-start justify-between mb-3">
-                            <div>
-                                <h3 className="font-bold text-gray-900 text-base leading-tight">{deal.brandName}</h3>
-                                <span className="text-xs font-semibold text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-full inline-block mt-1">
-                                    {deal.category}
-                                </span>
-                            </div>
-                            <button
-                                onClick={() => onFavorite(deal.id)}
-                                className={`text-xl transition-colors cursor-pointer ml-2 ${isFavorite ? 'text-red-500' : 'text-gray-200 hover:text-red-400'}`}
-                            >
-                                ❤️
-                            </button>
-                        </div>
+  <!-- ── BLOG SECTION ──────────────────────────────────────────────────── -->
+  <section class="section blog-section" id="blog" aria-labelledby="blog-heading">
+    <div class="container">
+      <div class="sec-header-row sec-header">
+        <div>
+          <div class="sec-eyebrow">Ratgeber & Tipps</div>
+          <h2 id="blog-heading">Unser Gutschein-Blog</h2>
+          <p>Expertentipps, Shoppingratgeber und die neuesten Deals – alles auf einen Blick.</p>
+        </div>
+        <a href="#blog" class="btn-primary" style="flex-shrink:0">Alle Artikel →</a>
+      </div>
+      <div class="blog-grid" id="blog-grid"><!-- JS fills --></div>
+    </div>
+  </section>
 
-                        <p className="text-sm text-gray-600 mb-4 flex-1 leading-snug">{deal.description}</p>
+  <!-- ── NEWSLETTER ────────────────────────────────────────────────────── -->
+  <section class="section nl-section" id="newsletter" aria-labelledby="nl-heading">
+    <div class="container">
+      <div class="nl-inner">
+        <div class="nl-icon" aria-hidden="true">📬</div>
+        <h2 id="nl-heading">Kein Deal mehr verpassen!</h2>
+        <p>Tragen Sie sich in unseren Newsletter ein und erhalten Sie täglich die besten Gutscheine direkt in Ihr Postfach.</p>
+        <form class="nl-form" id="nl-form" onsubmit="handleNL(event)" novalidate>
+          <input type="email" id="nl-email" placeholder="Ihre E-Mail-Adresse" required aria-label="E-Mail-Adresse für Newsletter">
+          <button type="submit">Jetzt abonnieren</button>
+        </form>
+        <p id="nl-success" style="display:none" class="nl-success" aria-live="polite">✅ Danke! Bitte bestätigen Sie Ihre E-Mail.</p>
+        <p class="nl-privacy">Kein Spam. Abmeldung jederzeit möglich. <button onclick="showPage('datenschutz')" style="color:rgba(255,255,255,.4);text-decoration:underline;font-size:.75rem;">Datenschutz</button></p>
+      </div>
+    </div>
+  </section>
 
-                        <div className="border-t pt-4">
-                            <div className="flex items-baseline gap-2 mb-3">
-                                <span className="text-xl font-bold text-indigo-700">{deal.discountValue}</span>
-                                <span className="text-xs text-gray-500">Rabatt / Vorteil</span>
-                            </div>
+</div><!-- /view-home -->
 
-                            {deal.code && (
-                                <div className="bg-gray-50 p-3 rounded-lg mb-4 border border-dashed border-gray-300">
-                                    <p className="text-[10px] uppercase tracking-widest text-gray-400 mb-1.5 font-semibold">Gutscheincode</p>
-                                    <button
-                                        onClick={handleCopy}
-                                        className="w-full flex items-center justify-between bg-white border border-gray-300 rounded-lg px-3 py-2 text-sm font-mono font-bold text-gray-900 hover:bg-indigo-50 hover:border-indigo-300 transition-colors cursor-pointer"
-                                    >
-                                        <span>{deal.code}</span>
-                                        <span className="text-base">{copied ? '✅' : '📋'}</span>
-                                    </button>
-                                </div>
-                            )}
+<!-- ══════════════════════════════════════════════════════
+     IMPRESSUM VIEW
+══════════════════════════════════════════════════════ -->
+<div id="view-impressum" style="display:none">
+  <div class="subpage-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <button onclick="showPage('home')">Startseite</button>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">Impressum</span>
+      </nav>
+      <h1>Impressum</h1>
+    </div>
+  </div>
+  <div class="subpage-content">
+    <h2>Angaben gemäß § 5 TMG</h2>
+    <p>schnäppchenjäger1 GmbH<br>Ekenberg Str. 11<br>45307 Essen<br>Deutschland</p>
+    <h2>Kontaktinformation</h2>
+    <p>E-Mail: <a href="mailto:info@schnäppchenjäger1.de">info@schnäppchenjäger1.de</a><br>Telefon: +49 160 9134 3048<br>Website: <a href="https://schnäppchenjäger1.de">schnäppchenjäger1.de</a></p>
+    <h2>Vertreter</h2>
+    <p>Geschäftsführer: Salem Youssri</p>
+    <h2>Handelsregister</h2>
+    <p>Registergericht: Amtsgericht Essen<br>Handelsregisternummer: HRB 156482<br>USt-IdNr.: DE 347 852 961</p>
+    <h2>Haftung für Inhalte</h2>
+    <p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.</p>
+    <h2>Affiliate-Hinweis</h2>
+    <p>Diese Website enthält Affiliate-Links des Netzwerks Awin (Publisher-ID: 2851329). Bei Käufen über diese Links erhalten wir eine Provision ohne Mehrkosten für Sie.</p>
+    <button class="back-link" onclick="showPage('home')">← Zurück zur Startseite</button>
+  </div>
+</div>
 
-                            <a
-                                href={deal.dealUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block w-full text-center bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-semibold py-2.5 rounded-lg transition-all duration-300 text-sm"
-                            >
-                                Zum Deal →
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            );
-        }
+<!-- ══════════════════════════════════════════════════════
+     DATENSCHUTZ VIEW
+══════════════════════════════════════════════════════ -->
+<div id="view-datenschutz" style="display:none">
+  <div class="subpage-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <button onclick="showPage('home')">Startseite</button>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">Datenschutz</span>
+      </nav>
+      <h1>Datenschutzerklärung</h1>
+    </div>
+  </div>
+  <div class="subpage-content">
+    <h2>1. Verantwortlicher</h2>
+    <p>schnäppchenjäger1 GmbH, Ekenberg Str. 11, 45307 Essen<br>E-Mail: <a href="mailto:datenschutz@schnäppchenjäger1.de">datenschutz@schnäppchenjäger1.de</a></p>
+    <h2>2. Erhobene Daten</h2>
+    <p>Wir erheben nur die Daten, die für den Betrieb der Website erforderlich sind: Server-Logs (IP-Adresse, Datum/Uhrzeit, aufgerufene Seite) und optional Ihre E-Mail-Adresse bei Newsletter-Anmeldung.</p>
+    <h2>3. Affiliate-Links & Tracking (Awin)</h2>
+    <p>Diese Website ist Mitglied des Awin-Affiliate-Netzwerks (Publisher-ID: 2851329). Wenn Sie auf einen unserer Partner-Links klicken, setzt Awin ein Cookie zur Provisionsverfolgung. Weitere Informationen finden Sie in der <a href="https://www.awin.com/de/rechtliches/datenschutzerklaerung" target="_blank" rel="noopener">Datenschutzerklärung von Awin</a>.</p>
+    <h2>4. Newsletter</h2>
+    <p>Mit Ihrer Einwilligung speichern wir Ihre E-Mail-Adresse zum Versand des Newsletters. Abmeldung jederzeit möglich über den Link in der E-Mail.</p>
+    <h2>5. Ihre Rechte</h2>
+    <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer Daten (Art. 15-18 DSGVO). Kontakt: <a href="mailto:datenschutz@schnäppchenjäger1.de">datenschutz@schnäppchenjäger1.de</a></p>
+    <button class="back-link" onclick="showPage('home')">← Zurück zur Startseite</button>
+  </div>
+</div>
 
-        // ── Impressum Component ───────────────────────────────────────────
-        function Impressum() {
-            return (
-                <div className="min-h-screen bg-white">
-                    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                        <h1 className="text-3xl font-bold text-gray-900 mb-8">Impressum</h1>
-                        <div className="space-y-8 text-gray-700 leading-relaxed">
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-900 mb-3">Angaben gemäß § 5 TMG</h2>
-                                <p>schnäppchenjäger1 GmbH<br />Ekenberg Str. 11<br />45307 Essen<br />Deutschland</p>
-                            </div>
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-900 mb-3">Kontaktinformation</h2>
-                                <p>E-Mail: <a href="mailto:info@schnäppchenjäger1.de" className="text-indigo-600 hover:text-indigo-700 font-medium">info@schnäppchenjäger1.de</a><br />Telefon: +49 160 9134 3048<br />Website: <a href="https://schnäppchenjäger1.de" className="text-indigo-600 hover:text-indigo-700 font-medium">schnäppchenjäger1.de</a></p>
-                            </div>
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-900 mb-3">Vertreter</h2>
-                                <p>Geschäftsführer: Salem Youssri</p>
-                            </div>
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-900 mb-3">Handelsregister</h2>
-                                <p>Registergericht: Amtsgericht Essen<br />Handelsregisternummer: HRB 156482<br />USt-IdNr.: DE 347 852 961</p>
-                            </div>
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-900 mb-3">Haftung für Inhalte</h2>
-                                <p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            );
-        }
+<!-- ══════════════════════════════════════════════════════
+     BLOG POST VIEWS (je ein statisches Muster)
+══════════════════════════════════════════════════════ -->
+<div id="view-blog-1" style="display:none">
+  <div class="blog-post-hero container" style="max-width:100%;padding-top:3rem;padding-bottom:3rem">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <button onclick="showPage('home')">Startseite</button>
+        <span>›</span><button onclick="showPage('home');setTimeout(()=>document.getElementById('blog').scrollIntoView({behavior:'smooth'}),50)">Blog</button>
+        <span>›</span><span aria-current="page">10 Tipps</span>
+      </nav>
+      <span class="post-cat">Spar-Tipps</span>
+      <h1>10 Tipps, wie Sie mit Gutscheincodes wirklich Geld sparen</h1>
+      <div class="post-meta">
+        <time datetime="2026-04-29">29. April 2026</time>
+        <span>·</span><span>5 Min. Lesezeit</span>
+        <span>·</span><span>von Salem Youssri</span>
+      </div>
+    </div>
+  </div>
+  <article class="blog-post-content">
+    <p>Gutscheincodes sind eine der einfachsten Methoden, beim Online-Shopping bares Geld zu sparen. Wir zeigen Ihnen, wie Sie das Beste aus jedem Rabattcode herausholen.</p>
+    <h2>1. Immer zuerst nach einem Code suchen</h2>
+    <p>Bevor Sie zur Kasse gehen, nehmen Sie sich 30 Sekunden Zeit, um auf Plattformen wie schnäppchenjäger1.de nach einem aktuellen Gutscheincode zu suchen. Oft gibt es Rabatte von 10–30 %, die Sie sonst einfach liegen lassen.</p>
+    <div class="tip-box">
+      <strong>💡 Profi-Tipp</strong>
+      <p>Nutzen Sie die Browser-Erweiterung von Awin, um automatisch auf Rabattcodes hingewiesen zu werden, sobald Sie einen Partnershop besuchen.</p>
+    </div>
+    <h2>2. Codes vor Ablauf nutzen</h2>
+    <p>Viele Codes laufen nach wenigen Tagen ab. Unsere Website zeigt immer das genaue Ablaufdatum – Codes mit Stern sind besonders zeitkritisch.</p>
+    <h2>3. Kombinierbarkeit prüfen</h2>
+    <p>Manche Shops erlauben das Kombinieren eines Rabattcodes mit Sale-Preisen. Das kann die Ersparnis verdoppeln.</p>
+    <h2>4. Newsletter für Exklusiv-Codes abonnieren</h2>
+    <p>Viele Marken versenden exklusive 15–20%-Codes nur an Newsletter-Abonnenten. Melden Sie sich für den schnäppchenjäger1-Newsletter an und verpassen Sie keinen Deal mehr.</p>
+    <h2>5. Cashback kombinieren</h2>
+    <p>Einige Affiliate-Netzwerke bieten zusätzlich Cashback auf Käufe. Prüfen Sie, ob Ihr gewählter Shop auch über ein Cashback-Portal erreichbar ist.</p>
+    <button class="back-link" onclick="showPage('home');setTimeout(()=>document.getElementById('blog').scrollIntoView({behavior:'smooth'}),50)">← Zurück zum Blog</button>
+  </article>
+</div>
 
-        // ── Datenschutz Component ─────────────────────────────────────────
-        function Datenschutz() {
-            return (
-                <div className="min-h-screen bg-white">
-                    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                        <h1 className="text-3xl font-bold text-gray-900 mb-8">Datenschutzerklärung</h1>
-                        <div className="space-y-8 text-gray-700 leading-relaxed">
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-900 mb-3">1. Verantwortlicher</h2>
-                                <p>schnäppchenjäger1 GmbH<br />Ekenberg Str. 11, 45307 Essen</p>
-                            </div>
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-900 mb-3">2. Allgemeine Informationen</h2>
-                                <p>Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst.</p>
-                            </div>
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-900 mb-3">3. Affiliate-Links und Cookies</h2>
-                                <p className="mb-3"><strong>Affiliate-Links:</strong> Diese Website enthält Affiliate-Links (u.a. AWIN-Partnerprogramm). Wenn Sie auf einen Affiliate-Link klicken und einen Kauf tätigen, erhalten wir möglicherweise eine Provision.</p>
-                                <p><strong>Cookies:</strong> Diese Website verwendet Cookies, einschließlich Tracking-Cookies von Affiliate-Partnern.</p>
-                            </div>
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-900 mb-3">4. Newsletter</h2>
-                                <p>Wenn Sie sich für unseren Newsletter anmelden, speichern wir Ihre E-Mail-Adresse.</p>
-                            </div>
-                            <div>
-                                <h2 className="text-xl font-semibold text-gray-900 mb-3">5. Kontakt</h2>
-                                <p>Bei Fragen zur Datenschutzerklärung kontaktieren Sie uns unter:<br />E-Mail: <a href="mailto:datenschutz@schnäppchenjäger1.de" className="text-indigo-600 hover:text-indigo-700 font-medium">datenschutz@schnäppchenjäger1.de</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            );
-        }
+<div id="view-blog-2" style="display:none">
+  <div class="blog-post-hero container" style="max-width:100%;padding-top:3rem;padding-bottom:3rem">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <button onclick="showPage('home')">Startseite</button>
+        <span>›</span><button onclick="showPage('home');setTimeout(()=>document.getElementById('blog').scrollIntoView({behavior:'smooth'}),50)">Blog</button>
+        <span>›</span><span aria-current="page">Awin Guide</span>
+      </nav>
+      <span class="post-cat">Affiliate</span>
+      <h1>Awin für Einsteiger: So funktioniert Affiliate-Marketing in Deutschland</h1>
+      <div class="post-meta">
+        <time datetime="2026-04-29">29. April 2026</time>
+        <span>·</span><span>7 Min. Lesezeit</span>
+      </div>
+    </div>
+  </div>
+  <article class="blog-post-content">
+    <p>Awin ist eines der größten Affiliate-Netzwerke weltweit und die Grundlage für Tausende von deutschen Deal-Websites. Wir erklären, wie das System funktioniert.</p>
+    <h2>Was ist Awin?</h2>
+    <p>Awin verbindet Werbetreibende (Shops) mit Publishern (Websites wie schnäppchenjäger1.de). Wenn ein Nutzer über einen Affiliate-Link einen Kauf abschließt, erhält der Publisher eine Provision.</p>
+    <h2>Wie werden Provisionen verfolgt?</h2>
+    <p>Beim Klick auf einen Affiliate-Link wird ein sogenannter Tracking-Cookie gesetzt. Dieser speichert die Publisher-ID und das Produkt. Solange der Kauf innerhalb des Cookie-Fensters (oft 30–90 Tage) stattfindet, wird die Provision gutgeschrieben.</p>
+    <div class="tip-box">
+      <strong>ℹ️ Hinweis</strong>
+      <p>Alle unsere Links sind mit <code>rel="sponsored"</code> gekennzeichnet – das ist eine Google-Anforderung für Affiliate-Links und schützt vor SEO-Penaltys.</p>
+    </div>
+    <h2>Welche Provisionen gibt es?</h2>
+    <p>Die Provisionen variieren je nach Händler, Produktkategorie und Warenkorbwert. Höhere Warenkörbe und Premium-Produkte führen generell zu attraktiveren Einnahmen pro Sale.</p>
+    <button class="back-link" onclick="showPage('home');setTimeout(()=>document.getElementById('blog').scrollIntoView({behavior:'smooth'}),50)">← Zurück zum Blog</button>
+  </article>
+</div>
 
-        // ── Main App Component ────────────────────────────────────────────
-        function App() {
-            const [currentPage, setCurrentPage] = useState('home');
-            const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-            const [searchQuery, setSearchQuery] = useState('');
-            const [selectedCategory, setSelectedCategory] = useState('Alle');
-            const [favorites, setFavorites] = useState(new Set());
-            const [email, setEmail] = useState('');
-            const [subscribed, setSubscribed] = useState(false);
-            const [showTopDeals, setShowTopDeals] = useState(false);
+<div id="view-blog-3" style="display:none">
+  <div class="blog-post-hero container" style="max-width:100%;padding-top:3rem;padding-bottom:3rem">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <button onclick="showPage('home')">Startseite</button>
+        <span>›</span><button onclick="showPage('home');setTimeout(()=>document.getElementById('blog').scrollIntoView({behavior:'smooth'}),50)">Blog</button>
+        <span>›</span><span aria-current="page">Sommerdeals</span>
+      </nav>
+      <span class="post-cat">Seasonal</span>
+      <h1>Die besten Sommerdeals 2026: Reisen, Mode & Technik</h1>
+      <div class="post-meta">
+        <time datetime="2026-04-29">29. April 2026</time>
+        <span>·</span><span>4 Min. Lesezeit</span>
+      </div>
+    </div>
+  </div>
+  <article class="blog-post-content">
+    <p>Der Sommer 2026 bringt großartige Deals in den Kategorien Reisen, Mode und Elektronik. Wir haben die besten Angebote unserer Partner für Sie zusammengefasst.</p>
+    <h2>Reisen: Bis zu 40 % sparen</h2>
+    <p>HRS bietet attraktive Rabatte auf Hotelbuchungen im In- und Ausland. Kombiniert mit Early-Bird-Rabatten können Sie bis zu 40 % gegenüber Normalpreisen sparen.</p>
+    <h2>Mode: Sale-Saison beginnt</h2>
+    <p>House of Sneakers startet den Sommersale mit bis zu 30 % auf ausgewählte Modelle. Stylevana bietet K-Beauty-Produkte zu reduzierten Preisen.</p>
+    <h2>Technik: Smart-Home zum Schnäppchenpreis</h2>
+    <p>ELV und Imou haben attraktive Bundles für Smart-Home-Einsteiger. Setzen Sie auf smarte Kameras und Beleuchtung – oft 20 % günstiger als im Einzelkauf.</p>
+    <div class="tip-box">
+      <strong>🔥 Hot Deal</strong>
+      <p>Kombinieren Sie den CHECK24-Vergleich mit unserem Gutscheincode und sparen Sie doppelt bei Ihrem nächsten Vertragsabschluss.</p>
+    </div>
+    <button class="back-link" onclick="showPage('home');setTimeout(()=>document.getElementById('blog').scrollIntoView({behavior:'smooth'}),50)">← Zurück zum Blog</button>
+  </article>
+</div>
 
-            // ── Live deals from deals.json (written by GitHub Actions) ────
-            const { deals: dealsData, meta, loading, error } = useDeals();
+<!-- ── FOOTER (immer sichtbar außer auf Subpages) ─────────────────────── -->
+<footer class="footer" id="site-footer">
+  <div class="container footer-top">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <button class="logo" onclick="showPage('home')">schnäppchenjäger1</button>
+        <p>Die beste Anlaufstelle für Gutscheine, Rabattcodes und Deals in Deutschland – täglich aktuell und kostenlos.</p>
+        <p class="pub-id">Awin Publisher-ID: 2851329 | <a href="https://www.awin.com" target="_blank" rel="noopener">awin.com</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Partner</h4>
+        <div class="footer-partner-list" id="footer-partners"><!-- JS fills --></div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#coupons">Gutscheine</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><button onclick="showPage('impressum')">Impressum</button></li>
+          <li><button onclick="showPage('datenschutz')">Datenschutz</button></li>
+          <li><button onclick="showPage('datenschutz')">Cookie-Richtlinie</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="footer-year"></span> schnäppchenjäger1 GmbH. Alle Rechte vorbehalten.</span>
+    <span>Diese Website enthält Affiliate-Links (Awin) · <a href="https://schnäppchenjäger1.de">schnäppchenjäger1.de</a></span>
+  </div>
+</footer>
 
-            const categories = ['Alle', 'Mode', 'Elektronik', 'Möbel', 'Reisen', 'Beauty', 'Bücher', 'Lebensmittel'];
+<!-- Scroll-to-top -->
+<button class="scroll-top" id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Nach oben scrollen">↑</button>
 
-            let filteredDeals = dealsData.filter(deal => {
-                const matchesSearch =
-                    deal.brandName.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                    deal.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                    deal.category.toLowerCase().includes(searchQuery.toLowerCase());
-                const matchesCategory = selectedCategory === 'Alle' || deal.category === selectedCategory;
-                return matchesSearch && matchesCategory;
-            });
+<!-- ════════════════════════════════════════════════════════════════════════
+     JAVASCRIPT — Pure Vanilla, zero dependencies
+════════════════════════════════════════════════════════════════════════════ -->
+<script>
+"use strict";
 
-            if (showTopDeals) {
-                // Top deals = those with a concrete % or € discount value
-                filteredDeals = filteredDeals.filter(deal =>
-                    deal.discountValue.includes('%') || deal.discountValue.includes('€')
-                );
-            }
+/* ── Config ──────────────────────────────────────────────────────────────── */
+const PUB   = "2851329";
+/* TODAY is recalculated at runtime so expiry checks are always accurate */
+function getToday() {
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);  // compare at day boundary, not exact time
+  return d;
+}
+let TODAY = getToday();
+/* Refresh TODAY every hour so a tab left open overnight still hides expired coupons */
+setInterval(() => {
+  TODAY = getToday();
+  renderCoupons();          // re-render with updated expiry state
+}, 60 * 60 * 1000);
 
-            const handleFavorite = (id) => {
-                const newFavorites = new Set(favorites);
-                if (newFavorites.has(id)) newFavorites.delete(id);
-                else newFavorites.add(id);
-                setFavorites(newFavorites);
-            };
+const ADVERTISERS = [
+  // ── Elektronik & Technik ─────────────────────────────────────────────────
+  {id:"11447",  name:"ELV DE",                   cat:"Elektronik", icon:"🔌", url:"https://www.elv.de"},
+  {id:"125816", name:"Imou DE",                  cat:"Elektronik", icon:"📹", url:"https://www.imou.com/de-DE/"},
+  {id:"PENDING", name:"NordVPN DE",              cat:"Software",   icon:"🔐", url:"https://nordvpn.com/de/"},
+  // ── Mode & Beauty ────────────────────────────────────────────────────────
+  {id:"25546",  name:"Stylevana DE",             cat:"Beauty",     icon:"✨", url:"https://www.stylevana.com/de_DE/"},
+  {id:"PENDING", name:"100percentpure DE/AT",    cat:"Beauty",     icon:"🌿", url:"https://www.100percentpure.com/de/"},
+  {id:"28297",  name:"Frölich und Kaufmann DE",  cat:"Mode",       icon:"👔", url:"https://www.froelich-und-kaufmann.de"},
+  {id:"114336", name:"House-of-Sneakers DE",     cat:"Mode",       icon:"👟", url:"https://www.house-of-sneakers.de"},
+  // ── Wohnen & Möbel ───────────────────────────────────────────────────────
+  {id:"53143",  name:"teppich.de",               cat:"Wohnen",     icon:"🏠", url:"https://www.teppich.de"},
+  {id:"79858",  name:"Luftbude DE",              cat:"Möbel",      icon:"🛏️", url:"https://www.luftbude.de"},
+  {id:"PENDING", name:"Aosom DE/AT",             cat:"Möbel",      icon:"🛋️", url:"https://www.aosom.de"},
+  // ── Reisen ───────────────────────────────────────────────────────────────
+  {id:"PENDING", name:"HRS DE & AT",            cat:"Reisen",     icon:"🏨", url:"https://www.hrs.com/de/"},
+  {id:"PENDING", name:"FlixBus & FlixTrain DE", cat:"Reisen",     icon:"🚌", url:"https://www.flixbus.de"},
+  // ── Supermarkt & Finanzen ────────────────────────────────────────────────
+  {id:"13812",  name:"Netto Marken-Discount DE", cat:"Supermarkt", icon:"🛒", url:"https://www.netto-online.de"},
+  {id:"9364",   name:"CHECK24",                  cat:"Finanzen",   icon:"💰", url:"https://www.check24.de"},
+  // ── Gaming ───────────────────────────────────────────────────────────────
+  {id:"125332", name:"Autofull EU",              cat:"Gaming",     icon:"🎮", url:"https://www.autofull.com/de/"},
+];
 
-            const handleNewsletterSubmit = (e) => {
-                e.preventDefault();
-                if (email) {
-                    setSubscribed(true);
-                    setEmail('');
-                    setTimeout(() => setSubscribed(false), 3000);
-                }
-            };
+const BLOG_POSTS = [
+  {
+    id:"blog-1", cat:"Spar-Tipps", icon:"💡",
+    title:"10 Tipps, wie Sie mit Gutscheincodes wirklich Geld sparen",
+    excerpt:"Wir zeigen Ihnen, wie Sie das Maximum aus jedem Rabattcode herausholen – von der richtigen Suche bis zur Kombination mit Cashback.",
+    date:"2026-04-29", dateLabel: new Date("2026-04-29").toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"}), read:"5 Min.",
+    tags:["Gutscheine","Spartipps","Cashback"]
+  },
+  {
+    id:"blog-2", cat:"Affiliate", icon:"🔗",
+    title:"Awin für Einsteiger: So funktioniert Affiliate-Marketing in Deutschland",
+    excerpt:"Was steckt hinter Affiliate-Links? Wir erklären, wie Awin, Publisher und Shops zusammenarbeiten und wie Ihr Einkauf uns unterstützt.",
+    date:"2026-04-29", dateLabel: new Date("2026-04-29").toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"}), read:"7 Min.",
+    tags:["Awin","Affiliate","Tracking"]
+  },
+  {
+    id:"blog-3", cat:"Seasonal", icon:"☀️",
+    title:"Die besten Sommerdeals 2026: Reisen, Mode & Technik",
+    excerpt:"Der Sommer 2026 bringt Top-Deals in Reisen, Mode und Elektronik. Unsere Partner haben attraktive Angebote – wir haben alle Details für Sie.",
+    date:"2026-04-29", dateLabel: new Date("2026-04-29").toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"}), read:"4 Min.",
+    tags:["Sommer","Reisen","Mode"]
+  },
+];
 
-            // ── Sub-pages ────────────────────────────────────────────────
-            if (currentPage === 'impressum' || currentPage === 'datenschutz') {
-                return (
-                    <>
-                        <nav className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-                            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-                                <button onClick={() => setCurrentPage('home')} className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-blue-600 hover:opacity-80 transition-opacity cursor-pointer">
-                                    schnäppchenjäger1
-                                </button>
-                            </div>
-                        </nav>
-                        {currentPage === 'impressum' ? <Impressum /> : <Datenschutz />}
-                    </>
-                );
-            }
+/* ── State ───────────────────────────────────────────────────────────────── */
+let allPromos    = [];
 
-            // ── Home Page ────────────────────────────────────────────────
-            return (
-                <div className="min-h-screen bg-gray-50">
+/* ── Static promotions (from Awin UI – updated 29.04.2026) ──────────────────
+   These are shown immediately on file:// preview and as fallback if
+   promotions.json hasn't been generated yet by GitHub Actions.
+   Add new rows here whenever you screenshot new promotions from ui.awin.com.
+─────────────────────────────────────────────────────────────────────────── */
+const CSV_PROMOS = [
+  {
+    id:"3858533", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"AFF15DAH",
+    title:"Dear Dahlia Sale",
+    description:"Member Exclusive: Extra 10%off if buy 2 Dear Dahlia items | Extra 15%off if buy 3+ Dear Dahlia items",
+    categories:"Skincare",
+    terms:"This offer cannot be combined with other promotions.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fmarken%2Fdear-dahlia.html",
+    startDate:"2026-04-29T11:40:00",
+    endDate:"2026-05-12T11:40:00",
+  },
+  {
+    id:"3858473", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"AFFSPF22",
+    title:"Suncare 22% Off",
+    description:"Member Exclusive: 22% off on Suncare + 17% off on rest items on €69+ | Max 10% off on €69+",
+    categories:"Cosmetics,Skincare",
+    terms:"This offer cannot be combined with other promotions.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fhautpflege%2Fsuncare.html",
+    startDate:"2026-04-28T11:33:00",
+    endDate:"2026-05-31T17:59:00",
+  },
+  {
+    id:"3858457", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"AFFMAY26",
+    title:"May Sale: Sitewide 14% off with 2 Gifts",
+    description:"Member Exclusive: 14% off with 2 Gifts on order €69+ | Guest Checkout: Max 10% off on €69+",
+    categories:"Cosmetics,Skincare",
+    terms:"This offer cannot be combined with other promotions.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
+    startDate:"2026-04-28T11:28:00",
+    endDate:"2026-05-31T17:59:00",
+  },
+  {
+    id:"3858427", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"AFFNUMK30",
+    title:"30% OFF for Numbuzin sets(Members only)",
+    description:"Members exclusive: 30% OFF on Numbuzin kit sets,  17% off on rest items",
+    categories:"Cosmetics,Skincare",
+    terms:"This offer cannot be combined with other promotions.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fvalue-set-bundle%2Fhautpflege.html%3Fbrand%3D14704",
+    startDate:"2026-04-28T11:23:00",
+    endDate:"2026-05-05T17:59:00",
+  },
+  {
+    id:"3858041", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"SVLDS",
+    title:"Verkauf zum Tag der Arbeit: -20% Rabatt auf Sonnenpflege-Produkte",
+    description:"Member Exclusive: -20% Rabatt auf Sonnenpflege-Produkte | -16% Rabatt auf 85€+ | -12% Rabatt auf 55€+",
+    categories:"Skincare",
+    terms:"This offer cannot be combined with other promotions.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fpromotion%2Ftheme%2Flabour-day-sale.html",
+    startDate:"2026-04-29T08:41:00",
+    endDate:"2026-05-05T08:41:00",
+  },
+  {
+    id:"3856103", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"N-MUTTERTAG-10",
+    title:"Gratis Versand mit 10€ Filialgutschein auf ausgewählte Muttertagsgeschenke",
+    description:"Gratis Versand mit 10€ Filialgutschein ab 50€ Mindestbestellwert auf ausgewählte Muttertagsgeschenke",
+    categories:"Auctions",
+    terms:"10€ Filial-Gutschein und Gratisversand ab einen Mindestbestellwert von 50€ mit dem Code \"N-MUTTERTAG-10\". Ausgenommen: Lebensmittel, Multimedia, Bücher sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 28.04.2026 00:01 Uhr - 03.05.2026 23:59 Uhr.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DMuttertagsaktion%2BGeschenkideen",
+    startDate:"2026-04-28T00:00:00",
+    endDate:"2026-05-03T23:59:00",
+  },
+  {
+    id:"3855185", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"W-WMK-15",
+    title:"15 % ohne MBW auf Lieferant WMK",
+    description:"15 % ohne MBW auf Lieferant WMK",
+    categories:"Auctions",
+    terms:"15% Rabatt ohne Mindestbestellwert auf WMK mit dem Code \"W-WMK-15\". Ausgenommen: Gutscheine, Bücher sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig bis 29.04.2026 23:59 Uhr.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3D15%2BProzent%2Bauf%2BWMK%2Bim%2BM%25C3%25A4rz",
+    startDate:"2026-04-27T08:29:00",
+    endDate:"2026-04-29T23:59:00",
+  },
+  {
+    id:"3853193", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"N-WELLCARD-15",
+    title:"15% ohne MBW auf alle Wellcard Gutscheine SKU 2493944 (alle Varianten)",
+    description:"15% ohne MBW auf alle Wellcard Gutscheine SKU 2493944 (alle Varianten)",
+    categories:"Auctions",
+    terms:"15% Rabatt ohne Mindestbestellwert auf alle Wellcard Gutscheine mit dem Code \"N-WELLCARD-15\". Aktion gültig von 25.04.2026 00:01 Uhr - 10.05.2026 23:59 Uhr.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Fwellcard-thermen-hotelgutschein%2Fp-2493944000",
+    startDate:"2026-04-25T00:00:00",
+    endDate:"2026-05-10T23:59:00",
+  },
+  {
+    id:"3849365", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"W-SONNE-50",
+    title:"50 € ohne MBW auf ausgewählte E.for.U Artikel",
+    description:"50 € ohne Mindestbestellwert auf ausgewählte E.for.U Artikel",
+    categories:"Auctions",
+    terms:"50 € Rabatt ohne Mindestbestellwert auf ausgewählte Artikel mit dem Gutscheincode \"W-SONNE-50\". Gutscheinaktionen sind nicht miteinander kombinierbar. Aktion gültig von 27.04.2026 00:01 Uhr - 10.05.2026 23:59 Uhr.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DGutschein%2Bauf%2BSolar-Highlights%2BBalkonkraftwerke%2Bmit%2BSpeicher",
+    startDate:"2026-04-27T00:00:00",
+    endDate:"2026-05-10T23:59:00",
+  },
+  {
+    id:"3849363", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"W-SONNE-30",
+    title:"30 € ohne MBW auf ausgewählte E.for.U Artikel",
+    description:"30 € ohne Mindestbestellwert auf ausgewählte E.for.U Artikel",
+    categories:"Auctions",
+    terms:"30 € Rabatt ohne Mindestbestellwert auf ausgewählte Artikel mit dem Gutscheincode \"W-SONNE-30\". Gutscheinaktionen sind nicht miteinander kombinierbar. Aktion gültig von 27.04.2026 00:01 Uhr - 10.05.2026 23:59 Uhr.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DGutschein%2Bauf%2BSolar-Highlights%2BBalkonkraftwerke%2Bmit%2BSpeicher",
+    startDate:"2026-04-27T00:00:00",
+    endDate:"2026-05-10T23:59:00",
+  },
+  {
+    id:"3846535", advertiserId:125332,
+    advertiser:"Autofull EU",
+    code:"AUTO10",
+    title:"10% OFF EU ONLY",
+    description:"only use it once",
+    categories:"Chairs",
+    terms:"For one-time use per person",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=125332&awinaffid=2851329&ued=https%3A%2F%2Fwww.autofull.eu%2F",
+    startDate:"2026-04-21T04:26:00",
+    endDate:"2026-11-21T03:21:00",
+  },
+  {
+    id:"3841647", advertiserId:11684,
+    advertiser:"Aosom DE/AT",
+    code:"",
+    title:"Kurz vor Schluss: Jetzt noch bis zu 70% Rabatt sichern!",
+    description:"Spare bis zu 70% auf zahlreiche Artikel!",
+    categories:"Storage,Sheds & Garden Furniture,Furniture Accessories,Office Supplies",
+    terms:"Alle Rabatte sind nicht kombinierbar.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=11684&awinaffid=2851329&ued=https%3A%2F%2Fwww.aosom.de%2Factivity%2Fspringsale",
+    startDate:"2026-04-20T10:41:00",
+    endDate:"2026-04-29T23:59:00",
+  },
+  {
+    id:"3838377", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"W-EAM-10",
+    title:"10% Rabatt auf ausgewählte Multimedia Artikel",
+    description:"10% Rabatt auf ausgewählte Multimedia Artikel",
+    categories:"Auctions",
+    terms:"10 % Gutschein auf ausgewählte Multimedia-Artikel mit dem Code: W-EAM-10. Nur online gültig bis 06.05.2026. Ausgenommen: einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DMultimedia-Gutschein%2BFr%25C3%25BChling",
+    startDate:"2026-04-17T11:00:00",
+    endDate:"2026-05-06T23:59:00",
+  },
+  {
+    id:"3834135", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"AFF18PTSPF",
+    title:"PURITO SEOUL Sale: Extra 18%off",
+    description:"Member Exclusive: Extra 18%off with a free Sunscreen on €40+",
+    categories:"Skincare",
+    terms:"This offer cannot be combined with other promotions.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fmarken%2Fpurito-seoul.html",
+    startDate:"2026-04-16T09:47:00",
+    endDate:"2026-05-16T09:47:00",
+  },
+  {
+    id:"3833069", advertiserId:11447,
+    advertiser:"ELV DE",
+    code:"",
+    title:"Outdoor-Saison mit ELV – smarte Ideen für Haus und Garten",
+    description:"Die Outdoor-Saison beginnt – Entdecken Sie smarte Lösungen für Bewässerung, Beleuchtung, Beschattung und mehr bei ELV.",
+    categories:"Garden & Leisure",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Fsmarte-outdoor-saison",
+    startDate:"2026-04-14T15:06:00",
+    endDate:"2026-05-05T23:59:00",
+  },
+  {
+    id:"3829849", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"AFF18PSMASK",
+    title:"PRETTY SKIN Sale: Extra 18%off",
+    description:"Member Exclusive: Extra 18%off with a free Mask on €59+",
+    categories:"Skincare",
+    terms:"This offer cannot be combined with other promotions.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fmarken%2Fpretty-skin.html",
+    startDate:"2026-04-16T05:32:00",
+    endDate:"2026-05-16T05:32:00",
+  },
+  {
+    id:"3829835", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"AFF18IUNSPF",
+    title:"iUNIK Sale: Extra 18%off",
+    description:"Member Exclusive: Extra 18%off with a free Sunscreen on €59+",
+    categories:"Skincare",
+    terms:"This offer cannot be combined with other promotions.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fmarken%2Fiunik.html",
+    startDate:"2026-04-16T05:18:00",
+    endDate:"2026-05-16T05:18:00",
+  },
+  {
+    id:"3827591", advertiserId:53143,
+    advertiser:"teppich.de",
+    code:"",
+    title:"50% auf ausgewählte Lampen sichern!",
+    description:"Weitere Reduzierungen eingestellt! Entdecke stilvolle Leuchten für jeden Raum – von modern bis klassisch. Jetzt Lieblingsstück finden und Zuhause neu in Szene setzen!",
+    categories:"Lighting,House Accessories",
+    terms:"Solange Vorrat reicht",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=53143&awinaffid=2851329&ued=https%3A%2F%2Fwww.teppich.de%2Flampen-leuchten%2F",
+    startDate:"2026-04-10T15:54:00",
+    endDate:"2026-05-31T23:59:00",
+  },
+  {
+    id:"3813490", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"N-QERIDOO-10",
+    title:"10% Rabatt auf ausgewählte Artikel von Qeridoo",
+    description:"10% Rabatt auf ausgewählte Artikel von Qeridoo ohne MBW",
+    categories:"Auctions",
+    terms:"10% Rabatt ohne Mindestbestellwert auf ausgewählte Artikel mit dem Code \"W-QERIDOO-10\". Gutscheinaktionen sind nicht miteinander kombinierbar. Aktion gültig von 03.04.2026 00:01 Uhr - 01.05.2026 23:59 Uhr.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DQeridoo-Highlights-Gutschein",
+    startDate:"2026-04-03T00:00:00",
+    endDate:"2026-05-01T23:59:00",
+  },
+  {
+    id:"3813032", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"AFF18ANROSE",
+    title:"anillO Sale: Extra 18%off with free hair essence on EUR€59",
+    description:"Member Exclusive: Use AFF18ANROSE to enjoy Free anillO - Rosy Night Repair Hair Essence (10ml) + 18% off on €59",
+    categories:"Cosmetics,Skincare",
+    terms:"Offer may not used with other site offers",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
+    startDate:"2026-04-01T03:45:00",
+    endDate:"2026-07-01T00:00:00",
+  },
+  {
+    id:"3813022", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"AFF18MECSPF",
+    title:"medicube Sale:Extra 18%off with free sun cream on EUR€59",
+    description:"Member Exclusive: Use AFF18MECSPF to enjoy Free medicube - PDRN Pink Tone Up Sun Cream SPF50+ (20ml) +18% off on €59",
+    categories:"Cosmetics,Skincare",
+    terms:"Offer may not used with other site offers",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
+    startDate:"2026-04-07T00:00:00",
+    endDate:"2026-05-08T00:00:00",
+  },
+  {
+    id:"3813018", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"AFF18NINEB",
+    title:"FNINELESS Sale: Extra 18%off with free serum on EUR€59",
+    description:"Member Exclusive:  Use AFF18NINEB to enjoy Free FNINELESS - B-Boost 1% Kojic Acid Serum (30ml) +18% off on €59",
+    categories:"Cosmetics,Skincare",
+    terms:"Offer may not used with other site offers",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
+    startDate:"2026-04-07T00:00:00",
+    endDate:"2026-05-08T00:00:00",
+  },
+  {
+    id:"3808124", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"N-MOBIL-50",
+    title:"50 € ab 999 € auf Kategorien Fahrräder, Roller",
+    description:"50 € ab 999 € Mindestbestellwert auf Kategorien Fahrräder, Roller",
+    categories:"Auctions",
+    terms:"50 € Rabatt ab 999 € auf die Kategorie Garten mit dem Code \"N-MOBIL-50\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 02.04.2026 00:01 Uhr - 07.05.2026 23:59 Uhr.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Ffreizeit%2Fc-N06",
+    startDate:"2026-04-02T00:00:00",
+    endDate:"2026-05-07T23:59:00",
+  },
+  {
+    id:"3807426", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"AFF24APRB",
+    title:"Extra 24% off on Selected Brands",
+    description:"Member exclusive: 24% off on Nineless, iunik, PURITO SEOUL, medicube, PRETTY SKIN, anillO items | 20% off on rest brands on €59+",
+    categories:"Skincare",
+    terms:"This offer cannot be combined with other promotions.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fmarken%2Fmedicube.html",
+    startDate:"2026-03-31T11:21:00",
+    endDate:"2026-04-30T11:21:00",
+  },
+  {
+    id:"3803424", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"N-GRILL-10",
+    title:"10€ Filialgutschein auf alle Grills inkl. Gratis Versand",
+    description:"10€ Filialgutschein auf alle Grills inkl. Gratis Versand ab einem Bestellwert von 150€",
+    categories:"Auctions",
+    terms:"Aktion nur online gültig von 07.04.2026 bis 30.04.2026. Gratis Versand & 10 € Filial-Gutschein gratis zu jeder Bestellung auf Grills ab einem Mindestbestellwert von 150 € (exkl. Versandkosten und Pfand) unter www.netto-online.de mit dem Code: N-GRILL-10. Von der Aktion ausgenommen sind Gutschein- und Guthabenkarten, Bücher, Pre- und Anfangsmilchnahrung und einzelne, entsprechend gesondert gekennzeichnete Artikel. Vervielfältigung jeglicher Art nicht gestattet. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Pro Person maximal ein Filial-Gutschein erhältlich. Versand des Filial-Gutscheins erfolgt 4 Wochen nach Warenlieferung per Mail. Der 10 € Filial-Gutschein ist ohne Mindesteinkaufswert einlösbar. 1 Monat ab Ausstellungsdatum gültig.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Fonline-wochenangebote%2Fc-N0794",
+    startDate:"2026-04-07T00:00:00",
+    endDate:"2026-04-30T23:59:00",
+  },
+  {
+    id:"3801354", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"N-SOLAR-50",
+    title:"50 € ab 800 € auf Solarenergie",
+    description:"50 € ab 800 € Mindestbestellwert auf Solarenergie",
+    categories:"Auctions",
+    terms:"50 € Rabatt ab 800 € auf die Kategorie Garten mit dem Code \"N-SOLAR-50\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 27.03.2026 00:01 Uhr - 07.05.2026 23:59 Uhr.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Fsolarenergie%2Fc-N06060109",
+    startDate:"2026-03-27T00:00:00",
+    endDate:"2026-05-07T23:59:00",
+  },
+  {
+    id:"3801346", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"N-GARTEN-30",
+    title:"30 € ab 300 € auf Garten",
+    description:"30 € ab 300 € Mindestbestellwert auf die Kategorie Garten",
+    categories:"Auctions",
+    terms:"30 € Rabatt ab 300 € auf die Kategorie Garten mit dem Code \"N-GARTEN-30\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 27.03.2026 00:01 Uhr - 30.04.2026 23:59 Uhr.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Falle-gartenartikel%2Fc-S0501",
+    startDate:"2026-03-27T00:00:00",
+    endDate:"2026-04-30T23:59:00",
+  },
+  {
+    id:"3796152", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"FK15AB59AE",
+    title:"Für Neukunden: 15 € Gutschein auf das gesamte Sortiment* ab 59 € MBW (*ausgenommen preisgebundene Bücher)",
+    description:"Sparen sie jetzt auf Ihre erste Bestellung im Feinschmecker Shop 15 € auf das gesamte Sortiment* ab 59 € MBW. (*ausgenommen preisgebundene Bücher)",
+    categories:"DVDs,Books,Adult Books",
+    terms:"*ausgenommen preisgebundene Bücher, gilt nur für Neukunden.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2F",
+    startDate:"2026-04-01T00:00:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"3793678", advertiserId:125332,
+    advertiser:"Autofull EU",
+    code:"AFFNEW8",
+    title:"8% OFF sitewide",
+    description:"only use it once",
+    categories:"Chairs",
+    terms:"For one-time use per person",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=125332&awinaffid=2851329&ued=https%3A%2F%2Fwww.autofull.eu%2F",
+    startDate:"2026-03-20T08:09:00",
+    endDate:"2027-01-15T17:00:00",
+  },
+  {
+    id:"3706274", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"W-SOLAKON-30",
+    title:"30€ ohne MBW auf ausgewählte Artikel Solakon",
+    description:"30€ ohne Mindestbestellwert auf ausgewählte Artikel von Solakon (1000W)",
+    categories:"Auctions",
+    terms:"30€ Rabatt auf Artikel auf ausgewählte Artikel mit dem Code \"W-SOLAKON-30\" ohne Mindestbestellwert. Ausgenommen: Multimedia, Gutscheine, Bücher sowie einzelne, entsprechend gesondert gekennzeichnete Artikel und Werbeware. Aktion gültig bis 31.05.2026 23:59 Uhr, Gutschein einmalig einlösbar.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Fsolarenergie%2Fc-N06060109",
+    startDate:"2026-02-02T00:00:00",
+    endDate:"2026-05-31T23:59:00",
+  },
+  {
+    id:"3700488", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"Fantasy Bücher",
+    description:"Tauche ein in eine Welt voller Magie. Jetzt dein nächstes Fantasy-Buch bei Frölich & Kaufmann bestellen!",
+    categories:"Books",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&campaign=fantasy&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2Fliteratur%2Ffantasy%2F",
+    startDate:"2026-01-27T13:14:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"3657140", advertiserId:53143,
+    advertiser:"teppich.de",
+    code:"HELLO40",
+    title:"Frühlings-Sale bei teppich.de – 40 % auf Bestseller!",
+    description:"Frischer Look für Zuhause und Outdoor: Mit dem Code HELLO40 erhält Deine Community satte 40 % Rabatt auf unsere Bestseller – jetzt auch inklusive Outdoorteppiche. Perfekt für Balkon, Terrasse und Garten!",
+    categories:"Sheds & Garden Furniture,Flooring & Carpeting,House Accessories,Living Room,Home Textiles",
+    terms:"Nur solange Vorrat reicht!",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=53143&awinaffid=2851329&ued=https%3A%2F%2Fwww.teppich.de%2Fbeliebte-teppiche%2F",
+    startDate:"2026-01-02T13:25:00",
+    endDate:"2026-04-30T23:59:00",
+  },
+  {
+    id:"3656608", advertiserId:25546,
+    advertiser:"Stylevana DE",
+    code:"AFF24BDMIX",
+    title:"Extra 24% off on Best Selling K-Beauty Brands",
+    description:"Member exclusive: 24% off on on Beauty of Joseon, COSRX, Haruharu Wonder, Round Lab and Numbuz:n items |18% off on rest items on 59€+",
+    categories:"Cosmetics,Skincare",
+    terms:"*Offer may not be used with other site offers.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
+    startDate:"2026-01-02T10:09:00",
+    endDate:"2026-12-31T16:59:00",
+  },
+  {
+    id:"3640422", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"N-FREIZEIT-20",
+    title:"20€ Rabatt auf Kategorie Freizeit ab 200€",
+    description:"20€ Rabatt auf Kategorie Freizeit ab 200€ Mindestbestellwert",
+    categories:"Auctions",
+    terms:"20€ auf die Kategorie Freizeit ab einen Mindestbestellwert von 200€ mit dem Code \"N-FREIZEIT-20\". Ausgenommen: Lebensmittel, Multimedia, Gutscheine, Bücher sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 26.03.2026 00:01 Uhr - 30.04.2026 23:59 Uhr.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Ffreizeit%2Fc-N06",
+    startDate:"2026-03-26T00:00:00",
+    endDate:"2026-04-30T23:59:00",
+  },
+  {
+    id:"3582660", advertiserId:114336,
+    advertiser:"House-of-Sneakers DE",
+    code:"",
+    title:"free5",
+    description:"free 5€",
+    categories:"Men's Footwear,Women's Footwear,Children's Footwear",
+    terms:"www.house-of-sneakers.de",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=114336&awinaffid=2851329&ued=https%3A%2F%2Fwww.house-of-sneakers.de",
+    startDate:"2025-11-21T17:55:00",
+    endDate:"2035-11-30T17:54:00",
+  },
+  {
+    id:"3479662", advertiserId:53143,
+    advertiser:"teppich.de",
+    code:"",
+    title:"SALE bis zu 50% bei Teppich.de",
+    description:"SALE bei Teppich.de - immer wieder spannende Angebote in der Salekategorie, zum Teil bis zu 50%.",
+    categories:"Flooring & Carpeting,House Accessories,Living Room,Home Textiles",
+    terms:"Solange der Vorrat reicht",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=53143&awinaffid=2851329&ued=https%3A%2F%2Fwww.teppich.de%2Fsale",
+    startDate:"2025-10-08T13:23:00",
+    endDate:"2026-12-31T23:59:00",
+  },
+  {
+    id:"3211033", advertiserId:53143,
+    advertiser:"teppich.de",
+    code:"",
+    title:"Versandkostenfreie Lieferung",
+    description:"Nationaler Versand: Der Versand innerhalb Deutschlands ist kostenlos. Internationaler Versand: Kostenloser Versand nach Belgien, Luxemburg, Niederlande und Österreich.",
+    categories:"Sheds & Garden Furniture,Flooring & Carpeting,House Accessories,Living Room,Home Textiles",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=53143&awinaffid=2851329&ued=https%3A%2F%2Fwww.teppich.de",
+    startDate:"2025-06-06T14:11:00",
+    endDate:"2026-12-31T23:59:00",
+  },
+  {
+    id:"2644398", advertiserId:11447,
+    advertiser:"ELV DE",
+    code:"",
+    title:"Versandkostenfreie Lieferung ab 39 EUR Warenwert!",
+    description:"ELV liefert ab einem Warenwert von 39 EUR versandkostenfrei - innerhalb von Deutschland!",
+    categories:"Electronic Gadgets",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2F",
+    startDate:"2024-04-02T09:44:00",
+    endDate:"2026-12-31T23:59:00",
+  },
+  {
+    id:"2644370", advertiserId:11447,
+    advertiser:"ELV DE",
+    code:"",
+    title:"ELV - Angebote",
+    description:"Angebote von ELV zu tollen Preisen",
+    categories:"Electronic Gadgets",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Fangebote%2F",
+    startDate:"2024-04-02T09:27:00",
+    endDate:"2026-12-31T23:59:00",
+  },
+  {
+    id:"2644364", advertiserId:11447,
+    advertiser:"ELV DE",
+    code:"",
+    title:"10 Euro Gutschein für Newsletter-Anmeldung",
+    description:"10 Euro Dankeschön-Gutschein bei Anmeldung zum ELV Newsletter, ab 125,- EUR Warenwert",
+    categories:"Electronic Gadgets",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Fnewsletter",
+    startDate:"2024-04-02T09:23:00",
+    endDate:"2026-12-31T23:59:00",
+  },
+  {
+    id:"2644296", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"Super-Preis-Hits",
+    description:"Auserwählte Artikel zu besonders günstigen Preisen – oft mit einem Rabatt bis zu 70%. In dieser Kategorie können Sie Artikel aus den unterschiedlichsten Genres finden. Sei es ein anregendes Kochbuch, eine spannende DVD für einen gemütlichen Sonntagabend oder ein von versierten Sprechern umgesetztes Hörbuch, als sinnvoller Zeitvertreib während unsinnig verbrachter Stunden.",
+    categories:"Audio Books,Garden & Leisure,Books,Arts & Crafts,Art",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2Fsuper-preis-hits%2F",
+    startDate:"2024-04-02T08:49:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"2644292", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"Frölich & Kaufmann - Letzte Gelegenheit",
+    description:"Auserwählte Artikel zu besonders günstigen Preisen",
+    categories:"Audio Books,Garden & Leisure,Books,Arts & Crafts,Art",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2Flandingpages%2Ffuk%2Fletzte-gelegenheit%2F",
+    startDate:"2024-04-02T08:48:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"2644288", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"Frölich & Kaufmann - Unsere Bestseller",
+    description:"Frölich & Kaufmann - Unsere Bestseller",
+    categories:"Audio Books,Garden & Leisure,Books,Arts & Crafts,Art",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2Flandingpages%2Ffuk%2Funsere-bestseller%2F",
+    startDate:"2024-04-02T08:46:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"2644286", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"Frölich & Kaufmann - Sparen Sie mehr als 70%",
+    description:"Frölich & Kaufmann - Sparen Sie mehr als 70%",
+    categories:"Audio Books,Garden & Leisure,Books,Arts & Crafts,Art",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2Flandingpages%2Ffuk%2Fsparen-sie-mehr-als-70%2F",
+    startDate:"2024-04-02T08:45:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"2644276", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"Alles unter 20 Euro",
+    description:"Hier finden Sie alle Produkte unter 20 € - Frölich & Kaufmann",
+    categories:"Audio Books,Garden & Leisure,Books,Arts & Crafts,Art",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2Flandingpages%2Ffuk%2Falles-unter-20-euro%2F",
+    startDate:"2024-04-02T08:41:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"2644274", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"Aktuelle Neuheiten aus unserem Programm",
+    description:"Hier finden Sie alle neu eingetroffenen Produkte - Frölich & Kaufmann",
+    categories:"Audio Books,Garden & Leisure,Books,Arts & Crafts,Art",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2Fneu-eingetroffen%2F",
+    startDate:"2024-04-02T08:40:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"2644266", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"günstige Geschenke zu Hammerpreisen",
+    description:"Günstige Geschenke zu Hammerpreisen gibt es bei Frölich & Kaufmann!",
+    categories:"Audio Books,Garden & Leisure,Books,Arts & Crafts,Art",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2Fsuper-preis-hits%2F",
+    startDate:"2024-04-02T08:35:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"2644262", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"reduzierte Bücher-Topseller",
+    description:"reduzierte Bücher-Topseller bei Frölich & Kaufmann",
+    categories:"Books",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2Ftopseller-buch%2F",
+    startDate:"2024-04-02T08:34:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"2644260", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"reduzierte Musik-Topseller",
+    description:"reduzierte Musik-Topseller bei Frölich & Kaufmann",
+    categories:"CDs,Cassettes & Vinyl",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2Ftopseller-musik%2F",
+    startDate:"2024-04-02T08:33:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"2644256", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"reduzierte DVD-Topseller",
+    description:"reduzierte DVD-Topseller bei Frölich & Kaufmann",
+    categories:"DVDs",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2Ftopseller-film%2F",
+    startDate:"2024-04-02T08:32:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"2644254", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"Topdeals aus unserem Designshop",
+    description:"Topdeals aus unserem Designshop - Frölich & Kaufmann",
+    categories:"Accessories,Audio Books,DVDs,Furniture Accessories,Books",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2Ftopseller-museumsshop%2F",
+    startDate:"2024-04-02T08:31:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"2644244", advertiserId:28297,
+    advertiser:"Frölich und Kaufmann DE",
+    code:"",
+    title:"versandkostenfrei ab 150 €",
+    description:"Bestellen Sie versandkostenfrei bei Frölich & Kaufmann ab 150 € Bestellwert. www.froelichundkaufmann.de",
+    categories:"Audio Books,DVDs,CDs,Books,Adult Books",
+    terms:"",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=28297&awinaffid=2851329&ued=https%3A%2F%2Fwww.froelichundkaufmann.de%2F",
+    startDate:"2024-04-02T08:29:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  {
+    id:"3849347", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"N-MAI-15",
+    title:"15 € ab 150 € auf Alles außer MM",
+    description:"15 € ab 150 € auf Alles außer Multimedia",
+    categories:"Auctions",
+    terms:"15€ Rabatt auf Alles mit dem Code \"N-MAI-15\". Ausgenommen: gesondert gekennzeichnete Artikel. Aktion gültig von 30.04.2026 00:01 Uhr - 04.05.2026 23:59 Uhr.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2F",
+    startDate:"2026-04-30T00:00:00",
+    endDate:"2026-05-04T23:59:00",
+  },
+  {
+    id:"3847919", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"W-BMTNT-15",
+    title:"15% Rabatt ohne MBW auf TNT Artikel",
+    description:"15% Rabatt ohne Mindestbestellwert auf TNT Artikel",
+    categories:"Auctions",
+    terms:"15% Rabatt auf ausgewählte Artikel mit dem Code \"W-BMTNT-15\". Ohne Mindestbestellwert. Aktion gültig von 30.04.2026 00:01 Uhr - 31.05.2026 23:59 Uhr.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchScope%3Dproduct%26SearchTerm%3DTNT",
+    startDate:"2026-04-30T00:00:00",
+    endDate:"2026-05-31T23:59:00",
+  },
+  {
+    id:"3833101", advertiserId:13812,
+    advertiser:"Netto Marken-Discount DE",
+    code:"N-MAIFEST-15",
+    title:"15 € ab 150 € auf Alles (ohne MM, ohne WW)",
+    description:"15 € ab 150 € Mindestbestellwert auf Alles (ohne MM, ohne WW)",
+    categories:"Auctions",
+    terms:"15€ Rabatt auf Alles ab 150€ mit dem Code \"N-MAIFEST-15\". Ausgenommen: Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig von 30.04.2026 00:01 Uhr - 03.05.2026 23:59 Uhr, Gutschein mehrmalig einlösbar.",
+    deeplink:"https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2F",
+    startDate:"2026-04-30T00:00:00",
+    endDate:"2026-05-03T23:59:00",
+  },
+  // ── NordVPN DE ────────────────────────────────────────────────────────────
+  {
+    id:"nord-2y-2026", advertiserId:14175,
+    advertiser:"NordVPN DE",
+    code:"NORD2YEAR",
+    title:"NordVPN: 2 Jahre Plan – Bis zu 69% Rabatt + 3 Monate gratis",
+    description:"Schütze deine Online-Privatsphäre. Exklusiver Rabatt für schnäppchenjäger1-Besucher.",
+    categories:"Software, VPN, Sicherheit",
+    terms:"Aktion gültig für Neukunden. Preis gilt für den ersten Vertragszeitraum.",
+    deeplink:"https://nordvpn.com/de/",
+    startDate:"2026-01-01T00:00:00",
+    endDate:"2026-12-31T23:59:00",
+  },
+  // ── 100percentpure DE/AT ──────────────────────────────────────────────────
+  {
+    id:"pure-15-2026", advertiserId:80817,
+    advertiser:"100percentpure DE/AT",
+    code:"PURE15",
+    title:"100% Pure: 15% auf die gesamte Bestellung",
+    description:"Natürliche & vegane Kosmetik – 15% Rabatt auf alle Produkte. Keine Mindestbestellung.",
+    categories:"Beauty, Kosmetik, Hautpflege",
+    terms:"Einmaliger Rabatt pro Konto. Nicht kombinierbar mit anderen Aktionen.",
+    deeplink:"https://www.100percentpure.com/de/",
+    startDate:"2026-04-01T00:00:00",
+    endDate:"2026-06-30T23:59:00",
+  },
+  // ── FlixBus & FlixTrain DE ────────────────────────────────────────────────
+  {
+    id:"flix-10-2026", advertiserId:14494,
+    advertiser:"FlixBus & FlixTrain DE",
+    code:"FLIXSAVE10",
+    title:"FlixBus & FlixTrain: 10% Rabatt auf alle Fahrten",
+    description:"Günstig reisen durch Deutschland und Europa. 10% auf deine nächste Buchung mit Code FLIXSAVE10.",
+    categories:"Reisen, Bus, Bahn",
+    terms:"Rabatt gilt für Einzelbuchungen. Nicht mit anderen Codes kombinierbar.",
+    deeplink:"https://www.flixbus.de/",
+    startDate:"2026-04-01T00:00:00",
+    endDate:"2026-07-31T23:59:00",
+  },
+];
+const STATIC_PROMOS = CSV_PROMOS; // alias
+let activeCat    = "Alle";
+let favs         = new Set(JSON.parse(localStorage.getItem("fav")||"[]"));
+let currentPage  = "home";
 
-                    {/* Navigation */}
-                    <nav className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                            <div className="flex items-center justify-between h-16">
-                                <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-blue-600">
-                                    schnäppchenjäger1
-                                </h1>
-                                <div className="hidden md:flex items-center gap-8">
-                                    <button
-                                        onClick={() => {
-                                            setShowTopDeals(false);
-                                            setSelectedCategory('Alle');
-                                            document.getElementById('categories-section')?.scrollIntoView({ behavior: 'smooth' });
-                                        }}
-                                        className="text-gray-700 hover:text-indigo-600 font-medium text-sm transition-colors cursor-pointer"
-                                    >
-                                        Kategorien
-                                    </button>
-                                    <button
-                                        onClick={() => setShowTopDeals(!showTopDeals)}
-                                        className={`font-medium text-sm transition-colors cursor-pointer ${showTopDeals ? 'text-indigo-600' : 'text-gray-700 hover:text-indigo-600'}`}
-                                    >
-                                        🔥 Top-Deals
-                                    </button>
-                                </div>
-                                <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-gray-700 cursor-pointer text-xl">
-                                    {mobileMenuOpen ? '✕' : '☰'}
-                                </button>
-                            </div>
-                            {mobileMenuOpen && (
-                                <div className="md:hidden py-4 border-t border-gray-100">
-                                    <button
-                                        onClick={() => { setShowTopDeals(false); setSelectedCategory('Alle'); setMobileMenuOpen(false); document.getElementById('categories-section')?.scrollIntoView({ behavior: 'smooth' }); }}
-                                        className="block w-full text-left px-4 py-2 text-gray-700 hover:text-indigo-600 font-medium cursor-pointer"
-                                    >Kategorien</button>
-                                    <button
-                                        onClick={() => { setShowTopDeals(!showTopDeals); setMobileMenuOpen(false); }}
-                                        className="block w-full text-left px-4 py-2 text-gray-700 hover:text-indigo-600 font-medium cursor-pointer"
-                                    >🔥 Top-Deals</button>
-                                </div>
-                            )}
-                        </div>
-                    </nav>
+/* ── Helpers ─────────────────────────────────────────────────────────────── */
+const dl = (mid, dest) => {
+  let u = `https://www.awin1.com/cread.php?awinmid=${mid}&awinaffid=${PUB}`;
+  if (dest) u += `&p=${encodeURIComponent(dest)}`;
+  return u;
+};
 
-                    {/* Hero */}
-                    <div className="bg-gradient-to-br from-indigo-600 via-blue-600 to-indigo-700 text-white py-16 sm:py-24">
-                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                            <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-1.5 mb-6 text-sm font-medium">
-                                <span>🎯</span>
-                                <span>18 AWIN-Partnerprogramme – täglich aktualisiert</span>
-                            </div>
-                            <h2 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight">
-                                Die besten Gutscheine und Rabatte in Deutschland
-                            </h2>
-                            <p className="text-lg text-indigo-100 mb-8 max-w-2xl">
-                                Entdecke täglich neue Deals und Gutscheine von deinen liebsten Marken und spare mit uns Geld!
-                            </p>
-                            <div className="relative max-w-md">
-                                <input
-                                    type="text"
-                                    placeholder="Nach Marke oder Deal suchen..."
-                                    value={searchQuery}
-                                    onChange={(e) => setSearchQuery(e.target.value)}
-                                    className="w-full pl-12 pr-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white"
-                                />
-                                <span className="absolute left-4 top-3.5 text-indigo-300">🔍</span>
-                            </div>
-                        </div>
-                    </div>
+/* ── Link validator ─────────────────────────────────────────────────────────
+   Resolves the best affiliate link for a promo card:
+   1. Uses promo.deeplink if it's a real Awin tracking URL
+   2. Falls back to a generated dl() link using the advertiser's known ID + URL
+   3. Falls back to the advertiser's homepage if no ID is known
+─────────────────────────────────────────────────────────────────────────── */
+function resolveLink(promo, adv) {
+  // ── PENDING: Awin ID not yet confirmed — use direct website URL ──────────
+  // This prevents "inactive link" errors from wrong awinmid values.
+  // To enable full Awin tracking: replace id:"PENDING" in ADVERTISERS with
+  // the real awinmid from: Awin Dashboard → Programme → Deeplink-Generator
+  if (!adv.id || adv.id === "PENDING") return adv.url;
 
-                    {/* Stats bar */}
-                    <div className="bg-indigo-700 text-white/80 py-2">
-                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap gap-x-6 gap-y-1 text-xs font-medium">
-                            <span>✅ {dealsData.length} aktive Deals</span>
-                            <span>🏷️ {categories.length - 1} Kategorien</span>
-                            <span>🤝 AWIN-Partnerprogramm</span>
-                            <span>🇩🇪 Nur deutsche Anbieter</span>
-                            {meta?.lastUpdated && (
-                                <span className="ml-auto text-white/50">
-                                    🕐 Aktualisiert: {new Date(meta.lastUpdated).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })} Uhr
-                                </span>
-                            )}
-                        </div>
-                    </div>
+  const raw = (promo && promo.deeplink) ? promo.deeplink.trim() : "";
 
-                    {/* Loading state */}
-                    {loading && (
-                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
-                            <div className="inline-flex flex-col items-center gap-4">
-                                <div className="w-12 h-12 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin"></div>
-                                <p className="text-gray-500 font-medium">Deals werden geladen…</p>
-                            </div>
-                        </div>
-                    )}
+  // Valid Awin tracking link — use directly
+  if (raw.startsWith("https") && raw.includes("awinmid") && raw.includes("awinaffid")) return raw;
 
-                    {/* Error state */}
-                    {!loading && error && (
-                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-                            <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 text-center">
-                                <p className="text-amber-800 font-semibold mb-1">⚠️ Deals konnten nicht geladen werden</p>
-                                <p className="text-amber-700 text-sm">Bitte führen Sie den GitHub Actions Workflow aus, um deals.json zu generieren.</p>
-                                <code className="mt-3 inline-block text-xs bg-amber-100 px-3 py-1 rounded text-amber-900">{error}</code>
-                            </div>
-                        </div>
-                    )}
+  // Direct URL in promo but no tracking → wrap with our publisher tracking
+  if (raw.startsWith("http")) return dl(adv.id, raw);
 
-                    {/* Category Filter */}
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" id="categories-section">
-                        <div className="flex items-center justify-between mb-4">
-                            <h3 className="text-lg font-bold text-gray-900">Filter nach Kategorie</h3>
-                            {showTopDeals && (
-                                <button onClick={() => setShowTopDeals(false)} className="text-sm text-indigo-600 hover:text-indigo-700 font-medium underline cursor-pointer">
-                                    ✕ Top-Deals Filter entfernen
-                                </button>
-                            )}
-                        </div>
-                        <div className="flex overflow-x-auto gap-2 pb-3">
-                            {categories.map(cat => (
-                                <button
-                                    key={cat}
-                                    onClick={() => setSelectedCategory(cat)}
-                                    className={`px-4 py-2 rounded-full font-medium whitespace-nowrap text-sm transition-all duration-200 cursor-pointer ${
-                                        selectedCategory === cat
-                                            ? 'bg-indigo-600 text-white shadow-md'
-                                            : 'bg-white text-gray-700 border border-gray-200 hover:border-indigo-300 hover:text-indigo-600'
-                                    }`}
-                                >
-                                    {cat}
-                                </button>
-                            ))}
-                        </div>
-                    </div>
+  // No deeplink — build from advertiser home URL with tracking
+  return dl(adv.id, adv.url);
+}
 
-                    {/* Deals Grid */}
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-                        <div className="mb-16">
-                            <h3 className="text-2xl font-bold text-gray-900 mb-8">
-                                {showTopDeals ? '🔥 Top-Deals' : selectedCategory === 'Alle' ? 'Alle Deals' : `${selectedCategory}-Deals`}
-                                <span className="text-gray-400 text-base font-normal ml-2">({filteredDeals.length})</span>
-                            </h3>
+/* ── Verify all static promos have links on startup ─────────────────────── */
+function auditLinks() {
+  let fixed = 0;
+  CSV_PROMOS.forEach(p => {
+    const dl_raw = (p.deeplink || "").trim();
+    if (!dl_raw || !dl_raw.startsWith("http")) {
+      // Find matching advertiser
+      const adv = ADVERTISERS.find(a =>
+        a.name === p.advertiser ||
+        String(a.id) === String(p.advertiserId)
+      );
+      if (adv) {
+        p.deeplink = dl(adv.id, adv.url);
+        fixed++;
+      }
+    }
+  });
+  if (fixed > 0) console.info(`[Links] Auto-fixed ${fixed} missing deeplinks`);
+}
+const esc = s => String(s)
+  .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+  .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+/* Parse a date string safely — handles ISO-8601, DD/MM/YYYY, timestamps */
+function parseDate(s) {
+  if (!s) return null;
+  // Already a number (Unix ms)
+  if (typeof s === "number") return new Date(s);
+  // ISO-8601 with or without time: "2026-05-31", "2026-05-31T00:00:00"
+  // Some Awin responses use "YYYY-MM-DD HH:MM:SS" (space instead of T)
+  const cleaned = String(s).trim().replace(" ", "T");
+  const d = new Date(cleaned);
+  return isNaN(d.getTime()) ? null : d;
+}
+const fmtDate = s => {
+  const d = parseDate(s);
+  if (!d) return "";
+  return d.toLocaleDateString("de-DE", { day:"2-digit", month:"2-digit", year:"numeric" });
+};
+const isExpired = s => { const d = parseDate(s); return d ? d < TODAY : false; };
+const isUrgent  = s => {
+  const d = parseDate(s);
+  if (!d) return false;
+  const diff = (d - TODAY) / (1000 * 60 * 60 * 24);
+  return diff >= 0 && diff <= 7;
+};
 
-                            {filteredDeals.length > 0 ? (
-                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                                    {filteredDeals.map(deal => (
-                                        <DealCard
-                                            key={deal.id}
-                                            deal={deal}
-                                            onFavorite={handleFavorite}
-                                            isFavorite={favorites.has(deal.id)}
-                                        />
-                                    ))}
-                                </div>
-                            ) : (
-                                <div className="text-center py-16">
-                                    <p className="text-gray-500 text-lg">Keine Deals gefunden. Versuchen Sie eine andere Suche.</p>
-                                </div>
-                            )}
-                        </div>
+/* ── Router ──────────────────────────────────────────────────────────────── */
+function showPage(p) {
+  const all = ["home","impressum","datenschutz","blog-1","blog-2","blog-3"];
+  all.forEach(x => {
+    const el = document.getElementById("view-"+x);
+    if (el) el.style.display = x===p ? "" : "none";
+  });
+  const isHome = p==="home";
+  document.getElementById("site-footer").style.display = "";
+  currentPage = p;
+  window.scrollTo(0,0);
+  // Update page title for SEO
+  const titles = {
+    "home":"schnäppchenjäger1 – Beste Gutscheine & Deals in Deutschland 2026",
+    "impressum":"Impressum – schnäppchenjäger1",
+    "datenschutz":"Datenschutzerklärung – schnäppchenjäger1",
+    "blog-1":"10 Tipps für Gutscheincodes – schnäppchenjäger1 Blog",
+    "blog-2":"Awin für Einsteiger – schnäppchenjäger1 Blog",
+    "blog-3":"Sommerdeals 2026 – schnäppchenjäger1 Blog",
+  };
+  document.title = titles[p] || document.title;
+}
 
-                        {/* Newsletter */}
-                        <div className="bg-gradient-to-r from-indigo-50 to-blue-50 rounded-2xl p-8 sm:p-12 border border-indigo-100 mb-16">
-                            <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">Bleiben Sie informiert!</h3>
-                            <p className="text-gray-700 mb-6 max-w-2xl">
-                                Abonnieren Sie unseren Newsletter und erhalten Sie täglich die besten Gutscheine und Rabatte direkt in Ihren Posteingang.
-                            </p>
-                            <form onSubmit={handleNewsletterSubmit} className="flex gap-3 max-w-md">
-                                <input
-                                    type="email"
-                                    placeholder="Ihre E-Mail-Adresse"
-                                    value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
-                                    required
-                                    className="flex-1 px-4 py-3 rounded-lg border border-gray-200 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-600"
-                                />
-                                <button
-                                    type="submit"
-                                    className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-semibold rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap"
-                                >
-                                    Abonnieren
-                                </button>
-                            </form>
-                            {subscribed && (
-                                <p className="mt-3 text-green-700 font-medium">✓ Danke für Ihre Anmeldung!</p>
-                            )}
-                        </div>
-                    </div>
+/* ── Mobile Menu ─────────────────────────────────────────────────────────── */
+function toggleMenu() {
+  const mn = document.getElementById("mobile-nav");
+  const b  = document.getElementById("burger");
+  const open = mn.classList.toggle("open");
+  b.classList.toggle("open", open);
+  b.setAttribute("aria-expanded", open);
+  mn.setAttribute("aria-hidden", !open);
+}
+function closeMobile() {
+  document.getElementById("mobile-nav").classList.remove("open");
+  const b = document.getElementById("burger");
+  b.classList.remove("open");
+  b.setAttribute("aria-expanded","false");
+}
 
-                    {/* Footer */}
-                    <footer className="bg-gray-900 text-gray-300">
-                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-                            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
-                                <div>
-                                    <h4 className="text-white font-bold text-lg mb-3">schnäppchenjäger1</h4>
-                                    <p className="text-sm text-gray-400">Die beste Anlaufstelle für Gutscheine, Rabatte und Deals in Deutschland.</p>
-                                    <a href="https://schnäppchenjäger1.de" className="text-indigo-400 hover:text-indigo-300 text-sm font-medium mt-2 inline-block">schnäppchenjäger1.de</a>
-                                </div>
-                                <div>
-                                    <h4 className="text-white font-bold text-lg mb-3">Links</h4>
-                                    <button onClick={() => setCurrentPage('impressum')} className="block text-sm hover:text-white transition-colors mb-2 cursor-pointer">Impressum</button>
-                                    <button onClick={() => setCurrentPage('datenschutz')} className="block text-sm hover:text-white transition-colors cursor-pointer">Datenschutz</button>
-                                </div>
-                                <div>
-                                    <h4 className="text-white font-bold text-lg mb-3">Partner</h4>
-                                    <p className="text-sm text-gray-400">Diese Website ist Mitglied im AWIN Affiliate-Netzwerk. Alle Deals sind über AWIN-Partnerprogramme verfügbar.</p>
-                                </div>
-                            </div>
-                            <div className="border-t border-gray-800 pt-8">
-                                <p className="text-xs text-center text-gray-500">
-                                    © 2026 schnäppchenjäger1. Alle Rechte vorbehalten. |
-                                    <a href="https://schnäppchenjäger1.de" className="text-indigo-400 hover:text-indigo-300 ml-1">schnäppchenjäger1.de</a> |
-                                    Diese Website enthält Affiliate-Links. Bei Käufen über unsere Links erhalten wir ggf. eine Provision.
-                                </p>
-                            </div>
-                        </div>
-                    </footer>
-                </div>
-            );
-        }
+/* ── Newsletter ──────────────────────────────────────────────────────────── */
+function handleNL(e) {
+  e.preventDefault();
+  const form = document.getElementById("nl-form");
+  const ok   = document.getElementById("nl-success");
+  form.style.display = "none";
+  ok.style.display   = "flex";
+  setTimeout(() => { ok.style.display="none"; form.style.display=""; form.reset(); }, 4000);
+}
 
-        ReactDOM.createRoot(document.getElementById('root')).render(<App />);
-    </script>
+/* ── Scroll-to-top ───────────────────────────────────────────────────────── */
+window.addEventListener("scroll", () => {
+  document.getElementById("scroll-top").classList.toggle("visible", window.scrollY > 400);
+}, {passive:true});
+
+/* ── Ticker build ────────────────────────────────────────────────────────── */
+function buildTicker() {
+  const items = [...ADVERTISERS, ...ADVERTISERS].map(a =>
+    `<a class="ticker-item" href="${dl(a.id,a.url)}" target="_blank" rel="sponsored noopener noreferrer">
+      ${a.icon} ${esc(a.name)}
+    </a>`
+  ).join("");
+  document.getElementById("ticker-track").innerHTML = items;
+}
+
+/* ── Footer build ────────────────────────────────────────────────────────── */
+function buildFooter() {
+  document.getElementById("footer-partners").innerHTML = ADVERTISERS.map(a =>
+    `<a href="${dl(a.id,a.url)}" target="_blank" rel="sponsored noopener noreferrer" aria-label="${esc(a.name)} – Zum Shop">
+      ${a.icon} ${esc(a.name)}
+    </a>`
+  ).join("");
+}
+
+/* ── Blog build ──────────────────────────────────────────────────────────── */
+function buildBlog() {
+  document.getElementById("blog-grid").innerHTML = BLOG_POSTS.map(p => `
+    <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting">
+      <div class="blog-img-wrap">
+        <span class="blog-cat-badge">${esc(p.cat)}</span>
+        <div class="blog-img-emoji" aria-hidden="true">${p.icon}</div>
+      </div>
+      <div class="blog-body">
+        <div class="blog-meta">
+          <time class="blog-read-time" datetime="${p.date}" itemprop="datePublished">📅 ${p.dateLabel}</time>
+          <span>· ⏱ ${p.read}</span>
+        </div>
+        <h3 itemprop="headline"><a href="#" onclick="event.preventDefault();showPage('${p.id}')">${esc(p.title)}</a></h3>
+        <p class="blog-excerpt" itemprop="description">${esc(p.excerpt)}</p>
+        <div class="blog-footer">
+          <div class="blog-tags">${p.tags.map(t=>`<span class="blog-tag">${esc(t)}</span>`).join("")}</div>
+          <a href="#" class="read-more" onclick="event.preventDefault();showPage('${p.id}')" aria-label="Artikel lesen: ${esc(p.title)}">Lesen →</a>
+        </div>
+      </div>
+    </article>
+  `).join("");
+}
+
+/* ── Category filter ─────────────────────────────────────────────────────── */
+function setFilter(cat) {
+  activeCat = cat;
+  renderCoupons();
+}
+
+/* ── COUPON RENDERING ────────────────────────────────────────────────────── */
+function renderCoupons() {
+  const q    = (document.getElementById("coupon-search")?.value||"").toLowerCase();
+  // Build category list from ADVERTISERS + CSV promo categories
+  const catSet = new Set(ADVERTISERS.map(a => a.cat));
+  allPromos.forEach(p => {
+    (p.categories || "").split(",").forEach(c => { if(c.trim()) catSet.add(c.trim()); });
+  });
+  const cats = ["Alle", ...catSet];
+
+  /* Pills */
+  document.getElementById("cat-pills").innerHTML = cats.map(c =>
+    `<button class="f-pill${activeCat===c?" active":""}" onclick="setFilter('${esc(c)}')" aria-pressed="${activeCat===c}">${esc(c)}</button>`
+  ).join("");
+
+  /* Build card data: merge advertiser info with live promos */
+  let cards = [];
+
+  ADVERTISERS.forEach(adv => {
+    // Match by advertiser name string (CSV) OR by numeric ID (JSON API)
+    const advPromos = allPromos.filter(p => {
+      const pName = typeof p.advertiser === "string" ? p.advertiser
+                  : (p.advertiser?.name ?? "");
+      const pId   = String(p.advertiserId ?? p.advertiser?.id ?? "");
+      return (pName === adv.name || pId === String(adv.id))
+             && !isExpired(p.endDate || p.expiryDate);
+    });
+    if (advPromos.length === 0) {
+      cards.push({ adv, promo: null });
+    } else {
+      advPromos.forEach(promo => cards.push({ adv, promo }));
+    }
+  });
+
+  // Also surface promos from CSV advertisers not yet in ADVERTISERS array
+  const mappedNames = new Set(ADVERTISERS.map(a => a.name));
+  allPromos
+    .filter(p => {
+      const n = typeof p.advertiser === "string" ? p.advertiser : p.advertiser?.name ?? "";
+      return !mappedNames.has(n) && !isExpired(p.endDate || p.expiryDate);
+    })
+    .forEach(promo => {
+      const name = typeof promo.advertiser === "string" ? promo.advertiser : promo.advertiser?.name ?? "Angebot";
+      const cat  = promo.categories ? promo.categories.split(",")[0].trim() : "Shopping";
+      const lnk  = promo.deeplink || "#";
+      cards.push({ adv: { id: String(promo.advertiserId ?? 0), name, cat, icon:"🏷️", url: lnk }, promo });
+    });
+
+  /* Apply category + search filter */
+  const filtered = cards.filter(({adv, promo}) => {
+    const catOk  = activeCat === "Alle"
+                || adv.cat === activeCat
+                || (promo?.categories || "").split(",").map(c=>c.trim()).includes(activeCat);
+    const hay    = (adv.name + " " + (promo?.title||"") + " " + (promo?.description||"")).toLowerCase();
+    const srchOk = !q || hay.includes(q);
+    return catOk && srchOk;
+  });
+
+  document.getElementById("count-num").textContent = filtered.length;
+
+  if (!filtered.length) {
+    document.getElementById("coupons-grid").innerHTML =
+      `<div class="empty-msg"><h3>Keine Deals gefunden</h3><p>Versuchen Sie einen anderen Suchbegriff oder Filter.</p></div>`;
+    return;
+  }
+
+  document.getElementById("coupons-grid").innerHTML = filtered.map(({adv, promo}) => {
+    // Resolve best affiliate link (validated, never empty)
+    const link = resolveLink(promo, adv);
+    const code    = promo?.code || promo?.voucherCode || "";
+    const title   = promo?.title || promo?.description || adv.name + " – Aktuelle Angebote";
+    const expRaw  = promo?.endDate || promo?.expiryDate || "";
+    const expFmt  = fmtDate(expRaw);
+    const urgent  = isUrgent(expRaw);
+    const discount= extractDiscount(title, code, promo?.description || "");
+    const isFav   = favs.has(adv.id+"-"+(code||"0"));
+
+    return `
+    <article class="coupon-card" itemscope itemtype="https://schema.org/Offer">
+      ${discount ? `<div class="card-ribbon" aria-label="Rabatt: ${esc(discount)}">${esc(discount)}</div>` : ""}
+      <div class="card-top">
+        <div class="card-icon" aria-hidden="true">${adv.icon}</div>
+        <div class="card-brand-info">
+          <div class="card-brand-name" itemprop="seller">${esc(adv.name)}</div>
+          <span class="card-cat">${esc(adv.cat)}</span>
+        </div>
+      </div>
+      <div class="card-body">
+        ${discount ? `
+        <div class="card-discount-row">
+          <span class="card-discount-val" itemprop="discount">${esc(discount)}</span>
+          <span class="card-discount-lbl">Rabatt</span>
+        </div>` : ""}
+        <p class="card-desc" itemprop="description">${esc(title.substring(0,120))}${title.length>120?"…":""}</p>
+        <div class="card-meta">
+          ${expFmt
+            ? `<span class="card-expiry${urgent?" urgent":""}" aria-label="Gültig bis ${expFmt}">
+                ${urgent?"⚠️":"📅"} ${urgent?"Endet bald: ":""}${expFmt}
+               </span>`
+            : `<span class="card-expiry">📅 Kein Ablaufdatum</span>`}
+        </div>
+        ${code
+          ? `<div class="card-code-box">
+               <div class="code-lbl">Gutscheincode</div>
+               <div class="code-row">
+                 <span class="code-value" itemprop="name">${esc(code)}</span>
+                 <button class="copy-btn"
+                   onclick="copyAndOpen(this,'${esc(code)}','${esc(link)}')"
+                   aria-label="Code ${esc(code)} kopieren und Shop öffnen">
+                   Kopieren &amp; Öffnen
+                 </button>
+               </div>
+             </div>`
+          : `<div class="card-code-box" style="text-align:center">
+               <span style="font-size:.78rem;color:var(--mist)">Kein Code nötig – Rabatt automatisch</span>
+             </div>`}
+        <div class="card-actions">
+          <a class="btn-deal" href="${esc(link)}" target="_blank"
+             rel="${adv.id === 'PENDING' ? 'noopener noreferrer' : 'sponsored noopener noreferrer'}"
+             aria-label="Zum Deal bei ${esc(adv.name)}" itemprop="url">
+            ${adv.id === 'PENDING' ? '🌐' : '🛍️'} Zum Deal
+          </a>
+          <button class="btn-deal-outline" onclick="toggleFav('${adv.id}-${code||"0"}',this)"
+            aria-label="${isFav?"Aus":"Als"} Favorit ${isFav?"entfernen":"speichern"}">
+            ${isFav?"❤️":"🤍"}
+          </button>
+        </div>
+      </div>
+    </article>`;
+  }).join("");
+}
+
+/* renderPromos — alias so task spec call signature also works */
+const renderPromos = () => renderCoupons();
+
+/* Extract discount value from title and description */
+function extractDiscount(title, code, description) {
+  const haystack = (title + " " + (description || "")).slice(0, 200);
+  // Patterns: 22%, 30%, 14%, €50, 10€, bis 40%, up to 30%
+  const m = haystack.match(/(\d{1,3}\s*%\s*OFF|bis\s+zu\s+\d+\s*%|up\s+to\s+\d+\s*%|\d{1,3}\s*%|\d{1,3}\s*€|€\s*\d{1,3})/i);
+  if (!m) return "";
+  // Normalise: "22% OFF" → "22%", "bis zu 30 %" → "bis 30%"
+  return m[0].replace(/\s+OFF/i,"").replace("bis zu","bis").replace(/\s+/g," ").trim();
+}
+
+/* Copy code to clipboard AND open shop */
+function copyAndOpen(btn, code, link) {
+  navigator.clipboard.writeText(code).catch(() => {});
+  btn.textContent = "✓ Kopiert!";
+  btn.classList.add("copied");
+  setTimeout(() => window.open(link, "_blank", "noopener,noreferrer"), 400);
+  setTimeout(() => { btn.textContent = "Kopieren & Öffnen"; btn.classList.remove("copied"); }, 2500);
+}
+
+/* Favorites */
+function toggleFav(key, btn) {
+  if (favs.has(key)) { favs.delete(key); btn.textContent="🤍"; }
+  else               { favs.add(key);    btn.textContent="❤️"; }
+  localStorage.setItem("fav", JSON.stringify([...favs]));
+}
+
+/* ── Load promotions from local JSON (built by GitHub Actions) ───────────────
+   promotions.json lives in the same repo and is refreshed every 6 hours by
+   the workflow at .github/workflows/fetch-promotions.yml.
+   No CORS, no proxy, no 401 — just a plain same-origin file fetch.
+─────────────────────────────────────────────────────────────────────────── */
+async function loadAwinPromos() {
+  const pill = document.getElementById("api-pill");
+  const text = document.getElementById("api-text");
+
+  // ── Local file:// preview guard ───────────────────────────────────────────
+  // fetch() cannot run over file:// (browser security restriction).
+  // When previewing locally just render the advertiser cards without codes.
+  // On GitHub Pages (https://) this block is skipped automatically.
+  if (window.location.protocol === "file:") {
+    // Use embedded static data so local preview shows real coupon cards
+    allPromos = STATIC_PROMOS.filter(p => !isExpired(p.endDate));
+    const t   = allPromos.length;
+    pill.className   = "api-pill pill-ok";
+    text.textContent = t + " aktive Deals · Stand " + new Date().toLocaleDateString("de-DE");
+    document.getElementById("stat-vouchers").textContent = t;
+    document.getElementById("badge-v").textContent       = t;
+    renderCoupons();
+    return;
+  }
+
+  try {
+    // Cache-bust so the browser always gets the latest file after a deploy
+    const res = await fetch("promotions.json?v=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+
+    const raw = await res.json();
+
+    // Shape from workflow: { fetchedAt, count, promotions:[…] }
+    // Fallback: bare array (manual upload)
+    const list = Array.isArray(raw)             ? raw
+               : Array.isArray(raw.promotions)  ? raw.promotions
+               : [];
+
+    // Merge live JSON with embedded static promos (de-dup by id+code)
+    const merged = [...list];
+    const liveKeys = new Set(list.map(p => p.id + "|" + (p.code||"")));
+    STATIC_PROMOS.forEach(p => {
+      if (!liveKeys.has(p.id + "|" + (p.code||""))) merged.push(p);
+    });
+    // Remove already-expired entries (re-checked against live TODAY)
+    allPromos = merged.filter(p => !isExpired(p.endDate || p.expiryDate));
+    // Validate & repair deeplinks on freshly loaded data
+    allPromos.forEach(p => {
+      const dl_raw = (p.deeplink || "").trim();
+      if (!dl_raw || !dl_raw.startsWith("http")) {
+        const adv = ADVERTISERS.find(a =>
+          a.name === p.advertiser ||
+          String(a.id) === String(p.advertiserId)
+        );
+        if (adv) p.deeplink = dl(adv.id, adv.url);
+      }
+    });
+
+    const total     = allPromos.length;
+    // Only show "Stand" date if it is a real date (not the 1970 epoch placeholder)
+    const fetchedDate = parseDate(raw.fetchedAt);
+    const isRealDate  = fetchedDate && fetchedDate.getFullYear() > 2000;
+    const freshLbl    = isRealDate ? " · Stand " + fmtDate(raw.fetchedAt) : "";
+
+    pill.className   = "api-pill pill-ok";
+    text.textContent = total + " aktive Deals" + freshLbl;
+    document.getElementById("stat-vouchers").textContent = total;
+    document.getElementById("badge-v").textContent       = total;
+
+  } catch (err) {
+    // promotions.json not yet generated → fall back to embedded static data
+    console.warn("promotions.json not available:", err.message);
+    allPromos = STATIC_PROMOS.filter(p => !isExpired(p.endDate));
+    const t   = allPromos.length;
+    pill.className   = "api-pill pill-ok";
+    text.textContent = t + " aktive Deals · Stand " + new Date().toLocaleDateString("de-DE");
+    document.getElementById("stat-vouchers").textContent = t;
+    document.getElementById("badge-v").textContent       = t;
+  }
+
+  renderCoupons();
+}
+
+/* ── INIT ────────────────────────────────────────────────────────────────── */
+/* Dynamic year in footer + page title */
+(function() {
+  const yr  = new Date().getFullYear();
+  const yrEl = document.getElementById("footer-year");
+  if (yrEl) yrEl.textContent = yr;
+  /* Update <title> year dynamically */
+  document.title = document.title.replace(/\d{4}/, yr);
+})();
+auditLinks();  // fix any missing deeplinks before first render
+buildTicker();
+buildFooter();
+buildBlog();
+renderCoupons(); // show skeleton with fallback cards
+loadAwinPromos();
+/* Auto-refresh promotions.json every 6 hours so the tab stays current */
+setInterval(loadAwinPromos, 6 * 60 * 60 * 1000);
+</script>
 </body>
 </html>
