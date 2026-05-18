@@ -1,140 +1,127 @@
-name: Fetch Awin Promotions
+# .github/workflows/fetch-promotions.yml
+# ─────────────────────────────────────────────────────────────────────────────
+# Runs fetchAwinVouchers.js every day at 06:00 UTC, commits the updated
+# deals.json back to the repository, and triggers a fresh deployment.
+#
+# Required GitHub repository secrets (Settings → Secrets → Actions):
+#   AWIN_API_TOKEN      – Publisher API OAuth token from AWIN UI
+#   AWIN_PUBLISHER_ID   – Your numeric AWIN Publisher ID
+#
+# Optional: if you deploy to GitHub Pages, enable Pages in repo settings
+# (Source: Deploy from branch → main / root) and the updated deals.json
+# will be live automatically after each run.
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: Fetch AWIN Promotions
 
 on:
+  # ── Scheduled: every day at 06:00 UTC ──────────────────────────────────────
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: '0 6 * * *'
+
+  # ── Allow manual trigger from the Actions tab ───────────────────────────────
   workflow_dispatch:
     inputs:
-      force_update:
-        description: "Force commit even if no changes"
+      debug:
+        description: 'Enable debug logging'
         required: false
-        default: "false"
+        default: 'false'
         type: boolean
-  push:
-    branches: [main]
-    paths-ignore:
-      - "promotions.json"
 
-permissions:
-  contents: write
+# Only one run at a time – cancels any in-progress run on the same branch
+concurrency:
+  group: fetch-promotions-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  fetch-awin-promotions:
-    name: Fetch and Save Awin Promotions
+  fetch-and-commit:
+    name: Fetch promotions & update deals.json
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
+    permissions:
+      contents: write   # needed to push the updated deals.json
+
     steps:
+      # ── 1. Checkout ──────────────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
-      - name: Setup Node.js 20
+      # ── 2. Set up Node.js ────────────────────────────────────────────────────
+      - name: Set up Node.js 20
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: '20'
+          cache: 'npm'
 
-      - name: Fetch promotions from Awin API
-        env:
-          AWIN_TOKEN:          ${{ secrets.AWIN_TOKEN }}
-          AWIN_PUBLISHER_ID:   "2851329"
-          # ── Confirmed Awin IDs (from Deeplink-Generator screenshots) ────────────
-          # PENDING advertisers (Aosom, HRS, FlixBus, 100percentpure, NordVPN)
-          # are excluded until correct awinmid is confirmed in Awin Dashboard.
-          # To add: Awin → Programme → [Advertiser] → Deeplink-Generator → awinmid=XXXX
-          AWIN_ADVERTISER_IDS: "11447,13812,25546,28297,114336,53143,79858,9364,125332,125816"
-          AWIN_REGION:         "DE"
-        run: node scripts/fetch-awin.js
-
-      - name: Validate promotions.json and all deeplinks
+      # ── 3. Install dependencies (none needed – script uses built-in fetch) ───
+      #    Keep this step so future npm deps are handled automatically.
+      - name: Install dependencies
         run: |
-          if [ ! -f promotions.json ]; then
-            echo "ERROR: promotions.json was not created!"; exit 1
+          if [ -f package.json ]; then
+            npm ci --omit=dev
+          else
+            echo "No package.json found – skipping npm install"
           fi
-          node - << 'EOF'
-          const data = require("./promotions.json");
-          const promos = data.promotions || [];
-          console.log("\n📦 Total promotions:", promos.length);
 
-          if (promos.length < 1) {
-            console.warn("⚠️  WARNING: 0 promotions fetched. Check AWIN_TOKEN and advertiser IDs.");
-          }
+      # ── 4. Run the fetcher ───────────────────────────────────────────────────
+      - name: Fetch AWIN promotions
+        env:
+          AWIN_API_TOKEN:    ${{ secrets.AWIN_API_TOKEN }}
+          AWIN_PUBLISHER_ID: ${{ secrets.AWIN_PUBLISHER_ID }}
+          NODE_OPTIONS:      '--experimental-vm-modules'
+        run: |
+          echo "▶ Running fetchAwinVouchers.js …"
+          node fetchAwinVouchers.js
+          echo "✅ Script completed"
 
-          // ── Link audit ──────────────────────────────────────────────────
-          let emptyLinks = 0, invalidLinks = 0, validLinks = 0;
-          const issues = [];
+      # ── 5. Show what changed ─────────────────────────────────────────────────
+      - name: Show diff
+        run: |
+          if git diff --quiet deals.json; then
+            echo "ℹ️  No changes in deals.json – nothing to commit"
+          else
+            echo "📋 Changes detected in deals.json:"
+            git diff --stat deals.json
+          fi
 
-          promos.forEach(p => {
-            const dl = (p.deeplink || "").trim();
-            if (!dl) {
-              emptyLinks++;
-              issues.push({ type:"EMPTY", advertiser:p.advertiser, code:p.code });
-            } else if (!dl.startsWith("https://") || !dl.includes("awinmid")) {
-              invalidLinks++;
-              issues.push({ type:"INVALID", advertiser:p.advertiser, code:p.code, url:dl.slice(0,60) });
-            } else {
-              validLinks++;
-            }
-          });
-
-          console.log("\n🔗 Link audit:");
-          console.log("  ✅ Valid   :", validLinks);
-          console.log("  ⚠️  Empty  :", emptyLinks);
-          console.log("  ❌ Invalid :", invalidLinks);
-
-          if (issues.length > 0) {
-            console.log("\n  Issues found:");
-            issues.forEach(i => console.log(`    [${i.type}] ${i.advertiser} | ${i.code} ${i.url||""}`));
-          } else {
-            console.log("\n  All deeplinks are valid ✅");
-          }
-
-          // ── By advertiser ───────────────────────────────────────────────
-          const g = {};
-          promos.forEach(p => { g[p.advertiser] = (g[p.advertiser]||0)+1; });
-          console.log("\n📊 By advertiser:");
-          Object.entries(g).sort((a,b)=>b[1]-a[1])
-            .forEach(([k,v]) => console.log("  " + k.padEnd(38) + v));
-
-          // Fail the workflow if more than 30% of links are broken
-          const brokenPct = (emptyLinks + invalidLinks) / Math.max(1, promos.length);
-          if (brokenPct > 0.30) {
-            console.error("\n❌ FAIL: More than 30% of links are broken. Aborting commit.");
-            process.exit(1);
-          }
-          EOF
-
-      - name: Commit promotions.json
+      # ── 6. Commit & push if deals.json changed ───────────────────────────────
+      - name: Commit updated deals.json
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add promotions.json
-          if git diff --staged --quiet && [ "${{ github.event.inputs.force_update }}" != "true" ]; then
-            echo "No changes — skipping commit."
-          else
-            COUNT=$(node -e "console.log(require('./promotions.json').count)")
-            TS=$(date -u "+%Y-%m-%d %H:%M UTC")
-            git commit -m "chore: update promotions.json — ${COUNT} promos @ ${TS} [skip ci]"
-            git push
-            echo "Committed and pushed."
+
+          if git diff --quiet deals.json; then
+            echo "ℹ️  deals.json unchanged – skipping commit"
+            exit 0
           fi
 
+          git add deals.json
+          git commit -m "chore(deals): auto-update from AWIN API [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
+          echo "🚀 deals.json pushed to repository"
+
+      # ── 7. Summary ───────────────────────────────────────────────────────────
       - name: Write job summary
         if: always()
         run: |
-          node -e "
-            try {
-              const d = require('./promotions.json');
-              let md = '## Awin Promotions Update\n\n';
-              md += '| | |\n|---|---|\n';
-              md += '| Stand | ' + d.fetchedAt + ' |\n';
-              md += '| Anzahl | **' + d.count + '** |\n';
-              md += '| Publisher | ' + d.publisher + ' |\n\n';
-              md += '### Nach Advertiser\n\n| Advertiser | Promos |\n|---|---|\n';
-              const g = {};
-              d.promotions.forEach(p => { g[p.advertiser]=(g[p.advertiser]||0)+1; });
-              Object.entries(g).sort((a,b)=>b[1]-a[1]).forEach(([k,v]) => { md += '| '+k+' | '+v+' |\n'; });
-              process.stdout.write(md);
-            } catch(e) { process.stdout.write('Error: '+e.message+'\n'); }
-          " >> $GITHUB_STEP_SUMMARY
+          echo "## 🎯 AWIN Promotion Fetch Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f deals.json ]; then
+            TOTAL=$(node -e "const d=require('./deals.json'); console.log(d.totalDeals)")
+            LIVE=$(node  -e "const d=require('./deals.json'); console.log(d.liveDeals)")
+            FB=$(node    -e "const d=require('./deals.json'); console.log(d.fallbackDeals)")
+            UPDATED=$(node -e "const d=require('./deals.json'); console.log(d.lastUpdated)")
+
+            echo "| Field | Value |" >> $GITHUB_STEP_SUMMARY
+            echo "|-------|-------|" >> $GITHUB_STEP_SUMMARY
+            echo "| 🕐 Last updated | \`$UPDATED\` |" >> $GITHUB_STEP_SUMMARY
+            echo "| 📦 Total deals  | $TOTAL |" >> $GITHUB_STEP_SUMMARY
+            echo "| ✅ Live (AWIN)  | $LIVE  |" >> $GITHUB_STEP_SUMMARY
+            echo "| ⚙️ Fallback     | $FB    |" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ deals.json was not generated." >> $GITHUB_STEP_SUMMARY
+          fi
