@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-20T14:29:12.509Z",
+  "fetchedAt": "2026-05-20T15:01:09.653Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -7,8 +7,8 @@
       "id": "9364",
       "name": "CHECK24 Partnerprogramm",
       "displayUrl": "https://www.check24.net",
-      "icon": "💰",
-      "cat": "Finanzen",
+      "icon": "🔍",
+      "cat": "Vergleich",
       "sector": "Utilities",
       "commission": null
     },
@@ -16,8 +16,8 @@
       "id": "9399",
       "name": "NordVPN DE",
       "displayUrl": "http://nordvpn.com/de",
-      "icon": "🏷️",
-      "cat": "Shopping",
+      "icon": "🛡️",
+      "cat": "VPN",
       "sector": "B2B Utility Services",
       "commission": null
     },
@@ -25,7 +25,7 @@
       "id": "11447",
       "name": "ELV DE",
       "displayUrl": "https://de.elv.com",
-      "icon": "🔌",
+      "icon": "⚡",
       "cat": "Elektronik",
       "sector": "Electronic Superstore",
       "commission": null
@@ -34,8 +34,8 @@
       "id": "11684",
       "name": "Aosom DE/AT",
       "displayUrl": "https://www.aosom.de/",
-      "icon": "🏷️",
-      "cat": "Wohnen",
+      "icon": "🪴",
+      "cat": "Garten",
       "sector": "Home & Garden",
       "commission": null
     },
@@ -52,8 +52,8 @@
       "id": "13945",
       "name": "FlixBus & FlixTrain DE",
       "displayUrl": "https://flixbus.de",
-      "icon": "🏷️",
-      "cat": "Shopping",
+      "icon": "🚍",
+      "cat": "Fernreise",
       "sector": "Coaches",
       "commission": null
     },
@@ -61,7 +61,7 @@
       "id": "13991",
       "name": "100percentpure DE/AT",
       "displayUrl": "https://www.100percentpure.de/",
-      "icon": "🏷️",
+      "icon": "🌿",
       "cat": "Beauty",
       "sector": "Health & Beauty",
       "commission": null
@@ -70,8 +70,8 @@
       "id": "14537",
       "name": "Baur Versand DE",
       "displayUrl": "https://www.baur.de/",
-      "icon": "🏷️",
-      "cat": "Shopping",
+      "icon": "👗",
+      "cat": "Lifestyle",
       "sector": "Department Stores",
       "commission": null
     },
@@ -79,8 +79,8 @@
       "id": "15152",
       "name": "HRS DE & AT",
       "displayUrl": "https://www.hrs.de",
-      "icon": "🏷️",
-      "cat": "Reisen",
+      "icon": "🏨",
+      "cat": "Hotels",
       "sector": "Hotels & Accommodation",
       "commission": null
     },
@@ -88,8 +88,8 @@
       "id": "25546",
       "name": "Stylevana DE",
       "displayUrl": "https://www.stylevana.com/de_DE/",
-      "icon": "✨",
-      "cat": "Beauty",
+      "icon": "🌸",
+      "cat": "K-Beauty",
       "sector": "Health & Beauty",
       "commission": null
     },
@@ -106,7 +106,7 @@
       "id": "53143",
       "name": "teppich.de",
       "displayUrl": "https://www.teppich.de",
-      "icon": "🏠",
+      "icon": "🏡",
       "cat": "Wohnen",
       "sector": "Furniture & Soft Furnishings",
       "commission": null
@@ -115,7 +115,7 @@
       "id": "79858",
       "name": "Luftbude DE",
       "displayUrl": "https://www.luftbude.de",
-      "icon": "🛏️",
+      "icon": "🛋️",
       "cat": "Möbel",
       "sector": "Home & Garden",
       "commission": null
@@ -125,7 +125,7 @@
       "name": "House-of-Sneakers DE",
       "displayUrl": "https://house-of-sneakers.de/",
       "icon": "👟",
-      "cat": "Mode",
+      "cat": "Sneakers",
       "sector": "Shoes",
       "commission": null
     },
@@ -133,8 +133,8 @@
       "id": "125144",
       "name": "ANTHBOT DE",
       "displayUrl": "https://de.anthbot.com/",
-      "icon": "🏷️",
-      "cat": "Elektronik",
+      "icon": "🔧",
+      "cat": "Technologie",
       "sector": "Electronic Accessories",
       "commission": null
     },
@@ -142,7 +142,7 @@
       "id": "125332",
       "name": "Autofull EU",
       "displayUrl": "https://www.autofull.eu/",
-      "icon": "🎮",
+      "icon": "🕹️",
       "cat": "Gaming",
       "sector": "Furniture & Soft Furnishings",
       "commission": null
@@ -151,8 +151,8 @@
       "id": "125816",
       "name": "Imou DE",
       "displayUrl": "https://store.imou.com/de-de/",
-      "icon": "📹",
-      "cat": "Elektronik",
+      "icon": "📷",
+      "cat": "Sicherheit",
       "sector": "Electronic Accessories",
       "commission": null
     }
