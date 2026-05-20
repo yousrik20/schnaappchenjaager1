@@ -27,21 +27,68 @@ const OUT_FILE = path.join(__dirname, "..", "promotions.json");
 
 // Statische Fallback-Metadaten (Icon + Kategorie) für bekannte Advertiser
 // Wird genutzt, wenn die API keine Kategoriedaten zurückgibt
+// Icons + Metadaten für alle bekannten Advertiser
+// Wird genutzt wenn die API keine Kategoriedaten zurückgibt
+// Muss mit dem ADVERTISERS-Array in index.html übereinstimmen
 const ADV_META = {
-  11447: { icon: "🔌", cat: "Elektronik", url: "https://www.elv.de" },
-  125816: { icon: "📹", cat: "Elektronik", url: "https://www.imou.com/de-DE/" },
-  25546: { icon: "✨", cat: "Beauty", url: "https://www.stylevana.com/de_DE/" },
+  // Elektronik & Technik
+  11447: { icon: "⚡", cat: "Elektronik", url: "https://www.elv.de" },
+  125816: { icon: "📷", cat: "Sicherheit", url: "https://www.imou.com/de-DE/" },
+  // Beauty & Kosmetik
+  25546: {
+    icon: "🌸",
+    cat: "K-Beauty",
+    url: "https://www.stylevana.com/de_DE/",
+  },
+  // Mode & Shopping
   28297: {
     icon: "👔",
     cat: "Mode",
     url: "https://www.froelich-und-kaufmann.de",
   },
-  114336: { icon: "👟", cat: "Mode", url: "https://www.house-of-sneakers.de" },
-  53143: { icon: "🏠", cat: "Wohnen", url: "https://www.teppich.de" },
-  79858: { icon: "🛏️", cat: "Möbel", url: "https://www.luftbude.de" },
+  114336: {
+    icon: "👟",
+    cat: "Sneakers",
+    url: "https://www.house-of-sneakers.de",
+  },
+  // Wohnen & Möbel
+  53143: { icon: "🏡", cat: "Wohnen", url: "https://www.teppich.de" },
+  79858: { icon: "🛋️", cat: "Möbel", url: "https://www.luftbude.de" },
+  // Supermarkt & Finanzen
   13812: { icon: "🛒", cat: "Supermarkt", url: "https://www.netto-online.de" },
-  9364: { icon: "💰", cat: "Finanzen", url: "https://www.check24.de" },
-  125332: { icon: "🎮", cat: "Gaming", url: "https://www.autofull.com/de/" },
+  9364: { icon: "🔍", cat: "Vergleich", url: "https://www.check24.de" },
+  // Gaming
+  125332: { icon: "🕹️", cat: "Gaming", url: "https://www.autofull.com/de/" },
+  // Name-basiertes Mapping für PENDING-Advertiser
+  // (wird genutzt sobald echte IDs von der Programmes API kommen)
+  "NordVPN DE": { icon: "🛡️", cat: "VPN", url: "https://nordvpn.com/de/" },
+  "ANTHBOT DE": {
+    icon: "🔧",
+    cat: "Technologie",
+    url: "https://www.anthbot.com/",
+  },
+  "100percentpure DE/AT": {
+    icon: "🌿",
+    cat: "Beauty",
+    url: "https://www.100percentpure.com/de/",
+  },
+  "Voghion Global": {
+    icon: "💎",
+    cat: "Fashion",
+    url: "https://www.voghion.com/",
+  },
+  "Baur Versand DE": {
+    icon: "👗",
+    cat: "Lifestyle",
+    url: "https://www.baur.de",
+  },
+  "HRS DE & AT": { icon: "🏨", cat: "Hotels", url: "https://www.hrs.com/de/" },
+  "FlixBus & FlixTrain DE": {
+    icon: "🚍",
+    cat: "Fernreise",
+    url: "https://www.flixbus.de",
+  },
+  "Aosom DE/AT": { icon: "🪴", cat: "Garten", url: "https://www.aosom.de" },
 };
 
 // ── HTTP-Helper ────────────────────────────────────────────────────────────
@@ -84,6 +131,23 @@ function apiGet(urlPath) {
   });
 }
 
+/* Kategorie → passendes Emoji (konsistent mit index.html) */
+function guessIcon(cat) {
+  const s = (cat || "").toLowerCase();
+  if (s.includes("fashion") || s.includes("mode")) return "👔";
+  if (s.includes("beauty") || s.includes("kosmet")) return "💄";
+  if (s.includes("sport")) return "🏃";
+  if (s.includes("travel") || s.includes("hotel")) return "✈️";
+  if (s.includes("electr") || s.includes("tech")) return "💻";
+  if (s.includes("home") || s.includes("möbel")) return "🏠";
+  if (s.includes("food") || s.includes("super")) return "🛒";
+  if (s.includes("finance") || s.includes("vergl")) return "💳";
+  if (s.includes("gaming")) return "🎮";
+  if (s.includes("vpn") || s.includes("secur")) return "🛡️";
+  if (s.includes("garden") || s.includes("garten")) return "🌱";
+  return "🏷️";
+}
+
 // ── 1. ALLE zugelassenen Programme abrufen (Auto-Discovery) ────────────────
 async function fetchProgrammes() {
   console.log("\n📋 Schritt 1: Zugelassene Advertiser abrufen…");
@@ -96,12 +160,16 @@ async function fetchProgrammes() {
   const programmes = list
     .map((p) => {
       const id = String(p.id ?? p.advertiserId ?? "");
-      const meta = ADV_META[id] || {};
+      const name = p.name || p.programName || "";
+      // Icon aus ID-Lookup, dann aus Name-Lookup, dann rate es
+      const metaById = ADV_META[id] || {};
+      const metaByName = ADV_META[name] || {};
+      const meta = Object.keys(metaById).length ? metaById : metaByName;
       return {
         id,
-        name: p.name || p.programName || "",
+        name,
         displayUrl: p.displayUrl || p.clickThroughUrl || meta.url || "",
-        icon: meta.icon || "🏷️",
+        icon: meta.icon || guessIcon(p.primarySector || p.sector || ""),
         cat: meta.cat || guessCat(p.primarySector || p.sector || ""),
         sector: p.primarySector || p.sector || "",
         commission: p.commissionRange?.min ?? null,
