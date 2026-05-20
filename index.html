@@ -9,7 +9,7 @@
   <meta name="description" content="Täglich neue Gutscheine, Rabattcodes und Deals von Top-Marken wie ELV, Zalando, CHECK24 und mehr. Bis zu 60% sparen – schnäppchenjäger1.de">
   <meta name="keywords" content="Gutscheine, Rabattcodes, Deals, Schnäppchen, Coupons, Promo-Codes, Deutschland">
   <meta name="robots" content="index, follow">
-  <meta name="author" content="schnäppchenjäger1 GmbH">
+  <meta name="author" content="schnäppchenjäger1 – Germanboy">
   <link rel="canonical" href="https://schnäppchenjäger1.de/">
 
   <!-- ── Open Graph ─────────────────────────────────────────────────────── -->
@@ -721,7 +721,7 @@ input, select { font-family: var(--font-body); }
         </div>
         <div class="hero-stats">
           <div class="h-stat">
-            <strong id="stat-partners">10</strong>
+            <strong id="stat-partners">18</strong>
             <span>Top-Partner</span>
           </div>
           <div class="h-stat">
@@ -833,7 +833,7 @@ input, select { font-family: var(--font-body); }
     <h2>Kontaktinformation</h2>
     <p>E-Mail: <a href="mailto:info@schnäppchenjäger1.de">info@schnäppchenjäger1.de</a><br>Telefon: +49 160 9134 3048<br>Website: <a href="https://schnäppchenjäger1.de">schnäppchenjäger1.de</a></p>
     <h2>Vertreter</h2>
-    <p>Geschäftsführer: Salem Youssri</p>
+    <p>Geschäftsführer: Germanboy</p>
     <h2>Handelsregister</h2>
     <p>Registergericht: Amtsgericht Essen<br>Handelsregisternummer: HRB 156482<br>USt-IdNr.: DE 347 852 961</p>
     <h2>Haftung für Inhalte</h2>
@@ -889,7 +889,7 @@ input, select { font-family: var(--font-body); }
       <div class="post-meta">
         <time datetime="2026-04-29">29. April 2026</time>
         <span>·</span><span>5 Min. Lesezeit</span>
-        <span>·</span><span>von Salem Youssri</span>
+        <span>·</span><span>von Germanboy</span>
       </div>
     </div>
   </div>
@@ -983,7 +983,7 @@ input, select { font-family: var(--font-body); }
     <div class="footer-grid">
       <div class="footer-brand">
         <button class="logo" onclick="showPage('home')">schnäppchenjäger1</button>
-        <p>Die beste Anlaufstelle für Gutscheine, Rabattcodes und Deals in Deutschland – täglich aktuell und kostenlos.</p>
+        <p>Die beste Anlaufstelle für Gutscheine, Rabattcodes und Deals in Deutschland – täglich aktuell, ohne Werbung und 100% kostenlos.</p>
         <p class="pub-id">Awin Publisher-ID: 2851329 | <a href="https://www.awin.com" target="_blank" rel="noopener">awin.com</a></p>
       </div>
       <div class="footer-col">
@@ -1039,26 +1039,29 @@ setInterval(() => {
 }, 60 * 60 * 1000);
 
 const ADVERTISERS = [
-  // ── Elektronik & Technik ─────────────────────────────────────────────────
+  // ── Elektronik & Technik ──────────────────────────────────────────────────
   {id:"11447",  name:"ELV DE",                   cat:"Elektronik", icon:"🔌", url:"https://www.elv.de"},
   {id:"125816", name:"Imou DE",                  cat:"Elektronik", icon:"📹", url:"https://www.imou.com/de-DE/"},
-  {id:"PENDING", name:"NordVPN DE",              cat:"Software",   icon:"🔐", url:"https://nordvpn.com/de/"},
-  // ── Mode & Beauty ────────────────────────────────────────────────────────
+  {id:"PENDING",name:"NordVPN DE",               cat:"Software",   icon:"🔐", url:"https://nordvpn.com/de/"},
+  {id:"PENDING",name:"ANTHBOT DE",               cat:"Technik",    icon:"🤖", url:"https://www.anthbot.com/"},
+  // ── Beauty & Mode ─────────────────────────────────────────────────────────
   {id:"25546",  name:"Stylevana DE",             cat:"Beauty",     icon:"✨", url:"https://www.stylevana.com/de_DE/"},
-  {id:"PENDING", name:"100percentpure DE/AT",    cat:"Beauty",     icon:"🌿", url:"https://www.100percentpure.com/de/"},
+  {id:"PENDING",name:"100percentpure DE/AT",     cat:"Beauty",     icon:"🌿", url:"https://www.100percentpure.com/de/"},
   {id:"28297",  name:"Frölich und Kaufmann DE",  cat:"Mode",       icon:"👔", url:"https://www.froelich-und-kaufmann.de"},
   {id:"114336", name:"House-of-Sneakers DE",     cat:"Mode",       icon:"👟", url:"https://www.house-of-sneakers.de"},
-  // ── Wohnen & Möbel ───────────────────────────────────────────────────────
+  {id:"PENDING",name:"Voghion Global",           cat:"Mode",       icon:"🛍️", url:"https://www.voghion.com/"},
+  // ── Wohnen & Möbel ────────────────────────────────────────────────────────
   {id:"53143",  name:"teppich.de",               cat:"Wohnen",     icon:"🏠", url:"https://www.teppich.de"},
   {id:"79858",  name:"Luftbude DE",              cat:"Möbel",      icon:"🛏️", url:"https://www.luftbude.de"},
-  {id:"PENDING", name:"Aosom DE/AT",             cat:"Möbel",      icon:"🛋️", url:"https://www.aosom.de"},
-  // ── Reisen ───────────────────────────────────────────────────────────────
-  {id:"PENDING", name:"HRS DE & AT",            cat:"Reisen",     icon:"🏨", url:"https://www.hrs.com/de/"},
-  {id:"PENDING", name:"FlixBus & FlixTrain DE", cat:"Reisen",     icon:"🚌", url:"https://www.flixbus.de"},
-  // ── Supermarkt & Finanzen ────────────────────────────────────────────────
+  {id:"PENDING",name:"Aosom DE/AT",              cat:"Möbel",      icon:"🛋️", url:"https://www.aosom.de"},
+  {id:"PENDING",name:"Baur Versand DE",          cat:"Shopping",   icon:"📦", url:"https://www.baur.de"},
+  // ── Reisen ────────────────────────────────────────────────────────────────
+  {id:"PENDING",name:"HRS DE & AT",              cat:"Reisen",     icon:"🏨", url:"https://www.hrs.com/de/"},
+  {id:"PENDING",name:"FlixBus & FlixTrain DE",   cat:"Reisen",     icon:"🚌", url:"https://www.flixbus.de"},
+  // ── Supermarkt & Finanzen ─────────────────────────────────────────────────
   {id:"13812",  name:"Netto Marken-Discount DE", cat:"Supermarkt", icon:"🛒", url:"https://www.netto-online.de"},
   {id:"9364",   name:"CHECK24",                  cat:"Finanzen",   icon:"💰", url:"https://www.check24.de"},
-  // ── Gaming ───────────────────────────────────────────────────────────────
+  // ── Gaming ────────────────────────────────────────────────────────────────
   {id:"125332", name:"Autofull EU",              cat:"Gaming",     icon:"🎮", url:"https://www.autofull.com/de/"},
 ];
 
@@ -1794,6 +1797,45 @@ const CSV_PROMOS = [
     startDate:"2026-04-01T00:00:00",
     endDate:"2026-07-31T23:59:00",
   },
+  // ── Baur Versand DE ───────────────────────────────────────────────────────
+  {
+    id:"baur-spring-2026", advertiserId:"PENDING",
+    advertiser:"Baur Versand DE",
+    code:"",
+    title:"Baur Versand: Mode, Wohnen & Technik – täglich neue Angebote",
+    description:"Über 300.000 Artikel aus Mode, Wohnen und Technik. Kauf auf Rechnung und kostenlose Rückgabe.",
+    categories:"Mode, Wohnen, Shopping",
+    terms:"",
+    deeplink:"https://www.baur.de/",
+    startDate:"2026-05-01T00:00:00",
+    endDate:"2026-12-31T23:59:00",
+  },
+  // ── Voghion Global ────────────────────────────────────────────────────────
+  {
+    id:"voghion-2026", advertiserId:"PENDING",
+    advertiser:"Voghion Global",
+    code:"VOGHION10",
+    title:"Voghion: 10% auf deine erste Bestellung",
+    description:"Internationales Shopping-Erlebnis mit Top-Konditionen. 10% Willkommensrabatt für Neukunden.",
+    categories:"Mode, Shopping",
+    terms:"Gültig für Neukunden. Mindestbestellwert 30€.",
+    deeplink:"https://www.voghion.com/",
+    startDate:"2026-05-01T00:00:00",
+    endDate:"2026-08-31T23:59:00",
+  },
+  // ── ANTHBOT DE ───────────────────────────────────────────────────────────
+  {
+    id:"anthbot-2026", advertiserId:"PENDING",
+    advertiser:"ANTHBOT DE",
+    code:"",
+    title:"ANTHBOT: KI-gestützte Trading- & Bot-Lösungen",
+    description:"Innovative Automatisierungslösungen für den modernen Nutzer. Jetzt testen.",
+    categories:"Technik, Software",
+    terms:"",
+    deeplink:"https://www.anthbot.com/",
+    startDate:"2026-05-01T00:00:00",
+    endDate:"2026-12-31T23:59:00",
+  },
 ];
 const STATIC_PROMOS = CSV_PROMOS; // alias
 let activeCat    = "Alle";
@@ -2147,6 +2189,39 @@ function toggleFav(key, btn) {
    the workflow at .github/workflows/fetch-promotions.yml.
    No CORS, no proxy, no 401 — just a plain same-origin file fetch.
 ─────────────────────────────────────────────────────────────────────────── */
+/* ── syncAdvertisersFromAPI ──────────────────────────────────────────────────
+   Wird aufgerufen, wenn promotions.json das Feld `programmes` enthält.
+   Synchronisiert das ADVERTISERS-Array mit den API-Daten, sodass neue
+   Partner automatisch auf der Website erscheinen.
+   Arabic: يقوم هذا الكود بمزامنة قائمة المعلنين من ملف JSON مع مصفوفة ADVERTISERS
+   ─────────────────────────────────────────────────────────────────────── */
+function syncAdvertisersFromAPI(programmes) {
+  const knownIds = new Set(ADVERTISERS.map(a => String(a.id)));
+  let added = 0;
+
+  programmes.forEach(p => {
+    const id = String(p.id || "");
+    if (!id || knownIds.has(id)) return;
+
+    // Neuer Advertiser aus der API — automatisch hinzufügen
+    ADVERTISERS.push({
+      id,
+      name: p.name        || "Partner " + id,
+      cat:  p.cat         || p.sector   || "Shopping",
+      icon: p.icon        || "🏷️",
+      url:  p.displayUrl  || "#",
+    });
+    knownIds.add(id);
+    added++;
+  });
+
+  if (added > 0) {
+    console.info(`[Auto-Sync] ${added} neue Partner aus API hinzugefügt`);
+    buildTicker();
+    buildFooter();
+  }
+}
+
 async function loadAwinPromos() {
   const pill = document.getElementById("api-pill");
   const text = document.getElementById("api-text");
@@ -2200,11 +2275,20 @@ async function loadAwinPromos() {
       }
     });
 
-    const total     = allPromos.length;
-    // Only show "Stand" date if it is a real date (not the 1970 epoch placeholder)
-    const fetchedDate = parseDate(raw.fetchedAt);
-    const isRealDate  = fetchedDate && fetchedDate.getFullYear() > 2000;
-    const freshLbl    = isRealDate ? " · Stand " + fmtDate(raw.fetchedAt) : "";
+    const total        = allPromos.length;
+    const fetchedDate  = parseDate(raw.fetchedAt);
+    const isRealDate   = fetchedDate && fetchedDate.getFullYear() > 2000;
+    const freshLbl     = isRealDate ? " · Stand " + fmtDate(raw.fetchedAt) : "";
+
+    // ── Dynamische Partner-Zähler aus promotions.json ──────────────────────
+    // programmes[] kommt vom Fetch-Script (Awin Programmes API)
+    // → zeigt immer die aktuelle Partner-Anzahl ohne manuelles Update
+    if (Array.isArray(raw.programmes) && raw.programmes.length > 0) {
+      const partnerCount = raw.programmes.length;
+      document.getElementById("stat-partners").textContent = partnerCount;
+      // Ticker + Footer mit API-Daten befüllen (überschreibt statisches Array)
+      syncAdvertisersFromAPI(raw.programmes);
+    }
 
     pill.className   = "api-pill pill-ok";
     text.textContent = total + " aktive Deals" + freshLbl;
