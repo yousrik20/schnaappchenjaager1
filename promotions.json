@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-24T19:24:06.605Z",
+  "fetchedAt": "2026-05-25T04:18:54.522Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -125,22 +125,6 @@
   ],
   "count": 100,
   "promotions": [
-    {
-      "id": "3861249",
-      "advertiserId": "14537",
-      "advertiser": "Baur Versand DE",
-      "type": "voucher",
-      "code": "14104",
-      "exclusive": false,
-      "title": "25% auf Shirts, Tops, Blusen, Hemden, Kleider, Röcke & Jeans*",
-      "description": "25% auf Shirts, Tops, Blusen, Hemden, Kleider, Röcke & Jeans*, gültig bis 24.05.2026",
-      "terms": "* Der 25% Rabatt gilt bis 24.05.26 mehrmalig für die Sortimente Jeans, Hosen & Kleider. Ausgenommen sind mit DEALS gekennzeichnete Artikel. Nicht kombinierbar mit anderen Vorteilen. Keine Barauszahlung oder nachträgliche Verrechnung möglich.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=14537&awinaffid=2851329&ued=https%3A%2F%2Fwww.baur.de%2F%3Futm_content%3Dtl%26utm_term%3D25proz_shirtstopsblusenhemden%26P1%3DMTQxMDQ%3D",
-      "url": "https://www.baur.de/?utm_content=tl&utm_term=25proz_shirtstopsblusenhemden&P1=MTQxMDQ=",
-      "startDate": "2026-05-21T22:01:00+00:00",
-      "endDate": "2026-05-24T21:59:00+00:00",
-      "dateAdded": "2026-04-29T08:32:42+00:00"
-    },
     {
       "id": "3908773",
       "advertiserId": "13812",
@@ -396,6 +380,22 @@
       "startDate": "2026-04-28T09:28:00+00:00",
       "endDate": "2026-05-31T15:59:00+00:00",
       "dateAdded": "2026-04-28T09:28:00+00:00"
+    },
+    {
+      "id": "3903799",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "W-WHIRLPOOL-10",
+      "exclusive": false,
+      "title": "10 % ohne MBW auf ausgewählte Whirlpools",
+      "description": "10 % ohne Mindestbestellwert auf ausgewählte Whirlpools",
+      "terms": "10 % Rabatt mit Gutscheincode \"W-WHIRLPOOL-10\" auf ausgewählte Artikel ohne Mindestbestellwert. Ausgenommen: Kategorie Multimedia, Gutscheine und Bücher. Aktion gültig 25.05.2026 00:01 Uhr - 31.05.2026 23:59 Uhr, mehrmalig einlösbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.marktkauf.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-Marktkauf-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3D10%2BProzent%2BGutschein%2Bauf%2Bausgew%25C3%25A4hlte%2BWhirlpools",
+      "url": "https://www.marktkauf.de/INTERSHOP/web/WFS/Plus-Marktkauf-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=10+Prozent+Gutschein+auf+ausgew%C3%A4hlte+Whirlpools",
+      "startDate": "2026-05-24T22:00:00+00:00",
+      "endDate": "2026-05-31T21:59:00+00:00",
+      "dateAdded": "2026-05-20T07:09:56+00:00"
     },
     {
       "id": "3869791",
@@ -1094,7 +1094,7 @@
       "exclusive": false,
       "title": "20% Neukunden Rabatt auf Mode, Schuhe & Möbel + Gratis-Versand für 1 Jahr*",
       "description": "20% Neukunden Rabatt auf viele Sortimente inkl. Gratis-Versand für 1 Jahr*",
-      "terms": "*Neukunden-Vorteile: Gilt einmalig für Neukunden und Kunden, die seit mindestens 2 Jahren nicht bestellt haben. 20% Rabatt für den Onlinekauf aus den Sortimenten Mode, Schuhe & Möbel. Ausgenommen sind Heimtextilien & Bademäntel, Schmuck, Uhren, Beauty- & Drogerieartikel, Lampen & Leuchten, Matratzen, Lattenroste, Wohnaccessoires, Gartendekoration, Haushaltswaren, Elektroartikel, Multimedia, Baumarkt, Artikel der Marke Leguano und mit Bestpreis oder TOP DEALS gekennzeichnete Artikel. Nicht kombinierbar mit anderen Vorteilen. Keine Barauszahlung oder nachträgliche Verrechnung möglich. Gratis-Versand gilt für 1 Jahr für alle Standardlieferungen, sonstige Lieferaufschläge werden wie üblich verrechnet.",
+      "terms": "*Neukunden-Vorteile: Gilt einmalig für Neukunden und Kunden, die seit mindestens 2 Jahren nicht bestellt haben. 20% Rabatt für den Onlinekauf aus den Sortimenten Mode, Schuhe & Möbel. Ausgenommen sind Heimtextilien & Bademäntel, Schmuck, Uhren, Beauty- & Drogerieartikel, Lampen & Leuchten, Matratzen, Lattenroste, Wohnaccessoires, Gartendekoration, Haushaltswaren, Elektroartikel, Multimedia, Baumarkt, Artikel der Marke Leguano und mit Bestpreis oder TOP DEALS gekennzeichnete Artikel. Nicht kombinierbar mit anderen Vorteilen. Keine Barauszahlung oder nachträgliche Verrechnung möglich. Gratis-Versand gilt für 1 Jahr für alle Standardlieferungen, sonstige Lieferaufschläge werden wie ��blich verrechnet.",
       "deeplink": "https://www.awin1.com/cread.php?awinmid=14537&awinaffid=2851329&ued=https%3A%2F%2Fwww.baur.de%2F%3FP1%3DMTEyODM%3D%26Name%3Dtl%26utm_content%3Dtl%26utm_term%3Ddefault",
       "url": "https://www.baur.de/?P1=MTEyODM=&Name=tl&utm_content=tl&utm_term=default",
       "startDate": "2025-09-01T15:13:00+00:00",
