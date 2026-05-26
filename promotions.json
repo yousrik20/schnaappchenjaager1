@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-26T04:04:13.480Z",
+  "fetchedAt": "2026-05-26T10:06:38.046Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -291,22 +291,6 @@
       "startDate": "2026-04-01T22:00:00+00:00",
       "endDate": "2026-05-28T21:59:00+00:00",
       "dateAdded": "2026-03-30T12:25:23+00:00"
-    },
-    {
-      "id": "3801346",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-GARTEN-30",
-      "exclusive": false,
-      "title": "30 € ab 300 € auf Garten",
-      "description": "30 € ab 300 € Mindestbestellwert auf die Kategorie Garten",
-      "terms": "30 € Rabatt ab 300 € auf die Kategorie Garten mit dem Code \"N-GARTEN-30\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 27.03.2026 00:01 Uhr - 28.05.2026 23:59 Uhr.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Falle-gartenartikel%2Fc-S0501",
-      "url": "https://www.netto-online.de/alle-gartenartikel/c-S0501",
-      "startDate": "2026-03-26T23:00:00+00:00",
-      "endDate": "2026-05-28T21:59:00+00:00",
-      "dateAdded": "2026-03-25T08:43:35+00:00"
     },
     {
       "id": "3855177",
@@ -661,6 +645,22 @@
       "dateAdded": "2026-05-21T13:33:26+00:00"
     },
     {
+      "id": "3801346",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-GARTEN-30",
+      "exclusive": false,
+      "title": "30 € ab 300 € auf Garten",
+      "description": "30 € ab 300 € Mindestbestellwert auf die Kategorie Garten",
+      "terms": "30 € Rabatt ab 300 € auf die Kategorie Garten mit dem Code \"N-GARTEN-30\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 27.03.2026 00:01 Uhr - 18.06.2026 23:59 Uhr.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Falle-gartenartikel%2Fc-S0501",
+      "url": "https://www.netto-online.de/alle-gartenartikel/c-S0501",
+      "startDate": "2026-03-26T23:00:00+00:00",
+      "endDate": "2026-06-18T21:59:00+00:00",
+      "dateAdded": "2026-03-25T08:43:35+00:00"
+    },
+    {
       "id": "3886973",
       "advertiserId": "13812",
       "advertiser": "Netto Marken-Discount DE",
@@ -691,6 +691,22 @@
       "startDate": "2026-05-22T07:26:00+00:00",
       "endDate": "2026-06-29T22:00:00+00:00",
       "dateAdded": "2026-05-22T07:24:26+00:00"
+    },
+    {
+      "id": "3858473",
+      "advertiserId": "25546",
+      "advertiser": "Stylevana DE",
+      "type": "voucher",
+      "code": "AFFSPF22",
+      "exclusive": false,
+      "title": "Suncare 22% Off",
+      "description": "Member Exclusive: 22% off on Suncare + 17% off on rest items on €69+ | Max 10% off on €69+",
+      "terms": "This offer cannot be combined with other promotions.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fspf-shopping-week",
+      "url": "https://www.stylevana.com/de_DE/spf-shopping-week",
+      "startDate": "2026-04-28T09:33:00+00:00",
+      "endDate": "2026-06-30T15:59:00+00:00",
+      "dateAdded": "2026-04-28T09:33:58+00:00"
     },
     {
       "id": "3856241",
@@ -995,22 +1011,6 @@
       "startDate": "2026-04-01T01:45:00+00:00",
       "endDate": "2026-06-30T22:00:00+00:00",
       "dateAdded": "2026-04-01T01:45:53+00:00"
-    },
-    {
-      "id": "3858473",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "AFFSPF22",
-      "exclusive": false,
-      "title": "Suncare 22% Off",
-      "description": "Member Exclusive: 22% off on Suncare + 17% off on rest items on €69+ | Max 10% off on €69+",
-      "terms": "This offer cannot be combined with other promotions.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fspf-shopping-week",
-      "url": "https://www.stylevana.com/de_DE/spf-shopping-week",
-      "startDate": "2026-04-28T09:33:00+00:00",
-      "endDate": "2026-07-01T15:59:00+00:00",
-      "dateAdded": "2026-04-28T09:33:58+00:00"
     },
     {
       "id": "3912751",
