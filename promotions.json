@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-25T19:48:41.043Z",
+  "fetchedAt": "2026-05-26T04:04:13.480Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -102,6 +102,13 @@
       "displayUrl": "https://www.house-of-sneakers.de"
     },
     {
+      "id": "122456",
+      "name": "ROCKBROS",
+      "icon": "🏃",
+      "cat": "Sport",
+      "displayUrl": "https://rockbrosbike.de/"
+    },
+    {
       "id": "125144",
       "name": "ANTHBOT DE",
       "icon": "🔧",
@@ -123,7 +130,7 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 100,
+  "count": 101,
   "promotions": [
     {
       "id": "3908773",
@@ -1004,6 +1011,22 @@
       "startDate": "2026-04-28T09:33:00+00:00",
       "endDate": "2026-07-01T15:59:00+00:00",
       "dateAdded": "2026-04-28T09:33:58+00:00"
+    },
+    {
+      "id": "3912751",
+      "advertiserId": "44635",
+      "advertiser": "Voghion Global",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Voghion Summer Sale",
+      "description": "Voghion Summer Sale: Up to 50% OFF",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=44635&awinaffid=2851329&ued=https%3A%2F%2Fvoghion.com%2Fcampaigns%2F18280",
+      "url": "https://voghion.com/campaigns/18280",
+      "startDate": "2026-05-26T03:47:00+00:00",
+      "endDate": "2026-07-19T22:00:00+00:00",
+      "dateAdded": "2026-05-26T03:47:06+00:00"
     },
     {
       "id": "3908621",
