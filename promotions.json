@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-26T10:06:38.046Z",
+  "fetchedAt": "2026-05-26T15:53:04.711Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,24 +130,8 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 101,
+  "count": 103,
   "promotions": [
-    {
-      "id": "3908773",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-PFINGSTEN-15",
-      "exclusive": false,
-      "title": "15€ Rabatt auf Alles",
-      "description": "15€ Rabatt auf Alles ab 200€ Mindestbestellwert (ohne Multimedia)",
-      "terms": "15€ Rabatt auf Alles ab 200€ Bestellwert. Nur online gültig vom 22.05.2026 von 00:00 Uhr bis 26.05.2026 23:59 Uhr mit dem Gutscheincode N-PFINGSTEN-15. Ausgenommen: Multimedia, Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, ausgewählte Werbeware sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht kombinierbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DPfingst%2BSpecials%2Bmit%2BGutschein",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Pfingst+Specials+mit+Gutschein",
-      "startDate": "2026-05-22T08:16:00+00:00",
-      "endDate": "2026-05-26T21:59:00+00:00",
-      "dateAdded": "2026-05-22T08:16:55+00:00"
-    },
     {
       "id": "3892833",
       "advertiserId": "11684",
@@ -243,6 +227,22 @@
       "startDate": "2026-05-04T22:01:00+00:00",
       "endDate": "2026-05-27T21:59:00+00:00",
       "dateAdded": "2026-04-27T14:54:41+00:00"
+    },
+    {
+      "id": "3908773",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-PFINGSTEN-15",
+      "exclusive": false,
+      "title": "15€ Rabatt auf Alles",
+      "description": "15€ Rabatt auf Alles ab 200€ Mindestbestellwert (ohne Multimedia)",
+      "terms": "15€ Rabatt auf Alles ab 200€ Bestellwert. Nur online gültig vom 22.05.2026 von 00:00 Uhr bis 28.05.2026 23:59 Uhr mit dem Gutscheincode N-PFINGSTEN-15. Ausgenommen: Multimedia, Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, ausgewählte Werbeware sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht kombinierbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DPfingst%2BSpecials%2Bmit%2BGutschein",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Pfingst+Specials+mit+Gutschein",
+      "startDate": "2026-05-22T08:16:00+00:00",
+      "endDate": "2026-05-28T21:59:00+00:00",
+      "dateAdded": "2026-05-22T08:16:55+00:00"
     },
     {
       "id": "3903915",
@@ -595,6 +595,38 @@
       "startDate": "2026-05-12T06:34:00+00:00",
       "endDate": "2026-06-01T06:28:00+00:00",
       "dateAdded": "2026-05-12T06:34:36+00:00"
+    },
+    {
+      "id": "3914071",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "voucher",
+      "code": "KA100",
+      "exclusive": false,
+      "title": "ELV Tech-Summer - Gratis ELV Klimakomfortanzeige*",
+      "description": "Bei jeder Bestellung ab 59,00 EUR erhalten Sie die ELV Klimakomfortanzeige gratis dazu",
+      "terms": "*Bestellen Sie im ELV-Webshop für mindestens 59,00 EUR und sichern Sie sich einmalig und kostenlos eine ELV Klimakomfortanzeige KA100, Klimamonitor, Raumtemperatur messen (Artikel-Nr.: 250972) zu Ihrer Bestellung. Damit die Aktion berücksichtigt werden kann, geben Sie den Bonuscode KA100 im Warenkorb ein. Die Aktion gilt vom 26.05. bis zum 02.06.2026, nur in Deutschland und Österreich, nur solange der Vorrat reicht und nicht in Kombination mit anderen Aktionen. Der Mindestbestellwert bezieht sich auf den Warenwert nach Abzug aller Rabatte und Gutscheine, ohne Versandkosten. Pro Kundenkonto kann die Aktion nur einmal in Anspruch genommen werden. Eine Barauszahlung oder ein Umtausch der Klimakomfortanzeige ist ausgeschlossen. Sollte durch Rückgabe oder Umtausch von Produkten die Mindestbestellsumme unterschritten werden, entfällt der Anspruch auf die kostenlose Klimakomfortanzeige. Dieses Angebot richtet sich ausschließlich an Verbraucher. Firmen, Fachhändler und Institutionen sind von der Aktion ausgeschlossen.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Felv-tech-summer",
+      "url": "https://de.elv.com/elv-tech-summer",
+      "startDate": "2026-05-26T12:25:00+00:00",
+      "endDate": "2026-06-02T21:59:00+00:00",
+      "dateAdded": "2026-05-26T12:25:10+00:00"
+    },
+    {
+      "id": "3914007",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "ELV - Smarter Hitzeschutz für heiße Tage",
+      "description": "Beschattung – Smarter Hitzeschutz für heiße Tage",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Felv-tech-summer",
+      "url": "https://de.elv.com/elv-tech-summer",
+      "startDate": "2026-05-26T12:02:00+00:00",
+      "endDate": "2026-06-02T21:59:00+00:00",
+      "dateAdded": "2026-05-26T12:02:05+00:00"
     },
     {
       "id": "3883011",
@@ -1003,7 +1035,7 @@
       "type": "voucher",
       "code": "AFF18ANROSE",
       "exclusive": false,
-      "title": "anillO Sale: Extra 18%off with free hair essence on EUR€59",
+      "title": "anillO Sale: Extra 18%off with free hair essence on EUR��59",
       "description": "Member Exclusive: Use AFF18ANROSE to enjoy Free anillO - Rosy Night Repair Hair Essence (10ml) + 18% off on €59",
       "terms": "Offer may not used with other site offers",
       "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
