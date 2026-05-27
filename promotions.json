@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-27T04:17:58.989Z",
+  "fetchedAt": "2026-05-27T10:04:39.012Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,7 +130,7 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 101,
+  "count": 102,
   "promotions": [
     {
       "id": "3906713",
@@ -563,6 +563,22 @@
       "startDate": "2026-05-12T06:34:00+00:00",
       "endDate": "2026-06-01T06:28:00+00:00",
       "dateAdded": "2026-05-12T06:34:36+00:00"
+    },
+    {
+      "id": "3913305",
+      "advertiserId": "25546",
+      "advertiser": "Stylevana DE",
+      "type": "voucher",
+      "code": "SVSPF",
+      "exclusive": false,
+      "title": "Internationaler SPF-Tag",
+      "description": "Member Exclusive: -16% Rabatt auf 89€+ | -12% Rabatt auf 49€+",
+      "terms": "This offer cannot be combined with other promotions.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fbeauty-sale",
+      "url": "https://www.stylevana.com/de_DE/beauty-sale",
+      "startDate": "2026-05-27T08:23:00+00:00",
+      "endDate": "2026-06-02T08:23:00+00:00",
+      "dateAdded": "2026-05-26T08:24:56+00:00"
     },
     {
       "id": "3914071",
