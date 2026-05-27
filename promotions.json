@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-27T10:04:39.012Z",
+  "fetchedAt": "2026-05-27T15:57:45.012Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,7 +130,7 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 102,
+  "count": 106,
   "promotions": [
     {
       "id": "3906713",
@@ -211,22 +211,6 @@
       "startDate": "2026-05-22T08:16:00+00:00",
       "endDate": "2026-05-28T21:59:00+00:00",
       "dateAdded": "2026-05-22T08:16:55+00:00"
-    },
-    {
-      "id": "3903915",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-WM-10",
-      "exclusive": false,
-      "title": "10€ Filialgutschein auf ausgewählte Artikel inkl. Gratis Versand",
-      "description": "10€ Filialgutschein ab 100€ MBW auf ausgewählte Artikel inkl. Gratis Versand",
-      "terms": "Aktion nur online gültig von 22.05.2026 bis 28.05.2026. 10€ Filial-Gutschein gratis und gratis Versand auf ausgewählte Artikel ab einem Mindestbestellwert von 100€ (exkl. Versandkosten und Pfand) unter www.netto-online.de mit dem Code: N-WM-10. Von der Aktion ausgenommen sind Gutschein- und Guthabenkarten, Bücher, Pre- und Anfangsmilchnahrung und einzelne, entsprechend gesondert gekennzeichnete Artikel. Vervielfältigung jeglicher Art nicht gestattet. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Pro Person maximal ein Filial-Gutschein erhältlich. Versand des Filial-Gutscheins erfolgt 4 Wochen nach Warenlieferung per Mail. Der Filial-Gutschein ist ohne Mindesteinkaufswert einlösbar. 1 Monat ab Ausstellungsdatum gültig.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DWarm%2BUp%2Bzur%2BWM",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Warm+Up+zur+WM",
-      "startDate": "2026-05-21T22:00:00+00:00",
-      "endDate": "2026-05-28T21:59:00+00:00",
-      "dateAdded": "2026-05-20T07:53:56+00:00"
     },
     {
       "id": "3901947",
@@ -581,6 +565,22 @@
       "dateAdded": "2026-05-26T08:24:56+00:00"
     },
     {
+      "id": "3916513",
+      "advertiserId": "11684",
+      "advertiser": "Aosom DE/AT",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Aosom Day",
+      "description": "Spare bis zu 70% auf zahlreiche Artikel plus zusätzlich 15% auf ausgewählte Produkte.",
+      "terms": "Alle Rabatte sind nicht kombinierbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11684&awinaffid=2851329&ued=https%3A%2F%2Fwww.aosom.de%2Factivity%2Faosom-day",
+      "url": "https://www.aosom.de/activity/aosom-day",
+      "startDate": "2026-05-27T11:42:00+00:00",
+      "endDate": "2026-06-02T21:59:00+00:00",
+      "dateAdded": "2026-05-27T11:42:04+00:00"
+    },
+    {
       "id": "3914071",
       "advertiserId": "11447",
       "advertiser": "ELV DE",
@@ -627,6 +627,22 @@
       "startDate": "2026-05-12T01:55:00+00:00",
       "endDate": "2026-06-02T21:59:00+00:00",
       "dateAdded": "2026-05-12T01:55:06+00:00"
+    },
+    {
+      "id": "3903915",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-WM-10",
+      "exclusive": false,
+      "title": "10€ Filialgutschein auf ausgewählte Artikel inkl. Gratis Versand",
+      "description": "10€ Filialgutschein ab 100€ MBW auf ausgewählte Artikel inkl. Gratis Versand",
+      "terms": "Aktion nur online gültig von 22.05.2026 bis 04.06.2026. 10€ Filial-Gutschein gratis und gratis Versand auf ausgewählte Artikel ab einem Mindestbestellwert von 100€ (exkl. Versandkosten und Pfand) unter www.netto-online.de mit dem Code: N-WM-10. Von der Aktion ausgenommen sind Gutschein- und Guthabenkarten, Bücher, Pre- und Anfangsmilchnahrung und einzelne, entsprechend gesondert gekennzeichnete Artikel. Vervielfältigung jeglicher Art nicht gestattet. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Pro Person maximal ein Filial-Gutschein erhältlich. Versand des Filial-Gutscheins erfolgt 4 Wochen nach Warenlieferung per Mail. Der Filial-Gutschein ist ohne Mindesteinkaufswert einlösbar. 1 Monat ab Ausstellungsdatum gültig.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DWarm%2BUp%2Bzur%2BWM",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Warm+Up+zur+WM",
+      "startDate": "2026-05-21T22:00:00+00:00",
+      "endDate": "2026-06-04T21:59:00+00:00",
+      "dateAdded": "2026-05-20T07:53:56+00:00"
     },
     {
       "id": "3877551",
@@ -723,6 +739,38 @@
       "startDate": "2026-04-28T09:33:00+00:00",
       "endDate": "2026-06-30T15:59:00+00:00",
       "dateAdded": "2026-04-28T09:33:58+00:00"
+    },
+    {
+      "id": "3916653",
+      "advertiserId": "53143",
+      "advertiser": "teppich.de",
+      "type": "voucher",
+      "code": "DEAL45",
+      "exclusive": false,
+      "title": "DEAL45: 45 % auf Lampen sparen",
+      "description": "Mit dem Code DEAL45 jetzt 45 % Rabatt auf ausgewählte Lampen erhalten. Von modern bis gemütlich – passende Beleuchtung für jeden Wohnstil entdecken. Nur für kurze Zeit",
+      "terms": "Solange Vorrat reicht",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=53143&awinaffid=2851329&ued=https%3A%2F%2Fwww.teppich.de%2FLampen-sale-102%2F",
+      "url": "https://www.teppich.de/Lampen-sale-102/",
+      "startDate": "2026-05-27T12:55:00+00:00",
+      "endDate": "2026-06-30T21:59:00+00:00",
+      "dateAdded": "2026-05-27T12:55:24+00:00"
+    },
+    {
+      "id": "3916645",
+      "advertiserId": "53143",
+      "advertiser": "teppich.de",
+      "type": "voucher",
+      "code": "DEAL55",
+      "exclusive": false,
+      "title": "DEAL55: 55 % auf ausgewählte Lampen",
+      "description": "Jetzt mit dem Code DEAL55 ganze 55 % Rabatt auf ausgewählte Lampen sichern. Perfekt für stilvolle Lichtakzente und moderne Wohnideen. Nur für kurze Zeit",
+      "terms": "Solange Vorrat reicht",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=53143&awinaffid=2851329&ued=https%3A%2F%2Fwww.teppich.de%2FLampen-sale-100%2F",
+      "url": "https://www.teppich.de/Lampen-sale-100/",
+      "startDate": "2026-05-27T12:52:00+00:00",
+      "endDate": "2026-06-30T21:59:00+00:00",
+      "dateAdded": "2026-05-27T12:52:54+00:00"
     },
     {
       "id": "3856241",
@@ -1187,6 +1235,22 @@
       "startDate": "2026-01-02T09:09:00+00:00",
       "endDate": "2026-12-31T15:59:00+00:00",
       "dateAdded": "2026-01-02T09:09:16+00:00"
+    },
+    {
+      "id": "3916399",
+      "advertiserId": "125816",
+      "advertiser": "Imou DE",
+      "type": "voucher",
+      "code": "IMOUAFF5",
+      "exclusive": false,
+      "title": "Site-wide 5% Off",
+      "description": "only use it once",
+      "terms": "Site-wide 5% Off，Limited to one use per person.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=125816&awinaffid=2851329&ued=https%3A%2F%2Fstore.imou.com%2Fde-de",
+      "url": "https://store.imou.com/de-de",
+      "startDate": "2026-05-27T10:48:00+00:00",
+      "endDate": "2026-12-31T16:00:00+00:00",
+      "dateAdded": "2026-05-27T10:48:19+00:00"
     },
     {
       "id": "3479662",
