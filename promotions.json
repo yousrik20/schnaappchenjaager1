@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-26T20:20:46.167Z",
+  "fetchedAt": "2026-05-27T04:17:58.989Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,40 +130,8 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 103,
+  "count": 101,
   "promotions": [
-    {
-      "id": "3892833",
-      "advertiserId": "11684",
-      "advertiser": "Aosom DE/AT",
-      "type": "voucher",
-      "code": "WOCHE12",
-      "exclusive": false,
-      "title": "Pfingst-Verkauf!",
-      "description": "Bis zu 60% Rabatt sowie 12% Rabatt Code: WOCHE12",
-      "terms": "Alle Rabatte sind nicht kombinierbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=11684&awinaffid=2851329&ued=https%3A%2F%2Fwww.aosom.de%2Factivity%2Fpfingsten",
-      "url": "https://www.aosom.de/activity/pfingsten",
-      "startDate": "2026-05-15T08:51:00+00:00",
-      "endDate": "2026-05-26T22:59:00+00:00",
-      "dateAdded": "2026-05-15T08:51:55+00:00"
-    },
-    {
-      "id": "3903589",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "SVSPF",
-      "exclusive": false,
-      "title": "Safe Sun Week – SPF-Vorrat auffüllen",
-      "description": "Member Exclusive: 20% Rabatt auf Sonnenpflege-Produkte | 16% Rabatt auf 80€+  | 12% Rabatt auf 50€+",
-      "terms": "Offer may not be used with other site offers.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fpromotion%2Ftheme%2Fsafesunweek.html",
-      "url": "https://www.stylevana.com/de_DE/promotion/theme/safesunweek.html",
-      "startDate": "2026-05-20T02:36:00+00:00",
-      "endDate": "2026-05-27T02:34:00+00:00",
-      "dateAdded": "2026-05-20T02:36:56+00:00"
-    },
     {
       "id": "3906713",
       "advertiserId": "13812",
