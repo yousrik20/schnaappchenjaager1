@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T04:07:09.290Z",
+  "fetchedAt": "2026-05-28T10:13:55.886Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,7 +130,7 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 111,
+  "count": 116,
   "promotions": [
     {
       "id": "3908773",
@@ -515,6 +515,86 @@
       "startDate": "2026-05-27T08:23:00+00:00",
       "endDate": "2026-06-02T08:23:00+00:00",
       "dateAdded": "2026-05-26T08:24:56+00:00"
+    },
+    {
+      "id": "3918101",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "eW320 Akku Aufputz-Gurtwickler Comfort  für nur 169,95 EUR (Inkl. Versand)",
+      "description": "Jetzt shoppen!",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Fp%2Fwir-elektronik-elektronischer-akku-aufputz-gurtwickler-ewickler-ew320-17-23-mm-gurtband-display-P253655",
+      "url": "https://de.elv.com/p/wir-elektronik-elektronischer-akku-aufputz-gurtwickler-ewickler-ew320-17-23-mm-gurtband-display-P253655",
+      "startDate": "2026-05-28T09:11:00+00:00",
+      "endDate": "2026-06-02T21:59:00+00:00",
+      "dateAdded": "2026-05-28T09:11:22+00:00"
+    },
+    {
+      "id": "3918089",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Schellenberg Funk-Rollladenmotor Mini PREMIUM 10 Nm, SW40 für nur 119,95 EUR (Inkl. Versand)",
+      "description": "Jetzt shoppen!",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Fp%2Fschellenberg-funk-rollladenmotor-premium-10-nm-mini-sw40-P251249",
+      "url": "https://de.elv.com/p/schellenberg-funk-rollladenmotor-premium-10-nm-mini-sw40-P251249",
+      "startDate": "2026-05-28T09:06:00+00:00",
+      "endDate": "2026-06-02T21:59:00+00:00",
+      "dateAdded": "2026-05-28T09:06:29+00:00"
+    },
+    {
+      "id": "3918077",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Homematic IP Smart Home Set Rollladen mit Access Point 2, 5x Rollladenaktor Unterputz für nur 269,95 EUR (Inkl. Versand)",
+      "description": "Jetzt shoppen!",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Fp%2Fhomematic-ip-smart-home-set-access-point-2-5x-rollladenaktor-unterputz-P255378",
+      "url": "https://de.elv.com/p/homematic-ip-smart-home-set-access-point-2-5x-rollladenaktor-unterputz-P255378",
+      "startDate": "2026-05-28T09:02:00+00:00",
+      "endDate": "2026-06-02T21:59:00+00:00",
+      "dateAdded": "2026-05-28T09:02:23+00:00"
+    },
+    {
+      "id": "3918065",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Homematic IP Smart Home Starter Set Rollladensteuerung, HmIP-SK29  für nur 149,95 EUR (Inkl. Versand",
+      "description": "Jetzt shoppen!",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Fp%2Fhomematic-ip-smart-home-starter-set-rollladensteuerung-hmip-sk29-P162171",
+      "url": "https://de.elv.com/p/homematic-ip-smart-home-starter-set-rollladensteuerung-hmip-sk29-P162171",
+      "startDate": "2026-05-28T08:58:00+00:00",
+      "endDate": "2026-06-02T21:59:00+00:00",
+      "dateAdded": "2026-05-28T08:58:06+00:00"
+    },
+    {
+      "id": "3918041",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Homematic IP Smart Home Starter Set Beschattung, HmIP-SK20 für nur 129,95 EUR (Inkl. Versand",
+      "description": "Jetzt shoppen!",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Fp%2Fhomematic-ip-smart-home-starter-set-beschattung-hmip-sk20-P158143",
+      "url": "https://de.elv.com/p/homematic-ip-smart-home-starter-set-beschattung-hmip-sk20-P158143",
+      "startDate": "2026-05-28T08:49:00+00:00",
+      "endDate": "2026-06-02T21:59:00+00:00",
+      "dateAdded": "2026-05-28T08:49:01+00:00"
     },
     {
       "id": "3916513",
