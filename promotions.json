@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T04:08:41.556Z",
+  "fetchedAt": "2026-05-29T10:04:00.248Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,24 +130,8 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 145,
+  "count": 144,
   "promotions": [
-    {
-      "id": "3855177",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "AFF18TIRMINI",
-      "exclusive": false,
-      "title": "TirTIr Sale: Extra 16% off",
-      "description": "Member Exclusive: 16% off with a free Mini Cushion on €59+",
-      "terms": "This offer cannot be combined with other promotions.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fmarken%2Ftirtir.html",
-      "url": "https://www.stylevana.com/de_DE/marken/tirtir.html",
-      "startDate": "2026-05-11T06:25:00+00:00",
-      "endDate": "2026-05-29T06:25:00+00:00",
-      "dateAdded": "2026-04-27T06:26:10+00:00"
-    },
     {
       "id": "3531456",
       "advertiserId": "102013",
@@ -211,22 +195,6 @@
       "startDate": "2026-05-12T09:42:00+00:00",
       "endDate": "2026-05-31T09:41:00+00:00",
       "dateAdded": "2026-05-12T09:42:57+00:00"
-    },
-    {
-      "id": "3825089",
-      "advertiserId": "101583",
-      "advertiser": "Design Letters",
-      "type": "voucher",
-      "code": "THANKYOU20",
-      "exclusive": false,
-      "title": "THANKYOU20 20% OFF PER ORDER",
-      "description": "THANKYOU20 20% OFF PER ORDER",
-      "terms": "All customers\nFor Online Store\n20% off 2 collections\nNo minimum purchase requirement\nOne use per customer\nCan’t combine with other discounts",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=101583&awinaffid=2851329&ued=https%3A%2F%2Fdesignletters.eu%2F",
-      "url": "https://designletters.eu/",
-      "startDate": "2026-04-09T11:01:00+00:00",
-      "endDate": "2026-05-31T10:57:00+00:00",
-      "dateAdded": "2026-04-09T11:01:56+00:00"
     },
     {
       "id": "3858457",
@@ -819,6 +787,22 @@
       "startDate": "2026-05-22T07:26:00+00:00",
       "endDate": "2026-06-29T22:00:00+00:00",
       "dateAdded": "2026-05-22T07:24:26+00:00"
+    },
+    {
+      "id": "3825089",
+      "advertiserId": "101583",
+      "advertiser": "Design Letters",
+      "type": "voucher",
+      "code": "THANKYOU20",
+      "exclusive": false,
+      "title": "THANKYOU20 20% OFF PER ORDER",
+      "description": "THANKYOU20 20% OFF PER ORDER",
+      "terms": "All customers\nFor Online Store\n20% off 2 collections\nNo minimum purchase requirement\nOne use per customer\nCan’t combine with other discounts",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=101583&awinaffid=2851329&ued=https%3A%2F%2Fdesignletters.eu%2F",
+      "url": "https://designletters.eu/",
+      "startDate": "2026-04-09T11:01:00+00:00",
+      "endDate": "2026-06-30T10:57:00+00:00",
+      "dateAdded": "2026-04-09T11:01:56+00:00"
     },
     {
       "id": "3858473",
