@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T20:30:31.055Z",
+  "fetchedAt": "2026-05-29T04:08:41.556Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,40 +130,8 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 143,
+  "count": 145,
   "promotions": [
-    {
-      "id": "3908773",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-PFINGSTEN-15",
-      "exclusive": false,
-      "title": "15€ Rabatt auf Alles",
-      "description": "15€ Rabatt auf Alles ab 200€ Mindestbestellwert (ohne Multimedia)",
-      "terms": "15€ Rabatt auf Alles ab 200€ Bestellwert. Nur online gültig vom 22.05.2026 von 00:00 Uhr bis 28.05.2026 23:59 Uhr mit dem Gutscheincode N-PFINGSTEN-15. Ausgenommen: Multimedia, Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, ausgewählte Werbeware sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht kombinierbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DPfingst%2BSpecials%2Bmit%2BGutschein",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Pfingst+Specials+mit+Gutschein",
-      "startDate": "2026-05-22T08:16:00+00:00",
-      "endDate": "2026-05-28T21:59:00+00:00",
-      "dateAdded": "2026-05-22T08:16:55+00:00"
-    },
-    {
-      "id": "3808124",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-MOBIL-50",
-      "exclusive": false,
-      "title": "50 € ab 999 € auf Kategorien Fahrräder, Roller",
-      "description": "50 € ab 999 € Mindestbestellwert auf Kategorien Fahrräder, Roller",
-      "terms": "50 € Rabatt ab 999 € auf die Kategorie Garten mit dem Code \"N-MOBIL-50\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 02.04.2026 00:01 Uhr - 28.05.2026 23:59 Uhr.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Ffreizeit%2Fc-N06",
-      "url": "https://www.netto-online.de/freizeit/c-N06",
-      "startDate": "2026-04-01T22:00:00+00:00",
-      "endDate": "2026-05-28T21:59:00+00:00",
-      "dateAdded": "2026-03-30T12:25:23+00:00"
-    },
     {
       "id": "3855177",
       "advertiserId": "25546",
@@ -661,6 +629,22 @@
       "dateAdded": "2026-05-28T11:51:30+00:00"
     },
     {
+      "id": "3913301",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "W-INTER-10",
+      "exclusive": false,
+      "title": "10 % ohne MBW auf Kategorie ausgewählte Artikel",
+      "description": "10 % ohne MBW Mindestbestellwert auf Artikel der Kategorie ausgewählte Artikel",
+      "terms": "10 % Rabatt mit Gutscheincode \"W-INTER-10\" auf ausgewählte Artikel ab einem Mindestbestellwert von 0 €. Ausgenommen: Kategorie Multimedia, Gutscheine und Bücher und gesondert gekennzeichnete Artikel. Aktion gültig bis 04.06.2026 23:59 Uhr, mehrmalig einlösbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-SimpleOfferSearch%3FSearchTerm%3DInter%2BTrading%2BGmbH%26Region%3D1%26MeatMarketType%3D2%26KW%3D22",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-SimpleOfferSearch?SearchTerm=Inter+Trading+GmbH&Region=1&MeatMarketType=2&KW=22",
+      "startDate": "2026-05-28T22:00:00+00:00",
+      "endDate": "2026-06-04T21:59:00+00:00",
+      "dateAdded": "2026-05-26T08:24:10+00:00"
+    },
+    {
       "id": "3903799",
       "advertiserId": "13812",
       "advertiser": "Netto Marken-Discount DE",
@@ -693,6 +677,22 @@
       "dateAdded": "2026-05-08T03:32:47+00:00"
     },
     {
+      "id": "3917945",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-SOLAR-50",
+      "exclusive": false,
+      "title": "50 € ab 800 € auf Solarenergie",
+      "description": "50 € ab 800 € Mindestbestellwert auf Solarenergie",
+      "terms": "50 € Rabatt ab 800 € auf die Kategorie Garten mit dem Code \"N-SOLAR-50\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 29.05.2026 00:01 Uhr - 11.06.2026 23:59 Uhr.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Fsolarenergie%2Fc-N06060109",
+      "url": "https://www.netto-online.de/solarenergie/c-N06060109",
+      "startDate": "2026-05-28T22:00:00+00:00",
+      "endDate": "2026-06-11T21:59:00+00:00",
+      "dateAdded": "2026-05-28T08:03:42+00:00"
+    },
+    {
       "id": "3906281",
       "advertiserId": "109230",
       "advertiser": "Tsarbomba",
@@ -723,6 +723,38 @@
       "startDate": "2026-05-21T03:48:00+00:00",
       "endDate": "2026-06-16T15:59:00+00:00",
       "dateAdded": "2026-05-21T03:48:23+00:00"
+    },
+    {
+      "id": "3916519",
+      "advertiserId": "14537",
+      "advertiser": "Baur Versand DE",
+      "type": "voucher",
+      "code": "13439",
+      "exclusive": false,
+      "title": "20% auf Sommerschuhe & Sommerkleidung",
+      "description": "20% auf Sommerschuhe & Sommerkleidung, gültig bis 16.06.2026",
+      "terms": "* Der 20% Rabatt gilt bis 16.06.26 mehrmalig für die Sortimente Sommerkleidung & Sommerschuhe. Ausgenommen sind Bademäntel, Schmuck, Uhren, Beauty- & Drogerieartikel, Bademode, Artikel der Marken travelite, Samsonite, aunts & uncles, Hauck, qnuffs und mit DEALS gekennzeichnete Artikel. Nicht kombinierbar mit anderen Vorteilen. Keine Barauszahlung oder nachträgliche Verrechnung möglich.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=14537&awinaffid=2851329&ued=https%3A%2F%2Fwww.baur.de%2F%3Futm_content%3Dtl%26utm_term%3D20proz_modeschuhe%26P1%3DMTM0Mzk%3D",
+      "url": "https://www.baur.de/?utm_content=tl&utm_term=20proz_modeschuhe&P1=MTM0Mzk=",
+      "startDate": "2026-05-28T22:01:00+00:00",
+      "endDate": "2026-06-16T21:59:00+00:00",
+      "dateAdded": "2026-05-27T11:51:16+00:00"
+    },
+    {
+      "id": "3914389",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-FREIZEIT-50",
+      "exclusive": false,
+      "title": "50€ Rabatt auf die Kategorie Freizeit",
+      "description": "50€ Rabatt ab 750€ Mindestbestellwert auf die Kategorie Freizeit",
+      "terms": "50 € Gutschein auf die Kategorie Freizeit mit dem Code: N-FREIZEIT-50, ab einem Mindestbestellwert von 750 €. Nur online gültig bis 18.06.2026. Ausgenommen: Gutscheine, Bücher sowie einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Ffreizeit%2Fc-N06",
+      "url": "https://www.netto-online.de/freizeit/c-N06",
+      "startDate": "2026-05-28T22:00:00+00:00",
+      "endDate": "2026-06-18T21:59:00+00:00",
+      "dateAdded": "2026-05-26T14:05:07+00:00"
     },
     {
       "id": "3801346",
