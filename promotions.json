@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T20:32:43.292Z",
+  "fetchedAt": "2026-05-30T03:55:06.089Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,7 +130,7 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 144,
+  "count": 145,
   "promotions": [
     {
       "id": "3531456",
@@ -627,6 +627,22 @@
       "startDate": "2026-05-24T22:00:00+00:00",
       "endDate": "2026-06-06T21:59:00+00:00",
       "dateAdded": "2026-05-20T07:09:56+00:00"
+    },
+    {
+      "id": "3919345",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "W-EINFACH-15",
+      "exclusive": false,
+      "title": "15 % ohne MBW auf Lieferant Ganz Einfach",
+      "description": "15 % ohne MBW auf Lieferant Ganz Einfach",
+      "terms": "15 % Rabatt auf ausgewählte Artikel mit dem Code: W-EINFACH-15. Nur online gültig von 30.05.2026 bis 07.06.2026. Ausgenommen: Gutscheine, Bücher und Pre- & Anfangsmilchnahrung. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Keine Anrechnung auf Versandkosten und Filial-Abholservices.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DGutschein%2BGanz%2BEinfach",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Gutschein+Ganz+Einfach",
+      "startDate": "2026-05-29T22:00:00+00:00",
+      "endDate": "2026-06-07T21:59:00+00:00",
+      "dateAdded": "2026-05-28T13:23:47+00:00"
     },
     {
       "id": "3877551",
