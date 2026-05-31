@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-31T08:53:20.838Z",
+  "fetchedAt": "2026-05-31T13:56:35.130Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,24 +130,8 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 142,
+  "count": 141,
   "promotions": [
-    {
-      "id": "3883833",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "AFF22MAYB",
-      "exclusive": false,
-      "title": "Extra 21% off on Selected Brands",
-      "description": "Member exclusive: 21% off on numbuzin, CENTELLIAN 24, Celimax, PURITO SEOUL, MARY&MAY, TirTIr, anillO items | 17% off on rest brands on 59€+",
-      "terms": "This offer cannot be combined with other promotions.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fmarken%2Fcelimax.html",
-      "url": "https://www.stylevana.com/de_DE/marken/celimax.html",
-      "startDate": "2026-05-12T09:42:00+00:00",
-      "endDate": "2026-05-31T09:41:00+00:00",
-      "dateAdded": "2026-05-12T09:42:57+00:00"
-    },
     {
       "id": "3858457",
       "advertiserId": "25546",
