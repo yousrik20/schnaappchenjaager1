@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-31T04:20:09.177Z",
+  "fetchedAt": "2026-05-31T08:53:20.838Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,24 +130,8 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 143,
+  "count": 142,
   "promotions": [
-    {
-      "id": "3883345",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "AFFC24MASK",
-      "exclusive": false,
-      "title": "CENTELLIAN 24 Sale: Extra 16% off",
-      "description": "Member Exclusive: 16% off on €59+ with a Free Brightening Mask",
-      "terms": "This offer cannot be combined with other promotions.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fmarken%2Fcentellian-24.html",
-      "url": "https://www.stylevana.com/de_DE/marken/centellian-24.html",
-      "startDate": "2026-05-12T06:28:00+00:00",
-      "endDate": "2026-05-31T06:21:00+00:00",
-      "dateAdded": "2026-05-12T06:28:00+00:00"
-    },
     {
       "id": "3883833",
       "advertiserId": "25546",
