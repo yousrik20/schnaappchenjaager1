@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-30T19:25:20.018Z",
+  "fetchedAt": "2026-05-31T04:20:09.177Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,40 +130,8 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 145,
+  "count": 143,
   "promotions": [
-    {
-      "id": "3531456",
-      "advertiserId": "102013",
-      "advertiser": "Zlike Hair",
-      "type": "voucher",
-      "code": "PS18",
-      "exclusive": false,
-      "title": "BLACK FRIDAY PRE SALE",
-      "description": "SITEWIDE 18% OFF",
-      "terms": "BLACK FRIDAY PRE SALE\nUpgrade Your Saving in Advance\nSITEWIDE 18% OFF;CODE:PS18\nEXTRA $60 OFF OVER $315;CODE:PS60\nEXTRA $80 OFF OVER $395;CODE:PS80\nhttps://zlikehair.com/collections/best-sellers",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=102013&awinaffid=2851329&ued=https%3A%2F%2Fzlikehair.com%2Fcollections%2Fbest-sellers",
-      "url": "https://zlikehair.com/collections/best-sellers",
-      "startDate": "2025-11-05T01:11:00+00:00",
-      "endDate": "2026-05-31T01:08:00+00:00",
-      "dateAdded": "2025-11-05T01:11:23+00:00"
-    },
-    {
-      "id": "3673462",
-      "advertiserId": "102013",
-      "advertiser": "Zlike Hair",
-      "type": "voucher",
-      "code": "WN16",
-      "exclusive": false,
-      "title": "SITEWIDE 16% OFF;CODE:WN16",
-      "description": "SITEWIDE 16% OFF;CODE:WN16",
-      "terms": "Winter Warmth x New Year Refresh\nCozy Hair for a Brand New You\nSITEWIDE 16% OFF;CODE:WN16\nEXTRA $60 OFF OVER $345;CODE:WN60\nEXTRA $80 OFF OVER $435;CODE:WN80\nhttps://zlikehair.com/collections/best-sellers",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=102013&awinaffid=2851329&ued=https%3A%2F%2Fzlikehair.com%2Fcollections%2Fbest-sellers",
-      "url": "https://zlikehair.com/collections/best-sellers",
-      "startDate": "2026-01-13T01:16:00+00:00",
-      "endDate": "2026-05-31T01:15:00+00:00",
-      "dateAdded": "2026-01-13T01:16:57+00:00"
-    },
     {
       "id": "3883345",
       "advertiserId": "25546",
