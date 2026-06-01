@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-01T11:46:00.903Z",
+  "fetchedAt": "2026-06-01T17:52:08.654Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,7 +130,7 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 142,
+  "count": 145,
   "promotions": [
     {
       "id": "3913305",
@@ -563,6 +563,22 @@
       "startDate": "2026-05-22T07:26:00+00:00",
       "endDate": "2026-06-29T22:00:00+00:00",
       "dateAdded": "2026-05-22T07:24:26+00:00"
+    },
+    {
+      "id": "3924945",
+      "advertiserId": "28737",
+      "advertiser": "TTfone",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Easy to Enter, Easy to Win: TTfone TT890!",
+      "description": "This month’s competition is fun, easy to enter, and full of great prizes—starting with the TTfone TT890 Mobile Phone. Enter now for your chance to win!",
+      "terms": "The competition will begin on June 1 , 2026, at 00:00 (midnight) in Great Britain and will end on June 30, 2026 at 17:00 (5:00 PM) in Great Britain.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=28737&awinaffid=2851329&ued=https%3A%2F%2Fwww.ttfone.com%2Fpages%2Fcompetition",
+      "url": "https://www.ttfone.com/pages/competition",
+      "startDate": "2026-06-01T12:01:00+00:00",
+      "endDate": "2026-06-30T04:00:00+00:00",
+      "dateAdded": "2026-06-01T12:01:16+00:00"
     },
     {
       "id": "3825089",
@@ -1621,6 +1637,22 @@
       "dateAdded": "2026-05-26T06:37:00+00:00"
     },
     {
+      "id": "3658732",
+      "advertiserId": "28737",
+      "advertiser": "TTfone",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Free Delivery",
+      "description": "Free Delivery on all orders",
+      "terms": "Free delivery for all orders",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=28737&awinaffid=2851329&campaign=Freedelivery&ued=https%3A%2F%2Fwww.ttfone.com%2Fcollections%2Fall-mobiles",
+      "url": "https://www.ttfone.com/collections/all-mobiles",
+      "startDate": "2026-01-05T09:56:00+00:00",
+      "endDate": "2026-12-31T09:54:00+00:00",
+      "dateAdded": "2026-01-05T09:56:04+00:00"
+    },
+    {
       "id": "3707940",
       "advertiserId": "87255",
       "advertiser": "Erverte Paris",
@@ -1827,6 +1859,22 @@
       "startDate": "2025-12-14T20:09:00+00:00",
       "endDate": "2027-01-31T20:00:00+00:00",
       "dateAdded": "2025-12-14T20:09:34+00:00"
+    },
+    {
+      "id": "3721454",
+      "advertiserId": "28737",
+      "advertiser": "TTfone",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Returned Resale - up to 50% off used phones",
+      "description": "Returned Resale - Quality returned products for upto half price - upto 50% off used, returned, open box, and pre-owned phones",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=28737&awinaffid=2851329&campaign=ReturnedResale&ued=https%3A%2F%2Fwww.ttfone.com%2Fcollections%2Fwarehouse-deals",
+      "url": "https://www.ttfone.com/collections/warehouse-deals",
+      "startDate": "2026-02-06T14:39:00+00:00",
+      "endDate": "2027-02-06T14:37:00+00:00",
+      "dateAdded": "2026-02-06T14:39:31+00:00"
     },
     {
       "id": "3747534",
