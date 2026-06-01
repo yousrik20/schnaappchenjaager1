@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-01T04:48:45.452Z",
+  "fetchedAt": "2026-06-01T11:46:00.903Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -130,24 +130,8 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 136,
+  "count": 142,
   "promotions": [
-    {
-      "id": "3883355",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "AFF18CENSPF",
-      "exclusive": false,
-      "title": "CELIMAX Sale: Extra 16% off",
-      "description": "1Member Exclusive: 16% off on US$69)+ with  1 Free  Brightening Care Sunscreen SPF50",
-      "terms": "This offer cannot be combined with other promotions.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fmarken%2Fcelimax.html",
-      "url": "https://www.stylevana.com/de_DE/marken/celimax.html",
-      "startDate": "2026-05-12T06:34:00+00:00",
-      "endDate": "2026-06-01T06:28:00+00:00",
-      "dateAdded": "2026-05-12T06:34:36+00:00"
-    },
     {
       "id": "3913305",
       "advertiserId": "25546",
@@ -323,6 +307,22 @@
       "startDate": "2026-05-12T01:55:00+00:00",
       "endDate": "2026-06-02T21:59:00+00:00",
       "dateAdded": "2026-05-12T01:55:06+00:00"
+    },
+    {
+      "id": "3924515",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-SOMMER-15",
+      "exclusive": false,
+      "title": "15€ Rabatt auf Alles",
+      "description": "15€ Rabatt auf Alles ab 200€ Bestellwert",
+      "terms": "15€ Rabatt auf Alles ab 200€ Bestellwert. Nur online gültig vom 01.06.2026 von 00:00 Uhr bis 04.06.2026 23:59 Uhr mit dem Gutscheincode N-SOMMER-15. Ausgenommen: Multimedia, Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, ausgewählte Werbeware sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht kombinierbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DSommer-Special%2Bmit%2BGutschein",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Sommer-Special+mit+Gutschein",
+      "startDate": "2026-06-01T09:37:00+00:00",
+      "endDate": "2026-06-04T21:59:00+00:00",
+      "dateAdded": "2026-06-01T09:37:28+00:00"
     },
     {
       "id": "3918525",
@@ -1029,6 +1029,22 @@
       "dateAdded": "2024-04-02T06:29:34+00:00"
     },
     {
+      "id": "3924439",
+      "advertiserId": "44635",
+      "advertiser": "Voghion Global",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Father's Day Gift Ideas",
+      "description": "Father's Day Gift Ideas",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=44635&awinaffid=2851329&ued=https%3A%2F%2Fvoghion.com%2Fcampaigns%2F18277",
+      "url": "https://voghion.com/campaigns/18277",
+      "startDate": "2026-06-01T09:43:00+00:00",
+      "endDate": "2026-06-30T22:00:00+00:00",
+      "dateAdded": "2026-06-01T09:27:44+00:00"
+    },
+    {
       "id": "3908627",
       "advertiserId": "44635",
       "advertiser": "Voghion Global",
@@ -1061,6 +1077,38 @@
       "dateAdded": "2026-04-01T01:45:53+00:00"
     },
     {
+      "id": "3913075",
+      "advertiserId": "25546",
+      "advertiser": "Stylevana DE",
+      "type": "voucher",
+      "code": "AFF18BOJSPF",
+      "exclusive": false,
+      "title": "BEAUTY OF JOSEON Sale: 16% off on €59+",
+      "description": "Member Exclusive: 16% off on €59+ with a Free Rice + Probiotic SPF50+ Sunscreen",
+      "terms": "Offer may not be used with other site offers.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
+      "url": "https://www.stylevana.com/de_DE/",
+      "startDate": "2026-06-01T06:56:00+00:00",
+      "endDate": "2026-07-01T15:59:00+00:00",
+      "dateAdded": "2026-05-26T06:57:18+00:00"
+    },
+    {
+      "id": "3913071",
+      "advertiserId": "25546",
+      "advertiser": "Stylevana DE",
+      "type": "voucher",
+      "code": "AFF18VTHAIR",
+      "exclusive": false,
+      "title": "VT Cosmetics Sale: 16% off on €59+",
+      "description": "Member Exclusive: 16% off on €59+ with a Free Hair Serum",
+      "terms": "Offer may not be used with other site offers.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
+      "url": "https://www.stylevana.com/de_DE/",
+      "startDate": "2026-06-01T06:55:00+00:00",
+      "endDate": "2026-07-01T15:59:00+00:00",
+      "dateAdded": "2026-05-26T06:56:21+00:00"
+    },
+    {
       "id": "3921945",
       "advertiserId": "125816",
       "advertiser": "Imou DE",
@@ -1075,6 +1123,38 @@
       "startDate": "2026-05-31T22:00:00+00:00",
       "endDate": "2026-07-14T22:00:00+00:00",
       "dateAdded": "2026-05-29T10:23:02+00:00"
+    },
+    {
+      "id": "3924457",
+      "advertiserId": "44635",
+      "advertiser": "Voghion Global",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Urban Summer Style: New Collection!",
+      "description": "Urban Summer Style: New Collection!",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=44635&awinaffid=2851329&ued=https%3A%2F%2Fvoghion.com%2Fcampaigns%2F18129",
+      "url": "https://voghion.com/campaigns/18129",
+      "startDate": "2026-06-01T09:45:00+00:00",
+      "endDate": "2026-07-19T22:00:00+00:00",
+      "dateAdded": "2026-06-01T09:29:35+00:00"
+    },
+    {
+      "id": "3924423",
+      "advertiserId": "44635",
+      "advertiser": "Voghion Global",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Summer Sports Season: Save up to 40% on Sports & Outdoor Must-Haves",
+      "description": "Summer Sports Season: Save up to 40% on Sports & Outdoor Must-Haves",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=44635&awinaffid=2851329&ued=https%3A%2F%2Fvoghion.com%2Fcampaigns%2F14919",
+      "url": "https://voghion.com/campaigns/14919",
+      "startDate": "2026-06-01T09:59:00+00:00",
+      "endDate": "2026-07-19T22:00:00+00:00",
+      "dateAdded": "2026-06-01T09:24:08+00:00"
     },
     {
       "id": "3912751",
@@ -2179,6 +2259,22 @@
       "startDate": "2026-03-07T11:33:00+00:00",
       "endDate": "2036-04-07T10:19:00+00:00",
       "dateAdded": "2026-03-07T11:33:38+00:00"
+    },
+    {
+      "id": "3924309",
+      "advertiserId": "44635",
+      "advertiser": "Voghion Global",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Voghion Credits Back Membership",
+      "description": "Voghion Credits Back Membership: Earn 0.5% to 3% Credits Back on every purchase with no minimum spend required",
+      "terms": "* Available to registered Voghion users via the Voghion App only.\n* Customers earn Credits Back on eligible purchases starting from their first order.\n* No minimum spend is required to participate.\n* Reward rates vary by membership tier, ranging from 0.5% (Silver) to 3% (Noir).\n* Credits Back are issued as Voghion account credits and can be redeemed on future purchases.\n* Membership status is reviewed and updated periodically based on customer spending activity.\n* Voghion reserves the right to modify or terminate the program at any time.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=44635&awinaffid=2851329&ued=https%3A%2F%2Fvoghion-share.onelink.me%2FFO1F%2Fftqpuhly",
+      "url": "https://voghion-share.onelink.me/FO1F/ftqpuhly",
+      "startDate": "2026-06-01T08:45:00+00:00",
+      "endDate": "2040-12-31T23:00:00+00:00",
+      "dateAdded": "2026-06-01T08:45:21+00:00"
     },
     {
       "id": "3825075",
