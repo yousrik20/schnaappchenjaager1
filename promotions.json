@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-02T04:38:04.173Z",
+  "fetchedAt": "2026-06-02T10:45:27.055Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -95,6 +95,13 @@
       "displayUrl": "https://www.luftbude.de"
     },
     {
+      "id": "87569",
+      "name": "Amazgifts DE",
+      "icon": "🏷️",
+      "cat": "Shopping",
+      "displayUrl": "https://amazgifts.de/"
+    },
+    {
       "id": "114336",
       "name": "House-of-Sneakers DE",
       "icon": "👟",
@@ -132,22 +139,6 @@
   ],
   "count": 145,
   "promotions": [
-    {
-      "id": "3913305",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "SVSPF",
-      "exclusive": false,
-      "title": "Internationaler SPF-Tag",
-      "description": "Member Exclusive: -16% Rabatt auf 89€+ | -12% Rabatt auf 49€+",
-      "terms": "This offer cannot be combined with other promotions.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fbeauty-sale",
-      "url": "https://www.stylevana.com/de_DE/beauty-sale",
-      "startDate": "2026-05-27T08:23:00+00:00",
-      "endDate": "2026-06-02T08:23:00+00:00",
-      "dateAdded": "2026-05-26T08:24:56+00:00"
-    },
     {
       "id": "3918101",
       "advertiserId": "11447",
@@ -702,8 +693,8 @@
       "title": "15% ohne MBW auf Kategorie Mobilität",
       "description": "15% ohne MBW Mindestbestellwert auf Artikel der Kategorie Mobilität",
       "terms": "15 % Rabatt mit Gutscheincode \"W-MOBILITÄT-15\" auf Alles ab einem Mindestbestellwert von 0 €. Ausgenommen: Kategorie Multimedia, Gutscheine und Bücher und gesondert gekennzeichnete Artikel. Aktion gültig bis 30.06.2026 23:59 Uhr, mehrmalig einlösbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Fmobilitaet%2Fc-S0601",
-      "url": "https://www.netto-online.de/mobilitaet/c-S0601",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DJuni-Aktion%2BMobilitaet",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Juni-Aktion+Mobilitaet",
       "startDate": "2026-05-27T22:00:00+00:00",
       "endDate": "2026-06-30T21:59:00+00:00",
       "dateAdded": "2026-05-21T15:03:13+00:00"
@@ -1987,6 +1978,22 @@
       "startDate": "2026-03-17T05:59:00+00:00",
       "endDate": "2028-03-17T05:59:00+00:00",
       "dateAdded": "2026-03-17T05:59:47+00:00"
+    },
+    {
+      "id": "3247237",
+      "advertiserId": "87569",
+      "advertiser": "Amazgifts DE",
+      "type": "voucher",
+      "code": "Awin90de",
+      "exclusive": false,
+      "title": "10 % Rabatt",
+      "description": "10 % Rabatt auf Ihre gesamte Bestellung",
+      "terms": "https://amazgifts.de/policies/privacy-policy",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=87569&awinaffid=2851329&ued=https%3A%2F%2Famazgifts.de%2F",
+      "url": "https://amazgifts.de/",
+      "startDate": "2025-06-24T03:01:00+00:00",
+      "endDate": "2029-01-24T02:47:00+00:00",
+      "dateAdded": "2025-06-24T03:01:31+00:00"
     },
     {
       "id": "3499326",
