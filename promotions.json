@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-02T10:45:27.055Z",
+  "fetchedAt": "2026-06-02T16:43:27.783Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -300,38 +300,6 @@
       "dateAdded": "2026-05-12T01:55:06+00:00"
     },
     {
-      "id": "3924515",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-SOMMER-15",
-      "exclusive": false,
-      "title": "15€ Rabatt auf Alles",
-      "description": "15€ Rabatt auf Alles ab 200€ Bestellwert",
-      "terms": "15€ Rabatt auf Alles ab 200€ Bestellwert. Nur online gültig vom 01.06.2026 von 00:00 Uhr bis 04.06.2026 23:59 Uhr mit dem Gutscheincode N-SOMMER-15. Ausgenommen: Multimedia, Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, ausgewählte Werbeware sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht kombinierbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DSommer-Special%2Bmit%2BGutschein",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Sommer-Special+mit+Gutschein",
-      "startDate": "2026-06-01T09:37:00+00:00",
-      "endDate": "2026-06-04T21:59:00+00:00",
-      "dateAdded": "2026-06-01T09:37:28+00:00"
-    },
-    {
-      "id": "3918525",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-FUSSBALL-10",
-      "exclusive": false,
-      "title": "10€ Filialgutschein auf ausgewählte Artikel inkl. Gratis Versand",
-      "description": "10€ Filialgutschein ab 100€ MBW auf ausgewählte Artikel inkl. Gratis Versand",
-      "terms": "Aktion nur online gültig von 22.05.2026 bis 04.06.2026. 10€ Filial-Gutschein gratis und gratis Versand auf ausgewählte Artikel ab einem Mindestbestellwert von 100€ (exkl. Versandkosten und Pfand) unter www.netto-online.de mit dem Code: N-FUSSBALL-10. Von der Aktion ausgenommen sind Gutschein- und Guthabenkarten, Bücher, Pre- und Anfangsmilchnahrung und einzelne, entsprechend gesondert gekennzeichnete Artikel. Vervielfältigung jeglicher Art nicht gestattet. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Pro Person maximal ein Filial-Gutschein erhältlich. Versand des Filial-Gutscheins erfolgt 4 Wochen nach Warenlieferung per Mail. Der Filial-Gutschein ist ohne Mindesteinkaufswert einlösbar. 1 Monat ab Ausstellungsdatum gültig.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DHei%25C3%259Fe%2BDeals%2Bzum%2BPublic%2BViewing",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Hei%C3%9Fe+Deals+zum+Public+Viewing",
-      "startDate": "2026-05-28T11:55:00+00:00",
-      "endDate": "2026-06-04T21:59:00+00:00",
-      "dateAdded": "2026-05-28T11:51:30+00:00"
-    },
-    {
       "id": "3913301",
       "advertiserId": "13812",
       "advertiser": "Netto Marken-Discount DE",
@@ -394,6 +362,38 @@
       "startDate": "2026-05-08T03:32:00+00:00",
       "endDate": "2026-06-11T15:31:00+00:00",
       "dateAdded": "2026-05-08T03:32:47+00:00"
+    },
+    {
+      "id": "3924515",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-SOMMER-15",
+      "exclusive": false,
+      "title": "15€ Rabatt auf Alles",
+      "description": "15€ Rabatt auf Alles ab 200€ Bestellwert",
+      "terms": "15€ Rabatt auf Alles ab 200€ Bestellwert. Nur online gültig vom 01.06.2026 von 00:00 Uhr bis 11.06.2026 23:59 Uhr mit dem Gutscheincode N-SOMMER-15. Ausgenommen: Multimedia, Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, ausgewählte Werbeware sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht kombinierbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DSommer-Special%2Bmit%2BGutschein",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Sommer-Special+mit+Gutschein",
+      "startDate": "2026-06-01T09:37:00+00:00",
+      "endDate": "2026-06-11T21:59:00+00:00",
+      "dateAdded": "2026-06-01T09:37:28+00:00"
+    },
+    {
+      "id": "3918525",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-FUSSBALL-10",
+      "exclusive": false,
+      "title": "10€ Filialgutschein auf ausgewählte Artikel inkl. Gratis Versand",
+      "description": "10€ Filialgutschein ab 100€ MBW auf ausgewählte Artikel inkl. Gratis Versand",
+      "terms": "Aktion nur online gültig von 22.05.2026 bis 04.06.2026. 10€ Filial-Gutschein gratis und gratis Versand auf ausgewählte Artikel ab einem Mindestbestellwert von 100€ (exkl. Versandkosten und Pfand) unter www.netto-online.de mit dem Code: N-FUSSBALL-10. Von der Aktion ausgenommen sind Gutschein- und Guthabenkarten, Bücher, Pre- und Anfangsmilchnahrung und einzelne, entsprechend gesondert gekennzeichnete Artikel. Vervielfältigung jeglicher Art nicht gestattet. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Pro Person maximal ein Filial-Gutschein erhältlich. Versand des Filial-Gutscheins erfolgt 4 Wochen nach Warenlieferung per Mail. Der Filial-Gutschein ist ohne Mindesteinkaufswert einlösbar. 1 Monat ab Ausstellungsdatum gültig.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DHei%25C3%259Fe%2BDeals%2Bzum%2BPublic%2BViewing",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Hei%C3%9Fe+Deals+zum+Public+Viewing",
+      "startDate": "2026-05-28T11:55:00+00:00",
+      "endDate": "2026-06-11T21:59:00+00:00",
+      "dateAdded": "2026-05-28T11:51:30+00:00"
     },
     {
       "id": "3917945",
