@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-03T04:47:04.205Z",
+  "fetchedAt": "2026-06-03T11:10:08.502Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -137,7 +137,7 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 137,
+  "count": 139,
   "promotions": [
     {
       "id": "3913301",
@@ -186,6 +186,22 @@
       "startDate": "2026-05-29T22:00:00+00:00",
       "endDate": "2026-06-07T21:59:00+00:00",
       "dateAdded": "2026-05-28T13:23:47+00:00"
+    },
+    {
+      "id": "3930663",
+      "advertiserId": "25546",
+      "advertiser": "Stylevana DE",
+      "type": "voucher",
+      "code": "SVMYEB",
+      "exclusive": false,
+      "title": "Mid Year Sale - Early Bird",
+      "description": "Verwenden Sie den Code für EXTRA Bis zu 50 % Rabatt auf ausgewählte Artikel | 16% Rabatt auf 89€+ | 13% Rabatt auf 49€+",
+      "terms": "This offer cannot be combined with other promotions.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fbeauty-sale",
+      "url": "https://www.stylevana.com/de_DE/beauty-sale",
+      "startDate": "2026-06-03T09:00:00+00:00",
+      "endDate": "2026-06-09T15:59:00+00:00",
+      "dateAdded": "2026-06-03T09:00:06+00:00"
     },
     {
       "id": "3928493",
@@ -354,9 +370,9 @@
       "type": "voucher",
       "code": "N-GARTEN-30",
       "exclusive": false,
-      "title": "30 € ab 300 € auf Garten",
-      "description": "30 € ab 300 € Mindestbestellwert auf die Kategorie Garten",
-      "terms": "30 € Rabatt ab 300 € auf die Kategorie Garten mit dem Code \"N-GARTEN-30\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 27.03.2026 00:01 Uhr - 18.06.2026 23:59 Uhr.",
+      "title": "30 € ab 500 € auf Garten",
+      "description": "30 € ab 500 € Mindestbestellwert auf die Kategorie Garten",
+      "terms": "30 € Rabatt ab 500 € auf die Kategorie Garten mit dem Code \"N-GARTEN-30\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 27.03.2026 00:01 Uhr - 18.06.2026 23:59 Uhr.",
       "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Falle-gartenartikel%2Fc-S0501",
       "url": "https://www.netto-online.de/alle-gartenartikel/c-S0501",
       "startDate": "2026-03-26T23:00:00+00:00",
@@ -378,6 +394,22 @@
       "startDate": "2026-06-02T22:00:00+00:00",
       "endDate": "2026-06-19T21:59:00+00:00",
       "dateAdded": "2026-06-01T13:21:52+00:00"
+    },
+    {
+      "id": "3928185",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "W-PENTAGON-10",
+      "exclusive": false,
+      "title": "10% ohne MBW auf Sortiment Lieferant Pentagon (Awin)",
+      "description": "10% ohne MBW auf Sortiment Lieferant (BM Aktion, WW ausgenommen) | Netto, Marktkauf | WKZ | 100% | Pentagon Sports GmbH &.Co. KG",
+      "terms": "10 % Rabatt mit Gutscheincode \"W-PENTAGON-10\" auf ausgewählte Artikel von ohne Mindestbestellwert. Ausgenommen: Gutscheine und Bücher. Aktion gültig 03.06.2026 00:01 Uhr - 22.06.2026 23:59 Uhr.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-SimpleOfferSearch%3FSearchTerm%3DPentagon%2520Sports%2B%2A%26filterMarke%3DPentagon%2520Sports%26channel%3DProduktiv-Plus-NettoDE-de_DE%26SearchParameter%3D%2540QueryTerm%253DPentagon%252520Sports%2526SuggestUserInput%253Dpentagon%252520s",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-SimpleOfferSearch?SearchTerm=Pentagon%20Sports+*&filterMarke=Pentagon%20Sports&channel=Produktiv-Plus-NettoDE-de_DE&SearchParameter=%40QueryTerm%3DPentagon%2520Sports%26SuggestUserInput%3Dpentagon%2520s",
+      "startDate": "2026-06-03T10:50:00+00:00",
+      "endDate": "2026-06-22T21:59:00+00:00",
+      "dateAdded": "2026-06-02T10:52:47+00:00"
     },
     {
       "id": "3886973",
