@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-08T04:40:44.040Z",
+  "fetchedAt": "2026-06-08T11:07:18.825Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -135,9 +135,16 @@
       "icon": "📷",
       "cat": "Sicherheit",
       "displayUrl": "https://www.imou.com/de-DE/"
+    },
+    {
+      "id": "126683",
+      "name": "Gozoox DE",
+      "icon": "🏷️",
+      "cat": "Shopping",
+      "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 139,
+  "count": 141,
   "promotions": [
     {
       "id": "3930663",
@@ -250,6 +257,22 @@
       "startDate": "2026-05-28T22:00:00+00:00",
       "endDate": "2026-06-11T21:59:00+00:00",
       "dateAdded": "2026-05-28T08:03:42+00:00"
+    },
+    {
+      "id": "3938527",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "W-RAPOO-15",
+      "exclusive": false,
+      "title": "15% Rabatt auf ausgewählte Artikel der Marke RAPOO",
+      "description": "15% Rabatt ohne MBW auf ausgewählte Artikel der Marke RAPOO",
+      "terms": "15 % Gutschein auf ausgewählte Artikel der Marke Rapoo mit dem Code: W-RAPOO-15. Nur online gültig bis 13.06.2026. Ausgenommen: einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DGutschein%2BRapoo%2BMultimedia",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Gutschein+Rapoo+Multimedia",
+      "startDate": "2026-06-08T08:50:00+00:00",
+      "endDate": "2026-06-13T21:59:00+00:00",
+      "dateAdded": "2026-06-08T08:47:30+00:00"
     },
     {
       "id": "3934405",
@@ -1706,6 +1729,22 @@
       "startDate": "2026-03-20T07:09:00+00:00",
       "endDate": "2027-01-15T16:00:00+00:00",
       "dateAdded": "2026-03-20T07:09:20+00:00"
+    },
+    {
+      "id": "3805412",
+      "advertiserId": "124092",
+      "advertiser": "Golden Maple",
+      "type": "voucher",
+      "code": "WELCOME5",
+      "exclusive": false,
+      "title": "Welcome discount",
+      "description": "the discount is 5%",
+      "terms": "New custome can enjoy once discount",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=124092&awinaffid=2851329&ued=https%3A%2F%2Fartgoldenmaple.com%2F",
+      "url": "https://artgoldenmaple.com/",
+      "startDate": "2026-03-27T01:42:00+00:00",
+      "endDate": "2027-01-27T01:34:00+00:00",
+      "dateAdded": "2026-03-27T01:42:15+00:00"
     },
     {
       "id": "3697474",
