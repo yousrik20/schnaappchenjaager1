@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-07T19:40:10.727Z",
+  "fetchedAt": "2026-06-08T04:40:44.040Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -137,56 +137,8 @@
       "displayUrl": "https://www.imou.com/de-DE/"
     }
   ],
-  "count": 142,
+  "count": 139,
   "promotions": [
-    {
-      "id": "3919345",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "W-EINFACH-15",
-      "exclusive": false,
-      "title": "15 % ohne MBW auf Lieferant Ganz Einfach",
-      "description": "15 % ohne MBW auf Lieferant Ganz Einfach",
-      "terms": "15 % Rabatt auf ausgewählte Artikel mit dem Code: W-EINFACH-15. Nur online gültig von 30.05.2026 bis 07.06.2026. Ausgenommen: Gutscheine, Bücher und Pre- & Anfangsmilchnahrung. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Keine Anrechnung auf Versandkosten und Filial-Abholservices.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DGutschein%2BGanz%2BEinfach",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Gutschein+Ganz+Einfach",
-      "startDate": "2026-05-29T22:00:00+00:00",
-      "endDate": "2026-06-07T21:59:00+00:00",
-      "dateAdded": "2026-05-28T13:23:47+00:00"
-    },
-    {
-      "id": "3916539",
-      "advertiserId": "14537",
-      "advertiser": "Baur Versand DE",
-      "type": "voucher",
-      "code": "62518",
-      "exclusive": false,
-      "title": "20€ für Mode & Schuhe* in der App",
-      "description": "20€ für Mode & Schuhe* in der App, gültig bis 07.06.2026",
-      "terms": "*Der 20 € Gutschein gilt bis 07.06.26 einmalig für die Sortimente Mode & Schuhe für deine Einkäufe in der App. Ausgenommen sind Bademäntel, Schmuck, Uhren, Beauty- & Drogerieartikel, Artikel der Marken travelite, Samsonite, aunts & uncles, Hauck und mit DEALS gekennzeichnete Artikel. Mindesteinkaufswert nach Retoure aus den genannten Sortimenten: 70€. Nicht kombinierbar mit anderen Vorteilen. Keine Barauszahlung oder nachträgliche Verrechnung möglich.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=14537&awinaffid=2851329&ued=https%3A%2F%2Fwww.baur.de%2F%3Futm_content%3Dtl%26utm_term%3D20eur_modeschuhe%26P1%3DNjI1MTg%3D",
-      "url": "https://www.baur.de/?utm_content=tl&utm_term=20eur_modeschuhe&P1=NjI1MTg=",
-      "startDate": "2026-06-04T22:01:00+00:00",
-      "endDate": "2026-06-07T21:59:00+00:00",
-      "dateAdded": "2026-05-27T12:00:52+00:00"
-    },
-    {
-      "id": "3916535",
-      "advertiserId": "14537",
-      "advertiser": "Baur Versand DE",
-      "type": "voucher",
-      "code": "62516",
-      "exclusive": false,
-      "title": "15€ für Mode & Schuhe*",
-      "description": "15€ für Mode & Schuhe*, gültig bis 07.06.2026",
-      "terms": "*Der 15 € Gutschein gilt bis 07.06.26 einmalig für die Sortimente Mode & Schuhe. Ausgenommen sind Bademäntel, Schmuck, Uhren, Beauty- & Drogerieartikel, Artikel der Marken travelite, Samsonite, aunts & uncles, Hauck und mit DEALS gekennzeichnete Artikel. Mindesteinkaufswert nach Retoure aus den genannten Sortimenten: 60€. Nicht kombinierbar mit anderen Vorteilen. Keine Barauszahlung oder nachträgliche Verrechnung möglich.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=14537&awinaffid=2851329&ued=https%3A%2F%2Fwww.baur.de%2F%3Futm_content%3Dtl%26utm_term%3D15eur_modeschuhe%26P1%3DNjI1MTY%3D",
-      "url": "https://www.baur.de/?utm_content=tl&utm_term=15eur_modeschuhe&P1=NjI1MTY=",
-      "startDate": "2026-06-04T22:01:00+00:00",
-      "endDate": "2026-06-07T21:59:00+00:00",
-      "dateAdded": "2026-05-27T11:58:11+00:00"
-    },
     {
       "id": "3930663",
       "advertiserId": "25546",
