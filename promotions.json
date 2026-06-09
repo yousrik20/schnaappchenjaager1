@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-09T09:54:51.835Z",
+  "fetchedAt": "2026-06-09T15:16:11.213Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -337,38 +337,6 @@
       "startDate": "2026-05-28T22:01:00+00:00",
       "endDate": "2026-06-16T21:59:00+00:00",
       "dateAdded": "2026-05-27T11:51:16+00:00"
-    },
-    {
-      "id": "3914389",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-FREIZEIT-50",
-      "exclusive": false,
-      "title": "50€ Rabatt auf die Kategorie Freizeit",
-      "description": "50€ Rabatt ab 750€ Mindestbestellwert auf die Kategorie Freizeit",
-      "terms": "50 € Gutschein auf die Kategorie Freizeit mit dem Code: N-FREIZEIT-50, ab einem Mindestbestellwert von 750 €. Nur online gültig bis 18.06.2026. Ausgenommen: Gutscheine, Bücher sowie einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Ffreizeit%2Fc-N06",
-      "url": "https://www.netto-online.de/freizeit/c-N06",
-      "startDate": "2026-05-28T22:00:00+00:00",
-      "endDate": "2026-06-18T21:59:00+00:00",
-      "dateAdded": "2026-05-26T14:05:07+00:00"
-    },
-    {
-      "id": "3801346",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-GARTEN-30",
-      "exclusive": false,
-      "title": "30 € ab 500 € auf Garten",
-      "description": "30 € ab 500 € Mindestbestellwert auf die Kategorie Garten",
-      "terms": "30 € Rabatt ab 500 € auf die Kategorie Garten mit dem Code \"N-GARTEN-30\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 27.03.2026 00:01 Uhr - 18.06.2026 23:59 Uhr.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Falle-gartenartikel%2Fc-S0501",
-      "url": "https://www.netto-online.de/alle-gartenartikel/c-S0501",
-      "startDate": "2026-03-26T23:00:00+00:00",
-      "endDate": "2026-06-18T21:59:00+00:00",
-      "dateAdded": "2026-03-25T08:43:35+00:00"
     },
     {
       "id": "3925229",
@@ -1057,6 +1025,38 @@
       "startDate": "2026-06-01T06:55:00+00:00",
       "endDate": "2026-07-01T15:59:00+00:00",
       "dateAdded": "2026-05-26T06:56:21+00:00"
+    },
+    {
+      "id": "3914389",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-FREIZEIT-50",
+      "exclusive": false,
+      "title": "50€ Rabatt auf die Kategorie Freizeit",
+      "description": "50€ Rabatt ab 750€ Mindestbestellwert auf die Kategorie Freizeit",
+      "terms": "50 € Gutschein auf die Kategorie Freizeit mit dem Code: N-FREIZEIT-50, ab einem Mindestbestellwert von 750 €. Nur online gültig bis 02.07.2026. Ausgenommen: Gutscheine, Bücher sowie einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Ffreizeit%2Fc-N06",
+      "url": "https://www.netto-online.de/freizeit/c-N06",
+      "startDate": "2026-05-28T22:00:00+00:00",
+      "endDate": "2026-07-02T21:59:00+00:00",
+      "dateAdded": "2026-05-26T14:05:07+00:00"
+    },
+    {
+      "id": "3801346",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-GARTEN-30",
+      "exclusive": false,
+      "title": "30 € ab 500 € auf Garten",
+      "description": "30 € ab 500 € Mindestbestellwert auf die Kategorie Garten",
+      "terms": "30 € Rabatt ab 500 € auf die Kategorie Garten mit dem Code \"N-GARTEN-30\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 27.03.2026 00:01 Uhr - 02.07.2026 23:59 Uhr.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Falle-gartenartikel%2Fc-S0501",
+      "url": "https://www.netto-online.de/alle-gartenartikel/c-S0501",
+      "startDate": "2026-03-26T23:00:00+00:00",
+      "endDate": "2026-07-02T21:59:00+00:00",
+      "dateAdded": "2026-03-25T08:43:35+00:00"
     },
     {
       "id": "3921945",
