@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-09T20:12:28.419Z",
+  "fetchedAt": "2026-06-10T04:12:59.908Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -147,22 +147,6 @@
   "count": 141,
   "promotions": [
     {
-      "id": "3928493",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "W-SHARP-10",
-      "exclusive": false,
-      "title": "10% Rabatt auf ausgewählte SHARP Fernseher",
-      "description": "10% Rabatt auf ausgewählte SHARP Fernseher ohne MBW",
-      "terms": "10 % Gutschein auf alle SHARP Fernseher mit dem Code: W-SHARP-10. Nur online gültig von 03.06.2026 bis 09.06.2026. Ausgenommen: Gutscheine, Bücher sowie einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DGutschein%2Bauf%2BFernseher%2Bder%2BMarke%2BSharp",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Gutschein+auf+Fernseher+der+Marke+Sharp",
-      "startDate": "2026-06-02T22:00:00+00:00",
-      "endDate": "2026-06-09T21:59:00+00:00",
-      "dateAdded": "2026-06-02T14:00:52+00:00"
-    },
-    {
       "id": "3877551",
       "advertiserId": "25546",
       "advertiser": "Stylevana DE",
@@ -305,6 +289,22 @@
       "startDate": "2026-05-31T22:00:00+00:00",
       "endDate": "2026-06-15T22:00:00+00:00",
       "dateAdded": "2026-05-29T10:28:26+00:00"
+    },
+    {
+      "id": "3942953",
+      "advertiserId": "25546",
+      "advertiser": "Stylevana DE",
+      "type": "voucher",
+      "code": "SVMYS",
+      "exclusive": false,
+      "title": "Mid-Year-Sale",
+      "description": "Member Exclusive: -20% Rabatt auf Sonnenpflege-Produkte | -18% Rabatt auf 99€+ | -14% Rabatt auf 59€+",
+      "terms": "This offer cannot be combined with other promotions.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fpromotion%2Ftheme%2Fmid-year-sale.html",
+      "url": "https://www.stylevana.com/de_DE/promotion/theme/mid-year-sale.html",
+      "startDate": "2026-06-10T02:46:00+00:00",
+      "endDate": "2026-06-16T02:44:00+00:00",
+      "dateAdded": "2026-06-10T02:46:45+00:00"
     },
     {
       "id": "3916519",
