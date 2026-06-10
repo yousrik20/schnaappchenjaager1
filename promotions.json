@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-10T10:12:10.188Z",
+  "fetchedAt": "2026-06-10T15:50:39.511Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -161,22 +161,6 @@
       "startDate": "2026-05-08T03:32:00+00:00",
       "endDate": "2026-06-11T15:31:00+00:00",
       "dateAdded": "2026-05-08T03:32:47+00:00"
-    },
-    {
-      "id": "3930243",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "W-MAXTRON-15",
-      "exclusive": false,
-      "title": "15 % Rabatt auf ausgewählte Artikel von Maxtron",
-      "description": "15 % Rabatt ohn Mindestbestellwert auf ausgewählte Artikel von Maxtron",
-      "terms": "15 % Rabatt mit Gutscheincode \"W-MAXTRON-15\" auf ausgewählte Artikel ohne Mindestbestellwert. Ausgenommen: Kategorie Multimedia, Gutscheine und Bücher und gesondert gekennzeichnete Artikel. Aktion gültig bis 11.06.2026 23:59 Uhr, mehrmalig einlösbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-SimpleOfferSearch%3FSearchTerm%3Dmaxtron%26channel%3DProduktiv-Plus-NettoDE-de_DE%26SearchParameter%3D%2540QueryTerm%253Dmaxtron%2526SuggestUserInput%253Dmaxtron",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-SimpleOfferSearch?SearchTerm=maxtron&channel=Produktiv-Plus-NettoDE-de_DE&SearchParameter=%40QueryTerm%3Dmaxtron%26SuggestUserInput%3Dmaxtron",
-      "startDate": "2026-06-05T10:50:00+00:00",
-      "endDate": "2026-06-11T21:59:00+00:00",
-      "dateAdded": "2026-06-03T07:04:38+00:00"
     },
     {
       "id": "3918525",
@@ -401,6 +385,22 @@
       "startDate": "2026-06-10T09:40:00+00:00",
       "endDate": "2026-06-17T21:59:00+00:00",
       "dateAdded": "2026-06-10T09:35:31+00:00"
+    },
+    {
+      "id": "3930243",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "W-MAXTRON-15",
+      "exclusive": false,
+      "title": "15 % Rabatt auf ausgewählte Artikel von Maxtron",
+      "description": "15 % Rabatt ohn Mindestbestellwert auf ausgewählte Artikel von Maxtron",
+      "terms": "15 % Rabatt mit Gutscheincode \"W-MAXTRON-15\" auf ausgewählte Artikel ohne Mindestbestellwert. Ausgenommen: Kategorie Multimedia, Gutscheine und Bücher und gesondert gekennzeichnete Artikel. Aktion gültig bis 18.06.2026 23:59 Uhr, mehrmalig einlösbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-SimpleOfferSearch%3FSearchTerm%3Dmaxtron%26channel%3DProduktiv-Plus-NettoDE-de_DE%26SearchParameter%3D%2540QueryTerm%253Dmaxtron%2526SuggestUserInput%253Dmaxtron",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-SimpleOfferSearch?SearchTerm=maxtron&channel=Produktiv-Plus-NettoDE-de_DE&SearchParameter=%40QueryTerm%3Dmaxtron%26SuggestUserInput%3Dmaxtron",
+      "startDate": "2026-06-05T10:50:00+00:00",
+      "endDate": "2026-06-18T21:59:00+00:00",
+      "dateAdded": "2026-06-03T07:04:38+00:00"
     },
     {
       "id": "3925229",
