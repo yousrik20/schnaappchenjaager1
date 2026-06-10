@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-10T15:50:39.511Z",
+  "fetchedAt": "2026-06-10T20:37:01.895Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,7 +144,7 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 148,
+  "count": 149,
   "promotions": [
     {
       "id": "3877551",
@@ -1665,6 +1665,22 @@
       "startDate": "2026-05-26T06:37:00+00:00",
       "endDate": "2026-12-31T06:35:00+00:00",
       "dateAdded": "2026-05-26T06:37:00+00:00"
+    },
+    {
+      "id": "3944495",
+      "advertiserId": "122456",
+      "advertiser": "ROCKBROS",
+      "type": "voucher",
+      "code": "ROCKBROSEU5",
+      "exclusive": false,
+      "title": "5% Off - ROCKBROS EU Exclusive Partner Coupon",
+      "description": "Exclusive 5% discount for ROCKBROS affiliate partners. Share code ROCKBROSEU5 with your audience for 5% off all ROCKBROS cycling gear, helmets, accessories and apparel.",
+      "terms": "5% off sitewide. Valid until 31 December 2026. Cannot be combined with other offers. Applicable to all ROCKBROS products.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=122456&awinaffid=2851329&ued=https%3A%2F%2Fwww.rockbros.com",
+      "url": "https://www.rockbros.com",
+      "startDate": "2026-06-10T16:32:00+00:00",
+      "endDate": "2026-12-31T08:00:00+00:00",
+      "dateAdded": "2026-06-10T16:32:34+00:00"
     },
     {
       "id": "3658732",
