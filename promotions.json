@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-10T04:12:59.908Z",
+  "fetchedAt": "2026-06-10T10:12:10.188Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,7 +144,7 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 141,
+  "count": 148,
   "promotions": [
     {
       "id": "3877551",
@@ -179,22 +179,6 @@
       "dateAdded": "2026-06-03T07:04:38+00:00"
     },
     {
-      "id": "3924515",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-SOMMER-15",
-      "exclusive": false,
-      "title": "15€ Rabatt auf Alles",
-      "description": "15€ Rabatt auf Alles ab 200€ Bestellwert",
-      "terms": "15€ Rabatt auf Alles ab 200€ Bestellwert. Nur online gültig vom 01.06.2026 von 00:00 Uhr bis 11.06.2026 23:59 Uhr mit dem Gutscheincode N-SOMMER-15. Ausgenommen: Multimedia, Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, ausgewählte Werbeware sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht kombinierbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DSommer-Special%2Bmit%2BGutschein",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Sommer-Special+mit+Gutschein",
-      "startDate": "2026-06-01T09:37:00+00:00",
-      "endDate": "2026-06-11T21:59:00+00:00",
-      "dateAdded": "2026-06-01T09:37:28+00:00"
-    },
-    {
       "id": "3918525",
       "advertiserId": "13812",
       "advertiser": "Netto Marken-Discount DE",
@@ -209,22 +193,6 @@
       "startDate": "2026-05-28T11:55:00+00:00",
       "endDate": "2026-06-11T21:59:00+00:00",
       "dateAdded": "2026-05-28T11:51:30+00:00"
-    },
-    {
-      "id": "3917945",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-SOLAR-50",
-      "exclusive": false,
-      "title": "50 € ab 800 € auf Solarenergie",
-      "description": "50 € ab 800 € Mindestbestellwert auf Solarenergie",
-      "terms": "50 € Rabatt ab 800 € auf die Kategorie Garten mit dem Code \"N-SOLAR-50\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 29.05.2026 00:01 Uhr - 11.06.2026 23:59 Uhr.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Fsolarenergie%2Fc-N06060109",
-      "url": "https://www.netto-online.de/solarenergie/c-N06060109",
-      "startDate": "2026-05-28T22:00:00+00:00",
-      "endDate": "2026-06-11T21:59:00+00:00",
-      "dateAdded": "2026-05-28T08:03:42+00:00"
     },
     {
       "id": "3938527",
@@ -307,6 +275,102 @@
       "dateAdded": "2026-06-10T02:46:45+00:00"
     },
     {
+      "id": "3943299",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Homematic IP Smart Home Bewässerungsaktor, HmIP-WSM für nur 99,95 EUR (inkl. Versand)",
+      "description": "Homematic IP Smart Home Bewässerungsaktor, HmIP-WSM für nur 99,95 EUR (inkl. Versand)",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Fp%2Fhomematic-ip-smart-home-bewsserungsaktor-hmip-wsm-P162114",
+      "url": "https://de.elv.com/p/homematic-ip-smart-home-bewsserungsaktor-hmip-wsm-P162114",
+      "startDate": "2026-06-10T07:57:00+00:00",
+      "endDate": "2026-06-16T21:59:00+00:00",
+      "dateAdded": "2026-06-10T07:57:11+00:00"
+    },
+    {
+      "id": "3943297",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "dnt WiFi-Wetterstation WeatherScreen PRO V2 für nur 199,95 EUR (inkl. Versand)",
+      "description": "dnt WiFi-Wetterstation WeatherScreen PRO V2 für nur 199,95 EUR (inkl. Versand)",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Fp%2Fdnt-wifi-wetterstation-weatherscreen-pro-v2-P254429",
+      "url": "https://de.elv.com/p/dnt-wifi-wetterstation-weatherscreen-pro-v2-P254429",
+      "startDate": "2026-06-10T07:56:00+00:00",
+      "endDate": "2026-06-16T21:59:00+00:00",
+      "dateAdded": "2026-06-10T07:56:51+00:00"
+    },
+    {
+      "id": "3943295",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "technoline Bewässerungscomputer WZ 1000 mit Display, für Standard-Wasserhähne, batteriebetrieben für nur 24,95 EUR",
+      "description": "technoline Bewässerungscomputer WZ 1000 mit Display, für Standard-Wasserhähne, batteriebetrieben für nur 24,95 EUR",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Fp%2Ftechnoline-bewaesserungscomputer-wz-1000-mit-display-fuer-standard-wasserhaehne-batteriebetrieben-P144402",
+      "url": "https://de.elv.com/p/technoline-bewaesserungscomputer-wz-1000-mit-display-fuer-standard-wasserhaehne-batteriebetrieben-P144402",
+      "startDate": "2026-06-10T07:56:00+00:00",
+      "endDate": "2026-06-16T21:59:00+00:00",
+      "dateAdded": "2026-06-10T07:56:34+00:00"
+    },
+    {
+      "id": "3943293",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Homematic IP Smart Home Set Access Point 2 und Bewässerungsaktor für nur 129,95 EUR (inkl. Versand)",
+      "description": "Homematic IP Smart Home Set Access Point 2 und Bewässerungsaktor für nur 129,95 EUR (inkl. Versand)",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Fp%2Fhomematic-ip-smart-home-set-access-point-2-und-bewsserungsaktor-P258581",
+      "url": "https://de.elv.com/p/homematic-ip-smart-home-set-access-point-2-und-bewsserungsaktor-P258581",
+      "startDate": "2026-06-10T07:56:00+00:00",
+      "endDate": "2026-06-16T21:59:00+00:00",
+      "dateAdded": "2026-06-10T07:56:11+00:00"
+    },
+    {
+      "id": "3943147",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "ELV Tech-Summer - Bewässerung",
+      "description": "Smarte Bewässerung für einen entspannten Sommer",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Felv-tech-summer%2F",
+      "url": "https://de.elv.com/elv-tech-summer/",
+      "startDate": "2026-06-10T06:41:00+00:00",
+      "endDate": "2026-06-16T21:59:00+00:00",
+      "dateAdded": "2026-06-10T06:41:21+00:00"
+    },
+    {
+      "id": "3943131",
+      "advertiserId": "11447",
+      "advertiser": "ELV DE",
+      "type": "voucher",
+      "code": "WASSER",
+      "exclusive": false,
+      "title": "Gratis ELV Automatik-Bewässerungssystem mit 10 Tropfstellen",
+      "description": "Bei jeder Bestellung ab 129 € erhalten Sie das ELV Automatik-Bewässerungssystem gratis dazu!*",
+      "terms": "*Bestellen Sie im ELV-Webshop für mindestens 129,00 € und sichern Sie sich einmalig und kostenlos ein ELV Automatik-Bewässerungssystem mit 10 Tropfstellen, Batterie- und Netzbetrieb möglich (Artikel-Nr.: 250685) zu Ihrer Bestellung. Damit die Aktion berücksichtigt werden kann, geben Sie den Bonuscode WASSER im Warenkorb ein. Die Aktion gilt vom 09.06. bis zum 16.06.2026, nur in Deutschland und Österreich, nur solange der Vorrat reicht und nicht in Kombination mit anderen Aktionen. Der Mindestbestellwert bezieht sich auf den Warenwert nach Abzug aller Rabatte und Gutscheine, ohne Versandkosten. Pro Kundenkonto kann die Aktion nur einmal in Anspruch genommen werden. Eine Barauszahlung oder ein Umtausch des ELV Automatik-Bewässerungssystems ist ausgeschlossen. Sollte durch Rückgabe oder Umtausch von Produkten die Mindestbestellsumme unterschritten werden, entfällt der Anspruch auf das kostenlose ELV Automatik-Bewässerungssystem. Dieses Angebot richtet sich ausschließlich an Verbraucher. Firmen, Fachhändler und Institutionen sind von der Aktion ausgeschlossen.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Felv-tech-summer%2F",
+      "url": "https://de.elv.com/elv-tech-summer/",
+      "startDate": "2026-06-10T06:33:00+00:00",
+      "endDate": "2026-06-16T21:59:00+00:00",
+      "dateAdded": "2026-06-10T06:33:50+00:00"
+    },
+    {
       "id": "3916519",
       "advertiserId": "14537",
       "advertiser": "Baur Versand DE",
@@ -321,6 +385,22 @@
       "startDate": "2026-05-28T22:01:00+00:00",
       "endDate": "2026-06-16T21:59:00+00:00",
       "dateAdded": "2026-05-27T11:51:16+00:00"
+    },
+    {
+      "id": "3943739",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "W-SHARP-10",
+      "exclusive": false,
+      "title": "10 % ohne MBW auf alle SHARP Fernseher",
+      "description": "10 % ohne Mindestbestellwert auf alle SHARP Fernseher",
+      "terms": "10% Rabatt auf ausgewählte Sharp-Fernseher mit dem Code \"W-SHARP-10\" ohne Mindestbestellwert. Aktion gültig 03.06.2026 00:01 Uhr - 17.06.2026 23:59 Uhr.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPStandardCatalog-Browse%3FSortingAttribute%3D%26FollowSearch%3D%26SourceReference%3D%26SearchParameter%3D%2540QueryTerm%253D%2A%2526SourceReference%253D%2526FollowSearch%253D%2526Marke%253DSharp%26CatalogID%3DBasis%26CatalogCategoryID%3DCpWsEClWgZgAAAFbgrxb7V0A%26SearchTerm%3D%2A%26minvalS%3D3%252C88%26maxvalS%3D1587%252C00%26ViewSearch%3Dsharp%26Marke-Sharp%3Don",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPStandardCatalog-Browse?SortingAttribute=&FollowSearch=&SourceReference=&SearchParameter=%40QueryTerm%3D*%26SourceReference%3D%26FollowSearch%3D%26Marke%3DSharp&CatalogID=Basis&CatalogCategoryID=CpWsEClWgZgAAAFbgrxb7V0A&SearchTerm=*&minvalS=3%2C88&maxvalS=1587%2C00&ViewSearch=sharp&Marke-Sharp=on",
+      "startDate": "2026-06-10T09:40:00+00:00",
+      "endDate": "2026-06-17T21:59:00+00:00",
+      "dateAdded": "2026-06-10T09:35:31+00:00"
     },
     {
       "id": "3925229",
@@ -385,6 +465,38 @@
       "startDate": "2026-06-03T10:50:00+00:00",
       "endDate": "2026-06-22T21:59:00+00:00",
       "dateAdded": "2026-06-02T10:52:47+00:00"
+    },
+    {
+      "id": "3924515",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-SOMMER-15",
+      "exclusive": false,
+      "title": "15€ Rabatt auf Alles",
+      "description": "15€ Rabatt auf Alles ab 200€ Bestellwert",
+      "terms": "15€ Rabatt auf Alles ab 200€ Bestellwert. Nur online gültig vom 01.06.2026 von 00:00 Uhr bis 25.06.2026 23:59 Uhr mit dem Gutscheincode N-SOMMER-15. Ausgenommen: Multimedia, Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, ausgewählte Werbeware sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht kombinierbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DSommer-Special%2Bmit%2BGutschein",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Sommer-Special+mit+Gutschein",
+      "startDate": "2026-06-01T09:37:00+00:00",
+      "endDate": "2026-06-25T21:59:00+00:00",
+      "dateAdded": "2026-06-01T09:37:28+00:00"
+    },
+    {
+      "id": "3917945",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-SOLAR-50",
+      "exclusive": false,
+      "title": "50 € ab 800 € auf Solarenergie",
+      "description": "50 € ab 800 € Mindestbestellwert auf Solarenergie",
+      "terms": "50 € Rabatt ab 800 € auf die Kategorie Garten mit dem Code \"N-SOLAR-50\". Ausgenommen: Lebensmittel, Drogerieartikel, Multimedia, Gutscheine, Bücher und Pre- & Anfangsmilchnahrung sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 29.05.2026 00:01 Uhr - 25.06.2026 23:59 Uhr.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Fsolarenergie%2Fc-N06060109",
+      "url": "https://www.netto-online.de/solarenergie/c-N06060109",
+      "startDate": "2026-05-28T22:00:00+00:00",
+      "endDate": "2026-06-25T21:59:00+00:00",
+      "dateAdded": "2026-05-28T08:03:42+00:00"
     },
     {
       "id": "3886973",
