@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-11T04:25:52.124Z",
+  "fetchedAt": "2026-06-11T10:46:33.633Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,7 +144,7 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 150,
+  "count": 155,
   "promotions": [
     {
       "id": "3877551",
@@ -483,6 +483,22 @@
       "dateAdded": "2026-06-02T10:52:47+00:00"
     },
     {
+      "id": "3913035",
+      "advertiserId": "25546",
+      "advertiser": "Stylevana DE",
+      "type": "voucher",
+      "code": "AFF18RLMASK",
+      "exclusive": false,
+      "title": "Round Lab Sale: 16% off on €59+",
+      "description": "Member Exclusive: 16% off on €59+ with a Free Moisturizing Mask Sheet",
+      "terms": "This offer cannot be combined with other promotions.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
+      "url": "https://www.stylevana.com/de_DE/",
+      "startDate": "2026-06-11T06:35:00+00:00",
+      "endDate": "2026-06-25T06:35:00+00:00",
+      "dateAdded": "2026-05-26T06:39:47+00:00"
+    },
+    {
       "id": "3924515",
       "advertiserId": "13812",
       "advertiser": "Netto Marken-Discount DE",
@@ -593,6 +609,54 @@
       "startDate": "2026-06-01T12:01:00+00:00",
       "endDate": "2026-06-30T04:00:00+00:00",
       "dateAdded": "2026-06-01T12:01:16+00:00"
+    },
+    {
+      "id": "3945781",
+      "advertiserId": "102013",
+      "advertiser": "Zlike Hair",
+      "type": "voucher",
+      "code": "MY15",
+      "exclusive": false,
+      "title": "ZLIKE 15% OFF Sitewide",
+      "description": "ZLIKE 15% OFF Sitewide",
+      "terms": "MID-YEAR SHOPPING SPREE\nHot Style & Huge Savings\nZLIKE 15% OFF Sitewide, Code:MY15;\nEXTRA $40 OFF Over $250,Code:MY40;\nEXTRA $60 OFF Over $350,Code:MY60.\nhttps://zlikehair.com/collections/best-sellers",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=102013&awinaffid=2851329&ued=https%3A%2F%2Fzlikehair.com%2Fcollections%2Fbest-sellers",
+      "url": "https://zlikehair.com/collections/best-sellers",
+      "startDate": "2026-06-11T08:16:00+00:00",
+      "endDate": "2026-06-30T08:14:00+00:00",
+      "dateAdded": "2026-06-11T08:16:11+00:00"
+    },
+    {
+      "id": "3945787",
+      "advertiserId": "102013",
+      "advertiser": "Zlike Hair",
+      "type": "voucher",
+      "code": "MY40",
+      "exclusive": false,
+      "title": "MY40",
+      "description": "EXTRA $40 OFF Over $250",
+      "terms": "MID-YEAR SHOPPING SPREE\nHot Style & Huge Savings\nZLIKE 15% OFF Sitewide, Code:MY15;\nEXTRA $40 OFF Over $250,Code:MY40;\nEXTRA $60 OFF Over $350,Code:MY60.\nhttps://zlikehair.com/collections/best-sellers",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=102013&awinaffid=2851329&ued=https%3A%2F%2Fzlikehair.com%2Fcollections%2Fbest-sellers",
+      "url": "https://zlikehair.com/collections/best-sellers",
+      "startDate": "2026-06-11T08:17:00+00:00",
+      "endDate": "2026-06-30T08:16:00+00:00",
+      "dateAdded": "2026-06-11T08:17:00+00:00"
+    },
+    {
+      "id": "3945791",
+      "advertiserId": "102013",
+      "advertiser": "Zlike Hair",
+      "type": "voucher",
+      "code": "MY60",
+      "exclusive": false,
+      "title": "EXTRA $60 OFF Over $350",
+      "description": "EXTRA $60 OFF Over $350",
+      "terms": "MID-YEAR SHOPPING SPREE\nHot Style & Huge Savings\nZLIKE 15% OFF Sitewide, Code:MY15;\nEXTRA $40 OFF Over $250,Code:MY40;\nEXTRA $60 OFF Over $350,Code:MY60.\nhttps://zlikehair.com/collections/best-sellers",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=102013&awinaffid=2851329&ued=https%3A%2F%2Fzlikehair.com%2Fcollections%2Fbest-sellers",
+      "url": "https://zlikehair.com/collections/best-sellers",
+      "startDate": "2026-06-11T08:17:00+00:00",
+      "endDate": "2026-06-30T08:17:00+00:00",
+      "dateAdded": "2026-06-11T08:17:37+00:00"
     },
     {
       "id": "3825089",
@@ -1185,6 +1249,22 @@
       "startDate": "2026-05-31T22:00:00+00:00",
       "endDate": "2026-07-14T22:00:00+00:00",
       "dateAdded": "2026-05-29T10:23:02+00:00"
+    },
+    {
+      "id": "3946149",
+      "advertiserId": "11684",
+      "advertiser": "Aosom DE/AT",
+      "type": "voucher",
+      "code": "WM10",
+      "exclusive": false,
+      "title": "Nutze tolle Rabatte und unser Gewinnspiel!",
+      "description": "Tippe die Top-3-Weltmeisterschafts-Teams richtig und gewinne einen Rabatt-Gutschein! Code:WM10",
+      "terms": "Alle Rabatte sind nicht kombinierbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11684&awinaffid=2851329&ued=https%3A%2F%2Fwww.aosom.de%2Factivity%2Fweltmeisterschaft",
+      "url": "https://www.aosom.de/activity/weltmeisterschaft",
+      "startDate": "2026-06-11T09:37:00+00:00",
+      "endDate": "2026-07-17T21:59:00+00:00",
+      "dateAdded": "2026-06-11T09:37:36+00:00"
     },
     {
       "id": "3924457",
