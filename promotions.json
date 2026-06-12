@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-12T04:38:06.442Z",
+  "fetchedAt": "2026-06-12T10:22:15.715Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -339,22 +339,6 @@
       "dateAdded": "2026-06-10T06:33:50+00:00"
     },
     {
-      "id": "3916519",
-      "advertiserId": "14537",
-      "advertiser": "Baur Versand DE",
-      "type": "voucher",
-      "code": "13439",
-      "exclusive": false,
-      "title": "20% auf Sommerschuhe & Sommerkleidung",
-      "description": "20% auf Sommerschuhe & Sommerkleidung, gültig bis 16.06.2026",
-      "terms": "* Der 20% Rabatt gilt bis 16.06.26 mehrmalig für die Sortimente Sommerkleidung & Sommerschuhe. Ausgenommen sind Bademäntel, Schmuck, Uhren, Beauty- & Drogerieartikel, Bademode, Artikel der Marken travelite, Samsonite, aunts & uncles, Hauck, qnuffs und mit DEALS gekennzeichnete Artikel. Nicht kombinierbar mit anderen Vorteilen. Keine Barauszahlung oder nachträgliche Verrechnung möglich.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=14537&awinaffid=2851329&ued=https%3A%2F%2Fwww.baur.de%2F%3Futm_content%3Dtl%26utm_term%3D20proz_modeschuhe%26P1%3DMTM0Mzk%3D",
-      "url": "https://www.baur.de/?utm_content=tl&utm_term=20proz_modeschuhe&P1=MTM0Mzk=",
-      "startDate": "2026-05-28T22:01:00+00:00",
-      "endDate": "2026-06-16T21:59:00+00:00",
-      "dateAdded": "2026-05-27T11:51:16+00:00"
-    },
-    {
       "id": "3943739",
       "advertiserId": "13812",
       "advertiser": "Netto Marken-Discount DE",
@@ -515,6 +499,22 @@
       "dateAdded": "2026-05-28T14:43:22+00:00"
     },
     {
+      "id": "3916519",
+      "advertiserId": "14537",
+      "advertiser": "Baur Versand DE",
+      "type": "voucher",
+      "code": "13439",
+      "exclusive": false,
+      "title": "20% auf Sommerschuhe & Sommerkleidung",
+      "description": "20% auf Sommerschuhe & Sommerkleidung, gültig bis 16.06.2026",
+      "terms": "* Der 20% Rabatt gilt bis 28.06.26 mehrmalig für die Sortimente Sommerkleidung & Sommerschuhe. Ausgenommen sind Bademäntel, Schmuck, Uhren, Beauty- & Drogerieartikel, Bademode, Artikel der Marken travelite, Samsonite, aunts & uncles, Hauck, qnuffs und mit DEALS gekennzeichnete Artikel. Nicht kombinierbar mit anderen Vorteilen. Keine Barauszahlung oder nachträgliche Verrechnung möglich.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=14537&awinaffid=2851329&ued=https%3A%2F%2Fwww.baur.de%2F%3Futm_content%3Dtl%26utm_term%3D20proz_modeschuhe%26P1%3DMTM0Mzk%3D",
+      "url": "https://www.baur.de/?utm_content=tl&utm_term=20proz_modeschuhe&P1=MTM0Mzk=",
+      "startDate": "2026-05-28T22:01:00+00:00",
+      "endDate": "2026-06-28T21:59:00+00:00",
+      "dateAdded": "2026-05-27T11:51:16+00:00"
+    },
+    {
       "id": "3930531",
       "advertiserId": "13812",
       "advertiser": "Netto Marken-Discount DE",
@@ -609,22 +609,6 @@
       "startDate": "2026-06-11T08:17:00+00:00",
       "endDate": "2026-06-30T08:17:00+00:00",
       "dateAdded": "2026-06-11T08:17:37+00:00"
-    },
-    {
-      "id": "3825089",
-      "advertiserId": "101583",
-      "advertiser": "Design Letters",
-      "type": "voucher",
-      "code": "THANKYOU20",
-      "exclusive": false,
-      "title": "THANKYOU20 20% OFF PER ORDER",
-      "description": "THANKYOU20 20% OFF PER ORDER",
-      "terms": "All customers\nFor Online Store\n20% off 2 collections\nNo minimum purchase requirement\nOne use per customer\nCan’t combine with other discounts",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=101583&awinaffid=2851329&ued=https%3A%2F%2Fdesignletters.eu%2F",
-      "url": "https://designletters.eu/",
-      "startDate": "2026-04-09T11:01:00+00:00",
-      "endDate": "2026-06-30T10:57:00+00:00",
-      "dateAdded": "2026-04-09T11:01:56+00:00"
     },
     {
       "id": "3858473",
@@ -1329,6 +1313,22 @@
       "startDate": "2026-05-22T07:04:00+00:00",
       "endDate": "2026-07-20T22:00:00+00:00",
       "dateAdded": "2026-05-22T07:04:55+00:00"
+    },
+    {
+      "id": "3825089",
+      "advertiserId": "101583",
+      "advertiser": "Design Letters",
+      "type": "voucher",
+      "code": "THANKYOU20",
+      "exclusive": false,
+      "title": "THANKYOU20 20% OFF PER ORDER",
+      "description": "THANKYOU20 20% OFF PER ORDER",
+      "terms": "All customers\nFor Online Store\n20% off 2 collections\nNo minimum purchase requirement\nOne use per customer\nCan’t combine with other discounts",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=101583&awinaffid=2851329&ued=https%3A%2F%2Fdesignletters.eu%2F",
+      "url": "https://designletters.eu/",
+      "startDate": "2026-04-09T11:01:00+00:00",
+      "endDate": "2026-07-31T10:57:00+00:00",
+      "dateAdded": "2026-04-09T11:01:56+00:00"
     },
     {
       "id": "3358969",
