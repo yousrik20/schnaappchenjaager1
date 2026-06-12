@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-11T20:27:49.052Z",
+  "fetchedAt": "2026-06-12T04:38:06.442Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,24 +144,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 155,
+  "count": 154,
   "promotions": [
-    {
-      "id": "3918525",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-FUSSBALL-10",
-      "exclusive": false,
-      "title": "10€ Filialgutschein auf ausgewählte Artikel inkl. Gratis Versand",
-      "description": "10€ Filialgutschein ab 100€ MBW auf ausgewählte Artikel inkl. Gratis Versand",
-      "terms": "Aktion nur online gültig von 22.05.2026 bis 04.06.2026. 10€ Filial-Gutschein gratis und gratis Versand auf ausgewählte Artikel ab einem Mindestbestellwert von 100€ (exkl. Versandkosten und Pfand) unter www.netto-online.de mit dem Code: N-FUSSBALL-10. Von der Aktion ausgenommen sind Gutschein- und Guthabenkarten, Bücher, Pre- und Anfangsmilchnahrung und einzelne, entsprechend gesondert gekennzeichnete Artikel. Vervielfältigung jeglicher Art nicht gestattet. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Pro Person maximal ein Filial-Gutschein erhältlich. Versand des Filial-Gutscheins erfolgt 4 Wochen nach Warenlieferung per Mail. Der Filial-Gutschein ist ohne Mindesteinkaufswert einlösbar. 1 Monat ab Ausstellungsdatum gültig.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DHei%25C3%259Fe%2BDeals%2Bzum%2BPublic%2BViewing",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Hei%C3%9Fe+Deals+zum+Public+Viewing",
-      "startDate": "2026-05-28T11:55:00+00:00",
-      "endDate": "2026-06-11T21:59:00+00:00",
-      "dateAdded": "2026-05-28T11:51:30+00:00"
-    },
     {
       "id": "3938527",
       "advertiserId": "13812",
