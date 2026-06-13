@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-12T20:17:12.800Z",
+  "fetchedAt": "2026-06-13T04:17:16.291Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,7 +144,7 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 154,
+  "count": 155,
   "promotions": [
     {
       "id": "3938527",
@@ -401,6 +401,22 @@
       "startDate": "2026-05-21T03:48:00+00:00",
       "endDate": "2026-06-21T15:59:00+00:00",
       "dateAdded": "2026-05-21T03:48:23+00:00"
+    },
+    {
+      "id": "3943831",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-EVENTIM-10",
+      "exclusive": false,
+      "title": "10% ohne MBW auf Kategorie Eventim Gutscheine",
+      "description": "10% ohne MBW Mindestbestellwert auf Eventim Gutscheine.",
+      "terms": "10% Rabatt mit Gutscheincode \"N-EVENTIM-10\" auf ausgewählte Artikel ohne Mindestbestellwert. Ausgenommen: Kategorie Multimedia, Gutscheine und Bücher und gesondert gekennzeichnete Artikel. Aktion gültig bis 21.06.2026 23:59 Uhr, mehrmalig einlösbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPStandardCatalog-Browse%3FSortingAttribute%3D%26FollowSearch%3D%26SourceReference%3D%26SearchParameter%3D%2540QueryTerm%253D%2A%2526SourceReference%253D%2526FollowSearch%253D%2526Marke%253DEventim%26CatalogID%3DBasis%26CatalogCategoryID%3DOd2sEClWWRQAAAF9drdlXbLN%26SearchTerm%3D%2A%26minvalS%3D1%252C00%26maxvalS%3D5000%252C00%26ViewSearch%3Dev%26Marke-Eventim%3Don",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPStandardCatalog-Browse?SortingAttribute=&FollowSearch=&SourceReference=&SearchParameter=%40QueryTerm%3D*%26SourceReference%3D%26FollowSearch%3D%26Marke%3DEventim&CatalogID=Basis&CatalogCategoryID=Od2sEClWWRQAAAF9drdlXbLN&SearchTerm=*&minvalS=1%2C00&maxvalS=5000%2C00&ViewSearch=ev&Marke-Eventim=on",
+      "startDate": "2026-06-12T22:00:00+00:00",
+      "endDate": "2026-06-21T21:59:00+00:00",
+      "dateAdded": "2026-06-10T09:58:42+00:00"
     },
     {
       "id": "3928185",
