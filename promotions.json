@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-14T09:44:45.204Z",
+  "fetchedAt": "2026-06-14T14:16:14.557Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,24 +144,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 155,
+  "count": 154,
   "promotions": [
-    {
-      "id": "3739916",
-      "advertiserId": "87255",
-      "advertiser": "Erverte Paris",
-      "type": "voucher",
-      "code": "DAD20",
-      "exclusive": false,
-      "title": "Father’s Day Event – 20% Off",
-      "description": "Celebrate Father’s Day with 20% off timeless men’s essentials. Discover refined, modern pieces designed for effortless everyday style—perfect for gifting. Limited-time offer.",
-      "terms": "20% off the entire order\n\nNo minimum purchase required\n\nValid for all customers\n\nOne-time use per customer\n\nCannot be combined with other offers or discounts\n\nValid from June 8 to June 14, 2026",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=87255&awinaffid=2851329&ued=https%3A%2F%2Ferverte.com",
-      "url": "https://erverte.com",
-      "startDate": "2026-06-08T13:48:00+00:00",
-      "endDate": "2026-06-14T13:48:00+00:00",
-      "dateAdded": "2026-02-16T14:50:22+00:00"
-    },
     {
       "id": "3943841",
       "advertiserId": "13812",
