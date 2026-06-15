@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-14T19:43:39.770Z",
+  "fetchedAt": "2026-06-15T04:59:33.283Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,24 +144,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 154,
+  "count": 153,
   "promotions": [
-    {
-      "id": "3943841",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-SHOPPING-20",
-      "exclusive": false,
-      "title": "20€ ab 200 € auf Kategorie Alles",
-      "description": "20€ ab 200 € Mindestbestellwert auf Artikel der Kategorie Alles.",
-      "terms": "20 € Rabatt mit Gutscheincode \"N-SHOPPING-20\" auf ausgewählte Artikel ab einem Mindestbestellwert von 200 €. Ausgenommen: Kategorie Multimedia und Bücher und gesondert gekennzeichnete Artikel. Aktion gültig bis 14.06.2026 23:59 Uhr, mehrmalig einlösbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2F",
-      "url": "https://www.netto-online.de/",
-      "startDate": "2026-06-13T22:00:00+00:00",
-      "endDate": "2026-06-14T21:59:00+00:00",
-      "dateAdded": "2026-06-10T10:00:16+00:00"
-    },
     {
       "id": "3934405",
       "advertiserId": "11684",
