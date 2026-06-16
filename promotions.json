@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-16T11:21:19.094Z",
+  "fetchedAt": "2026-06-16T17:04:53.576Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,24 +144,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 151,
+  "count": 150,
   "promotions": [
-    {
-      "id": "3945453",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "AFFMYS21",
-      "exclusive": false,
-      "title": "Mid Year Sale : Up to 21% OFF",
-      "description": "Members exclusive: 21% off on 85€+ | 18% off with no min spend | Guest Checkout: 10% OFF no min spend",
-      "terms": "This offer cannot be combined with other promotions.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
-      "url": "https://www.stylevana.com/de_DE/",
-      "startDate": "2026-06-11T03:25:00+00:00",
-      "endDate": "2026-06-16T15:59:00+00:00",
-      "dateAdded": "2026-06-11T03:25:00+00:00"
-    },
     {
       "id": "3943299",
       "advertiserId": "11447",
