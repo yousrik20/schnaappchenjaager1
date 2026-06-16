@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-16T05:00:13.092Z",
+  "fetchedAt": "2026-06-16T11:21:19.094Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,7 +144,7 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 150,
+  "count": 151,
   "promotions": [
     {
       "id": "3945453",
@@ -563,6 +563,22 @@
       "dateAdded": "2026-04-28T09:33:58+00:00"
     },
     {
+      "id": "3953901",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "W-MEDIA-10",
+      "exclusive": false,
+      "title": "10% Rabatt auf ausgewählte Multimedia-Artikel",
+      "description": "10% Rabatt ohne MBW auf ausgewählte Multimedia-Artikel",
+      "terms": "10 % Rabatt mit Gutscheincode \"W-MEDIA-10\" auf ausgewählte Artikel ohne Mindestbestellwert. Ausgenommen: Gutscheine und Bücher und gesondert gekennzeichnete Artikel. Aktion gültig bis 30.06.2026 23:59 Uhr, mehrmalig einlösbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DMultimedia-Gutschein%2BSommer",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Multimedia-Gutschein+Sommer",
+      "startDate": "2026-06-16T09:30:00+00:00",
+      "endDate": "2026-06-30T21:59:00+00:00",
+      "dateAdded": "2026-06-16T09:26:19+00:00"
+    },
+    {
       "id": "3946675",
       "advertiserId": "13812",
       "advertiser": "Netto Marken-Discount DE",
@@ -571,7 +587,7 @@
       "exclusive": false,
       "title": "10 % ohne MBW auf Artikel der Kategorie Sortiment Lieferant",
       "description": "10 % ohne Mindestbestellwert auf Artikel der Kategorie Sortiment Lieferant",
-      "terms": "10 % Rabatt mit Gutscheincode \"W-SPAR-10\" auf ausgewählte Artikel ohne Mindestbestellwert. Ausgenommen: Kategorie Multimedia, Gutscheine und Bücher und gesondert gekennzeichnete Artikel. Aktion gültig bis 30.06.2026 23:59 Uhr, mehrmalig einlösbar.",
+      "terms": "10 % Rabatt mit Gutscheincode \"W-SPAR-10\" auf ausgewählte Artikel ohne Mindestbestellwert. Ausgenommen: Gutscheine und Bücher und gesondert gekennzeichnete Artikel. Aktion gültig bis 30.06.2026 23:59 Uhr, mehrmalig einlösbar.",
       "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2F",
       "url": "https://www.netto-online.de/",
       "startDate": "2026-06-11T13:00:00+00:00",
