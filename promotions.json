@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-15T21:10:57.551Z",
+  "fetchedAt": "2026-06-16T05:00:13.092Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,56 +144,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 153,
+  "count": 150,
   "promotions": [
-    {
-      "id": "3934405",
-      "advertiserId": "11684",
-      "advertiser": "Aosom DE/AT",
-      "type": "promotion",
-      "code": "",
-      "exclusive": false,
-      "title": "Nutze sommerliche Rabatte!",
-      "description": "Bis zu 60% Rabatt auf zahlreiche Artikel!",
-      "terms": "Alle Rabatte sind nicht kombinierbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=11684&awinaffid=2851329&ued=https%3A%2F%2Fwww.aosom.de%2Factivity%2Fsommer-sale",
-      "url": "https://www.aosom.de/activity/sommer-sale",
-      "startDate": "2026-06-04T10:05:00+00:00",
-      "endDate": "2026-06-15T21:59:00+00:00",
-      "dateAdded": "2026-06-04T10:05:02+00:00"
-    },
-    {
-      "id": "3921969",
-      "advertiserId": "125816",
-      "advertiser": "Imou DE",
-      "type": "voucher",
-      "code": "IMOUFESTAFF20",
-      "exclusive": false,
-      "title": "90€-20€",
-      "description": "€20 off orders of €90 or more，Valid: June 1 – July 15",
-      "terms": "Site-wide applicable. Valid: June 1 – July 15.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=125816&awinaffid=2851329&ued=https%3A%2F%2Fstore.imou.com%2Fde-de",
-      "url": "https://store.imou.com/de-de",
-      "startDate": "2026-05-31T22:00:00+00:00",
-      "endDate": "2026-06-15T22:00:00+00:00",
-      "dateAdded": "2026-05-29T10:28:26+00:00"
-    },
-    {
-      "id": "3942953",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "SVMYS",
-      "exclusive": false,
-      "title": "Mid-Year-Sale",
-      "description": "Member Exclusive: -20% Rabatt auf Sonnenpflege-Produkte | -18% Rabatt auf 99€+ | -14% Rabatt auf 59€+",
-      "terms": "This offer cannot be combined with other promotions.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fpromotion%2Ftheme%2Fmid-year-sale.html",
-      "url": "https://www.stylevana.com/de_DE/promotion/theme/mid-year-sale.html",
-      "startDate": "2026-06-10T02:46:00+00:00",
-      "endDate": "2026-06-16T02:44:00+00:00",
-      "dateAdded": "2026-06-10T02:46:45+00:00"
-    },
     {
       "id": "3945453",
       "advertiserId": "25546",
