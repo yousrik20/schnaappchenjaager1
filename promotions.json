@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-17T04:44:47.656Z",
+  "fetchedAt": "2026-06-17T11:06:35.240Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,7 +144,7 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 145,
+  "count": 148,
   "promotions": [
     {
       "id": "3943739",
@@ -241,6 +241,22 @@
       "startDate": "2026-06-12T22:00:00+00:00",
       "endDate": "2026-06-21T21:59:00+00:00",
       "dateAdded": "2026-06-10T09:58:42+00:00"
+    },
+    {
+      "id": "3956187",
+      "advertiserId": "11684",
+      "advertiser": "Aosom DE/AT",
+      "type": "voucher",
+      "code": "SOMMER",
+      "exclusive": false,
+      "title": "Entdecke unsere Sommer-Rabatte!",
+      "description": "10% Rabatt bei Käufen ab 129€ und 15% ab 249€!",
+      "terms": "Alle Rabatte sind nicht kombinierbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11684&awinaffid=2851329&ued=https%3A%2F%2Fwww.aosom.de%2Factivity%2Fsommer-sale",
+      "url": "https://www.aosom.de/activity/sommer-sale",
+      "startDate": "2026-06-17T05:22:00+00:00",
+      "endDate": "2026-06-22T21:59:00+00:00",
+      "dateAdded": "2026-06-17T05:22:19+00:00"
     },
     {
       "id": "3928185",
@@ -995,6 +1011,22 @@
       "dateAdded": "2026-04-01T01:45:53+00:00"
     },
     {
+      "id": "3953721",
+      "advertiserId": "25546",
+      "advertiser": "Stylevana DE",
+      "type": "voucher",
+      "code": "AFFPOUCH",
+      "exclusive": false,
+      "title": "Vana Pouch Sale: 23% off on selected items",
+      "description": "Member Exclusive: 23% off on selected items (vana pouch) | 18% off on €59+ | 15% off no MOV",
+      "terms": "This offer cannot be combined with other promotions.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fstylevana-vana-discovery-k-beauty-active-set125649.html",
+      "url": "https://www.stylevana.com/de_DE/stylevana-vana-discovery-k-beauty-active-set125649.html",
+      "startDate": "2026-06-17T10:00:00+00:00",
+      "endDate": "2026-07-01T15:59:00+00:00",
+      "dateAdded": "2026-06-16T08:16:41+00:00"
+    },
+    {
       "id": "3913075",
       "advertiserId": "25546",
       "advertiser": "Stylevana DE",
@@ -1089,6 +1121,22 @@
       "startDate": "2026-06-11T09:37:00+00:00",
       "endDate": "2026-07-17T21:59:00+00:00",
       "dateAdded": "2026-06-11T09:37:36+00:00"
+    },
+    {
+      "id": "3956829",
+      "advertiserId": "109230",
+      "advertiser": "Tsarbomba",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Follow the action of the 2026 FIFA World Cup",
+      "description": "World Cup Fever： The world’s eyes are on football’s grandest stage. Every sprint, every goal, every victory tells a story of dreams and passion",
+      "terms": "World Cup Fever： The world’s eyes are on football’s grandest stage. Every sprint, every goal, every victory tells a story of dreams and passion",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=109230&awinaffid=2851329&ued=https%3A%2F%2Ftsarbomba.com%2Fpages%2Ffifa-world-cup",
+      "url": "https://tsarbomba.com/pages/fifa-world-cup",
+      "startDate": "2026-06-17T09:23:00+00:00",
+      "endDate": "2026-07-19T15:59:00+00:00",
+      "dateAdded": "2026-06-17T09:23:42+00:00"
     },
     {
       "id": "3924457",
