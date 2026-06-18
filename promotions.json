@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-17T20:20:32.687Z",
+  "fetchedAt": "2026-06-18T04:27:55.711Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,24 +144,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 156,
+  "count": 155,
   "promotions": [
-    {
-      "id": "3943739",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "W-SHARP-10",
-      "exclusive": false,
-      "title": "10 % ohne MBW auf alle SHARP Fernseher",
-      "description": "10 % ohne Mindestbestellwert auf alle SHARP Fernseher",
-      "terms": "10% Rabatt auf ausgewählte Sharp-Fernseher mit dem Code \"W-SHARP-10\" ohne Mindestbestellwert. Aktion gültig 03.06.2026 00:01 Uhr - 17.06.2026 23:59 Uhr.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPStandardCatalog-Browse%3FSortingAttribute%3D%26FollowSearch%3D%26SourceReference%3D%26SearchParameter%3D%2540QueryTerm%253D%2A%2526SourceReference%253D%2526FollowSearch%253D%2526Marke%253DSharp%26CatalogID%3DBasis%26CatalogCategoryID%3DCpWsEClWgZgAAAFbgrxb7V0A%26SearchTerm%3D%2A%26minvalS%3D3%252C88%26maxvalS%3D1587%252C00%26ViewSearch%3Dsharp%26Marke-Sharp%3Don",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPStandardCatalog-Browse?SortingAttribute=&FollowSearch=&SourceReference=&SearchParameter=%40QueryTerm%3D*%26SourceReference%3D%26FollowSearch%3D%26Marke%3DSharp&CatalogID=Basis&CatalogCategoryID=CpWsEClWgZgAAAFbgrxb7V0A&SearchTerm=*&minvalS=3%2C88&maxvalS=1587%2C00&ViewSearch=sharp&Marke-Sharp=on",
-      "startDate": "2026-06-10T09:40:00+00:00",
-      "endDate": "2026-06-17T21:59:00+00:00",
-      "dateAdded": "2026-06-10T09:35:31+00:00"
-    },
     {
       "id": "3930243",
       "advertiserId": "13812",
