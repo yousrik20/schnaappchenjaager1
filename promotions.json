@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-19T04:56:24.265Z",
+  "fetchedAt": "2026-06-19T10:45:33.816Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -146,6 +146,22 @@
   ],
   "count": 156,
   "promotions": [
+    {
+      "id": "3869791",
+      "advertiserId": "53143",
+      "advertiser": "teppich.de",
+      "type": "voucher",
+      "code": "HELLO20",
+      "exclusive": false,
+      "title": "Neue Saison – Outdoor & Bestseller - 20%",
+      "description": "Frische Styles für Frühling & Sommer: 20 % Rabatt auf Bestseller – ideal für Zuhause, Balkon & Terrasse.",
+      "terms": "Solange Vorrat reicht",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=53143&awinaffid=2851329&ued=https%3A%2F%2Fwww.teppich.de%2Fbeliebte-teppiche%2F",
+      "url": "https://www.teppich.de/beliebte-teppiche/",
+      "startDate": "2026-05-04T16:18:00+00:00",
+      "endDate": "2026-06-19T21:59:00+00:00",
+      "dateAdded": "2026-05-04T16:18:02+00:00"
+    },
     {
       "id": "3956113",
       "advertiserId": "25546",
@@ -753,22 +769,6 @@
       "startDate": "2026-05-21T13:33:00+00:00",
       "endDate": "2026-06-30T21:59:00+00:00",
       "dateAdded": "2026-05-21T13:33:26+00:00"
-    },
-    {
-      "id": "3869791",
-      "advertiserId": "53143",
-      "advertiser": "teppich.de",
-      "type": "voucher",
-      "code": "HELLO20",
-      "exclusive": false,
-      "title": "Neue Saison – Outdoor & Bestseller - 20%",
-      "description": "Frische Styles für Frühling & Sommer: 20 % Rabatt auf Bestseller – ideal für Zuhause, Balkon & Terrasse.",
-      "terms": "Solange Vorrat reicht",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=53143&awinaffid=2851329&ued=https%3A%2F%2Fwww.teppich.de%2Fbeliebte-teppiche%2F",
-      "url": "https://www.teppich.de/beliebte-teppiche/",
-      "startDate": "2026-05-04T16:18:00+00:00",
-      "endDate": "2026-06-30T21:59:00+00:00",
-      "dateAdded": "2026-05-04T16:18:02+00:00"
     },
     {
       "id": "3856241",
