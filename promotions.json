@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-18T20:32:06.727Z",
+  "fetchedAt": "2026-06-19T04:56:24.265Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,40 +144,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 155,
+  "count": 156,
   "promotions": [
-    {
-      "id": "3930243",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "W-MAXTRON-15",
-      "exclusive": false,
-      "title": "15 % Rabatt auf ausgewählte Artikel von Maxtron",
-      "description": "15 % Rabatt ohn Mindestbestellwert auf ausgewählte Artikel von Maxtron",
-      "terms": "15 % Rabatt mit Gutscheincode \"W-MAXTRON-15\" auf ausgewählte Artikel ohne Mindestbestellwert. Ausgenommen: Kategorie Multimedia, Gutscheine und Bücher und gesondert gekennzeichnete Artikel. Aktion gültig bis 18.06.2026 23:59 Uhr, mehrmalig einlösbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-SimpleOfferSearch%3FSearchTerm%3Dmaxtron%26channel%3DProduktiv-Plus-NettoDE-de_DE%26SearchParameter%3D%2540QueryTerm%253Dmaxtron%2526SuggestUserInput%253Dmaxtron",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-SimpleOfferSearch?SearchTerm=maxtron&channel=Produktiv-Plus-NettoDE-de_DE&SearchParameter=%40QueryTerm%3Dmaxtron%26SuggestUserInput%3Dmaxtron",
-      "startDate": "2026-06-05T10:50:00+00:00",
-      "endDate": "2026-06-18T21:59:00+00:00",
-      "dateAdded": "2026-06-03T07:04:38+00:00"
-    },
-    {
-      "id": "3924515",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-SOMMER-15",
-      "exclusive": false,
-      "title": "15€ Rabatt auf Alles",
-      "description": "15€ Rabatt auf Alles ab 200€ Bestellwert",
-      "terms": "15€ Rabatt auf Alles ab 200€ Bestellwert. Nur online gültig vom 01.06.2026 von 00:00 Uhr bis 18.06.2026 23:59 Uhr mit dem Gutscheincode N-SOMMER-15. Ausgenommen: Multimedia, Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, ausgewählte Werbeware sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices. Nicht kombinierbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DSommer-Special%2Bmit%2BGutschein",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Sommer-Special+mit+Gutschein",
-      "startDate": "2026-06-01T09:37:00+00:00",
-      "endDate": "2026-06-18T21:59:00+00:00",
-      "dateAdded": "2026-06-01T09:37:28+00:00"
-    },
     {
       "id": "3956113",
       "advertiserId": "25546",
@@ -241,6 +209,22 @@
       "startDate": "2026-06-12T22:00:00+00:00",
       "endDate": "2026-06-21T21:59:00+00:00",
       "dateAdded": "2026-06-10T09:58:42+00:00"
+    },
+    {
+      "id": "3916543",
+      "advertiserId": "14537",
+      "advertiser": "Baur Versand DE",
+      "type": "voucher",
+      "code": "14202",
+      "exclusive": false,
+      "title": "21,6% auf Sommermode & Sommerschuhe*",
+      "description": "21,6% auf Sommermode & Sommerschuhe*, gültig bis 21.06.2026",
+      "terms": "* Der 21,6% Rabatt gilt bis 21.06.26 mehrmalig für die Sortimente Sommermode & Sommerschuhe. Ausgenommen sind Stiefel und Stiefeletten und mit DEALS gekennzeichnete Artikel. Nicht kombinierbar mit anderen Vorteilen. Keine Barauszahlung oder nachträgliche Verrechnung möglich.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=14537&awinaffid=2851329&ued=https%3A%2F%2Fwww.baur.de%2F%3Futm_content%3Dtl%26utm_term%3D21eur_modeschuhe%26P1%3DMTQyMDI%3D",
+      "url": "https://www.baur.de/?utm_content=tl&utm_term=21eur_modeschuhe&P1=MTQyMDI=",
+      "startDate": "2026-06-18T22:01:00+00:00",
+      "endDate": "2026-06-21T21:59:00+00:00",
+      "dateAdded": "2026-05-27T12:03:38+00:00"
     },
     {
       "id": "3957745",
@@ -1203,6 +1187,22 @@
       "dateAdded": "2026-03-25T08:43:35+00:00"
     },
     {
+      "id": "3640528",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-SUPERDAYS-30",
+      "exclusive": false,
+      "title": "Gratis Versand und 30€ Filialgutschein auf Alles",
+      "description": "Gratis Versand und 30€ Filialgutschein auf Alles ab 200€ Mindestbestellwert",
+      "terms": "30€ Filial-Gutschein und Gratisversand ab einen Mindestbestellwert von 200€ mit dem Code \"N-SUPERDAYS-30\". Ausgenommen: Lebensmittel, Multimedia, Gutscheine, Bücher sowie einzelne, entsprechend gesondert gekennzeichnete Artikel. Aktion gültig 19.06.2026 00:01 Uhr - 05.07.2026 23:59 Uhr.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2Fonline-wochenangebote%2Fc-N0794%3FRefID%3DAppC_FilialGutschein-KW51%26utm_source%3DAppC%26utm_medium%3DFilialGutschein%26utm_campaign%3DKW51",
+      "url": "https://www.netto-online.de/online-wochenangebote/c-N0794?RefID=AppC_FilialGutschein-KW51&utm_source=AppC&utm_medium=FilialGutschein&utm_campaign=KW51",
+      "startDate": "2026-06-18T22:00:00+00:00",
+      "endDate": "2026-07-05T21:59:00+00:00",
+      "dateAdded": "2025-12-18T13:00:12+00:00"
+    },
+    {
       "id": "3921945",
       "advertiserId": "125816",
       "advertiser": "Imou DE",
@@ -1329,6 +1329,22 @@
       "startDate": "2026-05-22T07:04:00+00:00",
       "endDate": "2026-07-20T22:00:00+00:00",
       "dateAdded": "2026-05-22T07:04:55+00:00"
+    },
+    {
+      "id": "3941767",
+      "advertiserId": "14537",
+      "advertiser": "Baur Versand DE",
+      "type": "voucher",
+      "code": "11436",
+      "exclusive": false,
+      "title": "15% auf Möbel*",
+      "description": "15% auf Möbel*, gültig bis 28.07.26",
+      "terms": "*Der 15% Rabatt gilt mehrmalig bis 28.07.2026 mehrmalig für das Sortiment Möbel. Ausgenommen sind Heimtextilien & Bademäntel, Schmuck, Uhren, Beauty- & Drogerieartikel, Lampen & Leuchten, Matratzen, Lattenroste, Wohnaccessoires, Gartendekoration, Haushaltswaren, Elektroartikel, Multimedia, Baumarkt, Artikel der Marken travelite, Samsonite, aunts & uncles, Hauck und mit DEALS gekennzeichnete Artikel. Nicht kombinierbar mit anderen Vorteilen. Keine Barauszahlung oder nachträgliche Verrechnung möglich.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=14537&awinaffid=2851329&ued=https%3A%2F%2Fwww.baur.de%2F%3Futm_content%3Dtl%26utm_term%3D15proz_moebel%26P1%3DMTE0MzY%3D",
+      "url": "https://www.baur.de/?utm_content=tl&utm_term=15proz_moebel&P1=MTE0MzY=",
+      "startDate": "2026-06-18T22:02:00+00:00",
+      "endDate": "2026-07-28T21:59:00+00:00",
+      "dateAdded": "2026-06-09T13:22:28+00:00"
     },
     {
       "id": "3825089",
