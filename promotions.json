@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-19T19:54:51.907Z",
+  "fetchedAt": "2026-06-20T04:10:13.396Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,24 +144,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 158,
+  "count": 159,
   "promotions": [
-    {
-      "id": "3869791",
-      "advertiserId": "53143",
-      "advertiser": "teppich.de",
-      "type": "voucher",
-      "code": "HELLO20",
-      "exclusive": false,
-      "title": "Neue Saison – Outdoor & Bestseller - 20%",
-      "description": "Frische Styles für Frühling & Sommer: 20 % Rabatt auf Bestseller – ideal für Zuhause, Balkon & Terrasse.",
-      "terms": "Solange Vorrat reicht",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=53143&awinaffid=2851329&ued=https%3A%2F%2Fwww.teppich.de%2Fbeliebte-teppiche%2F",
-      "url": "https://www.teppich.de/beliebte-teppiche/",
-      "startDate": "2026-05-04T16:18:00+00:00",
-      "endDate": "2026-06-19T21:59:00+00:00",
-      "dateAdded": "2026-05-04T16:18:02+00:00"
-    },
     {
       "id": "3956113",
       "advertiserId": "25546",
@@ -209,6 +193,22 @@
       "startDate": "2026-05-21T03:48:00+00:00",
       "endDate": "2026-06-21T15:59:00+00:00",
       "dateAdded": "2026-05-21T03:48:23+00:00"
+    },
+    {
+      "id": "3959395",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "N-SOMMER-15",
+      "exclusive": false,
+      "title": "15€ Rabatt auf Alles",
+      "description": "15€ Rabatt auf Alles ab 200€ MBW",
+      "terms": "15 € Rabatt mit dem Code: N-SOMMER-15, ab einem Mindestbestellwert von 200 € unter www.netto-online.de. Nur online gültig bis 22.06.2026 um 12:00 Uhr. Ausgenommen: Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, die Kategorie Multimedia sowie einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DGutschein%2Bzum%2BDeutschlandspiel",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Gutschein+zum+Deutschlandspiel",
+      "startDate": "2026-06-19T22:00:00+00:00",
+      "endDate": "2026-06-21T21:59:00+00:00",
+      "dateAdded": "2026-06-18T09:33:38+00:00"
     },
     {
       "id": "3943831",
@@ -1393,6 +1393,22 @@
       "startDate": "2026-04-09T11:01:00+00:00",
       "endDate": "2026-07-31T10:57:00+00:00",
       "dateAdded": "2026-04-09T11:01:56+00:00"
+    },
+    {
+      "id": "3960997",
+      "advertiserId": "53143",
+      "advertiser": "teppich.de",
+      "type": "voucher",
+      "code": "HELLO40",
+      "exclusive": false,
+      "title": "HELLO40: 40 % auf Sommer- & Outdoor-Favoriten",
+      "description": "Mit dem Code HELLO40 jetzt 40 % Rabatt auf ausgewählte Bestseller sichern. Entdecke Outdoorteppiche für Balkon, Terrasse, Garten und Camping sowie sommerliche Wohnideen für drinnen und draußen.",
+      "terms": "Solange Vorrat reicht",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=53143&awinaffid=2851329&ued=https%3A%2F%2Fwww.teppich.de%2Fbeliebte-teppiche%2F",
+      "url": "https://www.teppich.de/beliebte-teppiche/",
+      "startDate": "2026-06-19T22:00:00+00:00",
+      "endDate": "2026-08-03T21:59:00+00:00",
+      "dateAdded": "2026-06-19T10:41:35+00:00"
     },
     {
       "id": "3358969",
