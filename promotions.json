@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-21T14:22:14.295Z",
+  "fetchedAt": "2026-06-21T19:50:44.341Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,40 +144,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 158,
+  "count": 156,
   "promotions": [
-    {
-      "id": "3906281",
-      "advertiserId": "109230",
-      "advertiser": "Tsarbomba",
-      "type": "voucher",
-      "code": "TBFT5",
-      "exclusive": false,
-      "title": "TSAR BOMBA WATCHES：Father's Day Sale",
-      "description": "From May 20 – June 21, 2026,get 5% off for Tsar Bomba watches with code\" TBFT5\"",
-      "terms": "From May 20 – June 16, 2026,get 5% off for Tsar Bomba watches with code\" TBFT5\"",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=109230&awinaffid=2851329&ued=https%3A%2F%2Ftsarbomba.com%2Fpages%2Ffathers-day-sale",
-      "url": "https://tsarbomba.com/pages/fathers-day-sale",
-      "startDate": "2026-05-21T03:51:00+00:00",
-      "endDate": "2026-06-21T15:59:00+00:00",
-      "dateAdded": "2026-05-21T03:51:48+00:00"
-    },
-    {
-      "id": "3906279",
-      "advertiserId": "109230",
-      "advertiser": "Tsarbomba",
-      "type": "promotion",
-      "code": "",
-      "exclusive": false,
-      "title": "TSAR BOMBA WATCHES：Father's Day Sale",
-      "description": "From May 20 – June 21, 2026,get 5% off for Tsar Bomba watches with code\" TBFT5\"",
-      "terms": "From May 20 – June 21, 2026,get 5% off for Tsar Bomba watches with code\" TBFT5\"",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=109230&awinaffid=2851329&ued=https%3A%2F%2Ftsarbomba.com%2Fpages%2Ffathers-day-sale",
-      "url": "https://tsarbomba.com/pages/fathers-day-sale",
-      "startDate": "2026-05-21T03:48:00+00:00",
-      "endDate": "2026-06-21T15:59:00+00:00",
-      "dateAdded": "2026-05-21T03:48:23+00:00"
-    },
     {
       "id": "3959395",
       "advertiserId": "13812",
