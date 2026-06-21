@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-20T19:44:37.621Z",
+  "fetchedAt": "2026-06-21T04:52:00.149Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,24 +144,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 159,
+  "count": 158,
   "promotions": [
-    {
-      "id": "3956113",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "SVMYS",
-      "exclusive": false,
-      "title": "Mid-Year-Sale",
-      "description": "Member Exclusive: -18% Rabatt auf Sonnenpflege-Produkte | -16% Rabatt auf 85€+ | -13% Rabatt auf 55€+",
-      "terms": "This offer cannot be combined with other promotions.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fpromotion%2Ftheme%2Fmid-year-sale.html",
-      "url": "https://www.stylevana.com/de_DE/promotion/theme/mid-year-sale.html",
-      "startDate": "2026-06-17T02:42:00+00:00",
-      "endDate": "2026-06-21T02:40:00+00:00",
-      "dateAdded": "2026-06-17T02:42:37+00:00"
-    },
     {
       "id": "3906281",
       "advertiserId": "109230",
