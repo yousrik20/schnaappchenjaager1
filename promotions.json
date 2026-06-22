@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-22T05:00:25.275Z",
+  "fetchedAt": "2026-06-22T12:14:01.926Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,24 +144,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 153,
+  "count": 155,
   "promotions": [
-    {
-      "id": "3957745",
-      "advertiserId": "11447",
-      "advertiser": "ELV DE",
-      "type": "promotion",
-      "code": "",
-      "exclusive": false,
-      "title": "ELV Tech-Summer - Mehr Sicherheit für Ihr Zuhause",
-      "description": "Zuhause im Blick, auch wenn Sie unterwegs sind",
-      "terms": "",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=11447&awinaffid=2851329&ued=https%3A%2F%2Fde.elv.com%2Felv-tech-summer%2F",
-      "url": "https://de.elv.com/elv-tech-summer/",
-      "startDate": "2026-06-17T14:28:00+00:00",
-      "endDate": "2026-06-22T08:00:00+00:00",
-      "dateAdded": "2026-06-17T14:28:17+00:00"
-    },
     {
       "id": "3957773",
       "advertiserId": "11447",
@@ -385,6 +369,22 @@
       "startDate": "2026-05-28T14:43:00+00:00",
       "endDate": "2026-06-28T14:40:00+00:00",
       "dateAdded": "2026-05-28T14:43:22+00:00"
+    },
+    {
+      "id": "3962705",
+      "advertiserId": "25546",
+      "advertiser": "Stylevana DE",
+      "type": "voucher",
+      "code": "AFFVAND",
+      "exclusive": false,
+      "title": "VANA DAY: Extra 23% OFF on Skincare",
+      "description": "Members exclusive: 23% OFF on Skincare on €59+ | 18% OFF with no min spend | Guest Checkout: 10% OFF with no min spend",
+      "terms": "This offer cannot be combined with other promotions.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
+      "url": "https://www.stylevana.com/de_DE/",
+      "startDate": "2026-06-22T10:23:00+00:00",
+      "endDate": "2026-06-28T15:59:00+00:00",
+      "dateAdded": "2026-06-22T10:23:16+00:00"
     },
     {
       "id": "3957525",
@@ -1441,6 +1441,38 @@
       "startDate": "2026-05-19T09:07:00+00:00",
       "endDate": "2026-08-31T09:05:00+00:00",
       "dateAdded": "2026-05-19T09:07:25+00:00"
+    },
+    {
+      "id": "3962951",
+      "advertiserId": "101583",
+      "advertiser": "Design Letters",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Summer Sale 2026 – Home Accessories & Decor",
+      "description": "Summer Sale 2026 – Home Accessories & Decor",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=101583&awinaffid=2851329&ued=https%3A%2F%2Fdesignletters.eu%2Fpages%2Fsummer-sale-design-2026",
+      "url": "https://designletters.eu/pages/summer-sale-design-2026",
+      "startDate": "2026-06-22T11:31:00+00:00",
+      "endDate": "2026-08-31T11:29:00+00:00",
+      "dateAdded": "2026-06-22T11:31:50+00:00"
+    },
+    {
+      "id": "3962965",
+      "advertiserId": "101583",
+      "advertiser": "Design Letters",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Summer Sale 2026 – Jewellery Collection",
+      "description": "Summer Sale 2026 – Jewellery Collection",
+      "terms": "",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=101583&awinaffid=2851329&ued=https%3A%2F%2Fdesignletters.eu%2Fpages%2Fsummer-sale-jewellery-2026",
+      "url": "https://designletters.eu/pages/summer-sale-jewellery-2026",
+      "startDate": "2026-06-22T11:36:00+00:00",
+      "endDate": "2026-08-31T11:36:00+00:00",
+      "dateAdded": "2026-06-22T11:36:59+00:00"
     },
     {
       "id": "3413941",
