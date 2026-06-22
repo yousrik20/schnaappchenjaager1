@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-21T19:50:44.341Z",
+  "fetchedAt": "2026-06-22T05:00:25.275Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -144,56 +144,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 156,
+  "count": 153,
   "promotions": [
-    {
-      "id": "3959395",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-SOMMER-15",
-      "exclusive": false,
-      "title": "15€ Rabatt auf Alles",
-      "description": "15€ Rabatt auf Alles ab 200€ MBW",
-      "terms": "15 € Rabatt mit dem Code: N-SOMMER-15, ab einem Mindestbestellwert von 200 € unter www.netto-online.de. Nur online gültig bis 22.06.2026 um 12:00 Uhr. Ausgenommen: Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, die Kategorie Multimedia sowie einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DGutschein%2Bzum%2BDeutschlandspiel",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-Browse?SearchTerm=Gutschein+zum+Deutschlandspiel",
-      "startDate": "2026-06-19T22:00:00+00:00",
-      "endDate": "2026-06-21T21:59:00+00:00",
-      "dateAdded": "2026-06-18T09:33:38+00:00"
-    },
-    {
-      "id": "3943831",
-      "advertiserId": "13812",
-      "advertiser": "Netto Marken-Discount DE",
-      "type": "voucher",
-      "code": "N-EVENTIM-10",
-      "exclusive": false,
-      "title": "10% ohne MBW auf Kategorie Eventim Gutscheine",
-      "description": "10% ohne MBW Mindestbestellwert auf Eventim Gutscheine.",
-      "terms": "10% Rabatt mit Gutscheincode \"N-EVENTIM-10\" auf ausgewählte Artikel ohne Mindestbestellwert. Ausgenommen: Kategorie Multimedia, Gutscheine und Bücher und gesondert gekennzeichnete Artikel. Aktion gültig bis 21.06.2026 23:59 Uhr, mehrmalig einlösbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPStandardCatalog-Browse%3FSortingAttribute%3D%26FollowSearch%3D%26SourceReference%3D%26SearchParameter%3D%2540QueryTerm%253D%2A%2526SourceReference%253D%2526FollowSearch%253D%2526Marke%253DEventim%26CatalogID%3DBasis%26CatalogCategoryID%3DOd2sEClWWRQAAAF9drdlXbLN%26SearchTerm%3D%2A%26minvalS%3D1%252C00%26maxvalS%3D5000%252C00%26ViewSearch%3Dev%26Marke-Eventim%3Don",
-      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPStandardCatalog-Browse?SortingAttribute=&FollowSearch=&SourceReference=&SearchParameter=%40QueryTerm%3D*%26SourceReference%3D%26FollowSearch%3D%26Marke%3DEventim&CatalogID=Basis&CatalogCategoryID=Od2sEClWWRQAAAF9drdlXbLN&SearchTerm=*&minvalS=1%2C00&maxvalS=5000%2C00&ViewSearch=ev&Marke-Eventim=on",
-      "startDate": "2026-06-12T22:00:00+00:00",
-      "endDate": "2026-06-21T21:59:00+00:00",
-      "dateAdded": "2026-06-10T09:58:42+00:00"
-    },
-    {
-      "id": "3916543",
-      "advertiserId": "14537",
-      "advertiser": "Baur Versand DE",
-      "type": "voucher",
-      "code": "14202",
-      "exclusive": false,
-      "title": "21,6% auf Sommermode & Sommerschuhe*",
-      "description": "21,6% auf Sommermode & Sommerschuhe*, gültig bis 21.06.2026",
-      "terms": "* Der 21,6% Rabatt gilt bis 21.06.26 mehrmalig für die Sortimente Sommermode & Sommerschuhe. Ausgenommen sind Stiefel und Stiefeletten und mit DEALS gekennzeichnete Artikel. Nicht kombinierbar mit anderen Vorteilen. Keine Barauszahlung oder nachträgliche Verrechnung möglich.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=14537&awinaffid=2851329&ued=https%3A%2F%2Fwww.baur.de%2F%3Futm_content%3Dtl%26utm_term%3D21eur_modeschuhe%26P1%3DMTQyMDI%3D",
-      "url": "https://www.baur.de/?utm_content=tl&utm_term=21eur_modeschuhe&P1=MTQyMDI=",
-      "startDate": "2026-06-18T22:01:00+00:00",
-      "endDate": "2026-06-21T21:59:00+00:00",
-      "dateAdded": "2026-05-27T12:03:38+00:00"
-    },
     {
       "id": "3957745",
       "advertiserId": "11447",
