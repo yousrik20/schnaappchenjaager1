@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-24T04:02:49.860Z",
+  "fetchedAt": "2026-06-24T09:39:53.762Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -107,6 +107,13 @@
       "icon": "👟",
       "cat": "Sneakers",
       "displayUrl": "https://www.house-of-sneakers.de"
+    },
+    {
+      "id": "116069",
+      "name": "Wietholt DE",
+      "icon": "🏷️",
+      "cat": "Shopping",
+      "displayUrl": "https://wietholt-shop.de/"
     },
     {
       "id": "122456",
