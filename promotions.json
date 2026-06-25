@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-25T04:03:13.829Z",
+  "fetchedAt": "2026-06-25T09:32:22.891Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -160,22 +160,6 @@
   ],
   "count": 196,
   "promotions": [
-    {
-      "id": "3913035",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "AFF18RLMASK",
-      "exclusive": false,
-      "title": "Round Lab Sale: 16% off on €59+",
-      "description": "Member Exclusive: 16% off on €59+ with a Free Moisturizing Mask Sheet",
-      "terms": "This offer cannot be combined with other promotions.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
-      "url": "https://www.stylevana.com/de_DE/",
-      "startDate": "2026-06-11T06:35:00+00:00",
-      "endDate": "2026-06-25T06:35:00+00:00",
-      "dateAdded": "2026-05-26T06:39:47+00:00"
-    },
     {
       "id": "3964079",
       "advertiserId": "11684",
@@ -1343,6 +1327,22 @@
       "startDate": "2026-06-01T06:55:00+00:00",
       "endDate": "2026-07-01T15:59:00+00:00",
       "dateAdded": "2026-05-26T06:56:21+00:00"
+    },
+    {
+      "id": "3969495",
+      "advertiserId": "25546",
+      "advertiser": "Stylevana DE",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Super Brand Week - Beauty Of Joseon",
+      "description": "Member Exclusive: up to 35% off on BOJ items | Free Serum on any BOJ purchase €35+",
+      "terms": "Offer may not be used with other site offers.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fsuper-brand-event",
+      "url": "https://www.stylevana.com/de_DE/super-brand-event",
+      "startDate": "2026-06-25T07:30:00+00:00",
+      "endDate": "2026-07-02T15:59:00+00:00",
+      "dateAdded": "2026-06-25T07:30:00+00:00"
     },
     {
       "id": "3962345",
