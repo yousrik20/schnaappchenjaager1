@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-26T04:10:34.832Z",
+  "fetchedAt": "2026-06-26T09:37:08.137Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -165,7 +165,7 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 215,
+  "count": 216,
   "promotions": [
     {
       "id": "3964125",
@@ -1494,6 +1494,22 @@
       "startDate": "2026-06-25T07:30:00+00:00",
       "endDate": "2026-07-02T15:59:00+00:00",
       "dateAdded": "2026-06-25T07:30:00+00:00"
+    },
+    {
+      "id": "3971095",
+      "advertiserId": "11684",
+      "advertiser": "Aosom DE/AT",
+      "type": "promotion",
+      "code": "",
+      "exclusive": false,
+      "title": "Entdecke unsere Sommer-Rabatte!",
+      "description": "Bis zu 65% Rabatt auf alle Produkt-Kategorien!",
+      "terms": "Alle Rabatte sind nicht kombinierbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=11684&awinaffid=2851329&ued=https%3A%2F%2Fwww.aosom.de%2Factivity%2Fsommer-sale",
+      "url": "https://www.aosom.de/activity/sommer-sale",
+      "startDate": "2026-06-26T05:36:00+00:00",
+      "endDate": "2026-07-02T21:59:00+00:00",
+      "dateAdded": "2026-06-26T05:36:20+00:00"
     },
     {
       "id": "3968209",
