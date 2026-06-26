@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-25T20:08:34.760Z",
+  "fetchedAt": "2026-06-26T04:10:34.832Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -167,22 +167,6 @@
   ],
   "count": 215,
   "promotions": [
-    {
-      "id": "3964079",
-      "advertiserId": "11684",
-      "advertiser": "Aosom DE/AT",
-      "type": "voucher",
-      "code": "CRAZY15",
-      "exclusive": false,
-      "title": "Nutze den Crazy Week Rabatt!",
-      "description": "Erhalte 15% Rabatt auf ausgewählte Artikel.",
-      "terms": "Alle Rabatte sind nicht kombinierbar.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=11684&awinaffid=2851329&ued=https%3A%2F%2Fwww.aosom.de%2Factivity%2Fcrazy-week",
-      "url": "https://www.aosom.de/activity/crazy-week",
-      "startDate": "2026-06-23T02:33:00+00:00",
-      "endDate": "2026-06-25T21:59:00+00:00",
-      "dateAdded": "2026-06-23T02:33:24+00:00"
-    },
     {
       "id": "3964125",
       "advertiserId": "25546",
@@ -1510,6 +1494,22 @@
       "startDate": "2026-06-25T07:30:00+00:00",
       "endDate": "2026-07-02T15:59:00+00:00",
       "dateAdded": "2026-06-25T07:30:00+00:00"
+    },
+    {
+      "id": "3968209",
+      "advertiserId": "13812",
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "code": "W-MAXTRON-20",
+      "exclusive": false,
+      "title": "20 % ohne MBW auf Kategorie ausgewählte Artikel (Maxtron Bikes)",
+      "description": "20 % ohne MBW Mindestbestellwert auf Artikel der Kategorie ausgewählte Artikel (Maxtron Bikes)",
+      "terms": "20 % Rabatt auf ausgewählte Artikel mit dem Code: \"W-MAXTRON-20\" ohne Mindestbestellwert. Ausgenommen: Kategorie Multimedia, Gutscheine und Bücher und gesondert gekennzeichnete Artikel. Aktion gültig bis 02.07.2026 23:59 Uhr, mehrmalig einlösbar.",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-SimpleOfferSearch%3FSearchTerm%3DMaxtron%2B%2A%26filterMarke%3DMaxtron%26channel%3DProduktiv-Plus-NettoDE-de_DE%26SearchParameter%3D%2540QueryTerm%253DMaxtron%2526SuggestUserInput%253Dmaxtron",
+      "url": "https://www.netto-online.de/INTERSHOP/web/WFS/Plus-NettoDE-Site/de_DE/-/EUR/ViewMMPParametricSearch-SimpleOfferSearch?SearchTerm=Maxtron+*&filterMarke=Maxtron&channel=Produktiv-Plus-NettoDE-de_DE&SearchParameter=%40QueryTerm%3DMaxtron%26SuggestUserInput%3Dmaxtron",
+      "startDate": "2026-06-25T22:00:00+00:00",
+      "endDate": "2026-07-02T21:59:00+00:00",
+      "dateAdded": "2026-06-24T14:21:35+00:00"
     },
     {
       "id": "3946683",
