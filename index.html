@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="de">
   <head>
@@ -123,10 +124,27 @@
         const am = t.match(/(\d+)\s*€\s*(?:rabatt|nachlass|sparen|cashback|gutschein|bonus)/i) || t.match(/spare\s*(\d+)\s*€/i);
         return { percent: pm ? parseInt(pm[1]) : 0, amount: am ? parseInt(am[1]) : 0 };
       }
+      /* Normalises categories field to a string array — handles:
+         - string "Elektronik,Mode"
+         - array  ["Elektronik","Mode"]
+         - single string "Elektronik"
+         - null / undefined */
+      function normCats(cats) {
+        if (!cats) return [];
+        if (Array.isArray(cats)) return cats.map(c => String(c).trim()).filter(Boolean);
+        return String(cats).split(/[,;|]/).map(c => c.trim()).filter(Boolean);
+      }
+
       function extractCats(deals) {
         const s = new Set();
-        deals.forEach(d => { if (d.categories) d.categories.split(',').forEach(c => s.add(c.trim())); });
+        deals.forEach(d => normCats(d.categories).forEach(c => s.add(c)));
         return Array.from(s).sort();
+      }
+
+      /* Exact category match (case-insensitive) */
+      function dealMatchesCat(deal, cat) {
+        if (!cat) return true;
+        return normCats(deal.categories).some(c => c.toLowerCase() === cat.toLowerCase());
       }
 
       /* Advertiser emoji fallback map */
@@ -545,10 +563,11 @@
         const activeDeals = useMemo(() => {
           return deals.filter(d => {
             if (daysLeft(d.endDate) <= 0) return false;
-            if (catFilter && !(d.categories || '').toLowerCase().includes(catFilter.toLowerCase())) return false;
+            if (!dealMatchesCat(d, catFilter)) return false;
             if (search) {
               const q = search.toLowerCase();
-              return (d.title + ' ' + d.description + ' ' + d.advertiser + ' ' + (d.categories || '')).toLowerCase().includes(q);
+              const catStr = normCats(d.categories).join(' ');
+              return (d.title + ' ' + d.description + ' ' + d.advertiser + ' ' + catStr).toLowerCase().includes(q);
             }
             return true;
           });
@@ -618,7 +637,7 @@
       function CategoryPage({ deals, category }) {
         const filtered = useMemo(() => deals.filter(d => {
           if (daysLeft(d.endDate) <= 0) return false;
-          return (d.categories || '').toLowerCase().includes(category.toLowerCase());
+          return dealMatchesCat(d, category);
         }), [deals, category]);
 
         return (
@@ -1122,6 +1141,8 @@
                   deeplink:    p.deeplink || p.trackingLink || p.tracking_link || p.url || '#',
                   code:        p.code || p.voucherCode || p.voucher_code || p.coupon || '',
                   type:        p.type || p.promotionType || (p.code || p.voucherCode ? 'voucher' : 'deal'),
+                  // Always normalise categories to a comma-separated string
+                  categories:  normCats(p.categories || p.category || p.tags || '').join(','),
                 };
               });
               setDeals(enriched.length > 0 ? enriched : SAMPLE_DEALS);
