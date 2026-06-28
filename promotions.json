@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T19:36:21.320Z",
+  "fetchedAt": "2026-06-28T04:18:38.564Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -165,24 +165,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 216,
+  "count": 215,
   "promotions": [
-    {
-      "id": "3964125",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "SVVAND",
-      "exclusive": false,
-      "title": "VANA-TAG",
-      "description": "Member Exclusive: -22% Rabatt auf Sonnenpflege-Produkte | -18% Rabatt auf 99€+ | -14% Rabatt auf 59€+",
-      "terms": "This offer cannot be combined with other promotions.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2Fpromotion%2Ftheme%2Fvana-day.html",
-      "url": "https://www.stylevana.com/de_DE/promotion/theme/vana-day.html",
-      "startDate": "2026-06-23T02:45:00+00:00",
-      "endDate": "2026-06-28T02:44:00+00:00",
-      "dateAdded": "2026-06-23T02:45:47+00:00"
-    },
     {
       "id": "3919527",
       "advertiserId": "101583",
