@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T13:59:39.651Z",
+  "fetchedAt": "2026-06-28T19:37:33.785Z",
   "publisher": "2851329",
   "region": "DE",
   "programmes": [
@@ -165,40 +165,8 @@
       "displayUrl": "https://gozoox.de/"
     }
   ],
-  "count": 215,
+  "count": 213,
   "promotions": [
-    {
-      "id": "3919527",
-      "advertiserId": "101583",
-      "advertiser": "Design Letters",
-      "type": "voucher",
-      "code": "DL15DEAL",
-      "exclusive": false,
-      "title": "DL15DEAL 15% off entire order Minimum purchase of €90.00",
-      "description": "DL15DEAL 15% off entire order Minimum purchase of €90.00",
-      "terms": "All customers\nFor Online Store\n15% off entire order\nMinimum purchase of €90.00\nOne use per customer\nCan’t combine with other discounts\nActive from 28/5 until Jun 29",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=101583&awinaffid=2851329&ued=https%3A%2F%2Fdesignletters.eu%2F",
-      "url": "https://designletters.eu/",
-      "startDate": "2026-05-28T14:43:00+00:00",
-      "endDate": "2026-06-28T14:40:00+00:00",
-      "dateAdded": "2026-05-28T14:43:22+00:00"
-    },
-    {
-      "id": "3962705",
-      "advertiserId": "25546",
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "code": "AFFVAND",
-      "exclusive": false,
-      "title": "VANA DAY: Extra 23% OFF on Skincare",
-      "description": "Members exclusive: 23% OFF on Skincare on €59+ | 18% OFF with no min spend | Guest Checkout: 10% OFF with no min spend",
-      "terms": "This offer cannot be combined with other promotions.",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
-      "url": "https://www.stylevana.com/de_DE/",
-      "startDate": "2026-06-22T10:23:00+00:00",
-      "endDate": "2026-06-28T15:59:00+00:00",
-      "dateAdded": "2026-06-22T10:23:16+00:00"
-    },
     {
       "id": "3957525",
       "advertiserId": "13812",
