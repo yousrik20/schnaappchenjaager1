@@ -123,6 +123,28 @@
         const am = t.match(/(\d+)\s*€\s*(?:rabatt|nachlass|sparen|cashback|gutschein|bonus)/i) || t.match(/spare\s*(\d+)\s*€/i);
         return { percent: pm ? parseInt(pm[1]) : 0, amount: am ? parseInt(am[1]) : 0 };
       }
+
+      /* Derive a text category from advertiser name + title + description.
+         Mirrors the same logic in fetch-awin.js so both produce consistent labels. */
+      function guessCat(advertiser, title, description) {
+        const t = ((advertiser || '') + ' ' + (title || '') + ' ' + (description || '')).toLowerCase();
+        if (/elektronik|laptop|handy|smartphone|tv|kamera|gadget|tech|led|beleuchtung|überwachung|imou/.test(t)) return 'Elektronik';
+        if (/mode|kleidung|fashion|schuhe|sneaker|jacke|hose|hemd/.test(t))     return 'Mode';
+        if (/reise|hotel|flug|urlaub|bus|bahn|zug|flixbus|hrs/.test(t))         return 'Reisen';
+        if (/beauty|kosmetik|pflege|parfum|make.?up|hautpflege|stylevana|pure/.test(t)) return 'Kosmetik';
+        if (/haushalt|möbel|küche|teppich|wohnen|sofa|lampe|luftrein|luftbude/.test(t)) return 'Haushalt';
+        if (/versicherung|strom|gas|energie|tarif|check24/.test(t))              return 'Versicherung';
+        if (/spielzeug|kinder|baby|lego|puppe|frölich/.test(t))                 return 'Spielzeug';
+        if (/sport|fitness|fahrrad|outdoor|laufen|shark|saugen|wischen/.test(t)) return 'Sport & Haushalt';
+        if (/gaming|game|konsole|controller|stuhl|autofull/.test(t))            return 'Gaming';
+        if (/software|vpn|antivirus|nordvpn|sicherheit|anthbot/.test(t))        return 'Software';
+        if (/lebensmittel|supermarkt|netto|edeka|rewe/.test(t))                 return 'Lebensmittel';
+        if (/gesundheit|apotheke|medizin|vitamin/.test(t))                      return 'Gesundheit';
+        if (/schuhe|sneaker|house.of.sneakers/.test(t))                         return 'Schuhe';
+        if (/baur|versand|aosom|voghion|shop/.test(t))                          return 'Shopping';
+        return 'Sonstiges';
+      }
+
       /* Normalises ANY categories value from Awin API to a clean string array.
          Handles: string "Elektronik,Mode" | array ["Elektronik"] |
                   array of objects [{name:"Elektronik"}] | object {name:"..."} |
@@ -1211,8 +1233,20 @@
                   deeplink:    p.deeplink || p.trackingLink || p.tracking_link || p.url || '#',
                   code:        p.code || p.voucherCode || p.voucher_code || p.coupon || '',
                   type:        p.type || p.promotionType || (p.code || p.voucherCode ? 'voucher' : 'deal'),
-                  // Always normalise categories to a comma-separated string
-                  categories:  normCats(p.categories || p.category || p.tags || '').join(','),
+                  // Normalise categories: if field is missing, numeric-only, or empty → derive from text
+                  categories: (() => {
+                    const raw = p.categories || p.category || p.promotionCategories || p.tags || '';
+                    const parsed = normCats(raw);
+                    // Filter out pure numbers (Awin numeric category IDs) and empty strings
+                    const textCats = parsed.filter(c => !/^\d+$/.test(c));
+                    if (textCats.length > 0) return textCats.join(',');
+                    // Fall back: derive from advertiser name + title + description
+                    return guessCat(
+                      p.advertiser || p.advertiserName || p.advertiser_name || '',
+                      p.title || p.name || '',
+                      p.description || ''
+                    );
+                  })(),
                 };
               });
               setDeals(enriched.length > 0 ? enriched : SAMPLE_DEALS);
