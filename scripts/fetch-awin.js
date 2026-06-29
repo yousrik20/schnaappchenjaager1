@@ -53,29 +53,62 @@ const ADVERTISER_IDS = {
   "ANTHBOT DE": 125144,
 };
 
-/* ── Category guesser ────────────────────────────────────────────────────── */
-function guessCat(text) {
-  const t = (text || "").toLowerCase();
-  if (/elektronik|laptop|handy|smartphone|tv|kamera|gadget|tech/.test(t))
-    return "Elektronik";
-  if (/mode|kleidung|fashion|schuhe|sneaker|jacke|hose|hemd/.test(t))
-    return "Mode";
-  if (/reise|hotel|flug|urlaub|bus|bahn|zug|flixbus/.test(t)) return "Reisen";
-  if (/beauty|kosmetik|pflege|parfum|make.?up|hautpflege/.test(t))
-    return "Kosmetik";
-  if (/haushalt|möbel|küche|teppich|wohnen|sofa|lampe/.test(t))
-    return "Haushalt";
-  if (/versicherung|strom|gas|energie|tarif|check24/.test(t))
-    return "Versicherung";
-  if (/spielzeug|kinder|baby|lego|puppe/.test(t)) return "Spielzeug";
-  if (/sport|fitness|fahrrad|outdoor|laufen/.test(t)) return "Sport";
-  if (/gaming|game|konsole|pc spiel|controller|stuhl/.test(t)) return "Gaming";
-  if (/software|vpn|antivirus|app|digital/.test(t)) return "Software";
-  if (/lebensmittel|supermarkt|essen|netto|edeka/.test(t))
-    return "Lebensmittel";
-  if (/gesundheit|apotheke|medizin|vitamin/.test(t)) return "Gesundheit";
-  return "Sonstiges";
+/* ── Normalise categories from ANY Awin API shape ───────────────────────── */
+function normalizeCategories(raw) {
+  const cats = raw.categories || raw.category || raw.tags || null;
+  if (!cats)
+    return [guessCat((raw.title || "") + " " + (raw.description || ""))];
+  // Array of strings or objects
+  if (Array.isArray(cats)) {
+    const names = cats
+      .map((c) => {
+        if (!c) return "";
+        if (typeof c === "object")
+          return String(c.name || c.label || c.title || c.value || "");
+        return String(c);
+      })
+      .map((s) => s.trim())
+      .filter(Boolean);
+    return names.length
+      ? names
+      : [guessCat((raw.title || "") + " " + (raw.description || ""))];
+  }
+  // Plain object
+  if (typeof cats === "object") {
+    const val = String(
+      cats.name || cats.label || cats.title || cats.value || "",
+    ).trim();
+    return val
+      ? [val]
+      : [guessCat((raw.title || "") + " " + (raw.description || ""))];
+  }
+  // String — split by comma/semicolon
+  const parts = String(cats)
+    .split(/[,;|]/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+  return parts.length
+    ? parts
+    : [guessCat((raw.title || "") + " " + (raw.description || ""))];
 }
+const t = (text || "").toLowerCase();
+if (/elektronik|laptop|handy|smartphone|tv|kamera|gadget|tech/.test(t))
+  return "Elektronik";
+if (/mode|kleidung|fashion|schuhe|sneaker|jacke|hose|hemd/.test(t))
+  return "Mode";
+if (/reise|hotel|flug|urlaub|bus|bahn|zug|flixbus/.test(t)) return "Reisen";
+if (/beauty|kosmetik|pflege|parfum|make.?up|hautpflege/.test(t))
+  return "Kosmetik";
+if (/haushalt|möbel|küche|teppich|wohnen|sofa|lampe/.test(t)) return "Haushalt";
+if (/versicherung|strom|gas|energie|tarif|check24/.test(t))
+  return "Versicherung";
+if (/spielzeug|kinder|baby|lego|puppe/.test(t)) return "Spielzeug";
+if (/sport|fitness|fahrrad|outdoor|laufen/.test(t)) return "Sport";
+if (/gaming|game|konsole|pc spiel|controller|stuhl/.test(t)) return "Gaming";
+if (/software|vpn|antivirus|app|digital/.test(t)) return "Software";
+if (/lebensmittel|supermarkt|essen|netto|edeka/.test(t)) return "Lebensmittel";
+if (/gesundheit|apotheke|medizin|vitamin/.test(t)) return "Gesundheit";
+return "Sonstiges";
 
 /* ── Emoji guesser ──────────────────────────────────────────────────────── */
 function guessIcon(advertiser) {
@@ -199,12 +232,8 @@ function normalizeOffer(raw, programmes) {
   const discountPercent = raw.discountPercent || raw.discount_percent || 0;
   const discountAmount = raw.discountAmount || raw.discount_amount || 0;
 
-  /* Category */
-  const categories =
-    raw.categories ||
-    guessCat(
-      (raw.title || "") + " " + (raw.description || "") + " " + advertiserName,
-    );
+  /* Category — always output as comma-separated string for frontend */
+  const categories = normalizeCategories(raw).join(",");
 
   return {
     id: String(raw.id || raw.promotionId || Math.random()),
