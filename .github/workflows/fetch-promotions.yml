@@ -56,9 +56,9 @@ jobs:
       # ── Hauptskript ausführen ─────────────────────────────────────────────
       - name: Fetch from Awin API
         env:
-          AWIN_TOKEN:          ${{ secrets.AWIN_TOKEN }}
-          AWIN_PUBLISHER_ID:   "2851329"
-          AWIN_REGION:         "DE"
+          AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
+          AWIN_PUBLISHER_ID: "2851329"
+          AWIN_REGIONS: "DE,AT"  
         run: |
           echo "Starte fetch-awin.js..."
           node scripts/fetch-awin.js
