@@ -1251,29 +1251,38 @@
                 : (data.promotions || data.deals || data.results || []);
               const enriched = items.map(p => {
                 const d = parseDiscount(p);
+                // Official Awin API response fields:
+                // advertiser is an object: {id, name, joined}
+                // voucher is an object:    {code, exclusive, attributable}
+                // urlTracking is the affiliate deeplink
+                // promotionId is the unique ID
+                const advertiserObj = p.advertiser || {};
+                const voucherObj    = p.voucher    || {};
+                const advertiserName = advertiserObj.name || p.advertiserName || p.advertiser_name ||
+                                       (typeof p.advertiser === 'string' ? p.advertiser : '') || '';
+                const advertiserId  = advertiserObj.id   || p.advertiserId   || p.advertiser_id  || null;
+                const code          = voucherObj.code    || p.code           || p.voucherCode    || '';
+                const deeplink      = p.urlTracking      || p.trackingLink   || p.deeplink       || p.url || '#';
+                const type          = p.type === 'voucher' ? 'voucher' : 'deal';
+
                 return {
                   ...p,
+                  id:           String(p.promotionId || p.id || Math.random()),
+                  advertiserId,
+                  advertiser:   advertiserName,
+                  code,
+                  deeplink,
+                  type,
                   discountPercent: p.discountPercent || d.percent,
                   discountAmount:  p.discountAmount  || d.amount,
-                  terms:       p.terms || p.conditions || p.term || p.description2 || '',
-                  advertiserId:p.advertiserId || p.advertiser_id || p.merchantId || null,
-                  advertiser:  p.advertiser || p.advertiserName || p.advertiser_name || p.merchant || '',
-                  deeplink:    p.deeplink || p.trackingLink || p.tracking_link || p.url || '#',
-                  code:        p.code || p.voucherCode || p.voucher_code || p.coupon || '',
-                  type:        p.type || p.promotionType || (p.code || p.voucherCode ? 'voucher' : 'deal'),
-                  // Normalise categories: if field is missing, numeric-only, or empty → derive from text
+                  terms: p.terms || p.conditions || '',
+                  // Always derive categories from text since API returns numeric IDs
                   categories: (() => {
-                    const raw = p.categories || p.category || p.promotionCategories || p.tags || '';
+                    const raw = p.categories || p.category || p.promotionCategories || '';
                     const parsed = normCats(raw);
-                    // Filter out pure numbers (Awin numeric category IDs) and empty strings
                     const textCats = parsed.filter(c => !/^\d+$/.test(c));
                     if (textCats.length > 0) return textCats.join(',');
-                    // Fall back: derive from advertiser name + title + description
-                    return guessCat(
-                      p.advertiser || p.advertiserName || p.advertiser_name || '',
-                      p.title || p.name || '',
-                      p.description || ''
-                    );
+                    return guessCat(advertiserName, p.title || p.name || '', p.description || '');
                   })(),
                 };
               });
