@@ -1,61 +1,49 @@
-
 #!/usr/bin/env node
 /**
- * fetch-awin.js — schnäppchenjäger1 v5.0
+ * fetch-awin.js — schnäppchenjäger1 v6.0
  * ─────────────────────────────────────────────────────────────────────────────
- * Fetches live promotions from the Awin Publisher Promotions API and writes
- * the result to promotions.json for the static GitHub Pages frontend.
+ * Uses the OFFICIAL Awin Publisher Promotions API (POST /publisher/{id}/promotions)
+ * as documented at https://help.awin.com/apidocs/promotions
  *
- * Endpoint : POST /publisher/{publisherId}/promotions
- * Auth     : Bearer {accessToken}
- * Paginated: fetches all pages automatically
+ * Key fixes vs v5:
+ *  - Correct request body: filters.regionCodes[], filters.status, pagination{}
+ *  - Correct response mapping: promotionId, advertiser.id, advertiser.name,
+ *    voucher.code, urlTracking, regions.list[]
+ *  - pageSize up to 200 (was 100)
+ *  - membership: "joined" → only your joined advertisers
+ *  - Fetches all regions in one call via regionCodes array
  *
  * ENV:
  *   AWIN_API_TOKEN      — Awin API access token (required)
  *   AWIN_PUBLISHER_ID   — Publisher ID (default: 2851329)
- *   AWIN_REGION         — ISO 3166-1 alpha-2 (default: DE)
+ *   AWIN_REGIONS        — Comma-separated ISO codes (default: DE,AT)
  * ─────────────────────────────────────────────────────────────────────────────
  */
 "use strict";
 
-const https  = require("https");
-const fs     = require("fs");
-const path   = require("path");
+const https = require("https");
+const fs    = require("fs");
+const path  = require("path");
 
 /* ── Config ──────────────────────────────────────────────────────────────── */
 const TOKEN        = process.env.AWIN_API_TOKEN;
 const PUBLISHER_ID = process.env.AWIN_PUBLISHER_ID || "2851329";
-const REGIONS      = (process.env.AWIN_REGION || "DE").split(",").map(r => r.trim()); // supports "DE,AT"
+const REGIONS      = (process.env.AWIN_REGIONS || process.env.AWIN_REGION || "DE,AT")
+                       .split(",").map(r => r.trim().toUpperCase());
+const PAGE_SIZE    = 200; // max allowed by API
 const OUT_FILE     = path.resolve(__dirname, "..", "promotions.json");
-const PAGE_SIZE    = 100;
 
-/* ── Known advertiser IDs ─────────────────────────────────────────────────
-   Maps advertiser name → Awin merchant ID for logo loading and deeplinks.
-   PENDING = not yet confirmed, will use fallback deeplink.
-   ────────────────────────────────────────────────────────────────────────── */
+/* ── Known advertiser IDs (for logo URLs) ────────────────────────────────── */
 const ADVERTISER_IDS = {
-  "ELV DE":                   11447,
-  "Stylevana DE":             25546,
-  "Netto Marken-Discount DE": 13812,
-  "teppich.de":               53143,
-  "Luftbude DE":              79858,
-  "Frölich und Kaufmann DE":  28297,
-  "House-of-Sneakers DE":     114336,
-  "CHECK24":                  9364,
-  "Autofull EU":              125332,
-  "Imou DE":                  125816,
-  "NordVPN DE":               9399,
-  "100percentpure DE/AT":     13991,
-  "Aosom DE/AT":              11684,
-  "HRS DE & AT":              15152,
-  "FlixBus & FlixTrain DE":   13945,
-  "Voghion Global":           44635,
-  "Baur Versand DE":          14537,
-  "ANTHBOT DE":               125144,
+  "ELV DE": 11447, "Stylevana DE": 25546, "Netto Marken-Discount DE": 13812,
+  "teppich.de": 53143, "Luftbude DE": 79858, "Frölich und Kaufmann DE": 28297,
+  "House-of-Sneakers DE": 114336, "CHECK24": 9364, "Autofull EU": 125332,
+  "Imou DE": 125816, "NordVPN DE": 9399, "100percentpure DE/AT": 13991,
+  "Aosom DE/AT": 11684, "HRS DE & AT": 15152, "FlixBus & FlixTrain DE": 13945,
+  "Voghion Global": 44635, "Baur Versand DE": 14537, "ANTHBOT DE": 125144,
 };
 
-/* ── Normalise categories from ANY Awin API shape ───────────────────────── */
-/* ── Category guesser (text-based) ──────────────────────────────────────── */
+/* ── Category guesser ────────────────────────────────────────────────────── */
 function guessCat(text) {
   const t = (text || "").toLowerCase();
   if (/elektronik|laptop|handy|smartphone|tv|kamera|gadget|tech|led|überwachung|imou/.test(t)) return "Elektronik";
@@ -74,262 +62,157 @@ function guessCat(text) {
   return "Sonstiges";
 }
 
-/* ── Normalise categories — handles Awin numeric IDs, arrays, objects ───── */
-function normalizeCategories(raw) {
-  // promotionCategories contains numeric IDs only — skip, use guessCat instead
-  const cats = raw.categories || raw.category || raw.tags || null;
-
-  if (cats) {
-    let names = [];
-    if (Array.isArray(cats)) {
-      names = cats.map(c => {
-        if (!c) return '';
-        if (typeof c === 'object') return String(c.name || c.label || c.title || c.value || '');
-        const s = String(c).trim();
-        return /^\d+$/.test(s) ? '' : s; // skip pure numeric IDs
-      }).filter(Boolean);
-    } else if (typeof cats === 'object') {
-      const val = String(cats.name || cats.label || cats.title || cats.value || '').trim();
-      if (val && !/^\d+$/.test(val)) names = [val];
-    } else {
-      names = String(cats).split(/[,;|]/).map(s => s.trim())
-        .filter(s => s && !/^\d+$/.test(s));
-    }
-    if (names.length) return names;
-  }
-
-  // Derive from advertiser + title + description text
-  return [guessCat(
-    (raw.advertiserName || raw.advertiser || '') + ' ' +
-    (raw.title || raw.name || '') + ' ' +
-    (raw.description || '')
-  )];
-}
-
-
-/* ── Emoji guesser ──────────────────────────────────────────────────────── */
-function guessIcon(advertiser) {
-  const icons = {
-    "CHECK24": "🔍", "Stylevana DE": "💄", "ELV DE": "🔌",
-    "Netto Marken-Discount DE": "🛒", "HRS DE & AT": "🏨",
-    "House-of-Sneakers DE": "👟", "Luftbude DE": "💨",
-    "teppich.de": "🏠", "Frölich und Kaufmann DE": "🧸",
-    "Autofull EU": "🎮", "Imou DE": "📷", "NordVPN DE": "🔒",
-    "FlixBus & FlixTrain DE": "🚌", "Baur Versand DE": "📦",
-    "Aosom DE/AT": "🏡", "Voghion Global": "🌍",
-    "ANTHBOT DE": "🤖", "100percentpure DE/AT": "🌿",
-  };
-  return icons[advertiser] || "🏷️";
-}
-
-/* ── HTTP helpers ────────────────────────────────────────────────────────── */
-function request(options, body = null) {
+/* ── HTTP POST helper ────────────────────────────────────────────────────── */
+function apiPost(urlPath, body) {
   return new Promise((resolve, reject) => {
+    const bodyStr = JSON.stringify(body);
+    const options = {
+      hostname: "api.awin.com",
+      path:     urlPath,
+      method:   "POST",
+      headers: {
+        "Authorization": `Bearer ${TOKEN}`,
+        "Content-Type":  "application/json",
+        "Accept":        "application/json",
+        "Content-Length": Buffer.byteLength(bodyStr),
+      },
+    };
     const req = https.request(options, res => {
       let data = "";
       res.on("data", chunk => (data += chunk));
       res.on("end", () => {
         if (res.statusCode >= 200 && res.statusCode < 300) {
-          try { resolve(JSON.parse(data)); }
-          catch { resolve(data); }
+          try { resolve(JSON.parse(data)); } catch { resolve(data); }
         } else {
-          reject(new Error(`HTTP ${res.statusCode} — ${options.path}\n${data}`));
+          reject(new Error(`HTTP ${res.statusCode} on ${urlPath}: ${data.slice(0, 200)}`));
         }
       });
     });
     req.on("error", reject);
-    if (body) req.write(JSON.stringify(body));
+    req.write(bodyStr);
     req.end();
   });
 }
 
-function apiGet(path) {
-  return request({
-    hostname: "api.awin.com",
-    path,
-    method:  "GET",
-    headers: {
-      "Authorization": `Bearer ${TOKEN}`,
-      "Accept":        "application/json",
-    },
-  });
-}
+/* ── Normalize one offer from official API response ──────────────────────── */
+function normalizeOffer(raw) {
+  // Official API response fields (from docs)
+  const advertiserId   = raw.advertiser?.id   || null;
+  const advertiserName = raw.advertiser?.name || `Advertiser ${advertiserId}`;
+  const voucherCode    = raw.voucher?.code    || raw.voucherCode || raw.code || "";
+  const type           = raw.type === "voucher" ? "voucher" : "deal";
 
-function apiPost(path, body) {
-  const bodyStr = JSON.stringify(body);
-  return request({
-    hostname: "api.awin.com",
-    path,
-    method:  "POST",
-    headers: {
-      "Authorization": `Bearer ${TOKEN}`,
-      "Content-Type":  "application/json",
-      "Accept":        "application/json",
-      "Content-Length": Buffer.byteLength(bodyStr),
-    },
-  }, body);
-}
+  // urlTracking is the correct affiliate tracking link
+  const deeplink = raw.urlTracking || raw.url || "#";
 
-/* ── Fetch joined programmes ─────────────────────────────────────────────── */
-async function fetchProgrammes() {
-  console.log("📡 Fetching joined programmes...");
-  try {
-    const data = await apiGet(
-      `/publishers/${PUBLISHER_ID}/programmes?relationship=joined&countryCode=${REGION}`
-    );
-    const programmes = Array.isArray(data) ? data : (data.programmes || []);
-    console.log(`   ✓ ${programmes.length} joined programmes`);
-    return programmes;
-  } catch (e) {
-    console.warn(`   ⚠ Could not fetch programmes: ${e.message}`);
-    return [];
-  }
-}
-
-/* ── Normalise a single Awin promotion object ────────────────────────────── */
-function normalizeOffer(raw, programmes, region) {
-  /* Resolve advertiser name from programme list if not present */
-  const prog = programmes.find(p => String(p.id) === String(raw.advertiserId));
-  const advertiserName = raw.advertiserName || raw.advertiser_name ||
-                         (prog ? prog.name : `Advertiser ${raw.advertiserId}`);
-
-  /* Deeplink — use Awin tracking URL */
-  const deeplink = buildDeeplink(raw.advertiserId, raw.promotionUrl || raw.url || "");
-
-  /* Terms / conditions field variants */
-  const terms = raw.terms || raw.conditions || raw.term || raw.description2 || "";
-
-  /* Discount extraction */
-  const discountPercent = raw.discountPercent || raw.discount_percent || 0;
-  const discountAmount  = raw.discountAmount  || raw.discount_amount  || 0;
-
-  /* Category — always output as comma-separated string for frontend */
-  const categories = normalizeCategories(raw).join(',');
+  // Build category from title + description + advertiser name
+  const catText = `${advertiserName} ${raw.title || ""} ${raw.description || ""}`;
+  const categories = guessCat(catText);
 
   return {
-    id:             String(raw.id || raw.promotionId || Math.random()),
-    advertiserId:   raw.advertiserId || raw.advertiser_id || null,
+    id:             String(raw.promotionId || raw.id || Math.random()),
+    advertiserId:   advertiserId || ADVERTISER_IDS[advertiserName] || null,
     advertiser:     advertiserName,
-    icon:           guessIcon(advertiserName),
-    type:           raw.type || raw.promotionType || (raw.code ? "voucher" : "deal"),
-    title:          raw.title        || raw.name        || raw.description || "",
-    description:    raw.description  || raw.details     || "",
-    terms:          terms,
-    code:           raw.code         || raw.voucherCode || raw.voucher_code || "",
-    categories:     categories,
-    deeplink:       deeplink,
-    startDate:      raw.startDate    || raw.start_date  || new Date().toISOString(),
-    endDate:        raw.endDate      || raw.end_date     || "",
-    discountPercent,
-    discountAmount,
-    region:         region || "DE",
+    type,
+    title:          raw.title       || raw.description || "",
+    description:    raw.description || raw.title       || "",
+    terms:          raw.terms       || "",
+    code:           voucherCode,
+    categories,
+    deeplink,
+    startDate:      raw.startDate   || "",
+    endDate:        raw.endDate     || "",
+    discountPercent: raw.discountPercent || 0,
+    discountAmount:  raw.discountAmount  || 0,
     fetchedAt:      new Date().toISOString(),
   };
 }
 
-/* ── Build Awin tracking deeplink ────────────────────────────────────────── */
-function buildDeeplink(advertiserId, destinationUrl) {
-  if (!advertiserId) return destinationUrl || "#";
-  const encoded = encodeURIComponent(destinationUrl || "");
-  return `https://www.awin1.com/cread.php?awinmid=${advertiserId}&awinaffid=${PUBLISHER_ID}&ued=${encoded}`;
-}
-
-/* ── Validate deeplink ───────────────────────────────────────────────────── */
-function isValidLink(link) {
-  return link && link.startsWith("https://") && link.length > 30;
-}
-
-/* ── Fetch all promotions for one region (paginated) ─────────────────────── */
-async function fetchAllOffers(programmes, region) {
-  console.log(`📡 Fetching promotions for region ${region} (paginated)...`);
-  const all = [];
-  let page = 1;
+/* ── Fetch all pages for given regions ───────────────────────────────────── */
+async function fetchAllOffers() {
+  console.log(`📡 Fetching active offers for regions: ${REGIONS.join(", ")}...`);
+  const all  = [];
+  let   page = 1;
 
   while (true) {
-    try {
-      const body = {
-        publisherId: parseInt(PUBLISHER_ID),
-        regionCode:  region,
+    const body = {
+      filters: {
+        regionCodes: REGIONS,      // correct field name per API docs
+        status:      "active",     // only active offers
+        membership:  "joined",     // only your joined advertisers
+        type:        "all",        // vouchers + promotions
+      },
+      pagination: {                // correct structure per API docs
         page,
-        pageSize:    PAGE_SIZE,
-      };
+        pageSize: PAGE_SIZE,
+      },
+    };
 
-      let data;
-      try {
-        data = await apiPost(
-          `/publisher/${PUBLISHER_ID}/promotions?page=${page}&pageSize=${PAGE_SIZE}&region=${region}`,
-          body
-        );
-      } catch {
-        data = await apiGet(
-          `/publishers/${PUBLISHER_ID}/promotions?page=${page}&pageSize=${PAGE_SIZE}&region=${region}`
-        );
-      }
-
-      const items = Array.isArray(data)
-        ? data
-        : (data.promotions || data.offers || data.data || data.results || []);
-
-      if (!items.length) {
-        console.log(`   ✓ Region ${region}: all pages fetched (stopped at page ${page})`);
-        break;
-      }
-
-      const normalized = items.map(raw => normalizeOffer(raw, programmes, region));
-      all.push(...normalized);
-      console.log(`   [${region}] Page ${page}: +${items.length} (total so far: ${all.length})`);
-
-      if (items.length < PAGE_SIZE) break;
-      page++;
-      if (page > 50) { console.warn(`   ⚠ Safety limit reached for region ${region}`); break; }
-
+    let data;
+    try {
+      data = await apiPost(`/publisher/${PUBLISHER_ID}/promotions`, body);
     } catch (e) {
-      console.error(`   ✗ Error on page ${page} for region ${region}: ${e.message}`);
+      console.error(`   ✗ Page ${page} failed: ${e.message}`);
       break;
     }
+
+    // API returns array directly OR wrapped object
+    const items = Array.isArray(data)
+      ? data
+      : (data.promotions || data.offers || data.data || data.results || []);
+
+    if (!items.length) {
+      console.log(`   ✓ Done — stopped at page ${page} (0 items returned)`);
+      break;
+    }
+
+    const normalized = items.map(normalizeOffer);
+    all.push(...normalized);
+    console.log(`   Page ${page}: +${items.length} offers (total: ${all.length})`);
+
+    // Last page if fewer than PAGE_SIZE returned
+    if (items.length < PAGE_SIZE) {
+      console.log(`   ✓ Done — last page reached`);
+      break;
+    }
+
+    page++;
+    if (page > 20) { console.warn("   ⚠ Safety limit (20 pages = 4000 offers)"); break; }
   }
 
   return all;
 }
 
-/* ── Main ─────────────────────────────────────────────────────────────────── */
+/* ── Main ────────────────────────────────────────────────────────────────── */
 async function main() {
   console.log("═══════════════════════════════════════════════════════");
-  console.log("  schnäppchenjäger1 — Awin Promotion Fetcher v5.0");
+  console.log("  schnäppchenjäger1 — Awin Fetch v6.0 (official API)");
   console.log("═══════════════════════════════════════════════════════");
 
   if (!TOKEN) {
-    console.error("✗ AWIN_API_TOKEN not set. Aborting.");
+    console.error("✗ AWIN_API_TOKEN is not set. Aborting.");
     process.exit(1);
   }
 
   console.log(`  Publisher ID : ${PUBLISHER_ID}`);
   console.log(`  Regions      : ${REGIONS.join(", ")}`);
+  console.log(`  Page size    : ${PAGE_SIZE} (API max)`);
   console.log(`  Output       : ${OUT_FILE}`);
   console.log("═══════════════════════════════════════════════════════\n");
 
   try {
-    /* 1. Get joined programmes for name resolution */
-    const programmes = await fetchProgrammes();
+    const promotions = await fetchAllOffers();
 
-    /* 2. Fetch all regions */
-    const allPromotions = [];
-    for (const region of REGIONS) {
-      const regionDeals = await fetchAllOffers(programmes, region);
-      allPromotions.push(...regionDeals);
-    }
-    console.log(`\n📦 Total fetched across all regions: ${allPromotions.length}`);
-
-    /* 3. Deduplicate by id (cross-region duplicates removed) */
+    // Deduplicate by id
     const seen   = new Set();
-    const unique = allPromotions.filter(p => {
+    const unique = promotions.filter(p => {
       if (seen.has(p.id)) return false;
       seen.add(p.id);
       return true;
     });
-    console.log(`   After dedup: ${unique.length} (removed ${allPromotions.length - unique.length} duplicates)`);
+    console.log(`\n📦 ${unique.length} unique offers (${promotions.length - unique.length} duplicates removed)`);
 
-    /* 4. Sort: active first, then by endDate ascending */
+    // Sort: active first, then by endDate
     const now = new Date();
     unique.sort((a, b) => {
       const aExp = a.endDate ? new Date(a.endDate) < now : false;
@@ -338,35 +221,31 @@ async function main() {
       return (a.endDate || "").localeCompare(b.endDate || "");
     });
 
-    /* 5. Write promotions.json */
-    const active  = unique.filter(p => !p.endDate || new Date(p.endDate) >= now).length;
-    const expired = unique.length - active;
+    const active   = unique.filter(p => !p.endDate || new Date(p.endDate) >= now).length;
     const vouchers = unique.filter(p => p.type === "voucher").length;
     const deals    = unique.filter(p => p.type !== "voucher").length;
 
     const output = {
-      fetchedAt:   new Date().toISOString(),
-      publisherId: PUBLISHER_ID,
-      regions:     REGIONS,
-      total:       unique.length,
-      totalActive: active,
-      totalExpired:expired,
-      promotions:  unique,
+      fetchedAt:    new Date().toISOString(),
+      publisherId:  PUBLISHER_ID,
+      regions:      REGIONS,
+      total:        unique.length,
+      totalActive:  active,
+      totalExpired: unique.length - active,
+      promotions:   unique,
     };
 
     fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
     fs.writeFileSync(OUT_FILE, JSON.stringify(output, null, 2), "utf8");
 
-    /* 6. Summary */
-    console.log("\n═══════════════════════════════════════════════════════");
-    console.log(`✅ Done! ${unique.length} promotions written to promotions.json`);
-    console.log(`   Active  : ${active}  |  Expired : ${expired}`);
+    console.log("═══════════════════════════════════════════════════════");
+    console.log(`✅ Done! ${unique.length} offers → promotions.json`);
+    console.log(`   Active  : ${active}  |  Expired : ${unique.length - active}`);
     console.log(`   Vouchers: ${vouchers}  |  Deals   : ${deals}`);
-    console.log(`   Regions : ${REGIONS.join(", ")}`);
     console.log("═══════════════════════════════════════════════════════\n");
 
   } catch (e) {
-    console.error("✗ Fatal error:", e.message);
+    console.error("✗ Fatal:", e.message);
     process.exit(1);
   }
 }
