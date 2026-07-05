@@ -1301,6 +1301,14 @@
                 };
               });
               setDeals(enriched.length > 0 ? enriched : SAMPLE_DEALS);
+              console.log('   enriched total:', enriched.length);
+              const now = new Date();
+              const active = enriched.filter(d => {
+                const dl = daysLeft(d.endDate);
+                return dl > 0;
+              });
+              console.log('   active after daysLeft filter:', active.length);
+              console.log('   sample endDates:', enriched.slice(0,5).map(d => d.endDate));
             } catch (e) {
               console.log('Falling back to sample data:', e.message);
               setDeals(SAMPLE_DEALS);
