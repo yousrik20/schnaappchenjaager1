@@ -166,10 +166,10 @@ async function fetchAllOffers() {
       }
     }
 
-    // API returns array directly OR wrapped object
+    // Awin API returns: { data: [...], pagination: {...} }
     const items = Array.isArray(data)
       ? data
-      : (data.promotions || data.offers || data.data || data.results || []);
+      : (data.data || data.promotions || data.offers || data.results || []);
 
     if (!items.length) {
       console.log(`   ⚠ Page ${page} returned 0 items — full response: ${JSON.stringify(data).slice(0, 300)}`);
