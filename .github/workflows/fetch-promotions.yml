@@ -21,12 +21,36 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Verify secret is set
+        run: |
+          if [ -z "$AWIN_API_TOKEN" ]; then
+            echo "❌ ERROR: AWIN_API_TOKEN secret is NOT set or is empty!"
+            echo "Go to: Settings → Secrets → Actions → New repository secret"
+            echo "Name: AWIN_API_TOKEN  Value: your Awin API token"
+            exit 1
+          else
+            echo "✅ AWIN_API_TOKEN is set (length: ${#AWIN_API_TOKEN})"
+          fi
+        env:
+          AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
+
       - name: Run fetch script
         env:
-          AWIN_API_TOKEN:    "b6087dfa-4788-4a8b-bd77-ed681c73a9b3"
+          AWIN_API_TOKEN:    ${{ secrets.AWIN_API_TOKEN }}
           AWIN_PUBLISHER_ID: "2851329"
           AWIN_REGIONS:      "DE,AT"
         run: node scripts/fetch-awin.js
+
+      - name: Show promotions.json summary
+        run: |
+          if [ -f promotions.json ]; then
+            echo "✅ promotions.json exists"
+            echo "File size: $(wc -c < promotions.json) bytes"
+            echo "Total offers: $(node -e "const d=require('./promotions.json'); console.log(d.total || d.promotions?.length || 0)")"
+          else
+            echo "❌ promotions.json was NOT created!"
+            exit 1
+          fi
 
       - name: Commit and push promotions.json
         run: |
@@ -34,5 +58,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add promotions.json
           git diff --cached --quiet \
-            && echo "promotions.json unchanged — skipping commit" \
+            && echo "ℹ️  promotions.json unchanged — skipping commit" \
             || (git commit -m "chore: update promotions.json [skip ci]" && git push)
