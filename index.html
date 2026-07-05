@@ -1248,7 +1248,7 @@
               const data = await r.json();
               const items = Array.isArray(data)
                 ? data
-                : (data.promotions || data.deals || data.results || []);
+                : (data.data || data.promotions || data.deals || data.results || []);
               const enriched = items.map(p => {
                 const d = parseDiscount(p);
                 // Official Awin API response fields:
