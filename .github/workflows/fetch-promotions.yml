@@ -2,8 +2,8 @@ name: Fetch Awin Promotions
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # daily at 06:00 UTC
-  workflow_dispatch:       # manual trigger
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Run fetch script
         env:
@@ -33,6 +33,6 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add promotions.json
-          # Only commit if there are actual changes — exit 0 if nothing changed (not exit 1)
-          git diff --cached --quiet && echo "No changes to promotions.json" || git commit -m "chore: update promotions.json [skip ci]"
-          git push
+          git diff --cached --quiet \
+            && echo "promotions.json unchanged — skipping commit" \
+            || (git commit -m "chore: update promotions.json [skip ci]" && git push)
