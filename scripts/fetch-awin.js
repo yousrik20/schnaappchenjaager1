@@ -152,8 +152,18 @@ async function fetchAllOffers() {
     try {
       data = await apiPost(`/publisher/${PUBLISHER_ID}/promotions`, body);
     } catch (e) {
-      console.error(`   ✗ Page ${page} failed: ${e.message}`);
+      console.error(`   ✗ Page ${page} API call failed: ${e.message}`);
+      console.error(`   Request body was: ${JSON.stringify(body)}`);
       break;
+    }
+
+    // Log raw response structure for debugging
+    if (page === 1) {
+      const preview = JSON.stringify(data).slice(0, 500);
+      console.log(`   Raw response preview: ${preview}`);
+      if (typeof data === 'object' && !Array.isArray(data)) {
+        console.log(`   Response keys: ${Object.keys(data).join(', ')}`);
+      }
     }
 
     // API returns array directly OR wrapped object
@@ -162,7 +172,7 @@ async function fetchAllOffers() {
       : (data.promotions || data.offers || data.data || data.results || []);
 
     if (!items.length) {
-      console.log(`   ✓ Done — stopped at page ${page} (0 items returned)`);
+      console.log(`   ⚠ Page ${page} returned 0 items — full response: ${JSON.stringify(data).slice(0, 300)}`);
       break;
     }
 
