@@ -23,7 +23,7 @@ jobs:
 
       - name: Run fetch script
         env:
-          AWIN_API_TOKEN:    ${{ secrets.AWIN_API_TOKEN }}
+          AWIN_API_TOKEN:    "b6087dfa-4788-4a8b-bd77-ed681c73a9b3"
           AWIN_PUBLISHER_ID: "2851329"
           AWIN_REGIONS:      "DE,AT"
         run: node scripts/fetch-awin.js
