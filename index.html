@@ -1244,11 +1244,23 @@
           async function load() {
             try {
               const r = await fetch('promotions.json');
-              if (!r.ok) throw new Error('fetch error');
+              if (!r.ok) throw new Error('fetch error ' + r.status);
               const data = await r.json();
+
+              // ── DIAGNOSTIC LOGGING ──────────────────────────────
+              console.log('📦 promotions.json loaded');
+              console.log('   Top-level keys:', Object.keys(data));
+              console.log('   data.total:', data.total);
+              console.log('   data.data length:', data.data?.length);
+              console.log('   data.promotions length:', data.promotions?.length);
+              console.log('   fetchedAt:', data.fetchedAt);
+              // ────────────────────────────────────────────────────
+
               const items = Array.isArray(data)
                 ? data
                 : (data.data || data.promotions || data.deals || data.results || []);
+
+              console.log('   items selected:', items.length);
               const enriched = items.map(p => {
                 const d = parseDiscount(p);
                 // Official Awin API response fields:
