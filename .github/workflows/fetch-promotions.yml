@@ -2,167 +2,37 @@ name: Fetch Awin Promotions
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
-    inputs:
-      force_update:
-        description: "Force commit even if no changes"
-        type: boolean
-        default: false
-  push:
-    branches: [main]
-    paths-ignore: ["promotions.json"]
+    - cron: '0 6 * * *'   # daily at 06:00 UTC
+  workflow_dispatch:       # manual trigger
 
 permissions:
   contents: write
 
-# ── Fix: Node.js 24 erzwingen (löst Deprecation-Warning) ──────────────────
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-  AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
-  AWIN_PUBLISHER_ID: "2851329"
-  AWIN_REGIONS: "DE,AT"  
-
 jobs:
   fetch:
-    name: Fetch Awin Programmes + Promotions
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
-      # ── Node.js 24 (löst "Node.js 20 deprecated" Warning) ────────────────
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 24
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "24"
+          node-version: '20'
 
-      # ── Token prüfen (gibt klare Fehlermeldung wenn Secret fehlt) ─────────
-      - name: Check AWIN_TOKEN secret
+      - name: Run fetch script
         env:
-          AWIN_TOKEN: ${{ secrets.AWIN_TOKEN }}
-        run: |
-          if [ -z "$AWIN_TOKEN" ]; then
-            echo "❌ FEHLER: Das GitHub Secret 'AWIN_TOKEN' ist nicht gesetzt!"
-            echo ""
-            echo "Lösung:"
-            echo "  1. Gehe zu: GitHub Repo → Settings → Secrets and variables → Actions"
-            echo "  2. Klicke: New repository secret"
-            echo "  3. Name:  AWIN_TOKEN"
-            echo "  4. Value: b6087dfa-4788-4a8b-bd77-ed681c73a9b3"
-            exit 1
-          fi
-          echo "✅ AWIN_TOKEN ist gesetzt (${#AWIN_TOKEN} Zeichen)"
-
-      # ── Hauptskript ausführen ─────────────────────────────────────────────
-      - name: Fetch from Awin API
-        env:
-          AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
+          AWIN_API_TOKEN:    ${{ secrets.AWIN_API_TOKEN }}
           AWIN_PUBLISHER_ID: "2851329"
-          AWIN_REGIONS: "DE,AT"  
-        run: |
-          echo "Starte fetch-awin.js..."
-          node scripts/fetch-awin.js
-        # Bei Fehler: Zeige den letzten Zustand von promotions.json
-        continue-on-error: true
-        id: fetch_step
+          AWIN_REGIONS:      "DE,AT"
+        run: node scripts/fetch-awin.js
 
-      # ── Fallback: Wenn API fehlschlägt, alte Datei behalten ──────────────
-      - name: Handle fetch result
-        run: |
-          if [ "${{ steps.fetch_step.outcome }}" == "failure" ]; then
-            echo "⚠️  Fetch fehlgeschlagen. Mögliche Ursachen:"
-            echo "   • AWIN_TOKEN abgelaufen → neuen Token in ui.awin.com generieren"
-            echo "   • Awin API nicht erreichbar (temporärer Fehler)"
-            echo "   • Keine zugelassenen Programme gefunden"
-            echo ""
-            # Prüfe ob eine alte promotions.json noch existiert
-            if [ -f "promotions.json" ]; then
-              AGE=$(node -e "
-                try {
-                  const d=require('./promotions.json');
-                  const diff=Math.round((Date.now()-new Date(d.fetchedAt).getTime())/3600000);
-                  console.log(diff+'h alt, '+d.count+' Promotions');
-                } catch(e){ console.log('unbekannt'); }
-              ")
-              echo "   → Behalte bestehende promotions.json ($AGE)"
-            else
-              echo "   → Keine bestehende promotions.json vorhanden"
-              # Erstelle leere aber gültige Datei
-              echo '{"fetchedAt":"'$(date -u +%Y-%m-%dT%H:%M:%S.000Z)'","programmes":[],"count":0,"promotions":[]}' > promotions.json
-              echo "   → Leere promotions.json erstellt"
-            fi
-          else
-            echo "✅ Fetch erfolgreich"
-          fi
-
-      # ── Validierung ───────────────────────────────────────────────────────
-      - name: Validate promotions.json
-        run: |
-          node - << 'EOF'
-          const d = require("./promotions.json");
-          const partners   = (d.programmes  || []).length;
-          const promotions = (d.promotions  || []).length;
-          console.log(`\n📊 Ergebnis`);
-          console.log(`  Stand      : ${d.fetchedAt}`);
-          console.log(`  Partner    : ${partners}`);
-          console.log(`  Promotions : ${promotions}`);
-          const broken = (d.promotions||[]).filter(p => !p.deeplink?.startsWith("https://")).length;
-          console.log(`  Links OK   : ${promotions - broken}/${promotions}`);
-          if (broken > 0) console.warn(`  ⚠️  ${broken} defekte Links`);
-          const g = {};
-          (d.promotions||[]).forEach(p => { g[p.advertiser]=(g[p.advertiser]||0)+1; });
-          if (Object.keys(g).length) {
-            console.log("\n  Nach Advertiser:");
-            Object.entries(g).sort((a,b)=>b[1]-a[1])
-              .forEach(([k,v]) => console.log(`    ${k.padEnd(36)} ${v}`));
-          }
-          EOF
-
-      # ── Commit ────────────────────────────────────────────────────────────
-      - name: Commit promotions.json
+      - name: Commit and push promotions.json
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add promotions.json
-          if git diff --staged --quiet && [ "${{ github.event.inputs.force_update }}" != "true" ]; then
-            echo "Keine Änderungen – kein Commit."
-          else
-            P=$(node -e "const d=require('./promotions.json');console.log(d.programmes?.length||0)")
-            V=$(node -e "const d=require('./promotions.json');console.log(d.count||0)")
-            TS=$(date -u "+%d.%m.%Y %H:%M UTC")
-            git commit -m "chore: Awin update — ${P} Partner, ${V} Deals @ ${TS} [skip ci]"
-            git push
-            echo "✅ Committed und gepusht."
-          fi
-
-      # ── Summary ───────────────────────────────────────────────────────────
-      - name: Write Summary
-        if: always()
-        run: |
-          STATUS="${{ steps.fetch_step.outcome }}"
-          node -e "
-            const fs = require('fs');
-            try {
-              const d = require('./promotions.json');
-              const status = '$STATUS' === 'success' ? '✅ Erfolgreich' : '⚠️  Fehlgeschlagen (alte Daten)';
-              let md = '## 🏷️ Awin Fetch — ' + status + '\n\n';
-              md += '| Feld | Wert |\n|---|---|\n';
-              md += '| Stand | ' + d.fetchedAt + ' |\n';
-              md += '| Partner | **' + (d.programmes?.length||0) + '** |\n';
-              md += '| Aktive Deals | **' + (d.count||0) + '** |\n';
-              if (d.programmes?.length) {
-                const g={};
-                (d.promotions||[]).forEach(p=>{g[p.advertiser]=(g[p.advertiser]||0)+1;});
-                md += '\n### Partner\n\n| Name | Icon | Deals |\n|---|---|---|\n';
-                d.programmes.forEach(p=>{
-                  md += '| '+p.name+' | '+p.icon+' | '+(g[p.name]||0)+' |\n';
-                });
-              }
-              process.stdout.write(md);
-            } catch(e) {
-              process.stdout.write('## ❌ Fehler\n\n' + e.message);
-            }
-          " >> $GITHUB_STEP_SUMMARY
+          # Only commit if there are actual changes — exit 0 if nothing changed (not exit 1)
+          git diff --cached --quiet && echo "No changes to promotions.json" || git commit -m "chore: update promotions.json [skip ci]"
+          git push
