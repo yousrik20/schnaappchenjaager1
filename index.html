@@ -1243,7 +1243,9 @@
         useEffect(() => {
           async function load() {
             try {
-              const r = await fetch('promotions.json');
+              // Cache-busting: append timestamp so browser never serves stale data
+              const cacheBust = '?v=' + Date.now();
+              const r = await fetch('promotions.json' + cacheBust);
               if (!r.ok) throw new Error('fetch error ' + r.status);
               const data = await r.json();
 
