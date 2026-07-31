@@ -1,116 +1,14 @@
 {
-  "fetchedAt": "2026-07-31T03:36:12.915Z",
+  "fetchedAt": "2026-07-31T09:11:17.061Z",
   "publisherId": "2851329",
   "regions": [
     "DE",
     "AT"
   ],
-  "total": 292,
-  "totalActive": 292,
+  "total": 235,
+  "totalActive": 235,
   "totalExpired": 0,
   "promotions": [
-    {
-      "id": "3915585",
-      "advertiserId": 67914,
-      "advertiser": "ALLPOWERS DE",
-      "type": "voucher",
-      "title": "Directly Cut €20 FIFA World Cup 2026",
-      "description": "SAVE €20 Order €180 FIFA World Cup",
-      "terms": "DE",
-      "code": "WORLDCUP",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=67914&awinaffid=2851329&ued=https%3A%2F%2Fwww.iallpowers.de%2Fpages%2Ffussball-sommer-2026",
-      "startDate": "2026-05-27T07:15:00+00:00",
-      "endDate": "2026-07-31T07:14:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "3993923",
-      "advertiserId": 67914,
-      "advertiser": "ALLPOWERS DE",
-      "type": "voucher",
-      "title": "Extra 125€ OFF BS2500 PRO Balcony Solar Power",
-      "description": "1074€ OFF BS2500 PRO Balcony Solar Power",
-      "terms": "Use code AFBS2500 at checkout.",
-      "code": "AFBS2500",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=67914&awinaffid=2851329&ued=https%3A%2F%2Fwww.iallpowers.de%2Fproducts%2Fbs2500-pro-balkon-energiespeicher",
-      "startDate": "2026-07-08T08:01:00+00:00",
-      "endDate": "2026-07-31T08:00:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "3993933",
-      "advertiserId": 67914,
-      "advertiser": "ALLPOWERS DE",
-      "type": "voucher",
-      "title": "Extra 210€ OFF BS5000 PRO",
-      "description": "1789€ OFF BS5000 PRO 5.2KWH Balcony solar power",
-      "terms": "Use code AFBS5000 at checkout.",
-      "code": "AFBS5000",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=67914&awinaffid=2851329&ued=https%3A%2F%2Fwww.iallpowers.de%2Fproducts%2Fallpowers-bs5000-solarspeicher-fur-den-balkon",
-      "startDate": "2026-07-08T08:02:00+00:00",
-      "endDate": "2026-07-31T08:01:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "3988709",
-      "advertiserId": 102013,
-      "advertiser": "Zlike Hair",
-      "type": "voucher",
-      "title": "ZLIKE 15% OFF Sitewide",
-      "description": "ZLIKE 15% OFF Sitewide",
-      "terms": "July Wedding Glam\nYour Perfect Bridal Look Starts Here\nZLIKE 15% OFF Sitewide, Code:WG15;\nEXTRA $40 OFF Over $245,Code:WG40;\nEXTRA $60 OFF Over $350,Code:WG60.\nhttps://zlikehair.com/collections/best-sellers",
-      "code": "WG15",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=102013&awinaffid=2851329&ued=https%3A%2F%2Fzlikehair.com%2Fcollections%2Fbest-sellers",
-      "startDate": "2026-07-06T08:48:00+00:00",
-      "endDate": "2026-07-31T08:47:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "3988715",
-      "advertiserId": 102013,
-      "advertiser": "Zlike Hair",
-      "type": "voucher",
-      "title": "EXTRA $60 OFF Over $350",
-      "description": "EXTRA $60 OFF Over $350",
-      "terms": "July Wedding Glam\nYour Perfect Bridal Look Starts Here\nZLIKE 15% OFF Sitewide, Code:WG15;\nEXTRA $40 OFF Over $245,Code:WG40;\nEXTRA $60 OFF Over $350,Code:WG60.\nhttps://zlikehair.com/collections/best-sellers",
-      "code": "WG60",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=102013&awinaffid=2851329&ued=https%3A%2F%2Fzlikehair.com%2Fcollections%2Fbest-sellers",
-      "startDate": "2026-07-06T08:49:00+00:00",
-      "endDate": "2026-07-31T08:48:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "3988713",
-      "advertiserId": 102013,
-      "advertiser": "Zlike Hair",
-      "type": "voucher",
-      "title": "EXTRA $40 OFF Over $245",
-      "description": "EXTRA $40 OFF Over $245",
-      "terms": "July Wedding Glam\nYour Perfect Bridal Look Starts Here\nZLIKE 15% OFF Sitewide, Code:WG15;\nEXTRA $40 OFF Over $245,Code:WG40;\nEXTRA $60 OFF Over $350,Code:WG60.\nhttps://zlikehair.com/collections/best-sellers",
-      "code": "WG40",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=102013&awinaffid=2851329&ued=https%3A%2F%2Fzlikehair.com%2Fcollections%2Fbest-sellers",
-      "startDate": "2026-07-06T08:48:00+00:00",
-      "endDate": "2026-07-31T08:48:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
     {
       "id": "3964965",
       "advertiserId": 102013,
@@ -126,7 +24,7 @@
       "endDate": "2026-07-31T09:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3964973",
@@ -143,7 +41,7 @@
       "endDate": "2026-07-31T09:56:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3964967",
@@ -160,7 +58,7 @@
       "endDate": "2026-07-31T09:56:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3981645",
@@ -177,7 +75,7 @@
       "endDate": "2026-07-31T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4021831",
@@ -194,7 +92,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4019147",
@@ -211,7 +109,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3998909",
@@ -228,7 +126,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3997565",
@@ -245,7 +143,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3994045",
@@ -262,7 +160,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3983895",
@@ -279,7 +177,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3983759",
@@ -296,7 +194,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3983751",
@@ -313,7 +211,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3983741",
@@ -330,7 +228,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3983725",
@@ -347,7 +245,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3983711",
@@ -364,7 +262,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3983707",
@@ -381,7 +279,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3983699",
@@ -398,7 +296,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3983667",
@@ -415,7 +313,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3972271",
@@ -432,7 +330,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3967783",
@@ -449,7 +347,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3967751",
@@ -466,7 +364,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3967723",
@@ -483,7 +381,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3886973",
@@ -500,7 +398,7 @@
       "endDate": "2026-07-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3983131",
@@ -517,7 +415,7 @@
       "endDate": "2026-07-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3983127",
@@ -534,7 +432,7 @@
       "endDate": "2026-07-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3969365",
@@ -551,7 +449,7 @@
       "endDate": "2026-08-01T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3969363",
@@ -568,7 +466,7 @@
       "endDate": "2026-08-01T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "4018737",
@@ -585,7 +483,7 @@
       "endDate": "2026-08-02T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4018133",
@@ -602,7 +500,7 @@
       "endDate": "2026-08-02T21:29:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4026157",
@@ -619,7 +517,7 @@
       "endDate": "2026-08-02T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4018637",
@@ -636,7 +534,7 @@
       "endDate": "2026-08-02T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4018619",
@@ -653,7 +551,7 @@
       "endDate": "2026-08-02T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4018617",
@@ -670,7 +568,7 @@
       "endDate": "2026-08-02T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4018123",
@@ -687,7 +585,7 @@
       "endDate": "2026-08-02T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4008713",
@@ -704,7 +602,7 @@
       "endDate": "2026-08-02T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4016027",
@@ -721,7 +619,7 @@
       "endDate": "2026-08-03T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4021707",
@@ -738,7 +636,7 @@
       "endDate": "2026-08-03T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4021175",
@@ -755,7 +653,7 @@
       "endDate": "2026-08-04T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4019491",
@@ -772,7 +670,7 @@
       "endDate": "2026-08-04T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4019483",
@@ -789,7 +687,7 @@
       "endDate": "2026-08-04T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4019459",
@@ -806,7 +704,7 @@
       "endDate": "2026-08-04T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4019455",
@@ -823,7 +721,7 @@
       "endDate": "2026-08-04T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4019451",
@@ -840,24 +738,7 @@
       "endDate": "2026-08-04T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "3825089",
-      "advertiserId": 101583,
-      "advertiser": "Design Letters",
-      "type": "voucher",
-      "title": "THANKYOU20 20% OFF PER ORDER",
-      "description": "THANKYOU20 20% OFF PER ORDER",
-      "terms": "All customers\nFor Online Store\n20% off 2 collections\nNo minimum purchase requirement\nOne use per customer\nCan’t combine with other discounts",
-      "code": "THANKYOU20",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=101583&awinaffid=2851329&ued=https%3A%2F%2Fdesignletters.eu%2F",
-      "startDate": "2026-04-09T11:01:00+00:00",
-      "endDate": "2026-08-05T10:57:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4025693",
@@ -874,7 +755,7 @@
       "endDate": "2026-08-05T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4034773",
@@ -891,7 +772,7 @@
       "endDate": "2026-08-05T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.293Z"
+      "fetchedAt": "2026-07-31T09:11:16.415Z"
     },
     {
       "id": "4034439",
@@ -908,7 +789,7 @@
       "endDate": "2026-08-05T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.293Z"
+      "fetchedAt": "2026-07-31T09:11:16.415Z"
     },
     {
       "id": "4033815",
@@ -925,7 +806,7 @@
       "endDate": "2026-08-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.293Z"
+      "fetchedAt": "2026-07-31T09:11:16.415Z"
     },
     {
       "id": "4031223",
@@ -942,7 +823,7 @@
       "endDate": "2026-08-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4020805",
@@ -959,7 +840,7 @@
       "endDate": "2026-08-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4034159",
@@ -976,7 +857,7 @@
       "endDate": "2026-08-07T08:29:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.293Z"
+      "fetchedAt": "2026-07-31T09:11:16.415Z"
     },
     {
       "id": "4032467",
@@ -993,7 +874,7 @@
       "endDate": "2026-08-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3960997",
@@ -1010,7 +891,7 @@
       "endDate": "2026-08-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "4020863",
@@ -1027,7 +908,7 @@
       "endDate": "2026-08-09T07:42:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4020867",
@@ -1044,7 +925,7 @@
       "endDate": "2026-08-09T07:44:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4016635",
@@ -1061,7 +942,7 @@
       "endDate": "2026-08-09T08:16:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4031799",
@@ -1078,7 +959,7 @@
       "endDate": "2026-08-09T09:10:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4031807",
@@ -1095,7 +976,7 @@
       "endDate": "2026-08-09T09:11:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4016629",
@@ -1112,7 +993,7 @@
       "endDate": "2026-08-09T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3993919",
@@ -1129,7 +1010,7 @@
       "endDate": "2026-08-10T07:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4023913",
@@ -1146,7 +1027,7 @@
       "endDate": "2026-08-10T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4021701",
@@ -1163,7 +1044,7 @@
       "endDate": "2026-08-10T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4017219",
@@ -1180,7 +1061,24 @@
       "endDate": "2026-08-10T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
+    },
+    {
+      "id": "3825089",
+      "advertiserId": 101583,
+      "advertiser": "Design Letters",
+      "type": "voucher",
+      "title": "THANKYOU20 20% OFF PER ORDER",
+      "description": "THANKYOU20 20% OFF PER ORDER",
+      "terms": "All customers\nFor Online Store\n20% off 2 collections\nNo minimum purchase requirement\nOne use per customer\nCan’t combine with other discounts",
+      "code": "THANKYOU20",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=101583&awinaffid=2851329&ued=https%3A%2F%2Fdesignletters.eu%2F",
+      "startDate": "2026-04-09T11:01:00+00:00",
+      "endDate": "2026-08-12T10:57:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "4033807",
@@ -1197,7 +1095,7 @@
       "endDate": "2026-08-13T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.293Z"
+      "fetchedAt": "2026-07-31T09:11:16.415Z"
     },
     {
       "id": "4031937",
@@ -1214,7 +1112,7 @@
       "endDate": "2026-08-13T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3996985",
@@ -1231,7 +1129,7 @@
       "endDate": "2026-08-15T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4031841",
@@ -1248,7 +1146,7 @@
       "endDate": "2026-08-16T09:20:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4031875",
@@ -1265,7 +1163,7 @@
       "endDate": "2026-08-16T09:26:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4010715",
@@ -1282,7 +1180,7 @@
       "endDate": "2026-08-17T08:45:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4033719",
@@ -1299,7 +1197,7 @@
       "endDate": "2026-08-18T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4005759",
@@ -1316,7 +1214,7 @@
       "endDate": "2026-08-20T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3993719",
@@ -1333,7 +1231,7 @@
       "endDate": "2026-08-27T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3984683",
@@ -1350,7 +1248,7 @@
       "endDate": "2026-08-27T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3917945",
@@ -1367,7 +1265,7 @@
       "endDate": "2026-08-27T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3914389",
@@ -1384,7 +1282,7 @@
       "endDate": "2026-08-27T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3824397",
@@ -1401,7 +1299,7 @@
       "endDate": "2026-08-29T06:04:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3993717",
@@ -1418,7 +1316,7 @@
       "endDate": "2026-08-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4033717",
@@ -1435,7 +1333,7 @@
       "endDate": "2026-08-31T03:12:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3789974",
@@ -1452,7 +1350,7 @@
       "endDate": "2026-08-31T06:44:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "4020767",
@@ -1469,7 +1367,7 @@
       "endDate": "2026-08-31T06:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4020769",
@@ -1486,7 +1384,7 @@
       "endDate": "2026-08-31T06:56:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4020771",
@@ -1503,7 +1401,7 @@
       "endDate": "2026-08-31T06:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3787728",
@@ -1520,7 +1418,7 @@
       "endDate": "2026-08-31T08:22:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3901225",
@@ -1537,7 +1435,7 @@
       "endDate": "2026-08-31T09:05:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "4031819",
@@ -1554,7 +1452,7 @@
       "endDate": "2026-08-31T09:15:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4031825",
@@ -1571,7 +1469,7 @@
       "endDate": "2026-08-31T09:17:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3962951",
@@ -1588,7 +1486,7 @@
       "endDate": "2026-08-31T11:29:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3962965",
@@ -1605,7 +1503,7 @@
       "endDate": "2026-08-31T11:36:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "4026123",
@@ -1622,7 +1520,7 @@
       "endDate": "2026-08-31T11:49:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3981501",
@@ -1639,7 +1537,7 @@
       "endDate": "2026-08-31T12:22:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4014417",
@@ -1656,7 +1554,7 @@
       "endDate": "2026-08-31T12:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4031905",
@@ -1673,7 +1571,7 @@
       "endDate": "2026-08-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4031897",
@@ -1690,7 +1588,7 @@
       "endDate": "2026-08-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4031893",
@@ -1707,7 +1605,7 @@
       "endDate": "2026-08-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4031879",
@@ -1724,7 +1622,7 @@
       "endDate": "2026-08-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3976031",
@@ -1741,7 +1639,7 @@
       "endDate": "2026-08-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3976023",
@@ -1758,7 +1656,7 @@
       "endDate": "2026-08-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3924997",
@@ -1775,7 +1673,7 @@
       "endDate": "2026-08-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3924961",
@@ -1792,7 +1690,7 @@
       "endDate": "2026-08-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3413941",
@@ -1809,7 +1707,7 @@
       "endDate": "2026-08-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "4026433",
@@ -1826,7 +1724,7 @@
       "endDate": "2026-08-31T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4026409",
@@ -1843,7 +1741,7 @@
       "endDate": "2026-08-31T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4026395",
@@ -1860,7 +1758,7 @@
       "endDate": "2026-08-31T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4026391",
@@ -1877,7 +1775,7 @@
       "endDate": "2026-08-31T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4026387",
@@ -1894,7 +1792,7 @@
       "endDate": "2026-08-31T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4006389",
@@ -1911,7 +1809,7 @@
       "endDate": "2026-08-31T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4006385",
@@ -1928,7 +1826,7 @@
       "endDate": "2026-08-31T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3917857",
@@ -1945,7 +1843,7 @@
       "endDate": "2026-08-31T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3917773",
@@ -1962,7 +1860,7 @@
       "endDate": "2026-08-31T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3917757",
@@ -1979,7 +1877,7 @@
       "endDate": "2026-08-31T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3917717",
@@ -1996,7 +1894,7 @@
       "endDate": "2026-08-31T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3912751",
@@ -2013,7 +1911,7 @@
       "endDate": "2026-08-31T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "4010537",
@@ -2030,7 +1928,7 @@
       "endDate": "2026-08-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4008567",
@@ -2047,7 +1945,7 @@
       "endDate": "2026-08-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4008561",
@@ -2064,7 +1962,7 @@
       "endDate": "2026-08-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4008557",
@@ -2081,7 +1979,7 @@
       "endDate": "2026-08-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4032413",
@@ -2098,7 +1996,7 @@
       "endDate": "2026-09-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3789920",
@@ -2115,7 +2013,7 @@
       "endDate": "2026-09-17T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3789910",
@@ -2132,7 +2030,7 @@
       "endDate": "2026-09-18T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "4033727",
@@ -2149,7 +2047,7 @@
       "endDate": "2026-09-30T03:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3983217",
@@ -2166,7 +2064,7 @@
       "endDate": "2026-09-30T04:04:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4031749",
@@ -2183,7 +2081,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3981289",
@@ -2200,7 +2098,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3981147",
@@ -2217,7 +2115,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3981145",
@@ -2234,7 +2132,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3980719",
@@ -2251,7 +2149,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3475466",
@@ -2268,7 +2166,7 @@
       "endDate": "2026-10-07T07:01:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3631238",
@@ -2285,7 +2183,7 @@
       "endDate": "2026-10-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3846535",
@@ -2302,7 +2200,7 @@
       "endDate": "2026-11-21T02:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3570548",
@@ -2319,7 +2217,7 @@
       "endDate": "2026-11-30T14:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3673494",
@@ -2336,7 +2234,7 @@
       "endDate": "2026-12-31T01:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3945403",
@@ -2353,7 +2251,7 @@
       "endDate": "2026-12-31T02:19:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3944495",
@@ -2370,7 +2268,7 @@
       "endDate": "2026-12-31T08:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3655932",
@@ -2387,7 +2285,7 @@
       "endDate": "2026-12-31T08:41:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3658732",
@@ -2404,7 +2302,7 @@
       "endDate": "2026-12-31T09:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3898367",
@@ -2421,7 +2319,7 @@
       "endDate": "2026-12-31T10:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3707940",
@@ -2438,7 +2336,7 @@
       "endDate": "2026-12-31T13:31:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3656608",
@@ -2455,7 +2353,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3916399",
@@ -2472,7 +2370,7 @@
       "endDate": "2026-12-31T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3915235",
@@ -2489,7 +2387,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "4025467",
@@ -2506,7 +2404,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4025465",
@@ -2523,7 +2421,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4023055",
@@ -2540,7 +2438,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "4003717",
@@ -2557,7 +2455,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3980725",
@@ -2574,7 +2472,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3700488",
@@ -2591,7 +2489,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3658416",
@@ -2608,7 +2506,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3658412",
@@ -2625,7 +2523,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3479662",
@@ -2642,7 +2540,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3264915",
@@ -2659,7 +2557,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "3211033",
@@ -2676,7 +2574,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "3165261",
@@ -2693,7 +2591,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2996198",
@@ -2710,7 +2608,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644398",
@@ -2727,7 +2625,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644370",
@@ -2744,7 +2642,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644364",
@@ -2761,7 +2659,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644296",
@@ -2778,7 +2676,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644292",
@@ -2795,7 +2693,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644288",
@@ -2812,7 +2710,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644286",
@@ -2829,7 +2727,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644276",
@@ -2846,7 +2744,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644274",
@@ -2863,7 +2761,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644266",
@@ -2880,7 +2778,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644262",
@@ -2897,7 +2795,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644260",
@@ -2914,7 +2812,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644256",
@@ -2931,7 +2829,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644254",
@@ -2948,7 +2846,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2644244",
@@ -2965,7 +2863,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2637660",
@@ -2982,7 +2880,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2035636",
@@ -2999,7 +2897,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "3791298",
@@ -3016,7 +2914,7 @@
       "endDate": "2027-01-01T15:07:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3988367",
@@ -3033,7 +2931,7 @@
       "endDate": "2027-01-01T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3793678",
@@ -3050,7 +2948,7 @@
       "endDate": "2027-01-15T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3805412",
@@ -3067,7 +2965,7 @@
       "endDate": "2027-01-27T01:34:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3631106",
@@ -3084,7 +2982,7 @@
       "endDate": "2027-01-31T20:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3721454",
@@ -3101,7 +2999,7 @@
       "endDate": "2027-02-06T14:37:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3165345",
@@ -3118,7 +3016,7 @@
       "endDate": "2027-04-26T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "3951237",
@@ -3135,7 +3033,7 @@
       "endDate": "2027-04-30T13:52:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3996385",
@@ -3152,7 +3050,7 @@
       "endDate": "2027-07-09T03:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3924221",
@@ -3169,7 +3067,7 @@
       "endDate": "2027-12-31T08:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3924225",
@@ -3186,7 +3084,7 @@
       "endDate": "2027-12-31T09:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3924231",
@@ -3203,7 +3101,7 @@
       "endDate": "2027-12-31T09:03:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "2965522",
@@ -3220,7 +3118,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2965458",
@@ -3237,7 +3135,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2622852",
@@ -3254,7 +3152,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2622850",
@@ -3271,7 +3169,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2622848",
@@ -3288,7 +3186,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "4003951",
@@ -3305,7 +3203,7 @@
       "endDate": "2028-03-14T10:08:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3957769",
@@ -3322,7 +3220,7 @@
       "endDate": "2028-08-11T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3247237",
@@ -3339,7 +3237,7 @@
       "endDate": "2029-01-24T02:47:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "3499326",
@@ -3356,7 +3254,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "2859063",
@@ -3373,7 +3271,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2833565",
@@ -3390,7 +3288,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2829273",
@@ -3407,7 +3305,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2791507",
@@ -3424,7 +3322,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "2525973",
@@ -3441,7 +3339,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "3384925",
@@ -3458,7 +3356,7 @@
       "endDate": "2030-01-01T11:25:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3384979",
@@ -3475,7 +3373,7 @@
       "endDate": "2030-01-01T11:37:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3607264",
@@ -3492,7 +3390,7 @@
       "endDate": "2030-03-02T12:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3775648",
@@ -3509,7 +3407,7 @@
       "endDate": "2030-03-31T11:40:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3607252",
@@ -3526,7 +3424,7 @@
       "endDate": "2030-04-02T12:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "1688949",
@@ -3543,7 +3441,7 @@
       "endDate": "2030-04-08T15:35:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "3775640",
@@ -3560,7 +3458,7 @@
       "endDate": "2030-05-31T11:32:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3384985",
@@ -3577,7 +3475,7 @@
       "endDate": "2030-08-01T11:43:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3607298",
@@ -3594,7 +3492,7 @@
       "endDate": "2030-08-02T13:14:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3463347",
@@ -3611,7 +3509,7 @@
       "endDate": "2030-09-01T07:31:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3463341",
@@ -3628,7 +3526,7 @@
       "endDate": "2030-10-01T07:29:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3489028",
@@ -3645,7 +3543,7 @@
       "endDate": "2030-11-01T10:26:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "1542119",
@@ -3662,7 +3560,7 @@
       "endDate": "2030-12-14T10:05:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:17.044Z"
     },
     {
       "id": "3607336",
@@ -3679,7 +3577,7 @@
       "endDate": "2030-12-30T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3607304",
@@ -3696,7 +3594,7 @@
       "endDate": "2030-12-31T13:16:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3607306",
@@ -3713,7 +3611,7 @@
       "endDate": "2030-12-31T13:18:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3607312",
@@ -3730,7 +3628,7 @@
       "endDate": "2030-12-31T13:20:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3607316",
@@ -3747,7 +3645,7 @@
       "endDate": "2030-12-31T13:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3607322",
@@ -3764,7 +3662,7 @@
       "endDate": "2030-12-31T13:25:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3752382",
@@ -3781,7 +3679,7 @@
       "endDate": "2030-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3582660",
@@ -3798,7 +3696,7 @@
       "endDate": "2035-11-30T16:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3693150",
@@ -3815,7 +3713,7 @@
       "endDate": "2036-01-23T12:20:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3693158",
@@ -3832,7 +3730,7 @@
       "endDate": "2036-01-23T12:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3693152",
@@ -3849,7 +3747,7 @@
       "endDate": "2036-01-23T12:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3772116",
@@ -3866,874 +3764,7 @@
       "endDate": "2036-04-07T10:19:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
-    },
-    {
-      "id": "4031313",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "PHOENIX5",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:07:00+00:00",
-      "endDate": "2036-07-16T06:04:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031323",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "BLUEDOT5",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:12:00+00:00",
-      "endDate": "2036-07-17T06:11:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031339",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "100pourcentdiy",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp4&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:19:00+00:00",
-      "endDate": "2036-07-17T06:18:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031343",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "VANBUILD",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:20:00+00:00",
-      "endDate": "2036-07-22T06:19:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031337",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "andreitaLP",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp4&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:17:00+00:00",
-      "endDate": "2036-07-23T06:16:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031355",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "BIMBUSLP5",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:23:00+00:00",
-      "endDate": "2036-07-29T06:22:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031357",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "WILLIAMLX2",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:24:00+00:00",
-      "endDate": "2036-07-29T06:23:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031361",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "HOMESTEADLX2",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:26:00+00:00",
-      "endDate": "2036-07-29T06:24:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031377",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "spirekids",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp4&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:28:00+00:00",
-      "endDate": "2036-07-29T06:27:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031399",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "PAINTYEE",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:30:00+00:00",
-      "endDate": "2036-07-29T06:29:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031405",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "ROCKWELL",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:31:00+00:00",
-      "endDate": "2036-07-29T06:31:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031415",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "BRETTJOZSA",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:34:00+00:00",
-      "endDate": "2036-07-29T06:33:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031417",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "BLUEBIRD",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:35:00+00:00",
-      "endDate": "2036-07-29T06:34:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031419",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "THCUSTOM",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:36:00+00:00",
-      "endDate": "2036-07-29T06:35:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031423",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "INNOVATIONS",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:38:00+00:00",
-      "endDate": "2036-07-29T06:37:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031425",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "ingeimaks",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:39:00+00:00",
-      "endDate": "2036-07-29T06:38:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031427",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "silawood",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:40:00+00:00",
-      "endDate": "2036-07-29T06:39:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031429",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "LEAHWOODS",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:41:00+00:00",
-      "endDate": "2036-07-29T06:40:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031445",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "BOONDOCK",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:47:00+00:00",
-      "endDate": "2036-07-29T06:46:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031451",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "MADEESTUDIO",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:49:00+00:00",
-      "endDate": "2036-07-29T06:48:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031453",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "SOJIRELAND",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:50:00+00:00",
-      "endDate": "2036-07-29T06:49:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031487",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "BizounerieLP",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp2plus&ued=https%3A%2F%2Fca.laserpecker.net%2F",
-      "startDate": "2026-07-29T07:03:00+00:00",
-      "endDate": "2036-07-29T07:02:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031489",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "MYDEALZLX2",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T07:04:00+00:00",
-      "endDate": "2036-07-29T07:03:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031499",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "PTCPULP4",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp4&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T07:08:00+00:00",
-      "endDate": "2036-07-29T07:07:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031527",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "BUILTBYBEN",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T07:17:00+00:00",
-      "endDate": "2036-07-29T07:16:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032005",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "KENNYSING",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:13:00+00:00",
-      "endDate": "2036-07-29T10:13:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032009",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "HELP3DLP",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:14:00+00:00",
-      "endDate": "2036-07-29T10:14:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032043",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "txheritage",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:20:00+00:00",
-      "endDate": "2036-07-29T10:20:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032071",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "LPIFA2026",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&ued=https%3A%2F%2Fglobal.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:24:00+00:00",
-      "endDate": "2036-07-29T10:23:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032077",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "SAWDUSTLX2",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:26:00+00:00",
-      "endDate": "2036-07-29T10:25:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032113",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "GUNSTONE",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:33:00+00:00",
-      "endDate": "2036-07-29T10:32:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032143",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "HENDERSON",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:36:00+00:00",
-      "endDate": "2036-07-29T10:35:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032149",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "openelab",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:37:00+00:00",
-      "endDate": "2036-07-29T10:36:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032155",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "KaleidoStone",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:38:00+00:00",
-      "endDate": "2036-07-29T10:37:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032159",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "NADFN",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:40:00+00:00",
-      "endDate": "2036-07-29T10:39:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032163",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "WillieLP2P",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp2plus&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:41:00+00:00",
-      "endDate": "2036-07-29T10:40:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032171",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "3DWORKLP",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:43:00+00:00",
-      "endDate": "2036-07-29T10:43:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032179",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "Yorkshirelp",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp4&ued=https%3A%2F%2Fuk.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:45:00+00:00",
-      "endDate": "2036-07-29T10:45:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032183",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "volksvaniaLP",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp2plus&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:47:00+00:00",
-      "endDate": "2036-07-29T10:46:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032199",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "MMSGRSLP4",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp4&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:51:00+00:00",
-      "endDate": "2036-07-29T10:50:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4032219",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "colorsofthewood",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T10:58:00+00:00",
-      "endDate": "2036-07-29T10:52:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031331",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "RiccardoLP",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp2plus&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:16:00+00:00",
-      "endDate": "2036-07-30T06:15:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031253",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "SCFDESIGN",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T03:19:00+00:00",
-      "endDate": "2036-07-31T02:59:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4036069",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "cbo66OFF",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp2plus&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-31T03:04:00+00:00",
-      "endDate": "2036-07-31T03:03:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.293Z"
-    },
-    {
-      "id": "4036075",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "LVDAYOFF",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-31T03:07:00+00:00",
-      "endDate": "2036-07-31T03:05:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.293Z"
-    },
-    {
-      "id": "4036077",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "cryslp",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp2plus&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-31T03:07:00+00:00",
-      "endDate": "2036-07-31T03:07:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.293Z"
-    },
-    {
-      "id": "4036081",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "MatthewLP",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp4&ued=https%3A%2F%2Fuk.laserpecker.net%2F",
-      "startDate": "2026-07-31T03:15:00+00:00",
-      "endDate": "2036-07-31T03:10:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.293Z"
-    },
-    {
-      "id": "4036083",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "KeithLP",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp4&ued=https%3A%2F%2Fglobal.laserpecker.net%2F",
-      "startDate": "2026-07-31T03:16:00+00:00",
-      "endDate": "2036-07-31T03:15:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.293Z"
-    },
-    {
-      "id": "4036085",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "KTVBLP1P",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp1plus&ued=https%3A%2F%2Feu.laserpecker.net%2F",
-      "startDate": "2026-07-31T03:19:00+00:00",
-      "endDate": "2036-07-31T03:16:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.293Z"
-    },
-    {
-      "id": "4031345",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "UFFSLX2",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lx2&ued=https%3A%2F%2Fuk.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:21:00+00:00",
-      "endDate": "2036-07-31T06:20:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
-    },
-    {
-      "id": "4031349",
-      "advertiserId": 59557,
-      "advertiser": "LaserPecker",
-      "type": "voucher",
-      "title": "KOL CODE",
-      "description": "Brand collab",
-      "terms": "The commission applies to all machines and materials; accessories are not included.",
-      "code": "MAGIAUSA",
-      "categories": "Sonstiges",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=59557&awinaffid=2851329&campaign=lp5&ued=https%3A%2F%2Fus.laserpecker.net%2F",
-      "startDate": "2026-07-29T06:22:00+00:00",
-      "endDate": "2036-07-31T06:21:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "4003663",
@@ -4750,7 +3781,7 @@
       "endDate": "2036-07-31T08:32:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.416Z"
     },
     {
       "id": "3671746",
@@ -4767,7 +3798,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3671718",
@@ -4784,7 +3815,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3671702",
@@ -4801,7 +3832,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3671680",
@@ -4818,7 +3849,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3924309",
@@ -4835,7 +3866,7 @@
       "endDate": "2040-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3825075",
@@ -4852,7 +3883,7 @@
       "endDate": "2050-04-29T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3825069",
@@ -4869,7 +3900,7 @@
       "endDate": "2050-04-29T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3825027",
@@ -4886,7 +3917,7 @@
       "endDate": "2050-04-30T10:44:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3825039",
@@ -4903,7 +3934,7 @@
       "endDate": "2050-04-30T10:46:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3825055",
@@ -4920,7 +3951,7 @@
       "endDate": "2050-04-30T10:47:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3825059",
@@ -4937,7 +3968,7 @@
       "endDate": "2050-04-30T10:52:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3825063",
@@ -4954,7 +3985,7 @@
       "endDate": "2050-04-30T10:53:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.896Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     },
     {
       "id": "3825077",
@@ -4971,7 +4002,7 @@
       "endDate": "2050-04-30T10:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-07-31T03:36:12.294Z"
+      "fetchedAt": "2026-07-31T09:11:16.417Z"
     }
   ]
 }
