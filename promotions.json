@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-03T04:02:43.187Z",
+  "fetchedAt": "2026-09-03T11:01:22.747Z",
   "publisherId": "2851329",
   "regions": [
     "DE",
     "AT"
   ],
-  "total": 248,
-  "totalActive": 248,
+  "total": 288,
+  "totalActive": 288,
   "totalExpired": 0,
   "promotions": [
     {
@@ -24,7 +24,7 @@
       "endDate": "2026-09-03T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4083767",
@@ -41,7 +41,7 @@
       "endDate": "2026-09-05T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3739944",
@@ -58,7 +58,7 @@
       "endDate": "2026-09-06T13:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "4089303",
@@ -75,7 +75,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082729",
@@ -92,7 +92,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082725",
@@ -109,7 +109,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082723",
@@ -126,7 +126,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082721",
@@ -143,7 +143,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082713",
@@ -160,7 +160,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082707",
@@ -177,7 +177,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082697",
@@ -194,7 +194,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082687",
@@ -211,7 +211,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082683",
@@ -228,7 +228,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082681",
@@ -245,7 +245,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082677",
@@ -262,7 +262,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082663",
@@ -279,7 +279,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082641",
@@ -296,7 +296,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082639",
@@ -313,7 +313,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082635",
@@ -330,7 +330,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4073851",
@@ -347,7 +347,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4073493",
@@ -364,7 +364,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4060029",
@@ -381,7 +381,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4082231",
@@ -398,7 +398,7 @@
       "endDate": "2026-09-07T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4061467",
@@ -415,7 +415,7 @@
       "endDate": "2026-09-07T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4089321",
@@ -432,7 +432,7 @@
       "endDate": "2026-09-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4089305",
@@ -449,7 +449,7 @@
       "endDate": "2026-09-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4074179",
@@ -466,7 +466,7 @@
       "endDate": "2026-09-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4042829",
@@ -483,7 +483,7 @@
       "endDate": "2026-09-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4032413",
@@ -500,7 +500,7 @@
       "endDate": "2026-09-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4094459",
@@ -517,7 +517,7 @@
       "endDate": "2026-09-08T03:19:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.167Z"
     },
     {
       "id": "4089951",
@@ -534,7 +534,7 @@
       "endDate": "2026-09-08T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4089101",
@@ -551,7 +551,7 @@
       "endDate": "2026-09-08T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092393",
@@ -568,7 +568,7 @@
       "endDate": "2026-09-08T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4094435",
@@ -585,7 +585,7 @@
       "endDate": "2026-09-09T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.167Z"
     },
     {
       "id": "4025243",
@@ -602,7 +602,7 @@
       "endDate": "2026-09-10T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092401",
@@ -619,7 +619,7 @@
       "endDate": "2026-09-10T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4064489",
@@ -636,7 +636,7 @@
       "endDate": "2026-09-10T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092413",
@@ -653,7 +653,7 @@
       "endDate": "2026-09-11T06:58:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092423",
@@ -670,7 +670,7 @@
       "endDate": "2026-09-11T07:04:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092657",
@@ -687,7 +687,7 @@
       "endDate": "2026-09-14T08:33:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4090031",
@@ -704,7 +704,7 @@
       "endDate": "2026-09-14T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4049187",
@@ -721,7 +721,7 @@
       "endDate": "2026-09-15T07:23:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4049183",
@@ -738,7 +738,7 @@
       "endDate": "2026-09-15T07:23:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4049193",
@@ -755,7 +755,7 @@
       "endDate": "2026-09-15T07:24:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4049189",
@@ -772,7 +772,7 @@
       "endDate": "2026-09-15T07:24:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4049219",
@@ -789,7 +789,7 @@
       "endDate": "2026-09-15T07:35:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4049221",
@@ -806,7 +806,7 @@
       "endDate": "2026-09-15T07:36:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4064719",
@@ -823,7 +823,7 @@
       "endDate": "2026-09-15T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3789920",
@@ -840,7 +840,7 @@
       "endDate": "2026-09-17T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3984683",
@@ -857,7 +857,7 @@
       "endDate": "2026-09-17T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3789910",
@@ -874,7 +874,7 @@
       "endDate": "2026-09-18T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "4077759",
@@ -891,7 +891,7 @@
       "endDate": "2026-09-20T03:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4071651",
@@ -908,7 +908,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4080383",
@@ -925,7 +925,7 @@
       "endDate": "2026-09-20T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4054059",
@@ -942,7 +942,7 @@
       "endDate": "2026-09-24T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3993719",
@@ -959,7 +959,7 @@
       "endDate": "2026-09-24T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3917945",
@@ -976,7 +976,7 @@
       "endDate": "2026-09-24T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "4079985",
@@ -993,7 +993,7 @@
       "endDate": "2026-09-30T00:35:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4077637",
@@ -1010,7 +1010,7 @@
       "endDate": "2026-09-30T02:36:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4077639",
@@ -1027,7 +1027,7 @@
       "endDate": "2026-09-30T02:37:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4033727",
@@ -1044,7 +1044,7 @@
       "endDate": "2026-09-30T03:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3983217",
@@ -1061,7 +1061,7 @@
       "endDate": "2026-09-30T04:04:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4088559",
@@ -1078,7 +1078,7 @@
       "endDate": "2026-09-30T06:20:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4064285",
@@ -1095,7 +1095,7 @@
       "endDate": "2026-09-30T06:46:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4088667",
@@ -1112,7 +1112,7 @@
       "endDate": "2026-09-30T07:07:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4059941",
@@ -1129,7 +1129,7 @@
       "endDate": "2026-09-30T09:36:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3825089",
@@ -1146,7 +1146,7 @@
       "endDate": "2026-09-30T10:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "4086243",
@@ -1163,7 +1163,7 @@
       "endDate": "2026-09-30T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4086229",
@@ -1180,7 +1180,7 @@
       "endDate": "2026-09-30T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4086207",
@@ -1197,7 +1197,7 @@
       "endDate": "2026-09-30T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4091761",
@@ -1214,7 +1214,7 @@
       "endDate": "2026-09-30T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4088989",
@@ -1231,7 +1231,7 @@
       "endDate": "2026-09-30T16:05:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4088983",
@@ -1248,7 +1248,7 @@
       "endDate": "2026-09-30T16:05:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4093329",
@@ -1265,7 +1265,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.167Z"
     },
     {
       "id": "4093327",
@@ -1282,7 +1282,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.167Z"
     },
     {
       "id": "4093323",
@@ -1299,7 +1299,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.167Z"
     },
     {
       "id": "4093321",
@@ -1316,7 +1316,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.167Z"
     },
     {
       "id": "4093319",
@@ -1333,7 +1333,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.167Z"
     },
     {
       "id": "4093317",
@@ -1350,7 +1350,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.167Z"
     },
     {
       "id": "4093313",
@@ -1367,7 +1367,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.167Z"
     },
     {
       "id": "4093311",
@@ -1384,7 +1384,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.167Z"
     },
     {
       "id": "4093307",
@@ -1401,7 +1401,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4093305",
@@ -1418,7 +1418,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092543",
@@ -1435,7 +1435,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092529",
@@ -1452,7 +1452,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092483",
@@ -1469,7 +1469,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092475",
@@ -1486,7 +1486,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092465",
@@ -1503,7 +1503,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092457",
@@ -1520,7 +1520,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092451",
@@ -1537,7 +1537,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4092445",
@@ -1554,7 +1554,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.483Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4091435",
@@ -1571,7 +1571,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4091377",
@@ -1588,7 +1588,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4080657",
@@ -1605,7 +1605,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4073805",
@@ -1622,7 +1622,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4073791",
@@ -1639,7 +1639,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4064813",
@@ -1656,7 +1656,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4064803",
@@ -1673,7 +1673,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4060091",
@@ -1690,7 +1690,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4049671",
@@ -1707,7 +1707,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4032467",
@@ -1724,7 +1724,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4031749",
@@ -1741,7 +1741,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3981289",
@@ -1758,7 +1758,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3981147",
@@ -1775,7 +1775,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3981145",
@@ -1792,7 +1792,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3980719",
@@ -1809,7 +1809,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3976031",
@@ -1826,7 +1826,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3976023",
@@ -1843,7 +1843,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3960997",
@@ -1860,7 +1860,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "4080783",
@@ -1877,7 +1877,7 @@
       "endDate": "2026-09-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4080781",
@@ -1894,7 +1894,7 @@
       "endDate": "2026-09-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4073427",
@@ -1911,7 +1911,7 @@
       "endDate": "2026-09-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4039303",
@@ -1928,7 +1928,7 @@
       "endDate": "2026-09-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4061511",
@@ -1945,7 +1945,7 @@
       "endDate": "2026-10-01T04:12:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4061493",
@@ -1962,7 +1962,7 @@
       "endDate": "2026-10-01T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3986179",
@@ -1979,7 +1979,7 @@
       "endDate": "2026-10-03T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3475466",
@@ -1996,7 +1996,7 @@
       "endDate": "2026-10-07T07:01:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "4091243",
@@ -2013,7 +2013,7 @@
       "endDate": "2026-10-11T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4091475",
@@ -2030,7 +2030,7 @@
       "endDate": "2026-10-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4090091",
@@ -2047,7 +2047,7 @@
       "endDate": "2026-10-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4075371",
@@ -2064,7 +2064,7 @@
       "endDate": "2026-10-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3846535",
@@ -2081,7 +2081,7 @@
       "endDate": "2026-11-21T02:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3570548",
@@ -2098,7 +2098,7 @@
       "endDate": "2026-11-30T14:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3945403",
@@ -2115,7 +2115,7 @@
       "endDate": "2026-12-31T02:19:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3944495",
@@ -2132,15 +2132,15 @@
       "endDate": "2026-12-31T08:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3655932",
       "advertiserId": 67914,
       "advertiser": "ALLPOWERS DE",
       "type": "voucher",
-      "title": "8 % Rabatt auf alle Bestellungen",
-      "description": "8 % Rabatt auf alle Bestellungen",
+      "title": "10% Rabatt auf alle Bestellungen",
+      "description": "10 % Rabatt auf alle Bestellungen",
       "terms": "DE",
       "code": "AF2026",
       "categories": "Sonstiges",
@@ -2149,7 +2149,7 @@
       "endDate": "2026-12-31T08:41:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "4059803",
@@ -2166,24 +2166,7 @@
       "endDate": "2026-12-31T08:46:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
-    },
-    {
-      "id": "4042181",
-      "advertiserId": 25546,
-      "advertiser": "Stylevana DE",
-      "type": "voucher",
-      "title": "New Customer Offer!",
-      "description": "New Customer Offer: 20% off with no MOV",
-      "terms": "This offer cannot be combined with other promotions.",
-      "code": "AFFWELCOME",
-      "categories": "Kosmetik",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
-      "startDate": "2026-08-04T09:13:00+00:00",
-      "endDate": "2026-12-31T09:12:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3658732",
@@ -2200,7 +2183,7 @@
       "endDate": "2026-12-31T09:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3850669",
@@ -2217,7 +2200,7 @@
       "endDate": "2026-12-31T10:04:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3898367",
@@ -2234,7 +2217,7 @@
       "endDate": "2026-12-31T10:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "4034751",
@@ -2251,7 +2234,7 @@
       "endDate": "2026-12-31T12:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3707940",
@@ -2268,7 +2251,7 @@
       "endDate": "2026-12-31T13:31:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "4086193",
@@ -2285,7 +2268,24 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "3729270",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "voucher",
+      "title": "Zusätzliche 10 % Rabatt auf E-Scooter der E9-Serie",
+      "description": "Zusätzliche 10 % Rabatt auf E-Scooter der E9-Serie",
+      "terms": "NONE",
+      "code": "10%E9Series",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fcollections%2Fe-scooter",
+      "startDate": "2026-02-11T06:51:00+00:00",
+      "endDate": "2026-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3656608",
@@ -2302,7 +2302,75 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "2990042",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "E9 Klassisch E-Scooter Mit Straßenzulassung (ABE eKFV)",
+      "description": "218,00 € erhalten Sie einen E9 Klassisch E-Scooter Mit Straßenzulassung (ABE eKFV)",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=e9pro+e-scooter&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fe-scooter-mit-strassenzulassung",
+      "startDate": "2024-12-20T09:17:00+00:00",
+      "endDate": "2026-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "2990020",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "Elektroroller-Kollektion",
+      "description": "Wählen Sie aus der E-Scooter-Kollektion schon ab 218,00 € Mit Straßenzulassung (ABE eKFV)",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=elektroroller-kollektion&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fcollections%2Fe-scooter",
+      "startDate": "2024-12-20T09:11:00+00:00",
+      "endDate": "2026-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "2990016",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "Hoverboard-Kollektion",
+      "description": "Wählen Sie aus der Hoverboard-Kollektion schon ab 98,99 €",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=hoverboard-kollektion&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fcollections%2Fhoverboards",
+      "startDate": "2024-12-20T09:10:00+00:00",
+      "endDate": "2026-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "2990008",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "iHoverboard DE Homepage",
+      "description": "iHoverboard ist ein spezialisierter Einzelhändler für Elektrofahrzeuge. Wir bieten lustige Hoverboards, leichte Elektroroller und leistungsstarke Elektrofahrräder für jedes Gelände und jeden Pendlertyp, sodass Ihr täglicher Arbeitsweg, Ihre Freizeitaktivitäten oder aufregenden Outdoor-Abenteuer unterhaltsam, erschwinglich und umweltfreundlich sind.",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sport & Haushalt",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=Homepage&ued=https%3A%2F%2Fwww.ihoverboard.de%2F",
+      "startDate": "2024-12-20T09:09:00+00:00",
+      "endDate": "2026-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3916399",
@@ -2319,7 +2387,7 @@
       "endDate": "2026-12-31T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3972859",
@@ -2336,7 +2404,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3972829",
@@ -2353,7 +2421,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3972815",
@@ -2370,7 +2438,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3915235",
@@ -2387,7 +2455,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "4054755",
@@ -2404,7 +2472,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4025467",
@@ -2421,7 +2489,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4025465",
@@ -2438,7 +2506,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4003717",
@@ -2455,7 +2523,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3980725",
@@ -2472,7 +2540,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3700488",
@@ -2489,7 +2557,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3658416",
@@ -2506,7 +2574,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3658412",
@@ -2523,7 +2591,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3479662",
@@ -2540,7 +2608,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3264915",
@@ -2557,7 +2625,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3211033",
@@ -2574,7 +2642,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3165261",
@@ -2591,7 +2659,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2996198",
@@ -2608,7 +2676,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644398",
@@ -2625,7 +2693,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644370",
@@ -2642,7 +2710,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644364",
@@ -2659,7 +2727,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644296",
@@ -2676,7 +2744,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644292",
@@ -2693,7 +2761,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644288",
@@ -2710,7 +2778,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644286",
@@ -2727,7 +2795,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644276",
@@ -2744,7 +2812,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644274",
@@ -2761,7 +2829,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644266",
@@ -2778,7 +2846,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644262",
@@ -2795,7 +2863,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644260",
@@ -2812,7 +2880,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644256",
@@ -2829,7 +2897,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2644254",
@@ -2846,7 +2914,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.602Z"
     },
     {
       "id": "2644244",
@@ -2863,7 +2931,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.602Z"
     },
     {
       "id": "2637660",
@@ -2880,7 +2948,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.602Z"
     },
     {
       "id": "2035636",
@@ -2897,7 +2965,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.602Z"
     },
     {
       "id": "4078543",
@@ -2914,7 +2982,7 @@
       "endDate": "2026-12-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3791298",
@@ -2931,7 +2999,24 @@
       "endDate": "2027-01-01T15:07:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
+    },
+    {
+      "id": "4042181",
+      "advertiserId": 25546,
+      "advertiser": "Stylevana DE",
+      "type": "voucher",
+      "title": "New Customer Offer!",
+      "description": "New Customer Offer: 20% off with no MOV",
+      "terms": "This offer cannot be combined with other promotions.",
+      "code": "AFFWELCOME",
+      "categories": "Kosmetik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=25546&awinaffid=2851329&ued=https%3A%2F%2Fwww.stylevana.com%2Fde_DE%2F",
+      "startDate": "2026-08-04T09:13:00+00:00",
+      "endDate": "2027-01-01T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3988367",
@@ -2948,7 +3033,7 @@
       "endDate": "2027-01-01T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3793678",
@@ -2965,7 +3050,7 @@
       "endDate": "2027-01-15T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3805412",
@@ -2982,7 +3067,24 @@
       "endDate": "2027-01-27T01:34:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
+    },
+    {
+      "id": "3892327",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "voucher",
+      "title": "Zusätzlicher 10% Rabatt auf H1 Hoverboard",
+      "description": "Zusätzlicher 10% Rabatt auf H1 Hoverboard mit dem Code \"10%H1Q4\"",
+      "terms": "NONE",
+      "code": "10%H1Q4",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=h1+hoverboard&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fh1-smart-balance-6-5-zoll-hoverboard-fur-erwachsene-700w",
+      "startDate": "2026-05-15T02:47:00+00:00",
+      "endDate": "2027-01-31T02:43:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "4069461",
@@ -2999,7 +3101,7 @@
       "endDate": "2027-01-31T09:48:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4069483",
@@ -3016,7 +3118,41 @@
       "endDate": "2027-01-31T09:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "3685424",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "voucher",
+      "title": "Zusätzliche 5 % Rabatt auf das gesamte Sortiment",
+      "description": "Zusätzliche 5 % Rabatt auf das gesamte Sortiment",
+      "terms": "None",
+      "code": "IHB5%",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=Sitewide&ued=https%3A%2F%2Fwww.ihoverboard.de%2F",
+      "startDate": "2026-01-20T07:08:00+00:00",
+      "endDate": "2027-01-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "3685422",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "voucher",
+      "title": "Zusätzliche 20 € Rabatt bei einem Bestellwert von 300 € oder mehr",
+      "description": "Zusätzliche 20 € Rabatt bei einem Bestellwert von 300 € oder mehr",
+      "terms": "None",
+      "code": "IHB20",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=Sitewide&ued=https%3A%2F%2Fwww.ihoverboard.de%2F",
+      "startDate": "2026-01-20T07:07:00+00:00",
+      "endDate": "2027-01-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3631106",
@@ -3033,7 +3169,7 @@
       "endDate": "2027-01-31T20:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "4089025",
@@ -3050,7 +3186,7 @@
       "endDate": "2027-01-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4089017",
@@ -3067,7 +3203,7 @@
       "endDate": "2027-01-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4089009",
@@ -3084,7 +3220,7 @@
       "endDate": "2027-01-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4089001",
@@ -3101,7 +3237,7 @@
       "endDate": "2027-01-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3721454",
@@ -3118,7 +3254,41 @@
       "endDate": "2027-02-06T14:37:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "3763318",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "voucher",
+      "title": "Extra 8 % Rabatt beim Kauf eines T4- oder T8-E-Scooters.",
+      "description": "Extra 8 % Rabatt beim Kauf eines T4- oder T8-E-Scooters.",
+      "terms": "NONE",
+      "code": "8%Tseries",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fcollections%2Fe-scooter",
+      "startDate": "2026-03-03T07:33:00+00:00",
+      "endDate": "2027-03-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
+    },
+    {
+      "id": "4027755",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "EB3 E‑Mountainbike — Moderne Wahl 598,99 €",
+      "description": "Stilvolles E‑Mountainbike, das Komfort, Leistung und Lifestyle vereint.",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Mode",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=eb3+e-mountainbike&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Feb3-e-bike",
+      "startDate": "2026-07-27T22:00:00+00:00",
+      "endDate": "2027-03-31T21:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4064519",
@@ -3135,7 +3305,7 @@
       "endDate": "2027-03-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3165345",
@@ -3152,7 +3322,7 @@
       "endDate": "2027-04-26T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3810826",
@@ -3169,7 +3339,7 @@
       "endDate": "2027-04-28T08:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3951237",
@@ -3186,7 +3356,7 @@
       "endDate": "2027-04-30T13:52:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3850651",
@@ -3203,7 +3373,7 @@
       "endDate": "2027-06-13T08:52:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3996385",
@@ -3220,7 +3390,7 @@
       "endDate": "2027-07-09T03:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3824397",
@@ -3237,7 +3407,7 @@
       "endDate": "2027-08-08T00:08:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "4039229",
@@ -3254,7 +3424,7 @@
       "endDate": "2027-08-31T07:23:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4039241",
@@ -3271,7 +3441,58 @@
       "endDate": "2027-08-31T07:27:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "4059701",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "EB3S E‑Mountainbike — Outdoor bereit 598,99 €",
+      "description": "Kompaktes Mountainbike‑Design, ideal für Stadtstraßen und Landwege.",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sport & Haushalt",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=eb3s+electric+mountain+bike&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Feb3-e-bike%3Fvariant%3D57210690142473",
+      "startDate": "2026-08-12T22:00:00+00:00",
+      "endDate": "2027-11-30T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "3423681",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "E-Bike-Kollektion",
+      "description": "Sichern Sie sich Ihr E-Bike schon ab 388,00 €!",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=e-bike-kollektion&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fcollections%2Fe-bike",
+      "startDate": "2025-09-08T01:02:00+00:00",
+      "endDate": "2027-12-01T00:51:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "3147005",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "E9TMax 500W 10\" E-Scooter Mit Straßenzulassung (ABE,eKFV)",
+      "description": "298,00 € für E9TMax 500W 10\" E-Scooter Mit Straßenzulassung (ABE,eKFV)",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=e9tmax+e-scooter&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fe9max-e-scooter-mit-strassenzulassung",
+      "startDate": "2025-04-25T06:51:00+00:00",
+      "endDate": "2027-12-31T06:48:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3924221",
@@ -3288,7 +3509,7 @@
       "endDate": "2027-12-31T08:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3924231",
@@ -3305,7 +3526,228 @@
       "endDate": "2027-12-31T09:03:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
+    },
+    {
+      "id": "3951999",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "H2 Hoverboard",
+      "description": "Jetzt das H2 Bluetooth Hoverboard für 118,99 € kaufen",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=h2+hoverboard&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fihoverboard-h2-blaues-bluetooth-hoverboard%3Fvariant%3D44322838053129",
+      "startDate": "2026-06-15T09:20:00+00:00",
+      "endDate": "2027-12-31T09:15:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
+    },
+    {
+      "id": "3952047",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "H8 Hoverboard",
+      "description": "178,99 €, um das H8 Offroad Bluetooth Hoverboard zu erhalten",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=h8+hoverboard&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fihoverboard-h8-led-schwarz-hoverboard-gelande-8-5",
+      "startDate": "2026-06-15T09:31:00+00:00",
+      "endDate": "2027-12-31T09:27:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
+    },
+    {
+      "id": "3952067",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "H8 Max Hoverboard",
+      "description": "Hol dir das H8Max Hoverboard für nur 188,99 €",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=h8+max+hoverboard&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fihoverboard-h8-led-schwarz-hoverboard-gelande-8-5%3Fvariant%3D44322845753609",
+      "startDate": "2026-06-15T09:41:00+00:00",
+      "endDate": "2027-12-31T09:38:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
+    },
+    {
+      "id": "3952071",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "K3 Hoverboard Sitz",
+      "description": "79,99 €, um den K3 Hoverboard-Sitz zu erhalten",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=k3+hoverboard+sitz&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fihoverboard-k3-hoverboard-go-kart",
+      "startDate": "2026-06-15T09:48:00+00:00",
+      "endDate": "2027-12-31T09:44:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
+    },
+    {
+      "id": "4031767",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "K6 Kinder E‑Scooter — Smarte Technik 168,99 €",
+      "description": "LED‑Lichter und modernes Design machen jede Fahrt spannend und sicher.",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=k6+kinder+e-scooter&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2F3-rad-kinder-escooter%3Fvariant%3D56912220750089",
+      "startDate": "2026-07-29T08:56:00+00:00",
+      "endDate": "2027-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "4025799",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "U1 City Faltbares E-Bike - 388,00 €",
+      "description": "U1 City Faltbares E-Bike 350W für Erwachsene",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=u1+e-bike&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fu1-ebike",
+      "startDate": "2026-07-27T09:38:00+00:00",
+      "endDate": "2027-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "3767972",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "iK3Pro E-Scooter",
+      "description": "118,99 € für den iScooter iK3Pro Kinder E-Scooter mit LED-Lichteffekten",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=ik3pro+kinder+e-scooter&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2F3-rad-kinder-escooter%3Fvariant%3D48087676715273",
+      "startDate": "2026-03-05T00:00:00+00:00",
+      "endDate": "2027-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
+    },
+    {
+      "id": "3767970",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "iK1S E-Scooter",
+      "description": "98,99 € für den iK1S Kinder E-Scooter mit bunten Lichtern",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Spielzeug",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=ik1s+kinder+e-scooter&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2F3-rad-kinder-escooter",
+      "startDate": "2026-03-05T00:00:00+00:00",
+      "endDate": "2027-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
+    },
+    {
+      "id": "3637096",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "voucher",
+      "title": "Zusätzliche 20 € Rabatt auf den E9 Scooter",
+      "description": "Zusätzliche 20 € Rabatt auf den E9 Scooter",
+      "terms": "NONE",
+      "code": "E9scooter",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fcollections%2Fe-scooter",
+      "startDate": "2025-12-17T06:09:00+00:00",
+      "endDate": "2027-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "3232883",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "voucher",
+      "title": "Zusätzlicher 10% Rabatt auf H8 Hoverboard",
+      "description": "Zusätzlicher 10% Rabatt auf H8 Hoverboard mit dem Code \"10%H8Q4\"",
+      "terms": "NONE",
+      "code": "10%H8Q4",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=H8+Hoverboard&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fihoverboard-h8-led-schwarz-hoverboard-gelande-8-5",
+      "startDate": "2025-06-16T09:05:00+00:00",
+      "endDate": "2027-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "3232865",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "voucher",
+      "title": "Zusätzlicher 10% Rabatt auf H2 Hoverboard",
+      "description": "Zusätzlicher 10% Rabatt auf H2 Hoverboard mit dem Code 10%H2Q4",
+      "terms": "NONE",
+      "code": "10%H2Q4",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=H2+Hoverboard&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fihoverboard-h2-hoverboard",
+      "startDate": "2025-06-16T08:45:00+00:00",
+      "endDate": "2027-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "3094872",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "T8 Offroad E-Scooter Mit Straßenzulassung (ABE/eKFV)",
+      "description": "Sparen Sie bis zu 260 € auf T8 Offroad E-Scooter Mit Straßenzulassung (ABE/eKFV)",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=t8+e-scooter&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Ft8-offroad-e-scooter",
+      "startDate": "2025-03-17T01:27:00+00:00",
+      "endDate": "2027-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "3094870",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "1000W T4 Off-Road E-Scooter mit Straßenzulassung (ABE/eKFV)",
+      "description": "1000W T4 Off-Road E-Scooter mit Straßenzulassung (ABE/eKFV) für 498,00 €",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=t4+e-scooter&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Ft4-e-scooter",
+      "startDate": "2025-03-17T01:24:00+00:00",
+      "endDate": "2027-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2965522",
@@ -3322,7 +3764,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2965458",
@@ -3339,7 +3781,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2622852",
@@ -3356,7 +3798,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.602Z"
     },
     {
       "id": "2622850",
@@ -3373,7 +3815,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.602Z"
     },
     {
       "id": "2622848",
@@ -3390,7 +3832,109 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.602Z"
+    },
+    {
+      "id": "4027737",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "UcityS Urban E‑Bike — Moderne Wahl 668,99 €",
+      "description": "Stilvolles Urban‑E‑Bike, das Komfort, Leistung und Lifestyle vereint.",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Mode",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=ucitys+urban+e-bike&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fucitys-e-bike",
+      "startDate": "2026-07-27T22:00:00+00:00",
+      "endDate": "2027-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "4027713",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "U4 Folding E‑Bike — Smart Choice 528,99 €",
+      "description": "Preisgünstige Lösung mit faltbarem Design und zuverlässiger Leistung.",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=u4+e-bike&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fu4-e-bike",
+      "startDate": "2026-07-27T22:00:00+00:00",
+      "endDate": "2027-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "4025815",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "EB1S Klappbares City E-Bike - 398,99 €",
+      "description": "EB1S Klappbares City E-Bike mit App Steuerung",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=eb1s+klappbares+city+e-bike&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Feb1s-e-bike",
+      "startDate": "2026-07-26T22:00:00+00:00",
+      "endDate": "2027-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "4025783",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "EB5Max Retro E‑Bike — Smarte Technik 828,99 €",
+      "description": "Moderne Elektronik im klassischen Rahmen für ein vernetztes Fahrerlebnis.",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=eb5max+e-bike&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Feb5max-e-bike",
+      "startDate": "2026-07-26T22:00:00+00:00",
+      "endDate": "2027-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "3848267",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "iHoverboard H1 Bluetooth LED Hoverboard 6,5\" Mehrere Farboptionen",
+      "description": "98,99 € für den iHoverboard H1 Bluetooth LED Hoverboard 6,5\" Mehrere Farboptionen",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=h1+hoverboard&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fh1-smart-balance-6-5-zoll-hoverboard-fur-erwachsene-700w",
+      "startDate": "2026-04-21T22:00:00+00:00",
+      "endDate": "2027-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
+    },
+    {
+      "id": "3813040",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "Kinder-E-Scooter-Kollektion",
+      "description": "Schon ab 98,99 € für die Kinder-E-Scooter-Kollektion",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Spielzeug",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=kinder-e-scooter-kollektion&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2F3-rad-kinder-escooter",
+      "startDate": "2026-03-31T22:00:00+00:00",
+      "endDate": "2027-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "4064515",
@@ -3407,7 +3951,24 @@
       "endDate": "2027-12-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "3980307",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "iX7Pro Offroad E Scooter mit Straßenzulassung Dual Motor 80 km Reichweite",
+      "description": "859,00 € für den iX7Pro Offroad E Scooter mit Straßenzulassung",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=ix7pro+offroad+e+scooter&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fix7pro-e-scooter",
+      "startDate": "2026-07-01T04:59:00+00:00",
+      "endDate": "2028-01-01T04:57:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "4003951",
@@ -3424,7 +3985,7 @@
       "endDate": "2028-03-14T10:08:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3957769",
@@ -3441,7 +4002,7 @@
       "endDate": "2028-08-11T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3247237",
@@ -3458,7 +4019,7 @@
       "endDate": "2029-01-24T02:47:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3499326",
@@ -3475,7 +4036,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2859063",
@@ -3492,7 +4053,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2833565",
@@ -3509,7 +4070,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2829273",
@@ -3526,7 +4087,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2791507",
@@ -3543,7 +4104,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "2525973",
@@ -3560,7 +4121,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.602Z"
     },
     {
       "id": "3384925",
@@ -3577,7 +4138,7 @@
       "endDate": "2030-01-01T11:25:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3384979",
@@ -3594,7 +4155,7 @@
       "endDate": "2030-01-01T11:37:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3607264",
@@ -3611,7 +4172,7 @@
       "endDate": "2030-03-02T12:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3775648",
@@ -3628,7 +4189,7 @@
       "endDate": "2030-03-31T11:40:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3607252",
@@ -3645,7 +4206,7 @@
       "endDate": "2030-04-02T12:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "1688949",
@@ -3662,7 +4223,7 @@
       "endDate": "2030-04-08T15:35:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.602Z"
     },
     {
       "id": "3775640",
@@ -3679,7 +4240,7 @@
       "endDate": "2030-05-31T11:32:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3384985",
@@ -3696,7 +4257,7 @@
       "endDate": "2030-08-01T11:43:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3607298",
@@ -3713,7 +4274,7 @@
       "endDate": "2030-08-02T13:14:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3463347",
@@ -3730,7 +4291,7 @@
       "endDate": "2030-09-01T07:31:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3463341",
@@ -3747,7 +4308,7 @@
       "endDate": "2030-10-01T07:29:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3489028",
@@ -3764,7 +4325,7 @@
       "endDate": "2030-11-01T10:26:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "1542119",
@@ -3781,7 +4342,7 @@
       "endDate": "2030-12-14T10:05:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.602Z"
     },
     {
       "id": "3607336",
@@ -3798,7 +4359,7 @@
       "endDate": "2030-12-30T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3607304",
@@ -3815,7 +4376,7 @@
       "endDate": "2030-12-31T13:16:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3607306",
@@ -3832,7 +4393,7 @@
       "endDate": "2030-12-31T13:18:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3607312",
@@ -3849,7 +4410,7 @@
       "endDate": "2030-12-31T13:20:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3607316",
@@ -3866,7 +4427,7 @@
       "endDate": "2030-12-31T13:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3607322",
@@ -3883,7 +4444,75 @@
       "endDate": "2030-12-31T13:25:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "4089843",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "DAS GROSSE HERBST-SALE — BIS ZU 65 % RABATT!",
+      "description": "Deine Lieblingsmodelle sind jetzt mit bis zu 65 % Rabatt erhältlich!  Profitiere von unglaublichen Herbstangeboten und finde das perfekte Fahrzeug für dein nächstes Abenteuer. Shoppe jetzt und sichere dir deinen Favoriten, bevor der Sale endet!",
+      "terms": "None",
+      "code": "",
+      "categories": "Mode",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=herbst-sale&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fpages%2Fsales",
+      "startDate": "2026-08-31T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "4083943",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "A12 — Bereit für jedes Abenteuer",
+      "description": "Entwickelt für spannende Offroad-Abenteuer mit Vollfederung und starker Leistung. Motorleistung: 350 W | Maximale Reichweite: 16–20 km | Batteriekapazität: 162 Wh (36 V 4,5 Ah)",
+      "terms": "n/a",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=a12+kids+electric+bike&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fa12-kinder-elektro-dirt-bike-350w-mit-vollfederung",
+      "startDate": "2026-08-26T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "4083893",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "iK7 — 2-en-1 pour Plus de Liberté",
+      "description": "Un scooter 2-en-1 pratique avec siège et panier amovibles, idéal pour les enfants. 3 vitesses : 10/15/20 km/h | Autonomie : 11–15 km | Hauteur réglable : 84/93/102 cm | 3 modes d’éclairage",
+      "terms": "none",
+      "code": "",
+      "categories": "Mode",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=ik7+kids+electric+scooter&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fik7-kinder-e-scooter",
+      "startDate": "2026-08-26T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "4083855",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "iK3Max — Des aventures en toute sécurité",
+      "description": "Un scooter électrique amusant et pratique pour les enfants, avec 3 vitesses et contrôle via application. Puissance du moteur : [à confirmer] | Autonomie maximale : 9–13 km | Capacité de la batterie : [à confirmer]",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=ik3max+kids+electric+scooter&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fik3max-kinder-e-scooter",
+      "startDate": "2026-08-26T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3752382",
@@ -3900,7 +4529,58 @@
       "endDate": "2030-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
+    },
+    {
+      "id": "4089857",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "voucher",
+      "title": "8% off sitewide",
+      "description": "Zusätzlich 8% Rabatt auf das gesamte Sortiment – gültig bis zum 30. December 2030",
+      "terms": "NONE",
+      "code": "IHB8%",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=coupon+code&ued=https%3A%2F%2Fwww.ihoverboard.de%2F",
+      "startDate": "2026-09-01T03:50:00+00:00",
+      "endDate": "2030-12-31T23:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
+    },
+    {
+      "id": "3591342",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "JT31 Kompaktes Laufband",
+      "description": "108,00 € für das JT31 Kompaktes Laufband mit Steigfunktion",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=JT31+Treadmill&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fjt31-walking-pad",
+      "startDate": "2025-11-26T08:36:00+00:00",
+      "endDate": "2031-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
+    },
+    {
+      "id": "3591326",
+      "advertiserId": 110026,
+      "advertiser": "iHoverboard DE",
+      "type": "deal",
+      "title": "JT51 4-in-1 Faltbarer Walking Pad",
+      "description": "145,00 € für das JT51 4-in-1 Faltbarer Walking Pad",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=110026&awinaffid=2851329&campaign=JT51+Walking+Pad&ued=https%3A%2F%2Fwww.ihoverboard.de%2Fproducts%2Fjt51-walking-pad",
+      "startDate": "2025-11-26T08:33:00+00:00",
+      "endDate": "2031-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3582660",
@@ -3917,7 +4597,7 @@
       "endDate": "2035-11-30T16:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:43.173Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3693150",
@@ -3934,7 +4614,7 @@
       "endDate": "2036-01-23T12:20:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3693158",
@@ -3951,7 +4631,7 @@
       "endDate": "2036-01-23T12:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3693152",
@@ -3968,7 +4648,7 @@
       "endDate": "2036-01-23T12:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3772116",
@@ -3985,7 +4665,7 @@
       "endDate": "2036-04-07T10:19:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "4003663",
@@ -4002,7 +4682,7 @@
       "endDate": "2036-07-31T08:32:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.168Z"
     },
     {
       "id": "3671746",
@@ -4019,7 +4699,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3671718",
@@ -4036,7 +4716,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3671702",
@@ -4053,7 +4733,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3671680",
@@ -4070,7 +4750,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.601Z"
     },
     {
       "id": "3924309",
@@ -4087,7 +4767,7 @@
       "endDate": "2040-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3825075",
@@ -4104,7 +4784,7 @@
       "endDate": "2050-04-29T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3825069",
@@ -4121,7 +4801,7 @@
       "endDate": "2050-04-29T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3825027",
@@ -4138,7 +4818,7 @@
       "endDate": "2050-04-30T10:44:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3825039",
@@ -4155,7 +4835,7 @@
       "endDate": "2050-04-30T10:46:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3825055",
@@ -4172,7 +4852,7 @@
       "endDate": "2050-04-30T10:47:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3825059",
@@ -4189,7 +4869,7 @@
       "endDate": "2050-04-30T10:52:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3825063",
@@ -4206,7 +4886,7 @@
       "endDate": "2050-04-30T10:53:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     },
     {
       "id": "3825077",
@@ -4223,7 +4903,7 @@
       "endDate": "2050-04-30T10:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T04:02:42.484Z"
+      "fetchedAt": "2026-09-03T11:01:22.169Z"
     }
   ]
 }
