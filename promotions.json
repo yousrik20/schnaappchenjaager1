@@ -1,31 +1,14 @@
 {
-  "fetchedAt": "2026-09-03T20:52:19.840Z",
+  "fetchedAt": "2026-09-04T04:06:36.195Z",
   "publisherId": "2851329",
   "regions": [
     "DE",
     "AT"
   ],
-  "total": 291,
-  "totalActive": 291,
+  "total": 301,
+  "totalActive": 301,
   "totalExpired": 0,
   "promotions": [
-    {
-      "id": "4074193",
-      "advertiserId": 19810,
-      "advertiser": "SharkNinja DE",
-      "type": "deal",
-      "title": "Erhalte eine GRATIS Ninja Creami NC502EU beim Kauf einer Ninja Luxe Café Pro designt von David Beckham ES771EUBK dazu",
-      "description": "Kaufe eine Ninja Luxe Café Pro designt von David Beckham ES771EUBK und erhalte eine GRATIS  Ninja Creami NC502EU dazu",
-      "terms": "x",
-      "code": "",
-      "categories": "Sport & Haushalt",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=19810&awinaffid=2851329&ued=https%3A%2F%2Fwww.sharkninja.de%2Fninja-luxe-cafe-pro-designt-von-david-beckham%2FES771EUBK.html",
-      "startDate": "2026-08-20T12:45:00+00:00",
-      "endDate": "2026-09-03T21:59:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
-    },
     {
       "id": "4083767",
       "advertiserId": 25546,
@@ -41,7 +24,7 @@
       "endDate": "2026-09-05T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3739944",
@@ -58,7 +41,7 @@
       "endDate": "2026-09-06T13:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4089303",
@@ -75,7 +58,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082729",
@@ -92,7 +75,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082725",
@@ -109,7 +92,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082723",
@@ -126,7 +109,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082721",
@@ -143,7 +126,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082713",
@@ -160,7 +143,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082707",
@@ -177,7 +160,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082697",
@@ -194,7 +177,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082687",
@@ -211,7 +194,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082683",
@@ -228,7 +211,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082681",
@@ -245,7 +228,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082677",
@@ -262,7 +245,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082663",
@@ -279,7 +262,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082641",
@@ -296,7 +279,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082639",
@@ -313,7 +296,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082635",
@@ -330,7 +313,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4073493",
@@ -347,7 +330,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4060029",
@@ -364,7 +347,7 @@
       "endDate": "2026-09-06T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4082231",
@@ -381,7 +364,7 @@
       "endDate": "2026-09-07T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4061467",
@@ -398,7 +381,7 @@
       "endDate": "2026-09-07T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4089321",
@@ -415,7 +398,7 @@
       "endDate": "2026-09-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4089305",
@@ -432,7 +415,7 @@
       "endDate": "2026-09-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4074179",
@@ -449,7 +432,7 @@
       "endDate": "2026-09-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4073851",
@@ -466,7 +449,7 @@
       "endDate": "2026-09-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4042829",
@@ -483,7 +466,7 @@
       "endDate": "2026-09-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4032413",
@@ -500,7 +483,7 @@
       "endDate": "2026-09-07T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4094459",
@@ -517,7 +500,7 @@
       "endDate": "2026-09-08T03:19:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.322Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4089951",
@@ -534,7 +517,7 @@
       "endDate": "2026-09-08T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4089101",
@@ -551,7 +534,7 @@
       "endDate": "2026-09-08T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4092393",
@@ -568,7 +551,7 @@
       "endDate": "2026-09-08T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4094435",
@@ -585,7 +568,24 @@
       "endDate": "2026-09-09T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.322Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
+    },
+    {
+      "id": "4095399",
+      "advertiserId": 13812,
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "title": "15 % ohne MBW auf Kategorie ganzes Sortiment",
+      "description": "15 % ohne MBW Mindestbestellwert auf Artikel der Kategorie ganzes Sortiment",
+      "terms": "15 % Rabatt mit dem Code: W-WMK-15 unter www.netto-online.de. Nur online gültig bis 09.09.2026. Ausgenommen: Gutscheine, Bücher und Pre- & Anfangsmilchnahrung, die Kategorie Multimedia sowie einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Keine Anrechnung auf Versandkosten und Filial-Abholservices.",
+      "code": "W-WMK-15",
+      "categories": "Lebensmittel",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3D15%2BProzent%2Bauf%2BWMK%2Bim%2BJuli",
+      "startDate": "2026-09-03T22:00:00+00:00",
+      "endDate": "2026-09-09T21:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4025243",
@@ -602,7 +602,7 @@
       "endDate": "2026-09-10T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4092401",
@@ -619,7 +619,7 @@
       "endDate": "2026-09-10T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4064489",
@@ -636,7 +636,7 @@
       "endDate": "2026-09-10T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4092413",
@@ -653,7 +653,7 @@
       "endDate": "2026-09-11T06:58:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4092423",
@@ -670,7 +670,7 @@
       "endDate": "2026-09-11T07:04:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4095439",
@@ -687,7 +687,58 @@
       "endDate": "2026-09-13T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.321Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
+    },
+    {
+      "id": "4095395",
+      "advertiserId": 13812,
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "title": "50 € ohne MBW auf Kategorie ausgewählte Artikel",
+      "description": "50 € ohne MBW Mindestbestellwert auf Artikel der Kategorie ausgewählte Artikel",
+      "terms": "50 € Rabatt mit dem Code: W-SOL-50 unter www.netto-online.de. Nur online gültig bis 13.09.2026. Ausgenommen: Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, die Kategorie Multimedia sowie einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices.",
+      "code": "W-SOL-50",
+      "categories": "Lebensmittel",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3Dend%2Bof%2Bseason%2Bsolar",
+      "startDate": "2026-09-03T22:00:00+00:00",
+      "endDate": "2026-09-13T21:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
+    },
+    {
+      "id": "4095393",
+      "advertiserId": 13812,
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "title": "80 € ohne MBW auf Kategorie ausgewählte Artikel",
+      "description": "80 € ohne MBW Mindestbestellwert auf Artikel der Kategorie ausgewählte Artikel",
+      "terms": "80 € Rabatt mit dem Code: W-SOL-80 unter www.netto-online.de. Nur online gültig bis 13.09.2026. Ausgenommen: Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, die Kategorie Multimedia sowie einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices.",
+      "code": "W-SOL-80",
+      "categories": "Lebensmittel",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3Dend%2Bof%2Bseason%2Bsolar",
+      "startDate": "2026-09-03T22:00:00+00:00",
+      "endDate": "2026-09-13T21:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
+    },
+    {
+      "id": "4095383",
+      "advertiserId": 13812,
+      "advertiser": "Netto Marken-Discount DE",
+      "type": "voucher",
+      "title": "100 € ohne MBW auf Kategorie ausgewählte Artikel",
+      "description": "100 € ohne MBW Mindestbestellwert auf Artikel der Kategorie ausgewählte Artikel",
+      "terms": "100 € Rabatt mit dem Code: W-SOL-100 unter www.netto-online.de. Nur online gültig bis 13.09.2026. Ausgenommen: Gutscheine, Bücher, Pre- & Anfangsmilchnahrung, die Kategorie Multimedia sowie einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Keine Barauszahlung, keine Anrechnung auf Versandkosten und Filial-Abholservices.",
+      "code": "W-SOL-100",
+      "categories": "Lebensmittel",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3Dend%2Bof%2Bseason%2Bsolar",
+      "startDate": "2026-09-03T22:00:00+00:00",
+      "endDate": "2026-09-13T21:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4092657",
@@ -704,7 +755,7 @@
       "endDate": "2026-09-14T08:33:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4090031",
@@ -721,7 +772,7 @@
       "endDate": "2026-09-14T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4049187",
@@ -738,7 +789,7 @@
       "endDate": "2026-09-15T07:23:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4049183",
@@ -755,7 +806,7 @@
       "endDate": "2026-09-15T07:23:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4049193",
@@ -772,7 +823,7 @@
       "endDate": "2026-09-15T07:24:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4049189",
@@ -789,7 +840,7 @@
       "endDate": "2026-09-15T07:24:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4049219",
@@ -806,7 +857,7 @@
       "endDate": "2026-09-15T07:35:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4049221",
@@ -823,7 +874,7 @@
       "endDate": "2026-09-15T07:36:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4095279",
@@ -840,7 +891,7 @@
       "endDate": "2026-09-15T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.322Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4064719",
@@ -857,7 +908,7 @@
       "endDate": "2026-09-15T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3789920",
@@ -874,7 +925,7 @@
       "endDate": "2026-09-17T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3984683",
@@ -891,7 +942,7 @@
       "endDate": "2026-09-17T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3789910",
@@ -908,7 +959,7 @@
       "endDate": "2026-09-18T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4077759",
@@ -925,7 +976,7 @@
       "endDate": "2026-09-20T03:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4071651",
@@ -942,7 +993,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4080383",
@@ -959,7 +1010,7 @@
       "endDate": "2026-09-20T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4054059",
@@ -976,7 +1027,7 @@
       "endDate": "2026-09-24T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3993719",
@@ -993,7 +1044,7 @@
       "endDate": "2026-09-24T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3917945",
@@ -1010,7 +1061,41 @@
       "endDate": "2026-09-24T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
+    },
+    {
+      "id": "4095457",
+      "advertiserId": 19810,
+      "advertiser": "SharkNinja DE",
+      "type": "deal",
+      "title": "130€ Rabatt auf Shark Glam Multistyler für glatte Haare, Wellen und Locken HD6051SEU",
+      "description": "Für nu 249,99€: Shark Glam Multistyler für glatte Haare, Wellen und Locken HD6051SEU",
+      "terms": "x",
+      "code": "",
+      "categories": "Sport & Haushalt",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=19810&awinaffid=2851329&ued=https%3A%2F%2Fwww.sharkninja.de%2Fshark-glam-multistyler-fuer-glatte-haare-wellen-und-locken%2FHD6051SEU.html%3Fdwvar_HD6051SEU_color%3Dddc9b4",
+      "startDate": "2026-09-03T22:01:00+00:00",
+      "endDate": "2026-09-27T21:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
+    },
+    {
+      "id": "4095441",
+      "advertiserId": 19810,
+      "advertiser": "SharkNinja DE",
+      "type": "deal",
+      "title": "130€ Rabatt auf Shark Glam | Personalisiere Dein Styling Set HD6000PKBYO",
+      "description": "Für nur 199,99€: Shark Glam | Personalisiere Dein Styling Set HD6000PKBYO",
+      "terms": "x",
+      "code": "",
+      "categories": "Sport & Haushalt",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=19810&awinaffid=2851329&ued=https%3A%2F%2Fwww.sharkninja.de%2Fshark-glam-personalisiere-dein-styling-set%2FHD6000PKBYO.html",
+      "startDate": "2026-09-03T22:01:00+00:00",
+      "endDate": "2026-09-27T21:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4079985",
@@ -1027,7 +1112,7 @@
       "endDate": "2026-09-30T00:35:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4077637",
@@ -1044,7 +1129,7 @@
       "endDate": "2026-09-30T02:36:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4077639",
@@ -1061,7 +1146,7 @@
       "endDate": "2026-09-30T02:37:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4033727",
@@ -1078,7 +1163,7 @@
       "endDate": "2026-09-30T03:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3983217",
@@ -1095,7 +1180,7 @@
       "endDate": "2026-09-30T04:04:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4088559",
@@ -1112,7 +1197,7 @@
       "endDate": "2026-09-30T06:20:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4064285",
@@ -1129,7 +1214,7 @@
       "endDate": "2026-09-30T06:46:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4088667",
@@ -1146,7 +1231,7 @@
       "endDate": "2026-09-30T07:07:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4059941",
@@ -1163,7 +1248,7 @@
       "endDate": "2026-09-30T09:36:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3825089",
@@ -1180,7 +1265,7 @@
       "endDate": "2026-09-30T10:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4086243",
@@ -1197,7 +1282,7 @@
       "endDate": "2026-09-30T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4086229",
@@ -1214,7 +1299,7 @@
       "endDate": "2026-09-30T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4086207",
@@ -1231,7 +1316,7 @@
       "endDate": "2026-09-30T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4091761",
@@ -1248,7 +1333,7 @@
       "endDate": "2026-09-30T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4088989",
@@ -1265,7 +1350,7 @@
       "endDate": "2026-09-30T16:05:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4088983",
@@ -1282,7 +1367,7 @@
       "endDate": "2026-09-30T16:05:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4095271",
@@ -1299,7 +1384,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.322Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4093329",
@@ -1316,7 +1401,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.322Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4093327",
@@ -1333,7 +1418,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.322Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4093323",
@@ -1350,7 +1435,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.322Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4093321",
@@ -1367,7 +1452,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.322Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4093319",
@@ -1384,7 +1469,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.322Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4093317",
@@ -1401,7 +1486,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.322Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4093313",
@@ -1418,7 +1503,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.322Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4093311",
@@ -1435,7 +1520,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.322Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4093307",
@@ -1452,7 +1537,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4093305",
@@ -1469,7 +1554,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4092543",
@@ -1486,7 +1571,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4092529",
@@ -1503,7 +1588,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4092483",
@@ -1520,7 +1605,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4092475",
@@ -1537,7 +1622,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4092465",
@@ -1554,7 +1639,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4092457",
@@ -1571,7 +1656,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4092451",
@@ -1588,7 +1673,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4092445",
@@ -1605,7 +1690,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4091435",
@@ -1622,7 +1707,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4091377",
@@ -1639,7 +1724,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4080657",
@@ -1656,7 +1741,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4073805",
@@ -1673,7 +1758,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4073791",
@@ -1690,7 +1775,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4064813",
@@ -1707,7 +1792,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4064803",
@@ -1724,7 +1809,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4060091",
@@ -1741,7 +1826,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4049671",
@@ -1758,7 +1843,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4032467",
@@ -1775,7 +1860,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4031749",
@@ -1792,7 +1877,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3981289",
@@ -1809,7 +1894,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3981147",
@@ -1826,7 +1911,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3981145",
@@ -1843,7 +1928,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3980719",
@@ -1860,7 +1945,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3976031",
@@ -1877,7 +1962,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3976023",
@@ -1894,7 +1979,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3960997",
@@ -1911,7 +1996,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4080783",
@@ -1928,7 +2013,7 @@
       "endDate": "2026-09-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4080781",
@@ -1945,7 +2030,7 @@
       "endDate": "2026-09-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4073427",
@@ -1962,7 +2047,7 @@
       "endDate": "2026-09-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4039303",
@@ -1979,7 +2064,7 @@
       "endDate": "2026-09-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4061511",
@@ -1996,7 +2081,7 @@
       "endDate": "2026-10-01T04:12:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4061493",
@@ -2013,7 +2098,7 @@
       "endDate": "2026-10-01T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3986179",
@@ -2030,7 +2115,7 @@
       "endDate": "2026-10-03T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3475466",
@@ -2047,7 +2132,7 @@
       "endDate": "2026-10-07T07:01:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4091243",
@@ -2064,7 +2149,75 @@
       "endDate": "2026-10-11T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
+    },
+    {
+      "id": "4096227",
+      "advertiserId": 67914,
+      "advertiser": "ALLPOWERS DE",
+      "type": "deal",
+      "title": "€125 Rabatt auf BS2500 Pro – nur 1.074 €",
+      "description": "BS2500 Pro Plug & Play Balkonkraftwerk mit Speicher: jetzt nur 1.074 € statt 1.199 €. Mit Code AFBS2500 zusätzlich €125 sparen. Angebot gültig bis 31.10.2026.",
+      "terms": "BS2500 Pro",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=67914&awinaffid=2851329&ued=https%3A%2F%2Fwww.iallpowers.de%2Fproducts%2Fbs2500-pro-balkon-energiespeicher",
+      "startDate": "2026-09-04T03:32:00+00:00",
+      "endDate": "2026-10-31T03:29:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-04T04:06:35.483Z"
+    },
+    {
+      "id": "4096229",
+      "advertiserId": 67914,
+      "advertiser": "ALLPOWERS DE",
+      "type": "deal",
+      "title": "€210 Rabatt auf BS5000 Pro – nur 1.789 €",
+      "description": "BS5000 Pro Balkonspeicher: jetzt nur 1.789 € statt 1.999 €. Mit Code AFBS5000 €210 sparen. Angebot gültig bis 31.10.2026.",
+      "terms": "BS5000 Pro",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=67914&awinaffid=2851329&ued=https%3A%2F%2Fwww.iallpowers.de%2Fproducts%2Fallpowers-bs5000-solarspeicher-fur-den-balkon",
+      "startDate": "2026-09-04T03:34:00+00:00",
+      "endDate": "2026-10-31T03:33:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-04T04:06:35.483Z"
+    },
+    {
+      "id": "4096231",
+      "advertiserId": 67914,
+      "advertiser": "ALLPOWERS DE",
+      "type": "voucher",
+      "title": "€125 Rabatt auf BS2500 Pro – nur 1.074 €",
+      "description": "BS2500 Pro Plug & Play Balkonkraftwerk mit Speicher: jetzt nur 1.074 € statt 1.199 €.",
+      "terms": "BS2500 Pro",
+      "code": "AFBS2500",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=67914&awinaffid=2851329&ued=https%3A%2F%2Fwww.iallpowers.de%2Fproducts%2Fbs2500-pro-balkon-energiespeicher",
+      "startDate": "2026-09-04T03:36:00+00:00",
+      "endDate": "2026-10-31T03:35:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-04T04:06:35.483Z"
+    },
+    {
+      "id": "4096233",
+      "advertiserId": 67914,
+      "advertiser": "ALLPOWERS DE",
+      "type": "voucher",
+      "title": "€210 Rabatt auf BS5000 Pro – nur 1.789 €",
+      "description": "BS5000 Pro Balkonspeicher: jetzt nur 1.789 € statt 1.999 €. Mit Code AFBS5000 €210 sparen.",
+      "terms": "BS5000 Pro",
+      "code": "AFBS5000",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=67914&awinaffid=2851329&ued=https%3A%2F%2Fwww.iallpowers.de%2Fproducts%2Fallpowers-bs5000-solarspeicher-fur-den-balkon",
+      "startDate": "2026-09-04T03:37:00+00:00",
+      "endDate": "2026-10-31T03:36:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-04T04:06:35.483Z"
     },
     {
       "id": "4091475",
@@ -2081,7 +2234,7 @@
       "endDate": "2026-10-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4090091",
@@ -2098,7 +2251,7 @@
       "endDate": "2026-10-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4075371",
@@ -2115,7 +2268,7 @@
       "endDate": "2026-10-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3846535",
@@ -2132,7 +2285,7 @@
       "endDate": "2026-11-21T02:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3570548",
@@ -2149,7 +2302,7 @@
       "endDate": "2026-11-30T14:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3945403",
@@ -2166,7 +2319,7 @@
       "endDate": "2026-12-31T02:19:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3944495",
@@ -2183,7 +2336,7 @@
       "endDate": "2026-12-31T08:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3655932",
@@ -2200,7 +2353,7 @@
       "endDate": "2026-12-31T08:41:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4059803",
@@ -2217,7 +2370,7 @@
       "endDate": "2026-12-31T08:46:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3658732",
@@ -2234,7 +2387,7 @@
       "endDate": "2026-12-31T09:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3850669",
@@ -2251,7 +2404,7 @@
       "endDate": "2026-12-31T10:04:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3898367",
@@ -2268,7 +2421,7 @@
       "endDate": "2026-12-31T10:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4034751",
@@ -2285,7 +2438,7 @@
       "endDate": "2026-12-31T12:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3707940",
@@ -2302,7 +2455,7 @@
       "endDate": "2026-12-31T13:31:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4086193",
@@ -2319,7 +2472,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3729270",
@@ -2336,7 +2489,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3656608",
@@ -2353,7 +2506,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2990042",
@@ -2370,7 +2523,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2990020",
@@ -2387,7 +2540,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2990016",
@@ -2404,7 +2557,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2990008",
@@ -2421,7 +2574,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3916399",
@@ -2438,7 +2591,7 @@
       "endDate": "2026-12-31T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3972859",
@@ -2455,7 +2608,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3972829",
@@ -2472,7 +2625,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3972815",
@@ -2489,7 +2642,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3915235",
@@ -2506,7 +2659,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4054755",
@@ -2523,7 +2676,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4025467",
@@ -2540,7 +2693,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4025465",
@@ -2557,7 +2710,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4003717",
@@ -2574,7 +2727,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3980725",
@@ -2591,7 +2744,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3700488",
@@ -2608,7 +2761,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3658416",
@@ -2625,7 +2778,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3658412",
@@ -2642,7 +2795,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3479662",
@@ -2659,7 +2812,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3264915",
@@ -2676,7 +2829,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3211033",
@@ -2693,7 +2846,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3165261",
@@ -2710,7 +2863,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2996198",
@@ -2727,7 +2880,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644398",
@@ -2744,7 +2897,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644370",
@@ -2761,7 +2914,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644364",
@@ -2778,7 +2931,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644296",
@@ -2795,7 +2948,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644292",
@@ -2812,7 +2965,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644288",
@@ -2829,7 +2982,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644286",
@@ -2846,7 +2999,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644276",
@@ -2863,7 +3016,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644274",
@@ -2880,7 +3033,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644266",
@@ -2897,7 +3050,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644262",
@@ -2914,7 +3067,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644260",
@@ -2931,7 +3084,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644256",
@@ -2948,7 +3101,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644254",
@@ -2965,7 +3118,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2644244",
@@ -2982,7 +3135,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2637660",
@@ -2999,7 +3152,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2035636",
@@ -3016,7 +3169,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4078543",
@@ -3033,7 +3186,7 @@
       "endDate": "2026-12-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3791298",
@@ -3050,7 +3203,7 @@
       "endDate": "2027-01-01T15:07:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4042181",
@@ -3067,7 +3220,7 @@
       "endDate": "2027-01-01T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3988367",
@@ -3084,7 +3237,7 @@
       "endDate": "2027-01-01T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3793678",
@@ -3101,7 +3254,7 @@
       "endDate": "2027-01-15T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3805412",
@@ -3118,7 +3271,7 @@
       "endDate": "2027-01-27T01:34:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3892327",
@@ -3135,7 +3288,7 @@
       "endDate": "2027-01-31T02:43:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4069461",
@@ -3152,7 +3305,7 @@
       "endDate": "2027-01-31T09:48:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4069483",
@@ -3169,7 +3322,7 @@
       "endDate": "2027-01-31T09:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3685424",
@@ -3186,7 +3339,7 @@
       "endDate": "2027-01-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3685422",
@@ -3203,7 +3356,7 @@
       "endDate": "2027-01-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3631106",
@@ -3220,7 +3373,7 @@
       "endDate": "2027-01-31T20:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4089025",
@@ -3237,7 +3390,7 @@
       "endDate": "2027-01-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4089017",
@@ -3254,7 +3407,7 @@
       "endDate": "2027-01-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4089009",
@@ -3271,7 +3424,7 @@
       "endDate": "2027-01-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4089001",
@@ -3288,7 +3441,7 @@
       "endDate": "2027-01-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3721454",
@@ -3305,7 +3458,7 @@
       "endDate": "2027-02-06T14:37:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3763318",
@@ -3322,7 +3475,7 @@
       "endDate": "2027-03-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4027755",
@@ -3339,7 +3492,7 @@
       "endDate": "2027-03-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4064519",
@@ -3356,7 +3509,7 @@
       "endDate": "2027-03-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3165345",
@@ -3373,7 +3526,7 @@
       "endDate": "2027-04-26T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3810826",
@@ -3390,7 +3543,7 @@
       "endDate": "2027-04-28T08:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3951237",
@@ -3407,7 +3560,7 @@
       "endDate": "2027-04-30T13:52:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3850651",
@@ -3424,7 +3577,7 @@
       "endDate": "2027-06-13T08:52:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3996385",
@@ -3441,7 +3594,7 @@
       "endDate": "2027-07-09T03:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3824397",
@@ -3458,7 +3611,7 @@
       "endDate": "2027-08-08T00:08:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4039229",
@@ -3475,7 +3628,7 @@
       "endDate": "2027-08-31T07:23:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4039241",
@@ -3492,7 +3645,7 @@
       "endDate": "2027-08-31T07:27:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4059701",
@@ -3509,7 +3662,7 @@
       "endDate": "2027-11-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3423681",
@@ -3526,7 +3679,7 @@
       "endDate": "2027-12-01T00:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3147005",
@@ -3543,7 +3696,7 @@
       "endDate": "2027-12-31T06:48:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3924221",
@@ -3560,7 +3713,7 @@
       "endDate": "2027-12-31T08:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3924231",
@@ -3577,7 +3730,7 @@
       "endDate": "2027-12-31T09:03:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3951999",
@@ -3594,7 +3747,7 @@
       "endDate": "2027-12-31T09:15:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3952047",
@@ -3611,7 +3764,7 @@
       "endDate": "2027-12-31T09:27:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3952067",
@@ -3628,7 +3781,7 @@
       "endDate": "2027-12-31T09:38:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3952071",
@@ -3645,7 +3798,7 @@
       "endDate": "2027-12-31T09:44:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4031767",
@@ -3662,7 +3815,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4025799",
@@ -3679,7 +3832,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3767972",
@@ -3696,7 +3849,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3767970",
@@ -3713,7 +3866,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3637096",
@@ -3730,7 +3883,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3232883",
@@ -3747,7 +3900,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3232865",
@@ -3764,7 +3917,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3094872",
@@ -3781,7 +3934,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3094870",
@@ -3798,7 +3951,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2965522",
@@ -3815,7 +3968,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2965458",
@@ -3832,7 +3985,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2622852",
@@ -3849,7 +4002,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2622850",
@@ -3866,7 +4019,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2622848",
@@ -3883,7 +4036,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4027737",
@@ -3900,7 +4053,7 @@
       "endDate": "2027-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4027713",
@@ -3917,7 +4070,7 @@
       "endDate": "2027-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4025815",
@@ -3934,7 +4087,7 @@
       "endDate": "2027-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4025783",
@@ -3951,7 +4104,7 @@
       "endDate": "2027-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3848267",
@@ -3968,7 +4121,7 @@
       "endDate": "2027-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3813040",
@@ -3985,7 +4138,7 @@
       "endDate": "2027-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4064515",
@@ -4002,7 +4155,7 @@
       "endDate": "2027-12-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3980307",
@@ -4019,7 +4172,7 @@
       "endDate": "2028-01-01T04:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "4003951",
@@ -4036,7 +4189,7 @@
       "endDate": "2028-03-14T10:08:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3957769",
@@ -4053,7 +4206,7 @@
       "endDate": "2028-08-11T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3247237",
@@ -4070,7 +4223,7 @@
       "endDate": "2029-01-24T02:47:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3499326",
@@ -4087,7 +4240,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2859063",
@@ -4104,7 +4257,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2833565",
@@ -4121,7 +4274,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2829273",
@@ -4138,7 +4291,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2791507",
@@ -4155,7 +4308,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "2525973",
@@ -4172,7 +4325,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3384925",
@@ -4189,7 +4342,7 @@
       "endDate": "2030-01-01T11:25:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3384979",
@@ -4206,7 +4359,7 @@
       "endDate": "2030-01-01T11:37:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3607264",
@@ -4223,7 +4376,7 @@
       "endDate": "2030-03-02T12:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3775648",
@@ -4240,7 +4393,7 @@
       "endDate": "2030-03-31T11:40:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3607252",
@@ -4257,7 +4410,7 @@
       "endDate": "2030-04-02T12:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "1688949",
@@ -4274,7 +4427,7 @@
       "endDate": "2030-04-08T15:35:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3775640",
@@ -4291,7 +4444,7 @@
       "endDate": "2030-05-31T11:32:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3384985",
@@ -4308,7 +4461,7 @@
       "endDate": "2030-08-01T11:43:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3607298",
@@ -4325,7 +4478,7 @@
       "endDate": "2030-08-02T13:14:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3463347",
@@ -4342,7 +4495,7 @@
       "endDate": "2030-09-01T07:31:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3463341",
@@ -4359,7 +4512,7 @@
       "endDate": "2030-10-01T07:29:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3489028",
@@ -4376,7 +4529,7 @@
       "endDate": "2030-11-01T10:26:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "1542119",
@@ -4393,7 +4546,7 @@
       "endDate": "2030-12-14T10:05:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.821Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3607336",
@@ -4410,7 +4563,7 @@
       "endDate": "2030-12-30T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3607304",
@@ -4427,7 +4580,7 @@
       "endDate": "2030-12-31T13:16:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3607306",
@@ -4444,7 +4597,7 @@
       "endDate": "2030-12-31T13:18:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3607312",
@@ -4461,7 +4614,7 @@
       "endDate": "2030-12-31T13:20:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3607316",
@@ -4478,7 +4631,7 @@
       "endDate": "2030-12-31T13:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3607322",
@@ -4495,7 +4648,7 @@
       "endDate": "2030-12-31T13:25:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4089843",
@@ -4512,7 +4665,7 @@
       "endDate": "2030-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4083943",
@@ -4529,7 +4682,7 @@
       "endDate": "2030-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4083893",
@@ -4546,7 +4699,7 @@
       "endDate": "2030-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "4083855",
@@ -4563,7 +4716,7 @@
       "endDate": "2030-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3752382",
@@ -4580,7 +4733,7 @@
       "endDate": "2030-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4089857",
@@ -4597,7 +4750,7 @@
       "endDate": "2030-12-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.323Z"
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3591342",
@@ -4614,7 +4767,7 @@
       "endDate": "2031-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3591326",
@@ -4631,7 +4784,7 @@
       "endDate": "2031-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3582660",
@@ -4648,7 +4801,7 @@
       "endDate": "2035-11-30T16:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3693150",
@@ -4665,7 +4818,7 @@
       "endDate": "2036-01-23T12:20:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3693158",
@@ -4682,7 +4835,7 @@
       "endDate": "2036-01-23T12:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3693152",
@@ -4699,7 +4852,7 @@
       "endDate": "2036-01-23T12:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3772116",
@@ -4716,7 +4869,7 @@
       "endDate": "2036-04-07T10:19:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "4003663",
@@ -4733,7 +4886,24 @@
       "endDate": "2036-07-31T08:32:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
+    },
+    {
+      "id": "4096209",
+      "advertiserId": 32471,
+      "advertiser": "Eonon (US)",
+      "type": "voucher",
+      "title": "Eonon create this code for all Publishers in Awin",
+      "description": "Eonon create this code for all Publishers in Awin",
+      "terms": "$10off at eonon.com",
+      "code": "Awin10",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=32471&awinaffid=2851329&ued=https%3A%2F%2Fwww.eonon.com%2Fnewest-android-car-stereos-and-head-units-big-sales.aspx",
+      "startDate": "2026-09-04T02:32:00+00:00",
+      "endDate": "2036-12-31T02:30:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-04T04:06:35.484Z"
     },
     {
       "id": "3671746",
@@ -4750,7 +4920,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3671718",
@@ -4767,7 +4937,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3671702",
@@ -4784,7 +4954,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3671680",
@@ -4801,7 +4971,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.820Z"
+      "fetchedAt": "2026-09-04T04:06:36.018Z"
     },
     {
       "id": "3924309",
@@ -4818,7 +4988,7 @@
       "endDate": "2040-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3825075",
@@ -4835,7 +5005,7 @@
       "endDate": "2050-04-29T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3825069",
@@ -4852,7 +5022,7 @@
       "endDate": "2050-04-29T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3825027",
@@ -4869,7 +5039,7 @@
       "endDate": "2050-04-30T10:44:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3825039",
@@ -4886,7 +5056,7 @@
       "endDate": "2050-04-30T10:46:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3825055",
@@ -4903,7 +5073,7 @@
       "endDate": "2050-04-30T10:47:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3825059",
@@ -4920,7 +5090,7 @@
       "endDate": "2050-04-30T10:52:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3825063",
@@ -4937,7 +5107,7 @@
       "endDate": "2050-04-30T10:53:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     },
     {
       "id": "3825077",
@@ -4954,7 +5124,7 @@
       "endDate": "2050-04-30T10:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-03T20:52:19.324Z"
+      "fetchedAt": "2026-09-04T04:06:35.485Z"
     }
   ]
 }
