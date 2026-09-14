@@ -1,31 +1,14 @@
 {
-  "fetchedAt": "2026-09-14T04:32:07.423Z",
+  "fetchedAt": "2026-09-14T12:27:35.211Z",
   "publisherId": "2851329",
   "regions": [
     "DE",
     "AT"
   ],
-  "total": 317,
-  "totalActive": 317,
+  "total": 416,
+  "totalActive": 416,
   "totalExpired": 0,
   "promotions": [
-    {
-      "id": "4092657",
-      "advertiserId": 19810,
-      "advertiser": "SharkNinja DE",
-      "type": "deal",
-      "title": "Shark VacMop VM200EU* kaufen und Gratis-Zubehör sichern!",
-      "description": "Nur 69,99€ + GRATIS Zubehör: Shark VacMop  - Kabelloser Elektrischer Wischmopp mit Saugfunktion VM200EU*",
-      "terms": "x",
-      "code": "",
-      "categories": "Sport & Haushalt",
-      "deeplink": "https://www.awin1.com/cread.php?awinmid=19810&awinaffid=2851329&ued=https%3A%2F%2Fwww.sharkninja.de%2Fshark-kabelloser-elektrischer-wischmopp-mit-saugfunktion-gruen%2FVM200EUGN.html%3Fdwvar_VM200EUGN_color%3DD5F2DC",
-      "startDate": "2026-09-02T08:35:00+00:00",
-      "endDate": "2026-09-14T08:33:00+00:00",
-      "discountPercent": 0,
-      "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
-    },
     {
       "id": "4108781",
       "advertiserId": 19810,
@@ -41,7 +24,7 @@
       "endDate": "2026-09-14T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4108761",
@@ -58,7 +41,7 @@
       "endDate": "2026-09-14T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4100899",
@@ -75,7 +58,7 @@
       "endDate": "2026-09-14T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4090031",
@@ -92,7 +75,7 @@
       "endDate": "2026-09-14T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4102755",
@@ -109,7 +92,7 @@
       "endDate": "2026-09-15T02:39:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4049187",
@@ -126,7 +109,7 @@
       "endDate": "2026-09-15T07:23:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4049183",
@@ -143,7 +126,7 @@
       "endDate": "2026-09-15T07:23:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4049193",
@@ -160,7 +143,7 @@
       "endDate": "2026-09-15T07:24:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4049189",
@@ -177,7 +160,7 @@
       "endDate": "2026-09-15T07:24:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4049219",
@@ -194,7 +177,7 @@
       "endDate": "2026-09-15T07:35:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4049221",
@@ -211,7 +194,7 @@
       "endDate": "2026-09-15T07:36:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4100705",
@@ -228,7 +211,7 @@
       "endDate": "2026-09-15T13:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4108787",
@@ -245,7 +228,7 @@
       "endDate": "2026-09-15T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4095279",
@@ -262,7 +245,7 @@
       "endDate": "2026-09-15T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4064719",
@@ -279,7 +262,7 @@
       "endDate": "2026-09-15T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4098579",
@@ -296,7 +279,7 @@
       "endDate": "2026-09-16T13:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "3789920",
@@ -313,7 +296,7 @@
       "endDate": "2026-09-17T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3789910",
@@ -330,7 +313,7 @@
       "endDate": "2026-09-18T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4077759",
@@ -347,7 +330,7 @@
       "endDate": "2026-09-20T03:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4106023",
@@ -364,7 +347,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4106015",
@@ -381,7 +364,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4106011",
@@ -398,7 +381,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4105999",
@@ -415,7 +398,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4105995",
@@ -432,7 +415,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4105991",
@@ -449,7 +432,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4105985",
@@ -466,7 +449,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4105983",
@@ -483,7 +466,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4105979",
@@ -500,7 +483,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4105975",
@@ -517,7 +500,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4105971",
@@ -534,7 +517,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4105963",
@@ -551,7 +534,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4105959",
@@ -568,7 +551,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4105955",
@@ -585,7 +568,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4105951",
@@ -602,7 +585,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4105947",
@@ -619,7 +602,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4105943",
@@ -636,7 +619,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4103507",
@@ -653,7 +636,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4095395",
@@ -670,7 +653,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4095393",
@@ -687,7 +670,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4095383",
@@ -704,7 +687,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4095377",
@@ -721,7 +704,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4071651",
@@ -738,7 +721,7 @@
       "endDate": "2026-09-20T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4080383",
@@ -755,7 +738,7 @@
       "endDate": "2026-09-20T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4105175",
@@ -772,7 +755,7 @@
       "endDate": "2026-09-21T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4108895",
@@ -789,7 +772,7 @@
       "endDate": "2026-09-21T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4108783",
@@ -806,7 +789,7 @@
       "endDate": "2026-09-21T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4108775",
@@ -823,7 +806,7 @@
       "endDate": "2026-09-21T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4108769",
@@ -840,7 +823,7 @@
       "endDate": "2026-09-21T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4105511",
@@ -857,7 +840,7 @@
       "endDate": "2026-09-24T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4104251",
@@ -865,8 +848,8 @@
       "advertiser": "Netto Marken-Discount DE",
       "type": "voucher",
       "title": "15€ Rabatt auf Alles",
-      "description": "15€ Rabatt auf Alles ab 250€ Mindestbestellwert",
-      "terms": "15 € Rabatt auf Alles mit dem Code: N-HERBST-15, ab einem Mindestbestellwert von 250 €. Nur online gültig  bis 24.09.2026. Ausgenommen: die Kategorie Multimedia, Gutscheine sowie einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Keine Anrechnung auf Versandkosten und Filial-Abholservices.",
+      "description": "15€ Rabatt auf Alles ab 300€ Mindestbestellwert",
+      "terms": "15 € Rabatt auf Alles mit dem Code: N-HERBST-15, ab einem Mindestbestellwert von 300 €. Nur online gültig  bis 24.09.2026. Ausgenommen: die Kategorie Multimedia, Gutscheine sowie einzelne, entsprechend gesondert gekennzeichnete Artikel bzw. ausgewählte Werbeware. Nicht mit anderen Aktionsvorteilen (PAYBACK oder sonstige Shop-Aktionen) kombinierbar. Keine Anrechnung auf Versandkosten und Filial-Abholservices.",
       "code": "N-HERBST-15",
       "categories": "Lebensmittel",
       "deeplink": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=2851329&ued=https%3A%2F%2Fwww.netto-online.de%2FINTERSHOP%2Fweb%2FWFS%2FPlus-NettoDE-Site%2Fde_DE%2F-%2FEUR%2FViewMMPParametricSearch-Browse%3FSearchTerm%3DHerbstgutschein",
@@ -874,7 +857,7 @@
       "endDate": "2026-09-24T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4097425",
@@ -891,7 +874,7 @@
       "endDate": "2026-09-24T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "3993719",
@@ -908,7 +891,7 @@
       "endDate": "2026-09-24T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4105739",
@@ -925,7 +908,7 @@
       "endDate": "2026-09-25T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4095457",
@@ -942,7 +925,7 @@
       "endDate": "2026-09-27T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4095441",
@@ -959,7 +942,7 @@
       "endDate": "2026-09-27T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4079985",
@@ -976,7 +959,7 @@
       "endDate": "2026-09-30T00:35:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4077637",
@@ -993,7 +976,7 @@
       "endDate": "2026-09-30T02:36:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4077639",
@@ -1010,7 +993,7 @@
       "endDate": "2026-09-30T02:37:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4033727",
@@ -1027,7 +1010,7 @@
       "endDate": "2026-09-30T03:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "3983217",
@@ -1044,7 +1027,7 @@
       "endDate": "2026-09-30T04:04:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4088559",
@@ -1061,7 +1044,7 @@
       "endDate": "2026-09-30T06:20:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4064285",
@@ -1078,7 +1061,7 @@
       "endDate": "2026-09-30T06:46:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4088667",
@@ -1095,7 +1078,7 @@
       "endDate": "2026-09-30T07:07:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4059941",
@@ -1112,7 +1095,7 @@
       "endDate": "2026-09-30T09:36:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "3825089",
@@ -1129,7 +1112,7 @@
       "endDate": "2026-09-30T10:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4086243",
@@ -1146,7 +1129,7 @@
       "endDate": "2026-09-30T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4086229",
@@ -1163,7 +1146,7 @@
       "endDate": "2026-09-30T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4086207",
@@ -1180,7 +1163,7 @@
       "endDate": "2026-09-30T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4091761",
@@ -1197,7 +1180,7 @@
       "endDate": "2026-09-30T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4088989",
@@ -1214,7 +1197,7 @@
       "endDate": "2026-09-30T16:05:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4088983",
@@ -1231,7 +1214,7 @@
       "endDate": "2026-09-30T16:05:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4095271",
@@ -1248,7 +1231,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4093329",
@@ -1265,7 +1248,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4093327",
@@ -1282,7 +1265,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4093323",
@@ -1299,7 +1282,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4093321",
@@ -1316,7 +1299,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4093319",
@@ -1333,7 +1316,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4093317",
@@ -1350,7 +1333,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4093313",
@@ -1367,7 +1350,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4093311",
@@ -1384,7 +1367,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4093307",
@@ -1401,7 +1384,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4093305",
@@ -1418,7 +1401,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4092543",
@@ -1435,7 +1418,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4092529",
@@ -1452,7 +1435,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4092483",
@@ -1469,7 +1452,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4092475",
@@ -1486,7 +1469,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4092465",
@@ -1503,7 +1486,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4092457",
@@ -1520,7 +1503,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4092451",
@@ -1537,7 +1520,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4092445",
@@ -1554,7 +1537,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4091435",
@@ -1571,7 +1554,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4091377",
@@ -1588,7 +1571,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4080657",
@@ -1605,7 +1588,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4064813",
@@ -1622,7 +1605,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4064803",
@@ -1639,7 +1622,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4060091",
@@ -1656,7 +1639,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4049671",
@@ -1673,7 +1656,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4032467",
@@ -1690,7 +1673,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
     },
     {
       "id": "4031749",
@@ -1707,7 +1690,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
     },
     {
       "id": "3981289",
@@ -1724,7 +1707,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3981147",
@@ -1741,7 +1724,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3981145",
@@ -1758,7 +1741,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3980719",
@@ -1775,7 +1758,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3976031",
@@ -1792,7 +1775,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3976023",
@@ -1809,7 +1792,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3960997",
@@ -1826,7 +1809,7 @@
       "endDate": "2026-09-30T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4101347",
@@ -1843,7 +1826,7 @@
       "endDate": "2026-09-30T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4101311",
@@ -1860,7 +1843,7 @@
       "endDate": "2026-09-30T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4101205",
@@ -1877,7 +1860,24 @@
       "endDate": "2026-09-30T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4109553",
+      "advertiserId": 123926,
+      "advertiser": "Joybuy DE",
+      "type": "deal",
+      "title": "Top-Deals für dein tägliches Upgrade Sichere dir 15 % Rabatt auf deine Bestellung!",
+      "description": "99-15 199-30 399-60",
+      "terms": "Only available for selected products.",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=123926&awinaffid=2851329&ued=https%3A%2F%2Fm.joybuy.de%2Fcampaign%2Factive%2F3P4eouQhGdgervfBJGMYBTeXAcCm",
+      "startDate": "2026-09-14T05:54:00+00:00",
+      "endDate": "2026-09-30T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.123Z"
     },
     {
       "id": "4080783",
@@ -1894,7 +1894,7 @@
       "endDate": "2026-09-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4080781",
@@ -1911,7 +1911,7 @@
       "endDate": "2026-09-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4073427",
@@ -1928,7 +1928,7 @@
       "endDate": "2026-09-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4039303",
@@ -1945,7 +1945,7 @@
       "endDate": "2026-09-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4061511",
@@ -1962,7 +1962,7 @@
       "endDate": "2026-10-01T04:12:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4061493",
@@ -1979,7 +1979,7 @@
       "endDate": "2026-10-01T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4105505",
@@ -1996,7 +1996,7 @@
       "endDate": "2026-10-01T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "3475466",
@@ -2013,7 +2013,7 @@
       "endDate": "2026-10-07T07:01:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "4091243",
@@ -2030,7 +2030,7 @@
       "endDate": "2026-10-11T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4098571",
@@ -2047,7 +2047,7 @@
       "endDate": "2026-10-15T06:41:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4098573",
@@ -2064,7 +2064,24 @@
       "endDate": "2026-10-15T06:44:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4109549",
+      "advertiserId": 123926,
+      "advertiser": "Joybuy DE",
+      "type": "deal",
+      "title": "Heim-Fitness, alles aus einer Hand.",
+      "description": "69-10 99-15",
+      "terms": "Only available for selected products.",
+      "code": "",
+      "categories": "Sport & Haushalt",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=123926&awinaffid=2851329&ued=https%3A%2F%2Fwww.joybuy.de%2Fcampaign%2Factive%2F2drBgNSzmAQo7rBoBk2mdHmXPBhc",
+      "startDate": "2026-09-14T05:51:00+00:00",
+      "endDate": "2026-10-15T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4054059",
@@ -2081,7 +2098,7 @@
       "endDate": "2026-10-29T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4096227",
@@ -2098,7 +2115,7 @@
       "endDate": "2026-10-31T03:29:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4096229",
@@ -2115,7 +2132,7 @@
       "endDate": "2026-10-31T03:33:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4096231",
@@ -2132,7 +2149,7 @@
       "endDate": "2026-10-31T03:35:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4096233",
@@ -2149,7 +2166,7 @@
       "endDate": "2026-10-31T03:36:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4091475",
@@ -2166,7 +2183,7 @@
       "endDate": "2026-10-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4090091",
@@ -2183,7 +2200,7 @@
       "endDate": "2026-10-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4075371",
@@ -2200,7 +2217,7 @@
       "endDate": "2026-10-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "3846535",
@@ -2217,7 +2234,7 @@
       "endDate": "2026-11-21T02:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3570548",
@@ -2234,7 +2251,7 @@
       "endDate": "2026-11-30T14:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3945403",
@@ -2251,7 +2268,58 @@
       "endDate": "2026-12-31T02:19:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3983145",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT EU  A100 Manual Heat Press",
+      "description": "Affiliate Exclusive Deal: €70.00 OFF，Lowest final price：€299.99",
+      "terms": "Terms",
+      "code": "MAF70",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Feu.htvront.com%2Fproducts%2Fauto-heat-press-a100",
+      "startDate": "2026-07-02T02:46:00+00:00",
+      "endDate": "2026-12-31T02:37:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3980229",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK Store LOKLiK iPaint | AI-Powered Paint by Numbers",
+      "description": "Exclusive affiliate code: PAINT50 Lowest price: £49.99",
+      "terms": "Terms",
+      "code": "PAINT50",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2Fproducts%2Fonly-99-99-loklik-ipaint-ai-powered-paint-by-numbers%3F__cf_chl_f_tk%3DiK3UddtA0ZyQ7Lg3ITbCYmBuuZ8z3TE3yMhqfRMFkVQ-1782874580-1.0.1.1-ifadY.d3BHxnMIiwoFHQPPYF7bG_47dVacnMUGi15FU%26variant%3D52490559095149",
+      "startDate": "2026-07-01T03:01:00+00:00",
+      "endDate": "2026-12-31T02:58:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4007955",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT CA Auto100 C$100 OFF Affiliate code",
+      "description": "Affiliate code - AFFA100, save C$100!",
+      "terms": "Terms",
+      "code": "AFFA100",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fca.htvront.com%2Fproducts%2Fhtvront-ca-a100-auto-multi-heat-press%3Fvariant%3D41765625233541",
+      "startDate": "2026-07-16T06:26:00+00:00",
+      "endDate": "2026-12-31T06:24:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3944495",
@@ -2268,7 +2336,7 @@
       "endDate": "2026-12-31T08:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3655932",
@@ -2285,7 +2353,7 @@
       "endDate": "2026-12-31T08:41:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "4059803",
@@ -2302,7 +2370,7 @@
       "endDate": "2026-12-31T08:46:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4096807",
@@ -2319,7 +2387,7 @@
       "endDate": "2026-12-31T08:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "3658732",
@@ -2336,7 +2404,41 @@
       "endDate": "2026-12-31T09:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
+    },
+    {
+      "id": "3964835",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US H17 Phone Case Heat Press",
+      "description": "Exclusive Affiliate Discount: $170 off (Applies to the Start-up Kit) Lowest Price: $169.99",
+      "terms": "Terms",
+      "code": "H170",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2Fproducts%2Fhtvront-h17-phone-case-heat-press%3Fvariant%3D41685081358469",
+      "startDate": "2026-06-23T09:18:00+00:00",
+      "endDate": "2026-12-31T10:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3964823",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US H17 Phone Case Heat Press",
+      "description": "Exclusive Alliance Discount: $140 off (Applies to Standard Kit & Beginner Kit) Lowest Price: $139.99",
+      "terms": "Terms",
+      "code": "AFFH17",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2Fproducts%2Fhtvront-h17-phone-case-heat-press",
+      "startDate": "2026-06-23T09:15:00+00:00",
+      "endDate": "2026-12-31T10:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3898367",
@@ -2353,7 +2455,7 @@
       "endDate": "2026-12-31T10:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4034751",
@@ -2370,7 +2472,7 @@
       "endDate": "2026-12-31T12:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "3707940",
@@ -2387,7 +2489,7 @@
       "endDate": "2026-12-31T13:31:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4086193",
@@ -2404,7 +2506,24 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4010809",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US Store：Limited Offer! LOKLiK-HTVRONT iPaint",
+      "description": "Affiliate Exclusive Deal: $160 OFF Lowest final price: $45.99 (Limited Time)",
+      "terms": "Terms",
+      "code": "PAINT160",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2Fproducts%2Fpaint-by-numbers-loklik-ipaint",
+      "startDate": "2026-07-17T09:14:00+00:00",
+      "endDate": "2026-12-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3729270",
@@ -2421,7 +2540,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3656608",
@@ -2438,7 +2557,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2990042",
@@ -2455,7 +2574,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2990020",
@@ -2472,7 +2591,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2990016",
@@ -2489,7 +2608,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2990008",
@@ -2506,7 +2625,7 @@
       "endDate": "2026-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3916399",
@@ -2523,7 +2642,7 @@
       "endDate": "2026-12-31T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3972859",
@@ -2540,7 +2659,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3972829",
@@ -2557,7 +2676,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3972815",
@@ -2574,7 +2693,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3915235",
@@ -2591,7 +2710,7 @@
       "endDate": "2026-12-31T20:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4054755",
@@ -2608,7 +2727,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4025467",
@@ -2625,7 +2744,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4025465",
@@ -2642,7 +2761,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4003717",
@@ -2659,7 +2778,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3986179",
@@ -2676,7 +2795,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3980725",
@@ -2693,7 +2812,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3700488",
@@ -2710,7 +2829,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3658416",
@@ -2727,7 +2846,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3658412",
@@ -2744,7 +2863,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3479662",
@@ -2761,7 +2880,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3264915",
@@ -2778,7 +2897,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3211033",
@@ -2795,7 +2914,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3165261",
@@ -2812,7 +2931,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2996198",
@@ -2829,7 +2948,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2644398",
@@ -2846,7 +2965,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2644370",
@@ -2863,7 +2982,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2644364",
@@ -2880,7 +2999,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2644296",
@@ -2897,7 +3016,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2644292",
@@ -2914,7 +3033,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2644288",
@@ -2931,7 +3050,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2644286",
@@ -2948,7 +3067,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2644276",
@@ -2965,7 +3084,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "2644274",
@@ -2982,7 +3101,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "2644266",
@@ -2999,7 +3118,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "2644262",
@@ -3016,7 +3135,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "2644260",
@@ -3033,7 +3152,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "2644256",
@@ -3050,7 +3169,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "2644254",
@@ -3067,7 +3186,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "2644244",
@@ -3084,7 +3203,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "2637660",
@@ -3101,7 +3220,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "2035636",
@@ -3118,7 +3237,7 @@
       "endDate": "2026-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.070Z"
     },
     {
       "id": "4078543",
@@ -3135,7 +3254,7 @@
       "endDate": "2026-12-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "3791298",
@@ -3152,7 +3271,7 @@
       "endDate": "2027-01-01T15:07:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4042181",
@@ -3169,7 +3288,7 @@
       "endDate": "2027-01-01T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "3988367",
@@ -3186,7 +3305,24 @@
       "endDate": "2027-01-01T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3998575",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT EU Manual heat press",
+      "description": "Manual heat press €90 OFF",
+      "terms": "Terms",
+      "code": "AF90",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Feu.htvront.com%2Fproducts%2Fmanual-heat-press",
+      "startDate": "2026-07-10T07:21:00+00:00",
+      "endDate": "2027-01-10T07:18:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3793678",
@@ -3203,7 +3339,109 @@
       "endDate": "2027-01-15T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4021015",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT AU iPaint $250 off",
+      "description": "Affiliate code -AU180, save $250! Professional Kit Final price: $179.99",
+      "terms": "Terms",
+      "code": "AU180",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fau.htvront.com%2Fproducts%2Floklik-htvront-ipaint-ai-paint-by-numbers",
+      "startDate": "2026-07-23T08:48:00+00:00",
+      "endDate": "2027-01-23T08:26:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4021013",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT AU iPaint $230 off",
+      "description": "Affiliate code - AU170, save $230! Starter Kit Final price: $169.99",
+      "terms": "Terms",
+      "code": "AU170",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fau.htvront.com%2Fproducts%2Floklik-htvront-ipaint-ai-paint-by-numbers",
+      "startDate": "2026-07-23T08:46:00+00:00",
+      "endDate": "2027-01-23T08:26:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4021011",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT AU iPaint $210 off",
+      "description": "Affiliate code - AU130, save $210! Standard Kit Final price: $129.99",
+      "terms": "Terms",
+      "code": "AU130",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fau.htvront.com%2Fproducts%2Floklik-htvront-ipaint-ai-paint-by-numbers",
+      "startDate": "2026-07-23T08:44:00+00:00",
+      "endDate": "2027-01-23T08:26:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4020997",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT AU H17 Phone Case Heat Press $140 off",
+      "description": "Affiliate code - AFF140, save $140! Final price: $209.99",
+      "terms": "Terms",
+      "code": "AFF140",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fau.htvront.com%2Fproducts%2Fhtvront-h17-phone-case-heat-press-1",
+      "startDate": "2026-07-23T08:38:00+00:00",
+      "endDate": "2027-01-23T08:26:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4020977",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT AU Auto Heat Press1 $60 off",
+      "description": "Affiliate code - AFF60, save $60! Final price: $379.99",
+      "terms": "Terms",
+      "code": "AFF60",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fau.htvront.com%2Fproducts%2Fhtvront-auto-heat-press-15-x-15-230v-2-colors-standard-kit-white",
+      "startDate": "2026-07-23T08:35:00+00:00",
+      "endDate": "2027-01-23T08:26:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4020967",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT AU Auto Heat Press 2 - $70OFF",
+      "description": "Affiliate code - AF70, save $170! Final price: $529.99",
+      "terms": "Terms",
+      "code": "AF70",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fau.htvront.com%2Fproducts%2Fhtvront-auto-heat-press-2-smart-230v-your-smartest-solution-of-heat-transferring-for-dtf-htv-sublimation-puff-t-shirt-and-more",
+      "startDate": "2026-07-23T08:30:00+00:00",
+      "endDate": "2027-01-23T08:26:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3805412",
@@ -3220,7 +3458,126 @@
       "endDate": "2027-01-27T01:34:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4038945",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US A200 Save $170!",
+      "description": "Affiliate code for Beginner Kit & Start-up Kit- AFTB170 Final price: $309.99",
+      "terms": "Terms",
+      "code": "AFTB170",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2Fproducts%2Fhtvront-a200-auto-tumbler-heat-press%3F_pos%3D3%26_psq%3DA200%26_psid%3D19e110837%26_ss%3De%26variant%3D41385773695109",
+      "startDate": "2026-08-03T02:09:00+00:00",
+      "endDate": "2027-01-31T02:04:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4056427",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "voucher",
+      "title": "6% off entire store",
+      "description": "Extra 6% off entire store with code Finbike6% valid until January 31, 2027",
+      "terms": "NONE",
+      "code": "Finbike6%",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=sitewide&ued=https%3A%2F%2Fwww.finbike.com%2F",
+      "startDate": "2026-08-12T02:11:00+00:00",
+      "endDate": "2027-01-31T02:10:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4056429",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "voucher",
+      "title": "8% off order value over €500 or more",
+      "description": "Extra 8% off order value over €500 or more valid until January 31, 2027",
+      "terms": "NONE",
+      "code": "Finbike8%",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=sitewide&ued=https%3A%2F%2Fwww.finbike.com%2F",
+      "startDate": "2026-08-12T02:15:00+00:00",
+      "endDate": "2027-01-31T02:13:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4056431",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "voucher",
+      "title": "7% off purchasing GT1 Dual",
+      "description": "Extra 7% off purchasing GT1 Dual",
+      "terms": "NONE",
+      "code": "GT1-7%",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=gt1+dual+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-gt1-dual-electric-scooter",
+      "startDate": "2026-08-12T02:19:00+00:00",
+      "endDate": "2027-01-31T02:16:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4038949",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US A200 Save $110!",
+      "description": "Affiliate code for A200 Basic & Pro kit- AFTB110",
+      "terms": "Terms",
+      "code": "AFTB110",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2Fproducts%2Fhtvront-a200-auto-tumbler-heat-press%3F_pos%3D3%26_psq%3DA200%26_psid%3D19e110837%26_ss%3De%26variant%3D41566437277829",
+      "startDate": "2026-08-03T02:17:00+00:00",
+      "endDate": "2027-01-31T02:16:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4056435",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "voucher",
+      "title": "7% off purchasing S-Nova Pro",
+      "description": "Extra 7% off purchasing S-Nova Pro valid until January 31, 2027",
+      "terms": "NONE",
+      "code": "S-NovaPro7%",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=s-nova+pro&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-s-nova-pro-electric-scooter",
+      "startDate": "2026-08-12T02:26:00+00:00",
+      "endDate": "2027-01-31T02:24:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4056439",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "voucher",
+      "title": "7% off purchasing S9MAX",
+      "description": "Extra 7% off purchasing S9MAX valid until January 31, 2027",
+      "terms": "NONE",
+      "code": "S9MAX7%",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=s9max&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-s9max-electric-scooter",
+      "startDate": "2026-08-12T02:32:00+00:00",
+      "endDate": "2027-01-31T02:31:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "3892327",
@@ -3237,7 +3594,24 @@
       "endDate": "2027-01-31T02:43:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4056841",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "voucher",
+      "title": "8% off purchasing D1",
+      "description": "Extra 8% off purchasing D1 valid until January 31, 2027",
+      "terms": "NONE",
+      "code": "D1-8%",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=d1+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-d1-electric-scooter",
+      "startDate": "2026-08-12T06:51:00+00:00",
+      "endDate": "2027-01-31T06:49:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4069461",
@@ -3254,7 +3628,7 @@
       "endDate": "2027-01-31T09:48:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4069483",
@@ -3271,7 +3645,7 @@
       "endDate": "2027-01-31T09:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "3685424",
@@ -3288,7 +3662,7 @@
       "endDate": "2027-01-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3685422",
@@ -3305,7 +3679,7 @@
       "endDate": "2027-01-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3631106",
@@ -3322,7 +3696,7 @@
       "endDate": "2027-01-31T20:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "4089025",
@@ -3339,7 +3713,7 @@
       "endDate": "2027-01-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4089017",
@@ -3356,7 +3730,7 @@
       "endDate": "2027-01-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4089009",
@@ -3373,7 +3747,7 @@
       "endDate": "2027-01-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4089001",
@@ -3390,7 +3764,7 @@
       "endDate": "2027-01-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "3721454",
@@ -3407,7 +3781,24 @@
       "endDate": "2027-02-06T14:37:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4046533",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT AU Auto Tumbler Heat Press A$60 off",
+      "description": "Affiliate code - AFTUM, save A$60! Final price: A$189.99",
+      "terms": "terms",
+      "code": "AFTUM",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fau.htvront.com%2Fproducts%2Fhtvront-auto-tumbler-heat-press-machine-230v%3Fvariant%3D47013720686845",
+      "startDate": "2026-08-06T02:52:00+00:00",
+      "endDate": "2027-02-28T02:50:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4109081",
@@ -3424,7 +3815,7 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.833Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4109079",
@@ -3441,7 +3832,7 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.833Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4109077",
@@ -3458,7 +3849,7 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4109075",
@@ -3475,7 +3866,7 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4109073",
@@ -3492,7 +3883,7 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4109071",
@@ -3509,7 +3900,7 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4109069",
@@ -3526,7 +3917,7 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4109067",
@@ -3543,7 +3934,7 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4109065",
@@ -3560,7 +3951,7 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4109063",
@@ -3577,7 +3968,7 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4109061",
@@ -3594,7 +3985,7 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4109059",
@@ -3611,7 +4002,7 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
     },
     {
       "id": "4097437",
@@ -3628,7 +4019,24 @@
       "endDate": "2027-02-28T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4010755",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK A100 £80 OFF",
+      "description": "Affiliate code - UKAFFA80, save £80 now!",
+      "terms": "Terms",
+      "code": "UKAFFA80",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2Fproducts%2Fhtvront-a100-auto-multi-heat-press%3Fvariant%3D53545713926509",
+      "startDate": "2026-07-17T09:01:00+00:00",
+      "endDate": "2027-03-31T08:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3763318",
@@ -3645,7 +4053,7 @@
       "endDate": "2027-03-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4027755",
@@ -3662,7 +4070,7 @@
       "endDate": "2027-03-31T21:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4064519",
@@ -3679,7 +4087,7 @@
       "endDate": "2027-03-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "3165345",
@@ -3696,7 +4104,7 @@
       "endDate": "2027-04-26T16:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3810826",
@@ -3713,7 +4121,24 @@
       "endDate": "2027-04-28T08:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3860755",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "8% sitewide off for Couponology",
+      "description": "8% sitewide off for Couponology",
+      "terms": "This coupon code is valid for sitewide use on www.htvront.com. \nOffer is only available to customers in the United States.",
+      "code": "SPRING8",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2F",
+      "startDate": "2026-04-29T06:07:00+00:00",
+      "endDate": "2027-04-29T05:58:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3951237",
@@ -3730,7 +4155,24 @@
       "endDate": "2027-04-30T13:52:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4080083",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT EU Store A100 Auto Heat Press",
+      "description": "Affiliate code - MAF90, save €90! Final price: €369.99",
+      "terms": "Terms",
+      "code": "MAF90",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Feu.htvront.com%2Fproducts%2Fauto-heat-press-a100",
+      "startDate": "2026-08-25T02:17:00+00:00",
+      "endDate": "2027-05-31T02:15:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "3850651",
@@ -3747,7 +4189,92 @@
       "endDate": "2027-06-13T08:52:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3962027",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US A100 Auto Multi Heat Press",
+      "description": "Affiliate code - AUTO100, save $120! Final price: $319.99",
+      "terms": "Terms",
+      "code": "AUTO100",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2Fproducts%2Fa100-auto-multi-heat-press",
+      "startDate": "2026-06-22T03:14:00+00:00",
+      "endDate": "2027-06-23T03:02:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4027701",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK H10 Heat Press",
+      "description": "affiliate code - save £20! final price: £89.99",
+      "terms": "Terms",
+      "code": "UK20",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2Fproducts%2Fhtvront-h10-12x10in-heat-press",
+      "startDate": "2026-07-28T01:33:00+00:00",
+      "endDate": "2027-06-30T01:31:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4028109",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK all-materials",
+      "description": "20% off",
+      "terms": "terms",
+      "code": "UKAFFM20",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2Fcollections%2Fall-materials",
+      "startDate": "2026-07-28T06:14:00+00:00",
+      "endDate": "2027-06-30T06:13:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4078385",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT EU Auto Tumbler heat press Save €60",
+      "description": "Affiliate code - ATEU, save €60! Final price: €139.99",
+      "terms": "Terms",
+      "code": "ATEU",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Feu.htvront.com%2Fproducts%2Fauto-tumbler-heat-press",
+      "startDate": "2026-08-24T09:57:00+00:00",
+      "endDate": "2027-06-30T09:54:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4025807",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US A200",
+      "description": "Exclusive alliance discount rates：$70 OFF",
+      "terms": "Terms",
+      "code": "AFF70",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2Fproducts%2Fhtvront-a200-auto-tumbler-heat-press",
+      "startDate": "2026-07-27T09:39:00+00:00",
+      "endDate": "2027-06-30T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3996385",
@@ -3764,7 +4291,7 @@
       "endDate": "2027-07-09T03:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4021261",
@@ -3781,7 +4308,7 @@
       "endDate": "2027-07-23T09:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4033625",
@@ -3798,7 +4325,415 @@
       "endDate": "2027-07-28T01:43:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
+    },
+    {
+      "id": "3998409",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT EU Manual Heat Press - H10 V2",
+      "description": "Affiliate Exclusive Deal: €20.00 OFF，Lowest final price：€99.99",
+      "terms": "Terms",
+      "code": "HAF20",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Feu.htvront.com%2Fproducts%2Fmanual-heat-press-h10-v2",
+      "startDate": "2026-07-10T01:28:00+00:00",
+      "endDate": "2027-07-30T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4025861",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US AUTO1",
+      "description": "Affiliate Exclusive Deal: $48 OFF",
+      "terms": "Terms",
+      "code": "AFFAT1",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2Fproducts%2Fauto-heat-press-machine-15-x-15-110v-2-colors",
+      "startDate": "2026-07-27T09:56:00+00:00",
+      "endDate": "2027-07-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4025827",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US AUTO2",
+      "description": "Affiliate Exclusive Deal: $52 OFF",
+      "terms": "Terms",
+      "code": "AFFAT2",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2Fproducts%2Fhtvront-auto-heat-press-2",
+      "startDate": "2026-07-27T09:51:00+00:00",
+      "endDate": "2027-07-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3768010",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "U1 City Bike — Explore the City, €388,00",
+      "description": "Powered by a 36V 7.8Ah battery for smooth and reliable city rides. Battery: 36V 7.8Ah(280.8Wh) | Range: 40km | Motor: 250W(Peak 350W)",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=u1+electric+bike&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-bike%2Fproducts%2Ffinbike-u1-city-ebike",
+      "startDate": "2026-03-04T16:00:00+00:00",
+      "endDate": "2027-07-31T15:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4028873",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT EU Store：Hat Heat Press Auto - A300",
+      "description": "Affiliate Exclusive Deal: €30 OFF  Final price: €139.99",
+      "terms": "Terms",
+      "code": "AF30",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Feu.htvront.com%2Fproducts%2Fheat-press-auto-a300%3Fvariant%3D47955505119480",
+      "startDate": "2026-07-28T10:01:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
+    },
+    {
+      "id": "4028831",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT AU Store:A$20 OFF",
+      "description": "Minimum purchase of A$169.00",
+      "terms": "Terms",
+      "code": "AUAFF20",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fau.htvront.com%2F",
+      "startDate": "2026-07-28T09:35:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
+    },
+    {
+      "id": "4028823",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK Store A200 Auto Tumbler Heat Press",
+      "description": "Affiliate Exclusive Deal: £130 OFF",
+      "terms": "Terms",
+      "code": "UKAFFT2",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2Fproducts%2Fhtvront-a200-auto-tumbler-heat-press",
+      "startDate": "2026-07-28T09:25:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
+    },
+    {
+      "id": "4028815",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK Store Auto Tumbler Heat Press 230V",
+      "description": "Affiliate Exclusive Deal: £70 OFF",
+      "terms": "Terms",
+      "code": "UKAFFT1",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2Fproducts%2Fhtvront-auto-tumbler-heat-press-machine-230v",
+      "startDate": "2026-07-28T09:23:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
+    },
+    {
+      "id": "4028809",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK Store Auto1",
+      "description": "Affiliate Exclusive Deal: £80 OFF",
+      "terms": "Terms",
+      "code": "UKAFFAT1",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2Fproducts%2Fhtvront-auto-heat-press-machine-15-x-15-230v-2-colors",
+      "startDate": "2026-07-28T09:20:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
+    },
+    {
+      "id": "4028797",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK Store D1 DTF Printer",
+      "description": "Affiliate Exclusive Deal: £1100 OFF",
+      "terms": "Terms",
+      "code": "AFFUKDTF",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2Fproducts%2Fhtvront-d1-dtf-printer",
+      "startDate": "2026-07-28T09:18:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
+    },
+    {
+      "id": "4028789",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK Store A300",
+      "description": "Affiliate Exclusive Deal: £ 40 OFF",
+      "terms": "Terms",
+      "code": "UKA300",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2Fproducts%2Fhtvront-a300-auto-hat-heat-press",
+      "startDate": "2026-07-28T09:14:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
+    },
+    {
+      "id": "4028775",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK  Store  AUTO2",
+      "description": "Affiliate Exclusive Deal: £90 OFF",
+      "terms": "Terms",
+      "code": "UKAFFAT2",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2Fproducts%2Fhtvront-auto-heat-press-2-digit-230v",
+      "startDate": "2026-07-28T09:12:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4028575",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US Store: D2 DTF Printer",
+      "description": "Affiliate Exclusive Deal: $1000 OFF,Lowest final price: $2499.00",
+      "terms": "Terms",
+      "code": "AFFDTF2",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2Fproducts%2Fd2-dtf-printer",
+      "startDate": "2026-07-28T08:40:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4028529",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK Store： £ 20 OFF",
+      "description": "Minimum purchase amount: £169",
+      "terms": "Terms",
+      "code": "AFFUK20",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2F",
+      "startDate": "2026-07-28T08:29:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4028153",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK Store： £ 15 OFF",
+      "description": "Minimum purchase amount: £129",
+      "terms": "Terms",
+      "code": "AFFUK15",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2F",
+      "startDate": "2026-07-28T06:36:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4028143",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK Store ：£ 10 OFF",
+      "description": "Minimum purchase amount: £69",
+      "terms": "Terms",
+      "code": "AFFUK10",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2F",
+      "startDate": "2026-07-28T06:35:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4028125",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US Store 20% OFF（Materials & Tools）",
+      "description": "Suitable for HTVRONT US small tools and Materials.",
+      "terms": "Terms",
+      "code": "AFFM20",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2F",
+      "startDate": "2026-07-28T06:23:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4028117",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT UK Store 8% OFF",
+      "description": "Applicable to all products in the UK store",
+      "terms": "Terms",
+      "code": "AFFHW8",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.co.uk%2F",
+      "startDate": "2026-07-28T06:17:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4028093",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US Store:$10 off",
+      "description": "Valid with a minimum spend of $79.00",
+      "terms": "Terms",
+      "code": "AFF10",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2F",
+      "startDate": "2026-07-28T06:06:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4027953",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT US Store:$20 off",
+      "description": "Valid with a minimum spend of $169.00",
+      "terms": "Terms",
+      "code": "BD20",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2F",
+      "startDate": "2026-07-28T03:25:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4027825",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT-LOKLiK iEngrave （All-in-one Kit ）",
+      "description": "Affiliate Exclusive Deal: 54% OFF;Lowest final price: $331.20",
+      "terms": "Terms",
+      "code": "AFFIEN54",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2Fproducts%2Fiengrave-laser-engraving-machine%3Fvariant%3D41385822912645",
+      "startDate": "2026-07-28T02:58:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4027819",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT A300 Auto Hat Heat Press",
+      "description": "Affiliate Exclusive Deal: $32 OFF Lowest final price: $127.99",
+      "terms": "Terms",
+      "code": "AFFHAT2",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fwww.htvront.com%2Fproducts%2Fhtvront-a300-auto-hat-heat-press",
+      "startDate": "2026-07-28T02:53:00+00:00",
+      "endDate": "2027-07-31T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "4028837",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT AU Store: A$10 OFF",
+      "description": "Minimum purchase of A$69",
+      "terms": "Terms",
+      "code": "AUAFF10",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fau.htvront.com%2F",
+      "startDate": "2026-07-28T09:37:00+00:00",
+      "endDate": "2027-08-01T09:36:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
+    },
+    {
+      "id": "4028841",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT AU Store:A$15 OFF",
+      "description": "Minimum purchase of A$129",
+      "terms": "Terms",
+      "code": "AUAFF15",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fau.htvront.com%2F",
+      "startDate": "2026-07-28T09:39:00+00:00",
+      "endDate": "2027-08-01T09:37:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
     },
     {
       "id": "3824397",
@@ -3815,7 +4750,7 @@
       "endDate": "2027-08-08T00:08:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4064199",
@@ -3832,7 +4767,7 @@
       "endDate": "2027-08-14T03:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4064201",
@@ -3849,7 +4784,7 @@
       "endDate": "2027-08-14T03:53:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4039229",
@@ -3866,7 +4801,7 @@
       "endDate": "2027-08-31T07:23:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4039241",
@@ -3883,7 +4818,75 @@
       "endDate": "2027-08-31T07:27:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4071421",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT EU Store Auto Heat Press 2",
+      "description": "Affiliate Exclusive Deal: €80.00  OFF Deal Price: €319.99",
+      "terms": "Terms",
+      "code": "AFAUTO2",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Feu.htvront.com%2Fproducts%2Fauto-heat-press-auto-2%3Fvariant%3D48814763147512",
+      "startDate": "2026-08-19T08:14:00+00:00",
+      "endDate": "2027-08-31T08:06:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4054107",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT EU Store  Auto1 Heat Press",
+      "description": "Affiliate Exclusive Deal: €70.00 OFF Deal Price: €219.99",
+      "terms": "Terms",
+      "code": "ATAF",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Feu.htvront.com%2Fproducts%2Fauto-heat-press",
+      "startDate": "2026-08-11T09:11:00+00:00",
+      "endDate": "2027-08-31T09:07:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4078393",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT EU Store H17 Phone Case Heat Press Save €60",
+      "description": "Affiliate Exclusive Code: H17AF,Lowest Final Price: €249.99",
+      "terms": "Terms",
+      "code": "H17AF",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Feu.htvront.com%2Fproducts%2Fphone-case-heat-press-h17",
+      "startDate": "2026-08-24T10:01:00+00:00",
+      "endDate": "2027-09-29T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4103141",
+      "advertiserId": 68106,
+      "advertiser": "HTVRont",
+      "type": "voucher",
+      "title": "HTVRONT AU Store：A300 Auto Hat Heat Press",
+      "description": "Affiliate Exclusive Code: AF80 , save A$80! Final price: A$319.99",
+      "terms": "Terms",
+      "code": "AF80",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=68106&awinaffid=2851329&ued=https%3A%2F%2Fau.htvront.com%2Fproducts%2Fhtvront-a300-auto-hat-heat-press-standard-kit%3Fvariant%3D47835485176061",
+      "startDate": "2026-09-09T08:45:00+00:00",
+      "endDate": "2027-09-30T16:00:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4059701",
@@ -3900,7 +4903,7 @@
       "endDate": "2027-11-30T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "3423681",
@@ -3917,7 +4920,7 @@
       "endDate": "2027-12-01T00:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3147005",
@@ -3934,7 +4937,7 @@
       "endDate": "2027-12-31T06:48:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3924221",
@@ -3951,7 +4954,7 @@
       "endDate": "2027-12-31T08:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3924231",
@@ -3968,7 +4971,7 @@
       "endDate": "2027-12-31T09:03:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3951999",
@@ -3985,7 +4988,7 @@
       "endDate": "2027-12-31T09:15:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3952047",
@@ -4002,7 +5005,7 @@
       "endDate": "2027-12-31T09:27:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3952067",
@@ -4019,7 +5022,7 @@
       "endDate": "2027-12-31T09:38:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3952071",
@@ -4036,7 +5039,7 @@
       "endDate": "2027-12-31T09:44:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4031767",
@@ -4053,7 +5056,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.704Z"
     },
     {
       "id": "4025799",
@@ -4070,7 +5073,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3767972",
@@ -4087,7 +5090,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3767970",
@@ -4104,7 +5107,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3637096",
@@ -4121,7 +5124,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3232883",
@@ -4138,7 +5141,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3232865",
@@ -4155,7 +5158,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3094872",
@@ -4172,7 +5175,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3094870",
@@ -4189,7 +5192,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2965522",
@@ -4206,7 +5209,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2965458",
@@ -4223,7 +5226,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2622852",
@@ -4240,7 +5243,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "2622850",
@@ -4257,7 +5260,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "2622848",
@@ -4274,7 +5277,7 @@
       "endDate": "2027-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "4027737",
@@ -4291,7 +5294,7 @@
       "endDate": "2027-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4027713",
@@ -4308,7 +5311,7 @@
       "endDate": "2027-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4025815",
@@ -4325,7 +5328,7 @@
       "endDate": "2027-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4025783",
@@ -4342,7 +5345,7 @@
       "endDate": "2027-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3848267",
@@ -4359,7 +5362,7 @@
       "endDate": "2027-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3813040",
@@ -4376,7 +5379,7 @@
       "endDate": "2027-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4064515",
@@ -4393,7 +5396,7 @@
       "endDate": "2027-12-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "3980307",
@@ -4410,7 +5413,7 @@
       "endDate": "2028-01-01T04:57:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4003951",
@@ -4427,7 +5430,7 @@
       "endDate": "2028-03-14T10:08:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3957769",
@@ -4444,7 +5447,7 @@
       "endDate": "2028-08-11T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3247237",
@@ -4461,7 +5464,7 @@
       "endDate": "2029-01-24T02:47:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3499326",
@@ -4478,7 +5481,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2859063",
@@ -4495,7 +5498,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2833565",
@@ -4512,7 +5515,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2829273",
@@ -4529,7 +5532,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2791507",
@@ -4546,7 +5549,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "2525973",
@@ -4563,7 +5566,7 @@
       "endDate": "2029-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.069Z"
     },
     {
       "id": "3384925",
@@ -4580,7 +5583,7 @@
       "endDate": "2030-01-01T11:25:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3384979",
@@ -4597,7 +5600,7 @@
       "endDate": "2030-01-01T11:37:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3607264",
@@ -4614,7 +5617,7 @@
       "endDate": "2030-03-02T12:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3775648",
@@ -4631,7 +5634,7 @@
       "endDate": "2030-03-31T11:40:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3607252",
@@ -4648,7 +5651,7 @@
       "endDate": "2030-04-02T12:51:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "1688949",
@@ -4665,7 +5668,7 @@
       "endDate": "2030-04-08T15:35:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.070Z"
     },
     {
       "id": "3775640",
@@ -4682,7 +5685,7 @@
       "endDate": "2030-05-31T11:32:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3384985",
@@ -4699,7 +5702,7 @@
       "endDate": "2030-08-01T11:43:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3607298",
@@ -4716,7 +5719,7 @@
       "endDate": "2030-08-02T13:14:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3463347",
@@ -4733,7 +5736,7 @@
       "endDate": "2030-09-01T07:31:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3463341",
@@ -4750,7 +5753,7 @@
       "endDate": "2030-10-01T07:29:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3489028",
@@ -4767,7 +5770,7 @@
       "endDate": "2030-11-01T10:26:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "1542119",
@@ -4784,7 +5787,7 @@
       "endDate": "2030-12-14T10:05:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:35.070Z"
     },
     {
       "id": "3607336",
@@ -4801,7 +5804,7 @@
       "endDate": "2030-12-30T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3607304",
@@ -4818,7 +5821,7 @@
       "endDate": "2030-12-31T13:16:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3607306",
@@ -4835,7 +5838,7 @@
       "endDate": "2030-12-31T13:18:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3607312",
@@ -4852,7 +5855,7 @@
       "endDate": "2030-12-31T13:20:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3607316",
@@ -4869,7 +5872,7 @@
       "endDate": "2030-12-31T13:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3607322",
@@ -4886,7 +5889,143 @@
       "endDate": "2030-12-31T13:25:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
+    },
+    {
+      "id": "4109429",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "D1 Plus Scooter — Modern Lifestyle €438,00",
+      "description": "A fashionable scooter blending convenience, speed, and urban appeal. Battery Capacity: 48V 15Ah 60km | Range: 40km | Motor: 1200W",
+      "terms": "none",
+      "code": "",
+      "categories": "Mode",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=d1+plus+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-d1-electric-scooter%3Fvariant%3D46293523431481",
+      "startDate": "2026-09-13T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
+    },
+    {
+      "id": "4107891",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "EB5 Dirt Bike — Urban Explorer €798,00",
+      "description": "Sleek design perfect for city commutes, weekend rides, and stylish mobility. Battery: 36V 10.4Ah | Range: 97 km | Motor: Peak 1000W",
+      "terms": "",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=eb5+electric+bike&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-bike%2Fproducts%2Ffinbike-eb5-electric-dirt-bike%3Fvariant%3D45808178823225",
+      "startDate": "2026-09-11T01:56:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.124Z"
+    },
+    {
+      "id": "4099949",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "S10Plus Scooter with ABE — Smart Choice €398,00",
+      "description": "Affordable scooter combining durability, performance, and German road legality. Battery: 36V 15Ah(540Wh) | Range: 60 km | Motor: 500W",
+      "terms": "none",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=s10plus+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-s10plus-electric-scooter-with-abe",
+      "startDate": "2026-09-08T01:45:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4098483",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "S9PRO Scooter with ABE — Explore Freely €227,99",
+      "description": "Compact design built for urban journeys, giving riders confidence to tackle diverse routes. Battery: 36V 7.5Ah(270Wh) | Range: 30 km | Motor: 350W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=s9pro+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-s9pro-electric-scooter-with-abe",
+      "startDate": "2026-09-07T02:33:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4098481",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "E9 Scooter with ABE — Modern Lifestyle €228,00",
+      "description": "A fashionable scooter combining convenience, performance, and German legality. Battery: 36V 7,5Ah/270Wh | Maximum range: 25-30km | Power: 350W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Mode",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=e9+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Ffinbike-e9-electric-scooter-with-abe",
+      "startDate": "2026-09-07T02:31:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4098473",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "E9Pro Scooter with ABE — Explore Freely €198,00",
+      "description": "Compact design lets you discover new routes with confidence and ease. Battery: 36V 7,5Ah/270Wh | Maximum range: 25-30km | Power: 350W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=e9pro+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Ffinbike-e9pro-e-scooter-mit-abe",
+      "startDate": "2026-09-07T02:25:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4092233",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "M10 Mountain Bike — Modern Lifestyle €568,00",
+      "description": "Stylish mountain e‑bike blending convenience, technology, and eco appeal. Battery: 36V 10.4Ah/374.4Wh | Max Range: 96km/60miles | Power: 250W (Peak 500W)",
+      "terms": "none",
+      "code": "",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=m10+electric+bike&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-bike%2Fproducts%2Ffinbike-m10-mountain-ebike",
+      "startDate": "2026-09-02T01:33:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4092229",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "S9 Commuter Scooter — Explore Freely €208,00",
+      "description": "Compact design built for urban journeys, giving riders confidence to tackle diverse routes. Battery: 36V 5.2Ah(187.2Wh) | Range: 20 km | Motor: 350W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=s9+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-s9-commuter-electric-scooter",
+      "startDate": "2026-09-01T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "4089843",
@@ -4903,7 +6042,398 @@
       "endDate": "2030-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4085875",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "EB3 Hybrid Bike — Urban & Rural Ready €568,00",
+      "description": "Versatile design perfect for commuting, leisure rides, and weekend adventures. Battery: 36V 10.4Ah(374.4Wh) | Range: 74 - 100 km | Motor: 250W(Peak 500W)",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=eb3+electric+bike&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-bike%2Fproducts%2Ffinbike-eb3-hybrid-electric-bike",
+      "startDate": "2026-08-28T06:34:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4085871",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "EB5Max Dirt Bike — Stay Active €898,00",
+      "description": "Encourages outdoor activity while reducing strain with powerful assist. Battery: 36V 10.4Ah | Range: 97 km |Motor: Peak 1000W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sport & Haushalt",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=eb5max+electric+bike&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-bike%2Fproducts%2Ffinbike-eb5-electric-dirt-bike%3Fvariant%3D45923908714553",
+      "startDate": "2026-08-28T06:27:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4085869",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "EB8 Fat E‑Bike — 144 km Ride €1.098,00",
+      "description": "Exceptional battery capacity ensures ultra‑long journeys without range anxiety. Battery: 48V 15 AH| Range: 144 km| Motor: 250W (Peak 1000W)",
+      "terms": "none",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=eb8+fat+e-bike&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-bike%2Fproducts%2Ffinbike-eb8-electric-bike",
+      "startDate": "2026-08-28T06:23:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4085853",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "T8 E‑Scooter — ABE Certified €628,99",
+      "description": "Affordable scooter offering premium certification and range. Battery: 48V 15Ah(720Wh) | Range: 100 km | Motor: 500W",
+      "terms": "none",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=t8+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Ffinbike-t8-electric-scooter-with-abe",
+      "startDate": "2026-08-28T06:14:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
+    },
+    {
+      "id": "4085851",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "W9Air Scooter — Modern Lifestyle €368,00",
+      "description": "A fashionable off‑road scooter combining convenience, speed, and urban appeal. Battery: 48V 10Ah (480Wh) | Range: 40 km | Motor: 800W",
+      "terms": "none",
+      "code": "",
+      "categories": "Mode",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=w9air+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Ffinbike-w9air-electric-scooter",
+      "startDate": "2026-08-28T06:10:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085825",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "GT1 Scooter — Stay Active €398,00",
+      "description": "Encourages outdoor activity and healthy commuting while reducing effort on longer rides. Battery: 48V 10Ah/480Wh | Max Range: 40-45km | Power: 800W",
+      "terms": "none",
+      "code": "",
+      "categories": "Sport & Haushalt",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=gt1+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-gt1-electric-scooter",
+      "startDate": "2026-08-27T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085811",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "H7PRO E‑Scooter — Strong Build, Smooth Ride €688,00",
+      "description": "Comes with seat and basket, making it perfect for daily commutes and errands -Ride in Comfort. Battery: 48V 18.2Ah(873.6Wh) | Range: 70 km | Motor: 1200W",
+      "terms": "none",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=h7pro+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-h7pro-electric-scooter-with-seat-basket",
+      "startDate": "2026-08-28T04:58:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085809",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "Premium Strength, Endless Range — GT4 Electric Scooter €898,00! Dual",
+      "description": "Own the ride — foldable scooter with dual 1200W motors and long‑lasting 80km range. Battery: 52V 18.2Ah | Range: 80 km | Motor: 2*1200W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=gt4+dual+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-gt4-dual-drive-electric-scooter",
+      "startDate": "2026-08-27T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085803",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "GT2 E‑Scooter with ABE — Smart Choice €658,00",
+      "description": "Affordable scooter combining premium features with German road legality. Battery: 48V 15Ah | Range: 80 km | Motor: 500W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=gt2+e-scooter+abe&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-gt2-e-scooter-mit-abe",
+      "startDate": "2026-08-28T04:47:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085799",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "W8 Scooter — Stay Active €329,00",
+      "description": "Encourages outdoor activity while reducing strain with powerful assist. Battery: 48V 14Ah/672Wh | Max Range: 35-45km | Power: 750W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sport & Haushalt",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=w8+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Ffinbike-w8-electric-scooter",
+      "startDate": "2026-08-28T04:45:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085797",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "T4 Scooter with ABE — Comfort & Safety €488,99",
+      "description": "CE‑certified build with responsive brakes guarantees secure road use. Battery: 48 V 12,5 Ah/600 Wh | Maximum range: 60-70 km range | Power: 500 W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=t4+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Ffinbike-t4-electric-scooter-with-abe",
+      "startDate": "2026-08-28T04:41:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085793",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "W6 Scooter — Smart Design €218,00",
+      "description": "Modern frame with integrated electronics for sleek, connected commuting. Battery: 36V 7.8Ah(280.8Wh) | Range: 30 km | Motor: Peak 500W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Mode",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=w6+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Ffinbike-w6-commuter-electric-scooter",
+      "startDate": "2026-08-28T04:36:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085791",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "S‑Nova Pro — Urban Ready €478,00",
+      "description": "Compact design perfect for city streets, offices, and easy storage. Battery: 48V 13Ah(624Wh) | Range: 60 km | Motor: Peak 1000W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=s-nova+pro+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-s-nova-pro-electric-scooter",
+      "startDate": "2026-08-27T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085789",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "D2 Scooter — Smart Choice €568,00",
+      "description": "Affordable scooter combining durability, performance, and dependable quality. Battery: 48V 15.6Ah(748.8Wh) | Range: 55 km | Motor: 1000W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=d2+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-d2-electric-scooter",
+      "startDate": "2026-08-27T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085777",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "D1 Electric Scooter- €398,00",
+      "description": "isinwheel D1 Electric Scooter 1200W Motor 40km Range. Battery: 48V 10Ah(480Wh) | Range: 40km | Motor: 1200W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=d1+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-d1-electric-scooter",
+      "startDate": "2026-08-28T04:21:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085773",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "GT1 Dual Scooter — Active Living €568,00",
+      "description": "Encourages outdoor activity while reducing strain with powerful assist. Battery: 48V 13Ah | Range: 55 km | Motor: 2*800W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sport & Haushalt",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=gt1+dual+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-gt1-dual-electric-scooter",
+      "startDate": "2026-08-28T04:07:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085771",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "W9 Scooter — Urban Explorer €428,00",
+      "description": "Sleek foldable design perfect for city commutes, weekend rides, and stylish mobility. Battery: 48V 14Ah/672Wh | Max Range: 35-45km | Power: 1000W",
+      "terms": "none",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=w9+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Ffinbike-w9-off-road-electric-scooter",
+      "startDate": "2026-08-28T04:04:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085765",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "S10MAX Scooter — Modern Lifestyle €498,00",
+      "description": "Stylish scooter blending convenience, technology, and urban appeal. Battery: 48V 15Ah(720Wh) | Range: 60 km | Motor: 1000W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Elektronik",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=s10max+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-s10max-electric-scooter",
+      "startDate": "2026-08-28T03:55:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085759",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "GT2 Scooter — Urban Explorer €538,00",
+      "description": "Sleek foldable design perfect for city commutes, weekend rides, and stylish mobility. Battery: 48V 15Ah/720Wh | Max Range: 50-60km | Power: 800W (Peak 1000W)",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=gt2+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-gt2-electric-scooter",
+      "startDate": "2026-08-27T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085755",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "S9MAX Scooter — Smart Choice €298,00",
+      "description": "Affordable scooter combining durability, performance, and dependable quality. Battery: 36V 10Ah(360Wh) | Range: 40 km | Motor: 500W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=s9max+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-s9max-electric-scooter",
+      "startDate": "2026-08-27T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085753",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "Get the Minispider 2-in-1 Kids Scooter and Save Big - €108,00",
+      "description": "Enjoy the isinwheel Minispider — a fun 2-in-1 electric scooter and skateboard perfect for kids. Battery: 14.8V 4.5Ah(66.6Wh) | Range: 15 km | Motor: 100W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=minispider+kids+e-scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-minispider-kids-electric-scooter-2-in-1-skateboard",
+      "startDate": "2026-08-27T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085747",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "Mini Kids Electric Scooter - €98,00",
+      "description": "isinwheel Mini Kids Electric Scooter 2-in-1 Skateboard. Battery: 14.8V 4.5Ah(66.6Wh) | Range: 15 km | Motor: 100W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=mini+kids+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-mini-kids-electric-scooter",
+      "startDate": "2026-08-28T03:27:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "4085715",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "GT1 Scooter Dual — Smart Investment €568,00",
+      "description": "Affordable dual‑motor scooter offering durability and high‑end performance. Battery: 48V 13Ah | Range: 55 km | Motor: 2*800W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=gt1+dual+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-gt1-dual-electric-scooter",
+      "startDate": "2026-08-28T03:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4083943",
@@ -4920,7 +6450,7 @@
       "endDate": "2030-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4083893",
@@ -4937,7 +6467,7 @@
       "endDate": "2030-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
     },
     {
       "id": "4083855",
@@ -4954,7 +6484,160 @@
       "endDate": "2030-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.126Z"
+    },
+    {
+      "id": "3996325",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "Electric Scooter Collection",
+      "description": "Upgrade Your Commute — High-Performance Scooters at Great Prices",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=electric+scooter+collection&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter",
+      "startDate": "2026-07-08T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3996323",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "Electric Bike Collection",
+      "description": "Upgrade Your Ride — Premium E-Bikes at Great Prices",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=electric+bike+collection&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-bike",
+      "startDate": "2026-07-08T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3933761",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "S7 Kids Scooter — Ride & Play €168,00",
+      "description": "Designed for fun adventures with smooth handling and easy control. Battery: 25.2V 5.2Ah(131.04Wh) | Range: 11-16 km(7-10 miles) | Motor: 250W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=s7+kids+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-s7-kids-electric-scooter",
+      "startDate": "2026-06-04T02:03:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3933757",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "EB3S Hybrid — Smart Choice €598,00",
+      "description": "Affordable commuter bike combining durability, performance, and dependable quality. Battery Capacity: 36V 10.4Ah | Range: 90-100 km | Motor: 250W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=eb3s+electric+bike&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-bike%2Fproducts%2Ffinbike-eb3s-electric-mountain-bike",
+      "startDate": "2026-06-03T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3933755",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "U4 Commuter Bike — Smart Choice €548,99",
+      "description": "Affordable commuter bike combining durability, performance, and dependable quality. Battery: 36V 10.4Ah/374.4Wh | Max Range: 88km/55miles | Power: 250W(Peak 500W)",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=u4+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-bike%2Fproducts%2Ffinbike-u4-commuter-ebike%3Fvariant%3D44475589558329",
+      "startDate": "2026-06-04T01:44:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3892339",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "EB1S City Bike — Everyday Freedom €388,00",
+      "description": "Ideal for commutes, errands, and weekend leisure rides. Battery: 36V 12Ah(432Wh) | Range: 50km | Motor: 250W(Peak 500W)",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=eb1s+electric+bike&ued=http%3A%2F%2Ffinbike.com%2Fcollections%2Felectric-bike%2Fproducts%2Ffinbike-eb1s-electric-bike",
+      "startDate": "2026-05-14T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3868173",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "M50 E‑Bike — 70 km Ride €718,00",
+      "description": "Affordable trekking solution with durable design and dependable performance. Battery: 36V 13Ah(468Wh) | Range: 62 - 70 km | Motor: 250W(Peak 500W)",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=m50+electric+bike&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-bike%2Fproducts%2Ffinbike-m50-electric-bike",
+      "startDate": "2026-05-03T22:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3801092",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "H7PRO E‑Scooter — Strong Build, Smooth Ride €688,00",
+      "description": "Comes with seat and basket, making it perfect for daily commutes and errands. Battery: 48V 18.2Ah(873.6Wh) | Range: 70 km | Motor: 1200W",
+      "terms": "NONE",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=h7pro+electric+scooter&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Felectric-scooter%2Fproducts%2Fisinwheel-h7pro-electric-scooter-with-seat-basket",
+      "startDate": "2026-03-24T23:00:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
+    },
+    {
+      "id": "3481940",
+      "advertiserId": 120301,
+      "advertiser": "Finbike.com NL",
+      "type": "deal",
+      "title": "Low to €746,00 to Get a Finbike U1 E-Bike 2-Pack Combo",
+      "description": "Finbike U1 E-Bike 2-Pack Combo. Battery: 36V 7.8Ah(280.8Wh) | Range: 40km | Motor: 250W(Peak 350W)",
+      "terms": "none",
+      "code": "",
+      "categories": "Sonstiges",
+      "deeplink": "https://www.awin1.com/cread.php?awinmid=120301&awinaffid=2851329&campaign=bundle&ued=https%3A%2F%2Fwww.finbike.com%2Fcollections%2Fcombo%2Fproducts%2Ffinbike-u1-e-bike-2-pack-combo",
+      "startDate": "2025-10-09T09:40:00+00:00",
+      "endDate": "2030-12-31T22:59:00+00:00",
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3752382",
@@ -4971,7 +6654,7 @@
       "endDate": "2030-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4089857",
@@ -4988,7 +6671,7 @@
       "endDate": "2030-12-31T23:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "3591342",
@@ -5005,7 +6688,7 @@
       "endDate": "2031-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3591326",
@@ -5022,7 +6705,7 @@
       "endDate": "2031-12-31T15:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3975491",
@@ -5039,7 +6722,7 @@
       "endDate": "2033-06-29T09:38:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3582660",
@@ -5056,7 +6739,7 @@
       "endDate": "2035-11-30T16:54:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3693150",
@@ -5073,7 +6756,7 @@
       "endDate": "2036-01-23T12:20:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3693158",
@@ -5090,7 +6773,7 @@
       "endDate": "2036-01-23T12:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3693152",
@@ -5107,7 +6790,7 @@
       "endDate": "2036-01-23T12:21:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3772116",
@@ -5124,7 +6807,7 @@
       "endDate": "2036-04-07T10:19:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4003663",
@@ -5141,7 +6824,7 @@
       "endDate": "2036-07-31T08:32:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "4096209",
@@ -5158,7 +6841,7 @@
       "endDate": "2036-12-31T02:30:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.834Z"
+      "fetchedAt": "2026-09-14T12:27:34.125Z"
     },
     {
       "id": "3671746",
@@ -5175,7 +6858,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3671718",
@@ -5192,7 +6875,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3671702",
@@ -5209,7 +6892,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3671680",
@@ -5226,7 +6909,7 @@
       "endDate": "2036-12-31T22:59:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.706Z"
     },
     {
       "id": "3850669",
@@ -5243,7 +6926,7 @@
       "endDate": "2037-12-31T15:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3924309",
@@ -5260,7 +6943,7 @@
       "endDate": "2040-12-31T23:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:06.835Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3825075",
@@ -5277,7 +6960,7 @@
       "endDate": "2050-04-29T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3825069",
@@ -5294,7 +6977,7 @@
       "endDate": "2050-04-29T22:00:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3825027",
@@ -5311,7 +6994,7 @@
       "endDate": "2050-04-30T10:44:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3825039",
@@ -5328,7 +7011,7 @@
       "endDate": "2050-04-30T10:46:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3825055",
@@ -5345,7 +7028,7 @@
       "endDate": "2050-04-30T10:47:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3825059",
@@ -5362,7 +7045,7 @@
       "endDate": "2050-04-30T10:52:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3825063",
@@ -5379,7 +7062,7 @@
       "endDate": "2050-04-30T10:53:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     },
     {
       "id": "3825077",
@@ -5396,7 +7079,7 @@
       "endDate": "2050-04-30T10:55:00+00:00",
       "discountPercent": 0,
       "discountAmount": 0,
-      "fetchedAt": "2026-09-14T04:32:07.263Z"
+      "fetchedAt": "2026-09-14T12:27:34.705Z"
     }
   ]
 }
